@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2026-08-19 13:12:50
+/* Smarty version 4.5.5, created on 2026-08-19 16:04:31
   from 'app:frontendpagesindexJournal.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_6a8557720344a9_64053469',
+  'unifunc' => 'content_6a857faf603978_20036140',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/components/footer.tpl' => 1,
   ),
 ),false)) {
-function content_6a8557720344a9_64053469 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a857faf603978_20036140 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("app:frontend/components/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('pageTitleTranslated'=>$_smarty_tpl->tpl_vars['currentJournal']->value->getLocalizedName()), 0, false);
 ?>
 

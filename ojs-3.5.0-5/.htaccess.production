@@ -1,0 +1,5 @@
+# public_html/.htaccess
+# Minimal file — no HTTPS redirect and no URL rewrite.
+# Those rules caused ERR_TOO_MANY_REDIRECTS on LiteSpeed + OJS.
+
+Options -Indexes

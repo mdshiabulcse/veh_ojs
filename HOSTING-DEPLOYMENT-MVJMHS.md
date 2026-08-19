@@ -1,5 +1,12 @@
 # MVJMHS OJS Hosting Deployment Guide
 
+**Full documentation (local + live, pretty URLs, email, 500 fixes):**  
+[MVJMHS-OJS-DOCUMENTATION.md](MVJMHS-OJS-DOCUMENTATION.md)
+
+This file is the shorter hosting-only checklist. Use the full document above as the main guide.
+
+---
+
 This document explains how to deploy **Open Journal Systems (OJS) 3.5.0-5** from your local XAMPP setup to a live hosting panel for the domain:
 
 **https://mvjmhs.com**
@@ -471,10 +478,53 @@ Ask hosting support for:
 
 ### 500 Internal Server Error
 
-- Check PHP version is 8.2+
-- Check hosting error log
-- Verify `config.inc.php` syntax
-- Verify database credentials
+Live check on 19 Aug 2026: `https://mvjmhs.com` returned **HTTP 500** with **PHP 8.4.23** (LiteSpeed).
+
+This almost always means the **local XAMPP `config.inc.php` was uploaded unchanged**. That file still contains:
+
+- `base_url = http://localhost/veh/ojs/ojs-3.5.0-5`
+- `allowed_hosts` = `localhost` only (OJS then crashes for `mvjmhs.com`)
+- `files_dir = C:/xampp_82/files/ojs` (Windows path does not exist on Linux)
+- Database `root` / empty password / database name `ojs`
+
+**Fix on the hosting panel (do these in order):**
+
+1. **Switch PHP to 8.2 or 8.3** (not 8.4)  
+   cPanel → **MultiPHP Manager** → `mvjmhs.com` → PHP **8.2** or **8.3** → Apply.
+
+2. Open **File Manager** → `public_html/config.inc.php` and set:
+
+```ini
+base_url = "https://mvjmhs.com"
+allowed_hosts = '["mvjmhs.com", "www.mvjmhs.com"]'
+force_ssl = On
+
+[database]
+host = localhost
+username = YOUR_CPANEL_DB_USER
+password = YOUR_CPANEL_DB_PASSWORD
+name = YOUR_CPANEL_DB_NAME
+
+[files]
+files_dir = /home/YOUR_CPANEL_USER/ojs_files
+```
+
+   A ready file is in the project: `ojs-3.5.0-5/config.inc.php.production`  
+   Copy it to the server as `config.inc.php`, then replace `CHANGE_ME_*` and `USERNAME`.
+
+3. Create folder `ojs_files` **one level above** `public_html` (not inside it), then set permission **755** or **775**.
+
+4. Make these folders writable: `public_html/cache/` and `public_html/public/`.
+
+5. Confirm the MySQL database was imported and the username has **ALL PRIVILEGES**.
+
+6. Check the error: cPanel → **Errors** / `public_html/error_log`.  
+   Typical lines:
+   - `Server host "mvjmhs.com" not allowed!` → fix `allowed_hosts`
+   - `files directory` / `Unable to write` → fix `files_dir` path and permissions
+   - `Access denied for user` → fix database credentials
+
+If the site still 500s after `allowed_hosts` is fixed, the next cause is almost always `files_dir` or the database.
 
 ### Page loads without design/CSS
 
