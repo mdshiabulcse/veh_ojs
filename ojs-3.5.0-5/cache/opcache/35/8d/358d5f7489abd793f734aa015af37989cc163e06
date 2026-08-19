@@ -1,0 +1,1 @@
+1818656038a:3:{s:6:"domain";N;s:12:"plural-forms";s:21:"nplurals=1; plural=0;";s:8:"messages";a:1:{s:0:"";a:3:{s:45:"plugins.generic.recommendByAuthor.displayName";s:18:"作者推薦文章";s:45:"plugins.generic.recommendByAuthor.description";s:75:"此插件會在文章摘要頁面加添一個同一作者文章的列表。";s:41:"plugins.generic.recommendByAuthor.heading";s:27:"同作者最多閱覽文章";}}}

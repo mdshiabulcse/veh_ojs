@@ -1,0 +1,98 @@
+1818656032a:3:{s:6:"domain";N;s:12:"plural-forms";s:26:"nplurals=2; plural=n != 1;";s:8:"messages";a:1:{s:0:"";a:52:{s:28:"emails.submissionAck.subject";s:89:"Σας ευχαριστούμε για την υποβολή σας στο {$contextName}";s:25:"emails.submissionAck.body";s:841:"{$recipientName}:<br />
+<br />
+Σας ευχαριστούμε για την υποβολή της εργασίας &quot;{$submissionTitle}&quot; στο περιοδικό {$contextName}. Με το σύστημα διαχείρισης που χρησιμοποιούμε μπορείτε να παρακολουθείτε στην πλατφόρμα την πρόοδό της υποβολής σας:<br />
+<br />
+Σύνδεσμος υποβολής: {$submissionUrl}<br />
+Όνομα χρήστη: {$recipientUsername}<br />
+<br />
+Εάν έχετε ερωτήσεις, παρακαλούμε επικοινωνήστε μαζί μας. Σας ευχαριστούμε που θεωρήσατε το περιοδικό μας κατάλληλο για δημοσίευση της εργασίας σας.<br />
+<br />
+{$contextSignature}";s:32:"emails.submissionAck.description";s:169:"Αυτό το email στέλνεται αυτοματοποιημένα στους συγγραφείς όταν ολοκληρώσουν την υποβολή τους.";s:24:"emails.reviewAck.subject";s:73:"Σας ευχαριστούμε για την αξιολόγηση σας";s:21:"emails.reviewAck.body";s:356:"{$recipientName}:<br />
+<br />
+Σας ευχαριστούμε που ολοκληρώσατε την αξιολόγηση της υποβολής &quot;{$submissionTitle},&quot; για το περιοδικό {$contextName} και για τη συμβολή σας στην ποιότητα του περιεχομένου που δημοσιεύουμε.";s:39:"emails.decision.notifyReviewers.subject";s:73:"Σας ευχαριστούμε για την αξιολόγηση σας";s:42:"emails.decision.notifyOtherAuthors.subject";s:67:"Ενημέρωση σχετικά με την υποβολή σας";s:43:"emails.editorDecisionSendToExternal.subject";s:80:"Η υποβολή σας έχει αποσταλεί για αξιολόγηση";s:40:"emails.editorDecisionSendToExternal.body";s:374:"{$authors}:<br />
+<br />
+Έχουμε καταλήξει σε μία απόφαση αναφορικά με την υποβολή σας &quot;{$submissionTitle}&quot;, στο περιοδικό {$contextName}.<br />
+<br />
+Η απόφασή μας είναι: Αποστολή προς Αξιολόγηση<br />
+<br />
+Σύνδεσμος υποβολής: {$submissionUrl}";s:45:"emails.editorDecisionSendToProduction.subject";s:33:"Απόφαση Επιμελητή";s:42:"emails.editorDecisionSendToProduction.body";s:307:"{$authors}:<br />
+<br />
+Η επιμέλεια της υποβολής σας &quot;{$submissionTitle},&quot; ολοκληρώθηκε. Τα αρχεία της υποβολής προωθούνται στο στάδιο παραγωγής.<br />
+<br />
+Σύνδεσμος υποβολής: {$submissionUrl}";s:38:"emails.editorDecisionRevisions.subject";s:148:"Η υποβολή σας έχει εξεταστεί και σας προτρέπουμε να υποβάλετε τις διορθώσεις σας";s:35:"emails.editorDecisionRevisions.body";s:308:"{$authors}:<br />
+<br />
+Έχουμε καταλήξει σε μία απόφαση αναφορικά με την υποβολή σας &quot;{$submissionTitle}&quot;, στο περιοδικό {$contextName}.<br />
+<br />
+Η απόφασή μας είναι: Απαιτούνται αναθεωρήσεις";s:37:"emails.editorDecisionResubmit.subject";s:178:"Η υποβολή σας έχει εξεταστεί και σας παρακαλούμε να την αναθεωρήσετε και να την υποβάλετε εκ νέου";s:34:"emails.editorDecisionResubmit.body";s:310:"{$authors}:<br />
+<br />
+Έχουμε καταλήξει σε μία απόφαση αναφορικά με την υποβολή σας &quot;{$submissionTitle}&quot; στο περιοδικό {$contextName}.<br />
+<br />
+Η απόφασή μας είναι: Επανυποβολή για αξιολόγηση";s:36:"emails.editorDecisionDecline.subject";s:53:"Η υποβολή σας δεν έγινε δεκτή";s:33:"emails.editorDecisionDecline.body";s:300:"{$authors}:<br />
+<br />
+Έχουμε καταλήξει σε μία απόφαση αναφορικά με την υποβολή σας &quot;{$submissionTitle}&quot; στο περιοδικό {$contextName}.<br />
+<br />
+Η απόφασή μας είναι: Απόρριψη της Υποβολής";s:35:"emails.editorRecommendation.subject";s:33:"Σύσταση Επιμελητή";s:32:"emails.editorRecommendation.body";s:192:"{$editors}:<br />
+<br />
+Η σύσταση αναφορικά με την υποβολή &quot;{$submissionTitle}&quot;, στο περιοδικό {$contextName}, είναι: {$recommendation}";s:30:"emails.copyeditRequest.subject";s:50:"Αίτημα επιμέλειας κειμένου";s:27:"emails.copyeditRequest.body";s:1319:"{$recipientName}:<br />
+<br />
+Θα ήθελα να σας ζητήσω να αναλάβετε την επιμέλεια του κειμένου της υποβολής &quot;{$submissionTitle}&quot;, για το περιοδικό {$contextName}, ακολουθώντας τα παρακάτω βήματα.<br />
+1. Πατήστε στον σύνδεσμο της υποβολής, παρακάτω.<br />
+2. Ανοίξτε όλα τα διαθέσιμα αρχεία που υπάρχουν στο "Πρόχειρα Αρχεία" και κάντε την επιμέλεια κειμένου, προσθέτοντας σχόλια στη "Συζήτηση σχετικά με την Επιμέλεια", όπου χρειάζεται.<br />
+3. Αποθηκεύστε το επιμελημένο αρχείο(-α) και μεταφορτώστε το στον πίνακα των επιμελημένων αρχείων.<br />
+4. Ειδοποιήστε τον Επιμελητή ότι όλα τα αρχεία είναι έτοιμα και μπορεί να ξεκινήσει η διαδικασία παραγωγής.<br />
+<br />
+Σύνδεσμος περιοδικού {$contextName}: {$contextUrl}<br />
+Σύνδεσμος υποβολής: {$submissionUrl}<br />
+Όνομα Χρήστη: {$recipientUsername}";s:43:"emails.editorDecisionNewReviewRound.subject";s:105:"Η υποβολή σας έχει σταλεί για έναν ακόμη γύρο αξιολόγησης";s:43:"emails.editorDecisionInitialDecline.subject";s:33:"Απόφαση Επιμελητή";s:40:"emails.editorDecisionInitialDecline.body";s:280:"
+			{$authors}:<br />
+<br />
+Έχουμε λάβει μία απόφαση σχετικά με την υποβολή σας &quot;{$submissionTitle}&quot; στο περιοδικό {$contextName}.<br />
+<br />
+Η απόφασή μας είναι: Απόρριψη υποβολής";s:25:"emails.discussion.subject";s:78:"Ένα μήνυμα σχετικά με το περιοδικό {$contextName}";s:22:"emails.discussion.body";s:65:"Παρακαλούμε εισάγετε το μήνυμά σας.";s:28:"emails.reviewConfirm.subject";s:56:"Αποδοχή αιτήματος αξιολόγησης";s:25:"emails.reviewConfirm.body";s:520:"Editors:<br />
+<br />
+Θα ήθελα να σας ενημερώσω ότι μπορώ να αναλάβω την αξιολόγηση της εργασίας &quot;{$submissionTitle},&quot; για το περιοδικό {$contextName}. Σας ευχαριστώ για την εμπιστοσύνη σας και σκοπεύω να έχω την αξιολόγηση έτοιμη μέχρι τη λήξη της προθεσμίας, στις {$reviewDueDate}, αν όχι νωρίτερα.<br />
+<br />
+{$senderName}";s:37:"emails.submissionAckNotAuthor.subject";s:39:"Επιβεβαίωση υποβολής";s:34:"emails.submissionAckNotAuthor.body";s:494:"Αγαπητέ/η<br />
+<br />
+Ο/Η {$submitterName} έχει υποβάλει την εργασία &quot;{$submissionTitle}&quot; στο περιοδικό {$contextName}. <br />
+<br />
+Εάν έχετε ερωτήσεις, παρακαλούμε επικοινωνήστε μαζί μας. Σας ευχαριστούμε που θεωρήσατε το περιοδικό μας κατάλληλο για δημοσίευση της εργασίας σας.<br />
+<br />
+{$contextSignature}";s:35:"emails.orcidCollectAuthorId.subject";s:20:"Υποβολή ORCID";s:32:"emails.orcidCollectAuthorId.body";s:568:"Αγαπητέ/η {$recipientName},
+
+Έχετε καταχωρηθεί ως ένας/μια από τους συγγραφείς στην υποβολή "{$submissionTitle}" στο "{$contextName}".
+
+Παρακαλούμε συμπληρώστε το ORCID iD σας στα στοιχεία της υποβολής, επιλέγοντας τον ακόλουθο σύνδεσμο:
+
+{$authorOrcidUrl}
+
+Παρακαλώ επικοινωνήστε μαζί μας εάν χρειάζεστε πρόσθετες διευκρινίσεις.
+
+{$editorialContactSignature}
+
+
+";s:39:"emails.orcidCollectAuthorId.description";s:129:"Αυτό το μήνυμα χρησιμοποιείται για τη συλλογή του ORCID iD των συγγραφέων.";s:46:"emails.orcidRequestAuthorAuthorization.subject";s:51:"Αίτημα πρόσβασης στο ORCID σας";s:43:"emails.orcidRequestAuthorAuthorization.body";s:1343:"Αγαπητέ/η {$recipientName},<br>
+<br>
+Έχετε καταχωρηθεί ως συγγραφέας στην υποβολή "{$submissionTitle}" στο "{$contextName}".
+<br>
+<br>
+Παρακαλούμε επιτρέψτε μας να προσθέσουμε το ORCID id σας στην υποβολή, καθώς και να καταχωρήσουμε την υποβολή στο ORCID προφίλ σας κατά τη δημοσίευσή της.<br>
+Επιλέξτε τον σύνδεσμο προς τον ιστότοπο του ORCID, εισέλθετε στον λογαριασμό σας και ενεργοποιήστε τη δυνατότητα πρόσβασης ακολουθώντας τις σχετικές οδηγίες.<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width='16' height='16' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Register or Connect your ORCID iD</a><br/>
+<br>
+<br>
+<a href="{$orcidAboutUrl}">Περισσότερες πληροφορίες για το ORCID στο {$contextName}</a><br/>
+<br>
+Παρακαλώ επικοινωνήστε μαζί μας εάν χρειάζεστε πρόσθετες διευκρινίσεις.<br>
+<br>
+{$principalContactSignature}<br>
+";s:50:"emails.orcidRequestAuthorAuthorization.description";s:149:"Αυτό το μήνυμα χρησιμοποιείται ως αίτημα πρόσβασης στο μητρώο ORCID των συγγραφέων.";s:60:"emails.userRoleAssignmentInvitationNotify.newlyAssignedRoles";s:63:"<p><h2>Νέοι ρόλοι που ανατέθηκαν</h2></p>";s:62:"emails.userRoleAssignmentInvitationNotify.alreadyAssignedRoles";s:68:"<p><h2>Ρόλοι που έχουν ήδη ανατεθεί</h2></p>";s:47:"emailTemplate.variable.invitation.recipientName";s:89:"Αυτό είναι το όνομα του παραλήπτη της πρόσκλησης";s:45:"emailTemplate.variable.invitation.inviterRole";s:89:"Αυτός είναι ο ρόλος του αποστολέα της πρόσκλησης";s:43:"emailTemplate.variable.invitation.acceptUrl";s:85:"Αυτό είναι το URL για την αποδοχή της πρόσκλησης";s:44:"emailTemplate.variable.invitation.declineUrl";s:87:"Αυτό είναι το URL για την απόρριψη της πρόσκλησης";s:46:"emails.changeProfileEmailInvitationNotify.body";s:888:"<p>Αγαπητέ/ή {$recipientName},</p>
+<p>Λαμβάνετε αυτό το email επειδή κάποιος ζήτησε την αλλαγή της διεύθυνσης email σας σε {$newEmail}.
+</p>
+<p>Εάν έχετε υποβάλει εσείς αυτό το αίτημα, παρακαλώ<a href="{$acceptInvitationUrl}">επιβεβαιώστε</a> την αλλαγή της διεύθυνσης email.
+</p>
+<p>Μπορείτε πάντα<a href="{$declineInvitationUrl}">να απορρίψετε</a> αυτή την αλλαγή διεύθυνσης ηλεκτρονικού ταχυδρομείου.
+</p>
+<p>Μη διστάσετε να επικοινωνήσετε μαζί μας για οποιαδήποτε ερώτηση σχετικά με την υποβολή ή τη διαδικασία εξέτασης.</p>
+<p>Με εκτίμηση,
+</p>{$siteContactName}";s:45:"emailTemplate.variable.invitation.inviterName";s:89:"Αυτό είναι το όνομα του αποστολέα της πρόσκλησης";s:44:"emailTemplate.variable.invitation.rolesAdded";s:192:"Σε αυτή την ενότητα περιγράφονται οι ρόλοι που θα προστεθούν στον χρήστη μετά την αποδοχή της πρόσκλησης";s:47:"emailTemplate.variable.invitation.existingRoles";s:120:"Σε αυτή την ενότητα περιγράφονται οι ρόλοι που έχει ήδη ο χρήστης.";s:49:"emails.changeProfileEmailInvitationNotify.subject";s:182:"Επιβεβαίωση αιτήματος αλλαγής διεύθυνσης ηλεκτρονικού ταχυδρομείου επικοινωνίας του λογαριασμού";s:53:"emails.changeProfileEmailInvitationNotify.description";s:147:"Αυτό το email αποστέλλεται στους χρήστες που ζητούν αλλαγή της διεύθυνσης email τους.";s:55:"mailable.userRoleAssignmentInvitationNotify.description";s:169:"Αυτό το email αποστέλλεται σε χρήστες που έχουν προσκληθεί να αναλάβουν συγκεκριμένους ρόλους";s:48:"mailable.userRoleAssignmentInvitationNotify.name";s:73:"Ειδοποίηση για πρόσκληση χρήστη σε ρόλο";s:49:"emails.userRoleAssignmentInvitationNotify.subject";s:77:"Σας προσκαλούμε να αναλάβετε νέους ρόλους";s:68:"emails.userRoleAssignmentInvitationNotify.userGroupSectionEndingDate";s:38:"Τελειώνει στις {$dateEnd}";}}}

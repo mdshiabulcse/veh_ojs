@@ -1,0 +1,110 @@
+1818656035a:3:{s:6:"domain";N;s:12:"plural-forms";s:26:"nplurals=2; plural=n != 1;";s:8:"messages";a:1:{s:0:"";a:27:{s:28:"emails.submissionAck.subject";s:29:"Жіберуді растау";s:25:"emails.submissionAck.body";s:845:"Сәлеметсіз бе {$recipientName}! <br />
+
+<br />
+
+«{$submissionTitle}» «{$contextName}» журналына жібергеніңіз үшін рахмет. Біз қолданатын журналдарды басқарудың онлайн жүйесінің көмегімен сіз журналдың веб -сайтына кіру арқылы оның барысын редакциялық процесс арқылы бақылай аласыз: <br />
+
+<br />
+
+Жіберу URL: {$submissionUrl} <br />
+
+Пайдаланушы аты: {$recipientUsername} <br />
+
+<br />
+
+Егер сізде сұрақтар туындаса, маған хабарласыңыз. Шығармаңызды жариялау үшін біздің журналды таңдағаныңызға рахмет. <br />
+
+<br />
+
+{$contextSignature}";s:32:"emails.submissionAck.description";s:465:"Бұл хат (егер қосылған болса) журналға материалды жіберу процесін аяқтаған кезде авторға автоматты түрде жіберіледі. Хатта материалдың редакциялық процесс арқылы өтуін қадағалау туралы ақпарат бар және жіберілген материал үшін авторға алғыс айтылады.";s:24:"emails.reviewAck.subject";s:56:"Қараудың қабылданғанын растау";s:21:"emails.reviewAck.body";s:309:"Сәлем {$recipientName}! <br />
+
+<br />
+
+«{$contextName}» журналына арналған «{$submissionTitle}» материалын қарағаныңыз үшін рахмет. Біз жариялайтын жұмыстың сапасына қосқан үлесіңізді бағалаймыз.";s:43:"emails.editorDecisionSendToExternal.subject";s:33:"Редакциялық шешім";s:40:"emails.editorDecisionSendToExternal.body";s:326:"Сәлеметсіз бе {$authors}! <br />
+
+<br />
+
+«{$contextName}» журналына жіберілген «{$submissionTitle}» материалына қатысты шешім қабылдадық. <br />
+
+<br />
+
+Біздің шешім: Қарауға жіберу <br />
+
+<br />
+
+Жіберу URL: {$submissionUrl}";s:45:"emails.editorDecisionSendToProduction.subject";s:31:"Решение редакции";s:42:"emails.editorDecisionSendToProduction.body";s:285:"Здравствуйте, {$authors}!<br />
+
+<br />
+
+Редактирование Вашего материала «{$submissionTitle}» завершено. Теперь мы запускаем его в производство.<br />
+
+<br />
+
+URL материала: {$submissionUrl}";s:38:"emails.editorDecisionRevisions.subject";s:33:"Редакциялық шешім";s:35:"emails.editorDecisionRevisions.body";s:271:"Сәлеметсіз бе {$authors}! <br />
+
+<br />
+
+«{$contextName}» журналына жіберілген «{$submissionTitle}» материалына қатысты шешім қабылдадық. <br />
+
+<br />
+
+Біздің шешім: түзету қажет";s:37:"emails.editorDecisionResubmit.subject";s:33:"Редакциялық шешім";s:34:"emails.editorDecisionResubmit.body";s:284:"Сәлеметсіз бе {$authorName}! <br />
+
+<br />
+
+«{$contextName}» журналына жіберілген «{$submissionTitle}» материалына қатысты шешім қабылдадық. <br />
+
+<br />
+
+Біздің шешім: Қарауға жіберіңіз";s:36:"emails.editorDecisionDecline.subject";s:33:"Редакциялық шешім";s:33:"emails.editorDecisionDecline.body";s:289:"Сәлеметсіз бе {$authors}! <br />
+
+<br />
+
+«{$contextName}» журналына жіберілген «{$submissionTitle}» материалына қатысты шешім қабылдадық. <br />
+
+<br />
+
+Біздің шешім: материалды қабылдамау";s:35:"emails.editorRecommendation.subject";s:37:"Редактордың ұсынысы";s:32:"emails.editorRecommendation.body";s:155:"Сәлем {$editors}! <br />
+
+<br />
+
+«{$submitTitle}» «{$contextName}» ұсынысына мен келесіні ұсынамын: {$recommendation}";s:30:"emails.copyeditRequest.subject";s:52:"Әдеби редакциялауға сұраныс";s:27:"emails.copyeditRequest.body";s:1144:"Сәлеметсіз бе, {$recipientName}!! <br />
+
+<br />
+
+Сізден төмендегі әрекеттерді орындау арқылы «{$contextName}» журналына арналған «{$submissionTitle}» материалын әдеби редакциялауды сұраймын. <br />
+
+1. Төмендегі мазмұн URL мекенжайын басыңыз. <br />
+
+2. Жобалар тақтасында қол жетімді барлық файлдарды ашып, әдеби өңдеулерді орындаңыз, қажет болған жағдайда әдеби өңдеуді талқылауды қосыңыз. <br />
+
+3. Өңделген файлдарды сақтап, Өңделген тақтаға жүктеңіз. <br />
+
+4. Редакторға барлық файлдар дайындалғанын және оларды өндіріске жіберуге болатынын хабарлаңыз. <br />
+
+<br />
+
+«{$contextName}» журналының URL мекенжайы: {$contextUrl} <br />
+
+Жіберу URL: {$submissionUrl} <br />
+
+Пайдаланушы аты: {$recipientUsername}";s:43:"emails.editorDecisionInitialDecline.subject";s:33:"Редакциялық шешім";s:40:"emails.editorDecisionInitialDecline.body";s:293:"
+			Сәлеметсіз бе {$authors}! <br />
+
+<br />
+
+«{$contextName}» журналына жіберілген «{$submissionTitle}» материалына қатысты шешім қабылдадық. <br />
+
+<br />
+
+Біздің шешім: материалды қабылдамау";s:25:"emails.discussion.subject";s:54:"«{$contextName}» журнал хабарламасы";s:22:"emails.discussion.body";s:48:"Хабарламаңызды енгізіңіз.";s:28:"emails.reviewConfirm.subject";s:38:"Мен шолуға келісемін";s:25:"emails.reviewConfirm.body";s:476:"Құрметті редакторлар!<br />
+<br />
+Мен «{$contextName}» журналына арналған «{$submissionTitle}» материалына шолу жасауға дайынмын. Маған хабарласқаныңыз үшін рахмет; Мен қарастыруды белгіленген мерзімге дейін аяқтауды жоспарлап отырмын, {$reviewDueDate}, мүмкін, тезірек.<br />
+<br />
+{$senderName}";s:37:"emails.submissionAckNotAuthor.subject";s:29:"Жіберуді растау";s:34:"emails.submissionAckNotAuthor.body";s:428:"Сәлем!<br />
+<br />
+{$submitterName} пайдаланушысы «{$submissionTitle}» материалын «{$contextName}» журналына жіберді.<br />
+<br />
+Егер сізде сұрақтар туындаса, маған хабарласыңыз. Шығармаңызды жариялау үшін біздің журналды таңдағаныңызға рахмет.<br />
+<br />
+{$contextSignature}";}}}

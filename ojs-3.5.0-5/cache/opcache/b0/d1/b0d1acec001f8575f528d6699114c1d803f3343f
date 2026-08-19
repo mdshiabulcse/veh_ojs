@@ -1,0 +1,1 @@
+1818656036a:3:{s:6:"domain";N;s:12:"plural-forms";s:74:"nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;";s:8:"messages";a:1:{s:0:"";a:2:{s:45:"plugins.generic.htmlArticleGalley.displayName";s:19:"Șpalt articol HTML";s:45:"plugins.generic.htmlArticleGalley.description";s:73:"Acest plugin oferă suport de redare pentru șpalturile articolelor HTML.";}}}

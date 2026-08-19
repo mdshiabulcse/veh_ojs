@@ -1,0 +1,1 @@
+1818656037a:3:{s:6:"domain";N;s:12:"plural-forms";s:21:"nplurals=1; plural=0;";s:8:"messages";a:1:{s:0:"";a:2:{s:40:"plugins.generic.jatsTemplate.description";s:122:"Tự động tạo tài liệu JATS tối thiểu từ siêu dữ liệu gửi khi không có tài liệu JATS nào khác.";s:40:"plugins.generic.jatsTemplate.displayName";s:17:"Plugin mẫu JATS";}}}

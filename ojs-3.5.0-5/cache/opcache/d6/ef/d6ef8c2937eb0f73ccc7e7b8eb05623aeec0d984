@@ -1,0 +1,92 @@
+1818656036a:3:{s:6:"domain";N;s:12:"plural-forms";s:84:"nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;";s:8:"messages";a:1:{s:0:"";a:40:{s:28:"emails.submissionAck.subject";s:32:"Potwierdzenie zgłoszenia tekstu";s:25:"emails.submissionAck.body";s:430:"{$recipientName}:<br />
+<br />
+dziękujemy za zgłoszenie tekstu &quot;{$submissionTitle}&quot; do opublikowania w czasopiśmie {$contextName}. Nasz system umożliwia sprawdzenie, na jakim etapie znajduje się nadesłany tekst:<br />
+<br />
+WWW tekstu: {$submissionUrl} <br />
+Nazwa użytkownika: {$recipientUsername}<br />
+<br />
+W razie dodatkowych pytań proszę o kontakt.<br />
+<br />
+Z wyrazami szacunku,
+{$contextSignature}";s:32:"emails.submissionAck.description";s:89:"Ten e-mail jest automatycznie wysyłany do autora po przesłaniu przez niego zgłoszenia.";s:24:"emails.reviewAck.subject";s:36:"Podziękowanie za wykonanie recenzji";s:21:"emails.reviewAck.body";s:253:"Szanowna Pani/ Szanowny Panie,<br />
+<br />
+dziękujemy za wykonanie recenzji tekstu &quot;"{$submissionTitle}"&quot;, zgłoszonego do czasopisma "{$contextName}". Doceniamy Pani/ Pana wkład w budowanie jakości naszego czasopisma.
+Z wyrazami szacunku.";s:39:"emails.decision.notifyReviewers.subject";s:24:"Dziękujemy za recenzję";s:42:"emails.decision.notifyOtherAuthors.subject";s:43:"Aktualizacja dotycząca Twojego zgłoszenia";s:43:"emails.editorDecisionSendToExternal.subject";s:50:"Twoje zgłoszenie zostało przesłane do  recenzji";s:40:"emails.editorDecisionSendToExternal.body";s:245:"Szanowna Pani/ Szanowny Panie,<br />
+<br />
+podjęllśmy decyzję w sprawie tekstu "{$submissionTitle}" zgłoszonego do czasopisma "{$contextName}".<br />
+<br />
+Decyzja redaktora: Przesłane do recenzji<br />
+<br />
+WWW tekstu: {$submissionUrl}";s:45:"emails.editorDecisionSendToProduction.subject";s:49:"Kolejne kroki związane z publikacją zgłoszenia";s:42:"emails.editorDecisionSendToProduction.body";s:169:"Szanowna Pani/ Szanowny Panie {$authors}<br />
+<br />
+korekta tekstu "{$submissionTitle}". Tekst został przekazany do składu.<br />
+<br />
+WWW tekstu: {$submissionUrl}";s:38:"emails.editorDecisionRevisions.subject";s:16:"Decyzja redakcji";s:35:"emails.editorDecisionRevisions.body";s:198:"Szanowna Pani/ Szanowny Panie,<br />
+<br />
+podjęliśmy decyzję w sprawie tekstu "{$submissionTitle}", zgłoszonego do czasopisma "{$contextName}".<br />
+<br />
+Decyzja redakcji: Wymagane poprawki";s:37:"emails.editorDecisionResubmit.subject";s:16:"Decyzja redakcji";s:34:"emails.editorDecisionResubmit.body";s:221:"Szanowna Pani/ Szanowny Panie,<br />
+<br />
+podjęliśmy decyzję w sprawie tekstu „{$submissionTitle}”, zgłoszonego do czasopisma "{$contextName}".<br />
+<br />
+Decyzja redakcji: Wymagane poprawki i ponowna recenzja";s:36:"emails.editorDecisionDecline.subject";s:16:"Decyzja redakcji";s:33:"emails.editorDecisionDecline.body";s:211:"Szanowna Pani/ Szanowny Panie,<br />
+<br />
+podjęliśmy decyzję w sprawie tekstu "{$submissionTitle}", zgłoszonego do czasopisma "{$contextName}".<br />
+<br />
+Decyzja redakcji: Odrzucenie zgłoszonego tekstu";s:35:"emails.editorRecommendation.subject";s:22:"Rekomendacja redaktora";s:32:"emails.editorRecommendation.body";s:151:"{$editors}:<br />
+<br />
+przesyłam rekomendację w sprawie tekstu "{$submissionTitle}", zgłoszonego do czasopisma "{$contextName}": {$recommendation}";s:30:"emails.copyeditRequest.subject";s:20:"Prośba do korektora";s:27:"emails.copyeditRequest.body";s:670:"Szanowna Pani/ Szanowny Panie,<br />
+<br />
+proszę o wykonanie korekty tekstu &quot;{$submissionTitle}&quot;, zgłoszonego do czasopisma {$contextName}.
+Proszę o postępowanie zgodnie z poniższymi krokami. <br />
+1. Kliknij na link do zgłoszonego tekstu znajdujący się poniżej.<br /> 
+2. Pobierz pliki robocze i wykonaj korektę. Ustal zmiany z autorem używając narzędzi do dyskusji.<br />
+3. Zapisz poprawiony plik(i) i prześlij go do systemu.<br />
+4. Powiadom redaktora o ukończeniu korekty i przekazaniu tekstu do realizacji.<br />
+<br />
+WWW {$contextName}: {$contextUrl}<br />
+WWW tekstu: {$submissionUrl}<br />
+Nazwa użytkownika: {$recipientUsername}";s:43:"emails.editorDecisionInitialDecline.subject";s:16:"Decyzja redakcji";s:40:"emails.editorDecisionInitialDecline.body";s:226:"
+			Szanowna Pani/ Szanowny Panie,<br />
+<br />
+podjęliśmy decyzję w sprawie tekstu  &quot;{$submissionTitle}&quot;, zgłoszonego do czasopisma "{$contextName}".<br />
+<br />
+Decyzja redakcji: Odrzucenie zgłoszonego tekstu";s:25:"emails.footer.unsubscribe";s:126:"<br><br>—<br><a href="{$unsubscribeUrl}">Wypisz się</a> z otrzymywania maili od <a href="{$contextUrl}">{$contextName}</a>.";s:36:"emails.footer.unsubscribe.discussion";s:126:"<br><br>—<br><a href="{$unsubscribeUrl}">Wypisz się</a> z otrzymywania maili od <a href="{$contextUrl}">{$contextName}</a>.";s:35:"emails.footer.unsubscribe.automated";s:126:"<br><br>—<br><a href="{$unsubscribeUrl}">Wypisz się</a> z otrzymywania maili od <a href="{$contextUrl}">{$contextName}</a>.";s:25:"emails.discussion.subject";s:42:"Wiadomość do czasopisma "{$contextName}"";s:22:"emails.discussion.body";s:31:"Proszę o wpisanie wiadomości.";s:28:"emails.reviewConfirm.subject";s:27:"Zgoda na wykonanie recenzji";s:25:"emails.reviewConfirm.body";s:238:"Szanowni Państwo,<br />
+<br />
+zgadzam się na wykonanie recenzji tekstu "{$submissionTitle}", zgłoszonego do czasopisma "{$contextName}". Recenzja będzie gotowa do dnia {$reviewDueDate}.<br />
+<br />
+Z wyrazami szacunku,
+{$senderName}";s:37:"emails.submissionAckNotAuthor.subject";s:32:"Potwierdzenie zgłoszenia tekstu";s:34:"emails.submissionAckNotAuthor.body";s:270:"Szanowny Panie/Szanowna Pani,<br />
+<br />
+użytkownik o nazwie {$submitterName} zgłosił tekst "{$submissionTitle}" do czasopisma "{$contextName}". <br />
+<br />
+W razie dodatkowych pytań proszę o kontakt. Dziękujemy za zgłoszenie.<br />
+<br />
+{$contextSignature}";s:50:"emails.orcidRequestAuthorAuthorization.description";s:90:"Mail jest wykorzystywany w przypadku prośby o dostęp czasopisma do profilu ORCID autora.";s:43:"emails.orcidRequestAuthorAuthorization.body";s:1017:"Drogi/a {$recipientName},<br>
+<br>
+Zostałeś/aś oznaczona/y jako autor/współautor tekstu naukowego "{$submissionTitle}" w {$contextName}.
+<br>
+<br>
+Jako redakcja czasopsima zwracamy się w związku z tym prośbą o dopisanie Twojego ORCID ID do tego artykułu i jednocześnie chcemy dodać go do Twojej listy opublikowanych prac w ORCID.<br>
+Zaloguj się proszę w czasopiśmie używając swoich danych ORCID co sprawi, że autoryzacja pracy bedzie możliwa. Odwiedź strone projektu ORCID aby zapoznać się ze szczegółową instrukcją na ten temat.<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width='16' height='16' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Zarejestruj sie w ORCID lub autoryzuj swój tekst</a><br/>
+<br>
+<br>
+<a href="{$orcidAboutUrl}">Więcej o ORCID w {$contextName}</a><br/>
+<br>
+W razie dalszych pytań prosimy o kontakt.<br>
+<br>
+{$principalContactSignature}
+";s:46:"emails.orcidRequestAuthorAuthorization.subject";s:44:"Prośba do autora o dostęp do profilu ORCID";s:39:"emails.orcidCollectAuthorId.description";s:80:"Mail jest używany do poinformowania autorów o konieczności autoryzacji ORCID.";s:35:"emails.orcidCollectAuthorId.subject";s:37:"Autoryzacja ORCID w tekście naukowym";s:32:"emails.orcidCollectAuthorId.body";s:709:"Drogi/a {$recipientName},<br/>
+<br/>
+W czasopiśmie {$contextName} zostałeś/aś oznaczona jako autor/współautor. Aby potwierdzić ten fakt i połączyć tekst z Twoim kontem ORCID, proszę odwiedzić link zamieszczony poniżej.
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width='16' height='16' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Zarejestruj się lub połącz tekst ze swoim kontem ORCID</a><br/>
+<br/>
+<br>
+<a href="{$orcidAboutUrl}">Więcej o ORCID w {$contextName}</a><br/>
+<br/>
+W razie dodatkowych pytań proszę o kontakt:<br/>
+<br/>
+{$principalContactSignature}
+";s:31:"mailable.userRoleEndNotify.name";s:46:"Powiadomienie o zakończeniu roli użytkownika";s:38:"mailable.userRoleEndNotify.description";s:71:"Powiadomienie e-mail wysyłane do użytkownika po usunięciu go z roli.";}}}

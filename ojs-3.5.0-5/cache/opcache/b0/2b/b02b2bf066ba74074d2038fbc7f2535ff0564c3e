@@ -1,0 +1,309 @@
+1818656032a:3:{s:6:"domain";N;s:12:"plural-forms";s:26:"nplurals=2; plural=n != 1;";s:8:"messages";a:1:{s:0:"";a:61:{s:35:"emails.passwordResetConfirm.subject";s:70:"دڵنیابوونەوەی لە دانانەوەی وشەى نهێنى";s:32:"emails.passwordResetConfirm.body";s:582:"{$siteTitle} داواكاريتان بۆ گۆڕينى وشەى نهێنيمان  پێگەيشت.<br />
+<br />
+ئەگەر ئەم داواكارييە بەبێ ئاگادارى ئێوە نێردراوە، ئەم پەيامە بە هەند وەرمەگرن؛ دەتوانن وشە نهێنييە كۆنەكەتان بەكار بهێنن. ئەگەر دەتانەوێت تێپەڕەوشەتان بگۆڕن تكايە كرتە لەسەر بەستەرەكەى خوارەوە بكەن.
+<br />
+<br />
+بۆ گۆڕينى وشەى نهێنى: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}";s:27:"emails.userRegister.subject";s:38:"خۆتۆماركردن لە گۆڤار";s:24:"emails.userRegister.body";s:579:"{$recipientName}<br />
+<br />
+تۆ وەک بەکارهێنەرێک تۆمار کراویت {$contextName}. ئێمە ناوی بەکارهێنەر و وشەی نهێنییەکەتمان لەگەڵ ئەم ئیمەیڵە بۆ ناردویت، کە بۆ کارەکانی گۆڤارەکە پێویستە. لە هەر کاتێکدا کە بتەوێت، تۆ دەتوانیت داوای سڕینەوەی ئەژمارەکەت بکەیت.<br />
+<br />
+ناوی بەکارهێنەر: {$recipientUsername}<br />
+وشەی نهێنی: {$password}<br />
+<br />
+سوپاس، <br />
+{$signature}";s:34:"emails.userValidateContext.subject";s:68:"هه‌ژماره‌كه‌ت پشتڕاست بكه‌ره‌وه‌";s:31:"emails.userValidateContext.body";s:369:"{$recipientName}<br />
+<br />
+تۆ ئەژمارێکی کەسیت دروست کرد {$contextName}, بەڵام پێش ئەوەی بتوانیت بەکاری بهێنیت، بۆ دڵنیایی ڕاستیی زانیارییەکان دەبێت کلیک لەسەر ئەم لینکە بکەیت:<br />
+<br />
+{$activateUrl}<br />
+<br />
+سوپاس،<br />
+{$contextSignature}";s:31:"emails.userValidateSite.subject";s:50:"هەژمارەکەت پشتڕاست بکەرەوە";s:28:"emails.userValidateSite.body";s:458:"{$ناوی وەرگر}<br />
+<br />
+تۆ ئەکاونتێکت بە {$siteTitle} دروست کردووە، بەڵام پێش ئەوەی دەست بکەیت بە بەکارهێنانی، پێویستە هەژماری ئیمەیڵەکەت پشتڕاست بکەیتەوە. بۆ ئەم مەبەستە کرتە لە سەر ئەم بەستەرەی خوارەوە بکە:<br />
+<br />
+{$چالاککردنیUrl}<br />
+<br />
+سوپاس،<br />
+{$سایتی واژۆ}";s:31:"emails.reviewerRegister.subject";s:96:"تۆماركردن وه‌كو پێداچوونه‌وه‌ له‌گه‌ڵ  ناوی ده‌ق";s:28:"emails.reviewerRegister.body";s:1371:"لە ژێر ڕۆشنایی شارەزایی ئێوەدا، ئێمە ناوی تۆمان وەک هەڵسەنگێنەر تۆمار کردووە لە داتابەیسی {$contextName}.ئەمەش مانای دەستپێکردنی هیچ کارێک لە لایەن بەڕێزتانەوە ناگەیەنێت، بەڵام هەلێک بە ئێمە دەبەخشێت بۆ ئەوەی ناوتان لە لامان هەبێت لە ئەگەری بابەتێکی پەیوەندیدار بە ئێوە. لە کاتی بانگێشتکردنتان بۆ هەڵسەنگاندمن، ئێوە ناونیشان و کورتەی توێژینەوەکە دەبینن و هەمیشە دەتوانن ئەرکەکە قبوڵ یان ڕەت بکەنەوە. لە هەر کاتێکدا ئەگەر بتانەوێت، دەتوانن داوای سڕینەوەی ناوەکەتان لە سیستەمەکەماندا بکەن. <br />
+<br />
+ئێمە ناوی بەکارهێنەر و وشەی تێپەڕتان بۆ دەنێرین، کە بەکار دێت بۆ کارکردن لەسەر پەڕەی گۆڤارەکەی ئێمە. تۆ هەمو کات دەتوانیت زانیارییەکانت نوێ بکەیتەوە. <br />
+<br />
+ناوی بەکارهێنەر: {$recipientUsername}<br />
+وشەی نهێنیی بەکارهێنەر: {$password}<br />
+<br />
+سوپاس بۆ هاوکاریتان<br />
+{$signature}";s:33:"emails.issuePublishNotify.subject";s:49:"ئەژمارێکی نوێ بڵاو کرایەوە";s:30:"emails.issuePublishNotify.body";s:487:"خوێنەران:<br />
+<br />
+{$contextName} دواهەمین ژمارەی خۆی لە {$contextUrl} بڵاو کردەوە. ئێمە بەڕێزتان بانگێشتی بینینی ناوەرۆکی توێژینەوەکانمان دەکەین و ئێوە دەتوانن سەردانی پەڕەی سەرەکیی گۆڤار بکەن بۆ خوێندنەوەی تەواوی توێژینەوەکان.<br />
+<br />
+سوپاس بۆ گرنگیدان بە کارەکانمان،<br />
+{$signature}";s:27:"emails.editorAssign.subject";s:41:"ئەرکدارکردنی سەرنوسەر";s:24:"emails.editorAssign.body";s:427:"{$recipientName}:<br />
+<br />
+پێشکەشکردنەکە, &quot;{$submissionTitle},&quot; بۆ{$contextName} تۆ دیاری کرایت وەک سەرنوسەری بەش بەمەبەستی تەواوکردنی کارەکانی هەڵسەنگاندنی ئەم توێژینەوەیە.<br />
+<br />
+لینکی پێشکەشکردن: {$submissionUrl}<br />
+ناوی بەکارهێنەر: {$recipientUsername}<br />
+<br />
+Thank you.";s:28:"emails.reviewRequest.subject";s:62:"داواکاریی هەڵسەنگاندنی توێژینەوە";s:25:"emails.reviewRequest.body";s:1445:"{$recipientName}:<br />
+<br />
+ئێمە ئێوەمان بە شیاوی هەڵسەنگاندنی ئەم توێژینەوە زانی, &quot;{$submissionTitle},&quot; کە بۆ  {$contextName} نێردراوە. پوختەی توێژینەوەکە لە خوارەوە بەردەستە و ئێمە هیواخوازین کە بەڕێزتان ئەم ئەرکە قبوڵ بکەن.<br />
+<br />
+لێرەوە سەردانی پەڕەی گۆڤار بکەن {$responseDueDate} بۆ دیاریکردنی ئەوەی کە ئایا داخوازینامەکەمان قبوڵ یان ڕەت دەکەنەوە یان بۆ بینینی توێژینەوەکە و تۆمارکردنی هەڵسەنگاندنەکەتان. پەڕەی گۆڤار {$contextUrl}<br />
+<br />
+دوا کات بۆ هەڵسەنگاندن {$reviewDueDate}.<br />
+<br />
+ئەگەر بەڕێزتان ناوی بەکارهێنەر و وشەی تێپەڕتان ون کردووە، دەتوانن لەم لینکەی خوارەوە داوای وشەیەکی نهێنیی نوێ بکەن (کە دواتر بە شێوەی ئیمەیڵ ناوی بەکارهێنەر و وشەی نهێنییەکەتان بەدەست دەگات). {$passwordLostUrl}<br />
+<br />
+لینکی پێشکەشکردنەکە: {$reviewAssignmentUrl}<br />
+<br />
+سوپاس بۆ قبوڵکردنی داخوازییەکەمان.<br />
+<br />
+{$signature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}";s:40:"emails.reviewResponseOverdueAuto.subject";s:62:"داواکاریی هەڵسەنگاندنی توێژینەوە";s:37:"emails.reviewResponseOverdueAuto.body";s:1666:"{$recipientName}:<br />
+بەبیرهێنانەوەی, &quot;{$submissionTitle},&quot; بۆ{$contextName}. ئێمە هیوادارین کە وەڵامی ئێوەمان هەتا {$responseDueDate} بەدەست بگات, ئەم ئیمەیڵە بە شێوەی تۆماتیکی و دوای کۆتاییهاتنی ماوەی داواکراو بۆتان نێردراوە.
+<br />
+ئێمە پێمان وایە کە بەڕێزتان کەسێکی گونجاون بۆ هەڵسەنگاندنی رەشنوسی توێژینەوەکە.پوختەی توێژینەوەکە لە خوارەوە بەردەستە و هیواخوازین کە بەڕێزتان ئەم ئەرکە لە ئەستۆ بگرن.<br />
+<br />
+تکایە داخلی ئەم وێبسایتە ببن بۆ ئەوەی داواکارییەکە قبوڵ یان ڕەت بکەنەوە یان بۆ ئەوەی زانیارییەکانی توێژینەوەکە ببینن. وێبسایتەکە ئەمەیە {$contextUrl}<br />
+<br />
+وادەی کۆتایی هەڵسەنگاندنەکە {$reviewDueDate}.<br />
+<br />
+ئەگەر بەڕێزتان ناوی بەکارهێنەر و وشەی تێپەڕتان ون کردووە، دەتوانن لەم لینکەی خوارەوە داوای وشەیەکی نهێنیی نوێ بکەن (کە دواتر بە شێوەی ئیمەیڵ ناوی بەکارهێنەر و وشەی نهێنییەکەتان بەدەست دەگات). {$passwordLostUrl}<br />
+<br />
+لینکی پێشکەشکردنەکە: {$reviewAssignmentUrl}<br />
+<br />
+سوپاس بۆ بڕیاردانتان.<br />
+<br />
+{$contextSignature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}";s:38:"emails.reviewRequestSubsequent.subject";s:62:"داواکاریی هەڵسەنگاندنی توێژینەوە";s:35:"emails.reviewRequestSubsequent.body";s:1318:"{$recipientName}:<br />
+<br />
+ئەمە پەیوەندیدارە بە ڕەشنوسی توێژینەوەکەوە &quot;{$submissionTitle},&quot; کە لە لایەن {$contextName}ەوە بڕیاری لێ دەدرێت.<br />
+<br />
+دوای هەڵسەنگاندنی پێشتر، لە ئێستادا توێژەر پێداچونەوەی بۆ کردووە و ئێمە هاوکاری ئێوە بۆ پێداچونەوە پێیدا بەرز دەنرخێنین.<br />
+<br />
+تکایە لێرەوە داخلی پێگەکەمان ببە {$responseDueDate} بۆ دیاریکردنی قبوڵ یان ڕەتکردنەوەی داخوازییەکەمان. هەمو زانیارییەکانی توێژینەوەکەش هەر لە هەمان شوێن بەردەستن. پێگەکەمان ئەمەیە {$contextUrl}<br />
+<br />
+دوا وادە بۆ هەڵسەنگاندن {$reviewDueDate}.<br />
+<br />
+ئەگەر ئەژماری کەسی و ژمارەی نهێنییەکەت لەبیر کردووە، لێرەوە داوای بکەوە و بە ئیمەیڵێک پێت دەگاتەوە. {$passwordLostUrl}<br />
+<br />
+لینکی پێشکەشکردنەکە: {$reviewAssignmentUrl}<br />
+<br />
+سوپاس بۆ هاوکاریتان<br />
+<br />
+{$signature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}";s:27:"emails.reviewCancel.subject";s:93:"داواکاریی هەڵسەنگاندنی توێژینەوە هەڵوەشێندرایەوە";s:24:"emails.reviewCancel.body";s:651:"{$recipientName}:<br />
+<br />
+ئێمە بڕیاری کشانەوەی داواکاریی خۆمانمان دا بۆ ئەوەی بەڕێزتان هەڵسەنگاندن بۆ ئەم توێژینەوەیە بکەن &quot;{$submissionTitle},&quot; بۆ {$contextName}. ئێمە داوای لێبوردن دەکەین بۆ هەر لەیەکتر تێنەگەیشتنێک لە نێوان ئێوە و گۆڤاردا. بە هیوای ئەوەی کە لە داهاتودا دەرفەتی کارکردنی بەیەکەوەمان بۆ بڕەخسێت.<br />
+<br />
+ئەگەر هەر پرسیارێکتان هەیە، تکایە پەیوەندیم پێوە بکەن.";s:30:"emails.reviewReinstate.subject";s:90:"داواکاریی هەڵسەنگاندنی توێژینەوە دوبارە کرایەوە";s:27:"emails.reviewReinstate.body";s:451:"{$recipientName}:<br />
+<br />
+ئێمە دەمانەوێت دوبارە داواتان لێ بکەینەوە بۆ هەڵسەنگاندنی &quot;{$submissionTitle},&quot; بۆ {$contextName}. ئێمە هیواخوازین کە بەڕێزتان هاوکارمان بن لە پرۆسەی هەڵسەنگاندنەکەدا.<br />
+<br />
+ئەگەر هەر پرسیارێکتان هەیە، تکایە بە ئیمەیڵ پەیوەندیم پێوە بکەن.";s:28:"emails.reviewDecline.subject";s:43:"هەڵسەنگاندنەکە ناتوانم";s:25:"emails.reviewDecline.body";s:356:"بەڕێزان، سەرنوسەران:<br />
+<br />
+ببورن کە ناتوانم هەڵسەنگاندن بۆ توێژینەوەی &quot;{$submissionTitle},&quot; بۆ {$contextName} بکەم. سوپاس بۆ هەڵبژاردنی من و هیوادارم لە کاتێکی دیکەدا کاری پێکەوییمان هەبێت. <br />
+<br />
+{$senderName}";s:27:"emails.reviewRemind.subject";s:64:"بیرخەرەوەی هەڵسەنگاندنی توێژینەوە";s:24:"emails.reviewRemind.body";s:983:"{$recipientName}:<br />
+<br />
+بیرخەرەوەی هەڵسەنگاندنی توێژینەوەی &quot;{$submissionTitle},&quot; بۆ{$contextName}.ئێمە هیواخوازین کە هەڵسەنگاندنەکەتان هەتا {$reviewDueDate} تەواو بێت و بە هیواین لە نزیکترین دەرفەتتدا تێبینی و بڕیارەکانتان دەربارەی توێژینەوەکە بنێرن.<br />
+<br />
+ئەگەر تۆ هەژمار و وشەی نهێنیت نییە، دەتوانیت لێرەوە داوای وشەیەکی نهێنیی نوێ بکەیت (کە بە ئیمەیڵ لەگەڵ ناوی بەکارهێنەر بە دەستت دەگات). {$passwordLostUrl}<br />
+<br />
+لینکی توێژینەوەکە: {$reviewAssignmentUrl}<br />
+<br />
+تکایە دڵنیامان بکەوە لە هاوکاریت و بڕیاری هەڵسەنگاندنی توێژینەوەکە، ئێمە چاوەڕێی وەڵامی ئێوەین.<br />
+<br />
+{$signature}";s:31:"emails.reviewRemindAuto.subject";s:81:"بیرخەرەوەی تۆماتیکی هەڵسەنگاندنی توێژینەوە";s:28:"emails.reviewRemindAuto.body";s:990:"{$recipientName}:<br />
+<br />
+بیرخەرەوەی هەڵسەنگاندنی توێژینەوەی &quot;{$submissionTitle},&quot; بۆ{$contextName}.ئێمە هیواخوازین کە هەڵسەنگاندنەکەتان هەتا {$reviewDueDate} تەواو بێت و بە هیواین لە نزیکترین دەرفەتتدا تێبینی و بڕیارەکانتان دەربارەی توێژینەوەکە بنێرن.<br />
+<br />
+ئەگەر تۆ هەژمار و وشەی نهێنیت نییە، دەتوانیت لێرەوە داوای وشەیەکی نهێنیی نوێ بکەیت (کە بە ئیمەیڵ لەگەڵ ناوی بەکارهێنەر بە دەستت دەگات). {$passwordLostUrl}<br />
+<br />
+لینکی توێژینەوەکە: {$reviewAssignmentUrl}<br />
+<br />
+تکایە دڵنیامان بکەوە لە هاوکاریت و بڕیاری هەڵسەنگاندنی توێژینەوەکە، ئێمە چاوەڕێی وەڵامی ئێوەین.<br />
+<br />
+{$contextSignature}";s:35:"emails.editorDecisionAccept.subject";s:29:"بڕیاری سەرنوسەر";s:32:"emails.editorDecisionAccept.body";s:211:"{$authors}:<br />
+<br />
+ئێمە لەبارەی پێشکەشکردنەکەت {$contextName}, &quot;{$submissionTitle}&quot; بڕیارمان دا.<br />
+<br />
+بڕیار: توێژینەوەکە قبوڵ کرا";s:28:"emails.layoutRequest.subject";s:37:"داواکاریی تابلۆسازی";s:25:"emails.layoutRequest.body";s:1091:"{$recipientName}:<br />
+<br />
+توێژینەوەی &quot;{$submissionTitle}&quot; بۆ {$contextName} پێویستی بە تابلۆی تایبەتە بەم ڕێگایانەی خوارەوە.<br />
+١. کلیک لەسەر لینکی توێژینەوەی پێشکەشکراو لە خوارەوە بکە.<br />
+٢. داخلی پەڕەی گۆڤار بکە و کار لەسەر ئەو فایلانە بکە کە ئامادە کراون بۆ بڵاوکردنەوە بە گوێرەی ستانداردەکانی گۆڤار.<br />
+٣. تابلۆکان بۆ بەشی فایلەکانی تابلۆ بار بکە.<br />
+٤. سەرنوسەر لە ئامادەبونی تابلۆی کۆتایی ئاگادار بکەوە.<br />
+<br />
+{$contextName} لینک: {$contextUrl}<br />
+لینکی توێژینەوەی پێشکەشکراو: {$submissionUrl}<br />
+ناوی بەکارهێنەر: {$recipientUsername}<br />
+<br />
+ئەگەر تۆ لە ئێستادا ناتوانیت ئەم ئەرکە لە ئەستۆ بگریت، تکایە ئاگادارمان بکەوە. سوپاس بۆ هاوکاریتان.";s:29:"emails.layoutComplete.subject";s:31:"تابلۆسازی تەواوە";s:26:"emails.layoutComplete.body";s:340:"{$recipientName}:<br />
+<br />
+تابلۆ بۆ ڕەشنوسی توێژینەوەی &quot;{$submissionTitle},&quot; ئامادە کراوە بۆ{$contextName} و ئامادەیە بۆ وردبینیکردن<br />
+<br />
+ئەگەر هەر پرسیارێکت هەیە، تکایە پەیوەندیم پێوە بکە.<br />
+<br />
+{$senderName}";s:24:"emails.emailLink.subject";s:43:"توێژینەوەی پەیوەندیدار";s:21:"emails.emailLink.body";s:270:"من وا بیر دەکەمەوە کە ئارەزوی بینینی &quot;{$submissionTitle}&quot; بۆ {$authors} بکەن کە لە وەرزی {$volume}, ژمارەی{$number} ({$year}) لە {$contextName} لە &quot;{$submissionUrl}&quot;. بڵاو دەکرێتەوە.";s:28:"emails.emailLink.description";s:376:"ئەم ئیمەیڵە قاڵبی خوێنەرێکی تۆمارکراوی تێدایە کە دەرفەتی ئەوەی پێدراوە توێژینەوەیەک بۆ کەسێکی دیکەی خوێنەر بنێرێت. ئەمە لە کەرەستەکانی خوێندنەوە بەردەستە و دەبێت لە لایەن بەڕێوەبەری گۆڤارەوە چالاک بکرێت.";s:33:"emails.subscriptionNotify.subject";s:53:"ئاگادارکردنەوەی بەشداریکردن";s:30:"emails.subscriptionNotify.body";s:1039:"{$recipientName}:<br />
+<br />
+بەشداریکردنی تۆ تۆمار کراوە لە {$contextName}, وەک بەشداریکردنی:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+بۆ دەستپێڕاگەیشتنی ئەو بابەتانەی کە تەنیا تایبەتن بەو کەسانەی بەشداریکردنیان هەیە تەنیا داخلی هەژمارەکەت ببە، &quot;{$recipientUsername}&quot;.<br />
+<br />
+کاتێک داخلی هەژمارەکەت بویت، هەمیشە دەرفەتی گۆڕینی زانیارییە کەسییەکانی خۆتت هەیە.<br />
+<br />
+تکایە ئاگاداری ئەوە ببە؛ ئەگەر تۆ بەشداریکردنی دەزگاییت هەیە، پێویست بە داخلبونی هەژمارەکەت ناکات و لە ڕێگەی سیستەمێکەوە تۆ دەستپێڕاگەیشتنت چالاک دەبیت.<br />
+<br />
+لە ئەگەری هەبونی هەر پرسیارێک، تکایە پەیوەندیم پێوە بکە.<br />
+<br />
+{$subscriptionSignature}";s:31:"emails.openAccessNotify.subject";s:58:"ئەم ژمارەیە لە ئێستادا بەردەستە";s:28:"emails.openAccessNotify.body";s:474:"Readers:<br />
+<br />
+{$contextName} ژمارەی داهاتوی خۆی بە شێوەی کراوە دەخاتە بەردەست. ئێمە تۆ بانگێشت دەکەین بۆ هەڵسەنگاندن بە لیستی ناوەرۆکدا، تکایە سەردانی ئەم پەڕەیە بکە ({$contextUrl}) بۆ هەڵسەنگاندنی توێژینەوە و بابەتەکانی پسپۆڕیی خۆت.<br />
+<br />
+سوپاس بۆ هاوکاریت، <br />
+{$contextSignature}";s:39:"emails.subscriptionBeforeExpiry.subject";s:72:"ئاگادارکردنەوەی بەسەرچونی بەشداریکردن";s:36:"emails.subscriptionBeforeExpiry.body";s:704:"{$recipientName}:<br />
+<br />
+بەشداریکردنت لە {$contextName} خەریکە بەسەر دەچێت.<br />
+<br />
+{$subscriptionType}<br />
+ڕێککەوتی بەسەرچون: {$expiryDate}<br />
+<br />
+بۆ دڵنیابونەوە لە بەردەستبونی توێژینەوەکانی ئەم گۆڤارە، تکایە سەردانی پەڕەی گۆڤار بکە و بەشداریکردنت نوێ بکەوە. تۆ دەتوانیت بە هەژمارەکەی خۆت داخلی سیستەمەکە ببیت، &quot;{$recipientUsername}&quot;.<br />
+<br />
+لە ئەگەری هەبونی هەر پرسیارێک، تکایە پەیوەندیم پێوە بکە.<br />
+<br />
+{$subscriptionSignature}";s:38:"emails.subscriptionAfterExpiry.subject";s:50:"بەشداریکردنەکەت بەسەر چووە";s:35:"emails.subscriptionAfterExpiry.body";s:556:"{$recipientName}:<br />
+<br />
+بەشداریکردنت لە{$contextName} بەسەر چووە.<br />
+<br />
+{$subscriptionType}<br />
+ڕێککەوتی بەسەرچون: {$expiryDate}<br />
+<br />
+بۆ نوێکردنەوەی بەشداریکردن، تکایە سەردانی پەرەی گۆڤار بکە و بە هەژماری کەسی خۆت داخل ببەوە &quot;{$recipientUsername}&quot;.<br />
+<br />
+لە ئەگەری هەبونی هەر پرسیارێکدا، تکایە پەیوەندیم پێوە بکە.<br />
+<br />
+{$subscriptionSignature}";s:42:"emails.subscriptionAfterExpiryLast.subject";s:78:"بەشداریکردنەکەت بەسەر چووە - دوا بیرخەرەوە";s:39:"emails.subscriptionAfterExpiryLast.body";s:693:"{$recipientName}:<br />
+<br />
+بەشداریکردنت لە{$contextName} بەسەر چووە.<br />
+تکایە ئاگاداری ئەوە بە کە ئەمە دواهەمین بیرخەرەوەیە کە بۆ تۆ دەنێردرێت.<br />
+<br />
+{$subscriptionType}<br />
+ڕێککەوتی بەسەرچون: {$expiryDate}<br />
+<br />
+بۆ نوێکردنەوەی بەشداریکردن، تکایە سەردانی پەرەی گۆڤار بکە و بە هەژماری کەسی خۆت داخل ببەوە &quot;{$recipientUsername}&quot;.<br />
+<br />
+لە ئەگەری هەبونی هەر پرسیارێکدا، تکایە پەیوەندیم پێوە بکە.<br />
+<br />
+{$subscriptionSignature}";s:39:"emails.subscriptionPurchaseIndl.subject";s:68:"کڕینی بەشداریکردن: بەشداریکردنی کەسی";s:36:"emails.subscriptionPurchaseIndl.body";s:551:"بەشداریکردنی کەسی بۆ {$contextName} کڕدرا بە ئەم زانیاریانەی خوارەوە<br />
+<br />
+جۆری بەشداریکردن:<br />
+{$subscriptionType}<br />
+<br />
+بەکارهێنەر:<br />
+{$subscriberDetails}<br />
+<br />
+ زانیاریی ئەندامێتی (ئەگەر هەیە):<br />
+{$membership}<br />
+<br />
+بۆ بینین یان دەستکاریکردنی ئەم بەشداریکردنە سەردانی ئەم لینکە بکە.<br />
+<br />
+لینکی بەشداریکردن: {$subscriptionUrl}<br />
+";s:40:"emails.subscriptionPurchaseInstl.subject";s:70:"کڕینی بەشداریکردن: بەشداریکردنی دەزگا";s:37:"emails.subscriptionPurchaseInstl.body";s:978:"بەشداریکردنی دەزگایەک بۆ {$contextName} کڕدرا بەم زانیارییانە. بۆ چالاککردنی ئەم بەشداریکردنە، تکایە لینکی پەیوەندیدار بەکار بهێنە و حاڵەتی بەشداریکردنەکە بکە 'چالاک'.<br />
+<br />
+جۆری بەشداریکردن:<br />
+{$subscriptionType}<br />
+<br />
+دەزگا:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+ دۆمەین (ئەگەر هەیە) :<br />
+{$domain}<br />
+<br />
+مەودای IP (ئەگەر هەیە) :<br />
+{$ipRanges}<br />
+<br />
+کەسی پەیوەندیدار:<br />
+{$subscriberDetails}<br />
+<br />
+زانیارییەکانی بەشداریکردن (ئەگەر هەیە):<br />
+{$membership}<br />
+<br />
+ بۆ بینینی ئەم بەشداریکردنە، تکایە لینکی بەشداریکردن بەکار بهێنە.<br />
+<br />
+لینکی بەشداریکردن: {$subscriptionUrl}<br />
+";s:36:"emails.subscriptionRenewIndl.subject";s:80:"نوێکردنەوەی بەشداریکردن: بەشداریکردنی کەسی";s:33:"emails.subscriptionRenewIndl.body";s:562:"بەشداریکردنی کەسی بۆ {$contextName} نوێ کرایەوە بە ئەم زانیاریانەی خوارەوە<br />
+<br />
+جۆری بەشداریکردن:<br />
+{$subscriptionType}<br />
+<br />
+بەکارهێنەر:<br />
+{$subscriberDetails}<br />
+<br />
+ زانیاریی ئەندامێتی (ئەگەر هەیە):<br />
+{$membership}<br />
+<br />
+بۆ بینین یان دەستکاریکردنی ئەم بەشداریکردنە سەردانی ئەم لینکە بکە.<br />
+<br />
+لینکی بەشداریکردن: {$subscriptionUrl}<br />
+";s:37:"emails.subscriptionRenewInstl.subject";s:82:"نوێکردنەوەی بەشداریکردن: بەشداریکردنی دەزگا";s:34:"emails.subscriptionRenewInstl.body";s:799:"بەشداریکردنی دەزگایەک بۆ {$contextName} نوێ کرایەوە بەم زانیارییانە. '.<br />
+<br />
+جۆری بەشداریکردن:<br />
+{$subscriptionType}<br />
+<br />
+دەزگا:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+ دۆمەین (ئەگەر هەیە) :<br />
+{$domain}<br />
+<br />
+مەودای IP (ئەگەر هەیە) :<br />
+{$ipRanges}<br />
+<br />
+کەسی پەیوەندیدار:<br />
+{$subscriberDetails}<br />
+<br />
+زانیارییەکانی بەشداریکردن (ئەگەر هەیە):<br />
+{$membership}<br />
+<br />
+ بۆ بینینی ئەم بەشداریکردنە، تکایە لینکی بەشداریکردن بەکار بهێنە.<br />
+<br />
+لینکی بەشداریکردن: {$subscriptionUrl}<br />
+";s:35:"emails.revisedVersionNotify.subject";s:56:"وەشانی دوای پێداچونەوە بار کرا";s:32:"emails.revisedVersionNotify.body";s:268:"بەڕێزان، سەرنوسەران:<br />
+<br />
+وەشانی چاککراوی &quot;{$submissionTitle}&quot; لە لایەن توێژەرەوە بار کرا {$submitterName}.<br />
+<br />
+لینکی پێشکەشکردن: {$submissionUrl}<br />
+<br />
+{$signature}";s:43:"emails.statisticsReportNotification.subject";s:52:"چالاکی سەرنوسەر لە {$month}،{$year}";s:40:"emails.statisticsReportNotification.body";s:980:"
+{$recipientName}, <br />
+<br />
+تەندروستیی گۆڤارەکەت {$month}, {$year} ئێستا بەردەستە. زانیارییەکان بۆ ئەو مانگە لە خوارەوەیە.<br />
+<ul>
+	<li>توێژینەوەی پێشکەشکراوی نوێ لەم مانگەدا: {$newSubmissions}</li>
+	<li>توێژینەوەی ڕەتکراوە لەم مانگەدا: {$declinedSubmissions}</li>
+	<li>توێژینەوەی قبوڵکراو لەم مانگەدا: {$acceptedSubmissions}</li>
+	<li>کۆی گشتی توێژینەوە پێشکەشکراوەکان: {$totalSubmissions}</li>
+</ul>
+داخلی سیستەمەکە ببە بۆ بینینی زانیاریی زیاتر <a href="{$editorialStatsLink}">باوەکان</a> and <a href="{$publicationStatsLink}">توێژینەوە بڵاوکراوەکان</a>. نوسخەی تەواوی بابەتە باوەکانی سەرنوسەران هاوپێچ کراوە.<br />
+<br />
+لەگەڵ ڕێزدا،<br />
+{$contextSignature}";}}}

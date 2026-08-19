@@ -1,0 +1,182 @@
+1818656035a:3:{s:6:"domain";N;s:12:"plural-forms";s:146:"nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);";s:8:"messages";a:1:{s:0:"";a:69:{s:31:"emails.reviewerRegister.subject";s:53:"Leidinio „{$contextName}“ recenzento registracija";s:33:"emails.issuePublishNotify.subject";s:25:"Išleistas naujas numeris";s:27:"emails.editorAssign.subject";s:23:"Redaktoriaus paskyrimas";s:40:"emails.reviewResponseOverdueAuto.subject";s:36:"Ar galėsite tai peržiūrėti mums?";s:27:"emails.reviewCancel.subject";s:33:"Prašymas recenzuoti atšaukiamas";s:28:"emails.reviewDecline.subject";s:18:"Recenzuoti negaliu";s:35:"emails.editorDecisionAccept.subject";s:23:"Redaktoriaus sprendimas";s:28:"emails.layoutRequest.subject";s:19:"Prašymas maketuoti";s:33:"emails.subscriptionNotify.subject";s:24:"Prenumeratos pranešimas";s:31:"emails.openAccessNotify.subject";s:30:"Numeris jau viešai prieinamas";s:35:"emails.passwordResetConfirm.subject";s:38:"Slaptažodžio atstatymo patvirtinimas";s:32:"emails.passwordResetConfirm.body";s:389:"Gautas prašymas svetainėje „{$siteTitle}“ atkurti Jūsų slaptažodį.<br />
+<br />
+Jei tokio prašymo nepateikėte, nekreipkite į laišką dėmesio, ir Jūsų slaptažodis nebus keičiamas. Jei slaptažodį norite atkurti, spustelėkite ant žemiau pateikiamo universaliojo adreso (URL).<br />
+<br />
+Atkurkite mano slaptažodį: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}";s:27:"emails.userRegister.subject";s:18:"Užsiregistravimas";s:24:"emails.userRegister.body";s:470:"{$recipientName}<br />
+<br />
+Dabar esate užregistruotas kaip vartotojas naudojant {$contextName}. Šiame el. laiške įtraukėme jūsų vartotojo vardą ir slaptažodį, kurie reikalingi visiems darbams su šiuo žurnalu per jo svetainę. Bet kuriuo metu galite paprašyti būti pašalinti iš žurnalo vartotojų sąrašo susisiekę su manimi.<br />
+<br />
+Vartotojo vardas: {$recipientUsername}<br />
+Slaptažodis: {$password}<br />
+<br />
+Ačiū,<br />
+{$signature}";s:34:"emails.userValidateContext.subject";s:22:"Paskyros patvirtinimas";s:31:"emails.userValidateContext.body";s:300:"{$recipientName}<br />
+<br />
+Sukūrėte paskyrą svetainėje {$siteTitle}, bet prieš pradėdami ja naudotis, turite patvirtinti savo el. pašto paskyrą. Norėdami tai padaryti, tiesiog spustelėkite toliau pateiktą nuorodą:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Ačiū,<br />
+{$siteSignature}";s:31:"emails.userValidateSite.subject";s:22:"Paskyros patvirtinimas";s:28:"emails.userValidateSite.body";s:300:"{$recipientName}<br />
+<br />
+Sukūrėte paskyrą svetainėje {$siteTitle}, bet prieš pradėdami ja naudotis, turite patvirtinti savo el. pašto paskyrą. Norėdami tai padaryti, tiesiog spustelėkite toliau pateiktą nuorodą:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Ačiū,<br />
+{$siteSignature}";s:28:"emails.reviewerRegister.body";s:848:"<p>Gerb. {$recipientName},</p><p>Atsižvelgdami į Jūsų patirtį, užregistravome Jūsų vardą recenzentų duomenų bazėje žurnalei „{$contextName}. Tai nereiškia jokių Jūsų įsipareigojimų, o tiesiog leidžia mums kreiptis į Jus su pateiktu straipsniu recenzavimui. Gavę kvietimą recenzuoti, turėsite galimybę pamatyti atitinkamo straipsnio pavadinimą ir santrauką, taip pat visada galėsite priimti arba atmesti kvietimą. Taip pat bet kuriuo metu galite paprašyti, kad Jūsų vardas būtų pašalintas iš recenzentų sąrašo.</p><p>Suteikiame Jums vartotojo vardą ir slaptažodį, kurie naudojami visuose žurnalo svetainės puslapiuose. Pavyzdžiui, galite atnaujinti savo profilį, įskaitant recenzavimo interesus.</p><p>Vartotojo vardas: {$recipientUsername}<br />Slaptažodis: {$password</p><p>Ačiū,</p>{$signature}";s:30:"emails.issuePublishNotify.body";s:435:"<p>Gerb. {$recipientName},</p><p>Džiaugiamės galėdami pranešti apie <a href="{$issueUrl}">{$issueIdentification</a> iš {$contextName} publikavimą. Kviečiame jus perskaityti šį darbą ir pasidalyti juo su savo mokslo bendruomene.</p><p>Dėkojame mūsų autoriams, recenzentams ir redaktoriams už vertingą indėlį, taip pat mūsų skaitytojams už nuolatinį susidomėjimą.</p><div>{$issueToc</div><p>Ačiū,</p>{$signature}";s:24:"emails.editorAssign.body";s:559:"<p>Gerb. {$recipientName},</p><p>Jums buvo paskirtas šis darbas, kad peržiūrėtumėte redagavimo procesą.</p><p><a href="{$submissionUrl}">{$submissionTitle</a><br />{$authors}</p><p><b>Santrauka</b></p>{$submissionAbstract}<p>Jei manote, kad darbas yra aktualus {$contextName}, persiųskite jį peržiūros etapui pasirinkdami „Siųsti peržiūrai“ ir tada priskirkite recenzentus spustelėdami „Pridėti recenzentą“.</p><p>Jei darbas netinka šiam žurnalui, atmeskite darbą.</p><p>Iš anksto dėkojame.</p><p>Pagarbiai,</p>{$contextSignature}";s:30:"emails.editorAssignReview.body";s:512:"<p>Gerb. {$recipientName},</p><p>Jums buvo paskirtas šis pateiktas darbas, kad peržiūrėtumėte jį kolegų peržiūros procese.</p><p><a href="{$submissionUrl}">{$submissionTitle</a><br />{$authors</p><p><b>Santrauka</b></p>{$submissionAbstract}<p>Prisijunkite, kad <a href="{$submissionUrl}">peržiūrėtumėte pateiktą darbą</a> ir priskirtumėte kvalifikuotus recenzentus. Recenzentą galite paskirti spustelėdami „Pridėti recenzentą“.</p><p>Iš anksto dėkojame.</p><p>Pagarbiai,</p>{$signature}";s:34:"emails.editorAssignProduction.body";s:584:"<p>Gerb. {$recipientName},</p><p>Jums buvo paskirtas šis darbas, kad galėtumėte peržiūrėti jo gamybos etapą.</p><p><a href="{$submissionUrl}">{$submissionTitle</a><br />{$authors</p><p><b>Santrauka</b></p>{$submissionAbstract}<p>Norėdami <a href="{$submissionUrl}">peržiūrėti pateiktą darbą</a>, prisijunkite. Kai bus paruošti gamybai failai, įkelkite juos skiltyje <strong>Publikacija > Galerijos</strong>. Tada suplanuokite darbą publikavimui spustelėdami mygtuką <strong>Planuoti publikavimą</strong>.</p><p>Iš anksto dėkojame.</p><p>Pagarbiai,</p>{$signature}";s:28:"emails.reviewRequest.subject";s:31:"Prašymas recenzuoti straipsnį";s:25:"emails.reviewRequest.body";s:968:"<p>Gerb. {$recipientName},</p><p>Manau, kad puikiai įvertintumėte pateiktą darbą žurnalui „{$contextName}. Pateikto darbo pavadinimas ir santrauka pateikiami žemiau, ir tikiuosi, kad apsvarstysite galimybę atlikti šią svarbią užduotį.</p><p>Jei galite peržiūrėti šį darbą, jūsų atsiliepimo terminas yra {$reviewDueDate}. Galite peržiūrėti pateiktą darbą, įkelti atsiliepimo failus ir pateikti atsiliepimą prisijungę prie žurnalo svetainės ir atlikę toliau pateiktoje nuorodoje nurodytus veiksmus.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle</a></p><p><b>Santrauka</b></p>{$submissionAbstract}<p>Prašome <a href="{$reviewAssignmentUrl}">priimti arba atmesti</a> atsiliepimą iki <b>{$responseDueDate</b>.</p><p>Jei turite klausimų apie pateiktą darbą ar peržiūros procesą, galite susisiekti su manimi.</p><p>Dėkojame, kad apsvarstėte šį prašymą. Labai vertiname jūsų pagalbą.</p><p>Pagarbiai,</p>{$parašas}";s:37:"emails.reviewResponseOverdueAuto.body";s:1039:"<p>Gerb. {$recipientName},</p><p>Šis el. laiškas yra automatinis priminimas iš {$contextName} dėl mūsų prašymo peržiūrėti pateiktą darbą „{$submissionTitle}“.</p><p>Gavote šį el. laišką, nes dar negavome jūsų patvirtinimo, ar galite peržiūrėti šį darbą.</p><p>Prašome pranešti mums, ar galite atlikti šią peržiūrą, naudodami mūsų pateiktų darbų valdymo programinę įrangą, kad priimtumėte arba atmestumėte šį prašymą.</p><p>Jei galite peržiūrėti šį darbą, jūsų peržiūros terminas yra {$reviewDueDate}. Galite atlikti peržiūros veiksmus, kad peržiūrėtumėte pateiktą darbą, įkeltumėte peržiūros failus ir pateiktumėte savo atsiliepimus.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle</a></p><p><b>Santrauka</b></p>{$submissionAbstract}<p>Jei turite klausimų apie pateiktą darbą ar peržiūros procesą, nedvejodami susisiekite su manimi.</p><p>Dėkojame, kad apsvarstėte šį prašymą. Labai vertinu jūsų pagalbą.</p><p>Pagarbiai,</p>{$contextSignature}";s:38:"emails.reviewRequestSubsequent.subject";s:31:"Prašymas recenzuoti straipsnį";s:35:"emails.reviewRequestSubsequent.body";s:1073:"<p>Gerb. {$recipientName},</p><p>Dėkojame, kad peržiūrėjote darbą <a href="{$reviewAssignmentUrl}">{$submissionTitle}</a>. Autoriai atsižvelgė į recenzentų atsiliepimus ir pateikė pataisytą savo darbo versiją. Rašau norėdamas paklausti, ar galėtumėte atlikti antrą šio pateikto darbo kolegų peržiūros etapą.</p><p>Jei galite peržiūrėti šį pateiktą darbą, jūsų atsiliepimo terminas yra {$reviewDueDate}. Galite <a href="{$reviewAssignmentUrl}">vykdyti peržiūros veiksmus</a>, kad peržiūrėtumėte pateiktą darbą, įkeltumėte peržiūros failus ir pateiktumėte savo peržiūros komentarus.<p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle</a></p><p><b>Santrauka</b></p>{$submissionAbstract}<p>Prašome <a href="{$reviewAssignmentUrl}">priimti arba atmesti</a> peržiūrą iki <b>{$responseDueDate</b>.</p><p>Jei turite klausimų apie pateiktą darbą ar peržiūros procesą, nedvejodami susisiekite su manimi.</p><p>Dėkojame, kad apsvarstėte šį prašymą. Jūsų pagalba yra labai vertinama.</p><p>Pagarbiai,</p>{$signature}";s:24:"emails.reviewCancel.body";s:415:"<p>Gerb. {$recipientName},</p><p>Neseniai paprašėme jūsų peržiūrėti pateiktą darbą, pateiktą {$contextName}. Nusprendėme atšaukti jūsų prašymą peržiūrėti pateiktą darbą, {$submissionTitle}.</p><p>Atsiprašome už galimus nepatogumus ir tikimės, kad ateityje galėsime kreiptis į jus dėl pagalbos peržiūrint šį žurnalą.</p><p>Jei turite klausimų, susisiekite su manimi.</p>{$signature}";s:30:"emails.reviewReinstate.subject";s:61:"Ar vis dar galite parašyti atsiliepimą apie {$contextName}?";s:27:"emails.reviewReinstate.body";s:550:"<p>Gerb. {$recipientName},</p><p>Neseniai atšaukėme jūsų prašymą peržiūrėti pateiktą darbą {$submissionTitle}, skirtą {$contextName}. Šį sprendimą panaikinome ir tikimės, kad vis dar galėsite atlikti peržiūrą.</p><p>Jei galite padėti peržiūrėti šį darbą, galite <a href="{$reviewAssignmentUrl}">prisijungti prie žurnalo</a>, kad peržiūrėtumėte pateiktą darbą, įkeltumėte peržiūros failus ir pateiktumėte peržiūros užklausą.</p><p>Jei turite klausimų, susisiekite su manimi.</p><p>Pagarbiai,</p>{$signature}";s:25:"emails.reviewDecline.body";s:269:"Editors:<br />
+<br />
+Atsiprašau, bet šį kartą žurnalui „{$contextName}“ pateikto straipsnio „{$contextName}“. recenzuoti negalėsiu. Ačiū, kad į mane kreipėtės, ir tikiuosi, kad kitąkart turėsiu laiko parengti recenziją.<br />
+<br />
+{$senderName}";s:27:"emails.reviewRemind.subject";s:26:"Priminimas apie recenziją";s:24:"emails.reviewRemind.body";s:626:"<p>Gerb. {$recipientName},</p><p>Norime priminti apie mūsų prašymą peržiūrėti pateiktą darbą „{$submissionTitle}“, skirtą {$contextName}. Tikėjomės gauti šią apžvalgą iki {$reviewDueDate} ir mielai ją gautume, kai tik galėsite ją paruošti.</p><p>Galite <a href="{$reviewAssignmentUrl}">prisijungti prie žurnalo</a> ir atlikti peržiūros veiksmus, kad peržiūrėtumėte pateiktą darbą, įkeltumėte peržiūros failus ir pateiktumėte savo atsiliepimus.</p><p>Jei jums reikia pratęsti terminą, susisiekite su manimi. Laukiu jūsų atsakymo.</p><p>Iš anksto dėkoju ir su pagarba,</p>{$signature}";s:31:"emails.reviewRemindAuto.subject";s:26:"Priminimas apie recenziją";s:28:"emails.reviewRemindAuto.body";s:674:"<p>Gerb. {$recipientName},</p><p>Šis el. laiškas yra automatinis priminimas iš {$contextName} dėl mūsų prašymo peržiūrėti pateiktą darbą „{$submissionTitle}“.</p><p>Tikėjomės gauti šią apžvalgą iki {$reviewDueDate} ir mielai ją gautume, kai tik galėsite ją paruošti.</p><p>Prašome <a href="{$reviewAssignmentUrl}">prisijungti prie žurnalo</a> ir atlikti peržiūros veiksmus, kad peržiūrėtumėte pateiktą darbą, įkeltumėte peržiūros failus ir pateiktumėte savo peržiūros komentarus.</p><p>Jei jums reikia pratęsti terminą, susisiekite su manimi. Laukiu jūsų atsakymo.</p><p>Iš anksto dėkoju ir su pagarba,</p>{$contextSignature}";s:32:"emails.editorDecisionAccept.body";s:984:"<p>Gerb. {$recipientName},</p><p>Džiaugiuosi galėdamas pranešti, kad nusprendėme priimti jūsų pateiktą darbą be tolesnių pakeitimų. Atidžiai peržiūrėję nustatėme, kad jūsų pateiktas darbas, {$submissionTitle}, atitinka arba viršija mūsų lūkesčius. Džiaugiamės galėdami publikuoti jūsų straipsnį „{$contextName}“ ir dėkojame, kad pasirinkote mūsų žurnalą savo darbui pristatyti.</p><p>Jūsų darbas dabar bus publikuojamas būsimame „{$contextName}“ numeryje ir kviečiame jį įtraukti į savo publikacijų sąrašą. Vertiname sunkų darbą, įdedamą į kiekvieną sėkmingą darbą, ir norime jus pasveikinti pasiekus šį etapą.</p><p>Jūsų pateiktas darbas dabar bus redaguojamas ir formatuojamas, kad būtų paruoštas publikavimui.</p><p>Netrukus gausite tolesnes instrukcijas.</p><p>Jei turite klausimų, susisiekite su manimi per savo <a href="{$authorSubmissionUrl}">pateikimų valdymo skydą</a>.</p><p>Pagarbiai,</p>{$signature}";s:39:"emails.editorDecisionSkipReview.subject";s:47:"Jūsų pateiktas darbas išsiųstas redagavimui";s:36:"emails.editorDecisionSkipReview.body";s:1013:"<p>Gerb. {$recipientName},</p>
+<p>Džiaugiuosi galėdamas pranešti, kad nusprendėme priimti jūsų pateiktą darbą be recenzijos. Jūsų pateiktas darbas, {$submissionTitle}, atitinka mūsų lūkesčius ir nereikalaujame, kad tokio tipo darbas būtų recenzuojamas recenzuojamo darbo. Džiaugiamės galėdami publikuoti jūsų straipsnį žurnale „{$contextName}“ ir dėkojame, kad pasirinkote mūsų žurnalą savo darbui publikuoti.</p>
+Jūsų darbas dabar bus publikuojamas būsimame „{$contextName}“ numeryje ir kviečiame jį įtraukti į savo publikacijų sąrašą. Vertiname sunkų darbą, įdedamą į kiekvieną sėkmingą darbą, ir norime jus pasveikinti su jūsų pastangomis.</p>
+<p>Jūsų darbas dabar bus redaguojamas ir formatuojamas, kad būtų paruoštas publikavimui. </p>
+<p>Netrukus gausite tolesnes instrukcijas.</p>
+<p>Jei turite klausimų, susisiekite su manimi per savo <a href="{$authorSubmissionUrl}">pateikimų valdymo skydelį</a>.</p>
+<p>Pagarbiai,</p>
+<p>{$parašas</p>
+";s:25:"emails.layoutRequest.body";s:704:"<p>Gerb. {$recipientName},</p><p>Naujas pateikimas paruoštas maketo redagavimui:</p><p><a href="{$submissionUrl}">{$submissionId} — {$submissionTitle}</a><br />{$contextName}</p><ol><li>Spustelėkite aukščiau esantį pateikimo URL.</li><li>Atsisiųskite gamybai paruoštus failus ir naudokite juos, kad sukurtumėte galerijas pagal žurnalo standartus.</li><li>Įkelkite galerijas į pateikimo skiltį „Publikacija“.</li><li>Naudodamiesi gamybos aptarimais, praneškite redaktoriui, kad galerijos yra paruoštos.</li></ol><p>Jei šiuo metu negalite atlikti šio darbo arba turite klausimų, susisiekite su manimi. Dėkojame už jūsų indėlį į šį žurnalą.</p><p>Pagarbiai,</p>{$signature}";s:29:"emails.layoutComplete.subject";s:17:"Maketas parengtas";s:26:"emails.layoutComplete.body";s:279:"<p>Gerb. {$recipientName},</p><p>Virtuvės paruoštos kitam pateikimui ir yra pasiruošusios galutinei peržiūrai.</p><p><a href="{$submissionUrl}">{$submissionTitle</a><br />{$contextName</p><p>Jei turite klausimų, susisiekite su manimi.</p><p>Pagarbiai,</p><p>{$signature</p>";s:24:"emails.emailLink.subject";s:24:"Jums aktualus straipsnis";s:21:"emails.emailLink.body";s:153:"Galbūt Jus sudomintų {$authors} straipsnis „{$authors}“, išspausdintas leidinio „{$volume}“ {$number}numeryje ({$year}): „{$contextName}“.";s:30:"emails.subscriptionNotify.body";s:780:"{$recipientName}:<br />
+<br />
+Internetinių žurnalų valdymo sistemoje Jūs esate užregistruotas kaip žurnalo „{$contextName}“ ({$recipientUsername}) prenumeratorius. Prenumeratos rūšis:<br />
+<br />
+{$recipientUsername}<br />
+<br />
+Kad gautumėte tik prenumeratoriams prieinamą medžiagą, vartotojo vardu „{$subscriptionSignature}“ prisijunkite sistemoje.<br />
+<br />
+Prisijungęs bet kuriuo metu galėsite keisti profilį ir slaptažodį. <br />
+<br />
+Atkreipiame dėmesį, kad institucijų, kurios yra užsiregistravusios kaip prenumeratoriai, atstovams nereikia prisijungti, nes prenumeratoriams skirta medžiaga sistemos pateikiama automatiškai.<br />
+<br />
+Jei kiltų klausimų, prašom kreiptis šio adresu.<br />
+<br />
+{$subscriptionContactSignature}";s:28:"emails.openAccessNotify.body";s:306:"<p>Gerb. {$recipientName},</p><p>Džiaugiamės galėdami pranešti, kad <a href="{$issueUrl}">{$issueIdentification</a> iš {$contextName} dabar prieinamas atvirosios prieigos režimu. Norint skaityti šį numerį, prenumeratos nebereikia.</p><p>Dėkojame, kad domitės mūsų darbu.</p>{$contextSignature}";s:39:"emails.subscriptionBeforeExpiry.subject";s:28:"Baigiasi prenumeratos laikas";s:36:"emails.subscriptionBeforeExpiry.body";s:558:"{$recipientName}:<br />
+<br />
+Jūsų vardu numatytos leidinio „{$contextName}“ ({$recipientUsername}) prenumeratos galiojimo laikas tuoj pasibaigs.<br />
+<br />
+{$recipientUsername}<br />
+Galioja iki: {$recipientUsername}<br />
+<br />
+Kad ir toliau galėtumėte skaityti žurnalą, prašom apsilankyti internetosvetainėje ir prenumeratą atnaujinti. Prie sisstemos galite prisijungti vartotojo vardu – kaip „{$subscriptionSignature}“.<br />
+<br />
+Jei kiltų klausimų, prašom kreiptis šiuo adresu. <br />
+<br />
+{$subscriptionContactSignature}";s:38:"emails.subscriptionAfterExpiry.subject";s:22:"Prenumerata pasibaigė";s:35:"emails.subscriptionAfterExpiry.body";s:502:"{$recipientName}:<br />
+<br />
+Jums numatytos leidinio „{$contextName}“ (${contextUrl}) prenumeratos galiojimo laikas baigėsi.<br />
+<br />
+Prenumeratos rūšis: {$subscriptionType}<br />
+Galioja iki: {$expiryDate}<br />
+<br />
+Jei norite prenumeratą atnaujinti, prašom apsilankyti interneto svetainėje. Prie sistemos galite prisijungti vartotojo vardu – kaip „{$recipientUsername}“.<br />
+<br />
+Jei kiltų klausimų, prašom kreiptis šiuo adresu. <br />
+<br />
+{$subscriptionSignature}";s:42:"emails.subscriptionAfterExpiryLast.subject";s:22:"Prenumerata nebegalima";s:39:"emails.subscriptionAfterExpiryLast.body";s:603:"{$recipientName}:<br />
+<br />
+Jums numatytos leidinio „{$contextName}“ (${contextUrl}) prenumeratos galiojimo laikas baigėsi.<br />
+Atkreipiame dėmesį, kad šis laiškas yra galutinis priminimas apie prenumeratos galiojimą.<br />
+<br />
+Prenumeratos rūšis: {$subscriptionType}<br />
+Galioja iki: {$expiryDate}<br />
+<br />
+Jei norite prenumeratą atnaujinti, prašom apsilankyti interneto svetainėje. Prie sistemos galite prisijungti vartotojo vardu – kaip „{$recipientUsername}“.<br />
+<br />
+Jei kiltų klausimų, prašom kreiptis šiuo adresu. <br />
+<br />
+{$subscriptionSignature}";s:39:"emails.subscriptionPurchaseIndl.subject";s:34:"Asmeninės prenumeratos užsakymas";s:36:"emails.subscriptionPurchaseIndl.body";s:453:"Asmens vardu užsakyta toliau nurodomos rūšies leidinio „{$contextName}“ prenumerata.<br />
+<br />
+Prenumeratos rūšis:<br />
+{$subscriptionType}<br />
+<br />
+Vartotojas:<br />
+{$subscriberDetails}<br />
+<br />
+Informacija apie narystę (jei ji numatyta):<br />
+{$membership}<br />
+<br />
+Jei norite prenumeratą peržiūrėti ar tikslinti, prašom apsilankyti toliau nurodomu adresu. <br />
+<br />
+Prenumeratos adresas: {$subscriptionUrl}<br />
+";s:40:"emails.subscriptionPurchaseInstl.subject";s:37:"Institucinės prenumeratos užsakymas";s:37:"emails.subscriptionPurchaseInstl.body";s:801:"Institucijos vardu užsakyta toliau nurodomos rūšies leidinio „{$contextName}“ prenumerata. Jei norite prenumeratą aktyvuoti, prašom apsilankyti nurodytu adresu ir nustatyti prenumeratą kaip „Galiojančią“.<br />
+<br />
+Prenumeratos rūšis:<br />
+{$subscriptionType}<br />
+<br />
+Institucija:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domenas (jei jis numatytas):<br />
+{$domain}<br />
+<br />
+IP intervalas (jei jis numatytas):<br />
+{$ipRanges}<br />
+<br />
+Asmuo susirašinėjimui:<br />
+{$subscriberDetails}<br />
+<br />
+Informacija apie narystę (jei numatyta):<br />
+{$membership}<br />
+<br />
+Jei prenumeratą norite peržiūrėti ar tikslinti, prašom apsilankyti toliau nurodomu adresu.<br />
+<br />
+Prenumeratos adresas: {$subscriptionUrl}<br />
+";s:36:"emails.subscriptionRenewIndl.subject";s:35:"Asmeninės prenumeratos pratęsimas";s:33:"emails.subscriptionRenewIndl.body";s:468:"Asmens vardu užsakyta prenumerata „{contextName}“ pratęsta. Toliau pateikiama informacija apie prenumeratą.<br />
+<br />
+Prenumeratos rūšis:<br />
+{$contextName}<br />
+<br />
+Vartotojas:<br />
+{$subscriptionType}<br />
+<br />
+Informacija apie narystę (jei numatyta):<br />
+{$subscriberDetails}<br />
+<br />
+Jei norite prenumeratą peržiūrėti ir tikslinti, prašom apsilankyti toliau nurodomu adresu.<br />
+<br />
+Prenumeratos adresas: {$membership}<br />
+";s:37:"emails.subscriptionRenewInstl.subject";s:38:"Institucinės prenumeratos pratęsimas";s:34:"emails.subscriptionRenewInstl.body";s:691:"Institucijos užsakyta prenumerata „{contextName}“ pratęsta. Toliau pateikiama informacija apie prenumeratą.<br />
+<br />
+Prenumeratos rūšis:<br />
+{$contextName}<br />
+<br />
+Institucija:<br />
+{$subscriptionType}<br />
+{$institutionName}<br />
+<br />
+Domenas (jei jis numatytas):<br />
+{$institutionMailingAddress}<br />
+<br />
+IP intervalas (jei jis numatytas):<br />
+{$domain}<br />
+<br />
+Asmuo susirašinėjimui:<br />
+{$ipRanges}<br />
+<br />
+Informacija apie narystę (jei numatyta):<br />
+{$subscriberDetails}<br />
+<br />
+Jei norite prenumeratą peržiūrėti ar tikslinti, prašom apsilankyti toliau nurodomu adresu.<br />
+<br />
+Prenumeratos adresas: {$membership}<br />
+";s:35:"emails.revisedVersionNotify.subject";s:21:"Straipsnio peržiūra";s:32:"emails.revisedVersionNotify.body";s:426:"<p>Gerb. {$recipientName},</p><p>Autorius įkėlė pataisymus pateiktam darbui <b>{$authorsShort} — {$submissionTitle}</b>. <p>Kaip paskirtas redaktorius, prašome prisijungti ir <a href="{$submissionUrl}">peržiūrėti pataisymus</a> bei nuspręsti, ar priimti, ar atmesti pateiktą darbą, ar jį išsiųsti tolesnei peržiūrai.</p><br><br>—<br>Tai automatinis pranešimas iš <a href="{$contextUrl}">{$contextName</a>.";s:43:"emails.statisticsReportNotification.subject";s:39:"Redakcinė veikla per {$month}, {$year}";s:40:"emails.statisticsReportNotification.body";s:763:"
+{$recipientName}, <br />
+<br />
+Jūsų žurnalo būklės ataskaita už {$month}, {$year} jau prieinama. Žemiau pateikiami pagrindiniai šio mėnesio statistiniai duomenys.<br />
+<ul>
+<li>Nauji šio mėnesio pateikimai: {$newSubmissions</li>
+<li>Atmesti šio mėnesio pateikimai: {$declinedSubmissions</li>
+<li>Priimti šio mėnesio pateikimai: {$acceptedSubmissions</li>
+<li>Bendras sistemoje pateiktų darbų skaičius: {$totalSubmissions</li>
+</ul>
+Prisijunkite prie žurnalo, kad peržiūrėtumėte išsamesnes <a href="{$editorialStatsLink}">redakcines tendencijas</a> ir <a href="{$publicationStatsLink}">publikuotų straipsnių statistiką</a>. Pridedama visa šio mėnesio redakcinių tendencijų kopija.<br />
+<br />
+Pagarbiai,<br />
+{$contextSignature}";s:27:"emails.announcement.subject";s:20:"{$announcementTitle}";s:24:"emails.announcement.body";s:183:"<b>{$announcementTitle</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Norėdami perskaityti <a href="{$announcementUrl}">visą pranešimą</a>, apsilankykite mūsų svetainėje.";s:41:"emails.paymentRequestNotification.subject";s:37:"Pranešimas apie mokėjimo užklausą";s:38:"emails.paymentRequestNotification.body";s:504:"<p>Gerb. {$recipientName},</p><p>Sveikiname, kad jūsų pateiktas darbas {$submissionTitle}, skirtas {$contextName}, buvo priimtas. Kadangi jūsų pateiktas darbas buvo priimtas, prašome sumokėti publikavimo mokestį.</p><p>Šis mokestis padengia jūsų pateikto darbo pateikimo publikavimui išlaidas. Norėdami atlikti mokėjimą, apsilankykite <a href="{$queuedPaymentUrl}">{$queuedPaymentUrl</a>.</p><p>Jei turite klausimų, žr. mūsų <a href="{$submissionGuidelinesUrl}">pateikimo gaires</a></p>";s:40:"emails.paymentRequestNotification.footer";s:89:"<br><br>—<br>Tai automatinis pranešimas iš <a href="{$contextUrl}">{$contextName</a>.";}}}

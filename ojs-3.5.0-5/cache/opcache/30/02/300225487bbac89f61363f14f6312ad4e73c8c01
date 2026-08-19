@@ -1,0 +1,1 @@
+1818656032a:3:{s:6:"domain";N;s:12:"plural-forms";s:100:"nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;";s:8:"messages";a:1:{s:0:"";a:2:{s:38:"plugins.generic.usageEvent.displayName";s:17:"Događaj upotrebe";s:38:"plugins.generic.usageEvent.description";s:67:"Stvara kuku koja pruža događaj korištenja u definisanom formatu.";}}}

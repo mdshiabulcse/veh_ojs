@@ -1,0 +1,1 @@
+1818656036a:3:{s:6:"domain";N;s:12:"plural-forms";s:25:"nplurals=2; plural=n > 1;";s:8:"messages";a:1:{s:0:"";a:2:{s:38:"plugins.generic.lensGalley.description";s:105:"Este plugin fornece suporte de renderização para composições no formato JATS XML usando o eLife Lens.";s:38:"plugins.generic.lensGalley.displayName";s:37:"Visualizador de artigos do eLife Lens";}}}

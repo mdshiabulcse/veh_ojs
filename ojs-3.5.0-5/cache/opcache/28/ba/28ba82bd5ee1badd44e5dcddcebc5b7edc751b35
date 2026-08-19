@@ -1,0 +1,1 @@
+1818656032a:3:{s:6:"domain";N;s:12:"plural-forms";s:26:"nplurals=2; plural=n != 1;";s:8:"messages";a:1:{s:0:"";a:2:{s:38:"plugins.generic.usageEvent.displayName";s:69:"Модул (плъгин) за събития при употреба";s:38:"plugins.generic.usageEvent.description";s:170:"Създава кука (точка на обработка), която предоставя събитие за използване в определен формат.";}}}

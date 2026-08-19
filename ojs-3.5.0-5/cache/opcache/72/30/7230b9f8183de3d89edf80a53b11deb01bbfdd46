@@ -1,0 +1,15 @@
+1818656032a:3:{s:6:"domain";N;s:12:"plural-forms";s:26:"nplurals=2; plural=n != 1;";s:8:"messages";a:1:{s:0:"";a:10:{s:41:"plugins.importexport.datacite.displayName";s:43:"گرێدان/ تۆمارکردنی DataCite";s:41:"plugins.importexport.datacite.description";s:161:"کێشەکە، توێژینەوەکە، تابلۆکا و فایلە پاشکۆکان هەناردە یان تۆمار بکە لە ڕێکخستنی DataCiteدا.";s:50:"plugins.importexport.datacite.settings.description";s:108:"تکایە DataCiteی گرێدانی هەناردە ساز بدە پێش ئەوەی بەکار بهێنیت.";s:35:"plugins.importexport.datacite.intro";s:1082:"
+		ئەگەر دەتەوێت DOI و DataCiteت تۆمار بکەیت تکایە پەیوەندی بە بەڕێوەبردنەوە بکە
+		لە لایەن the <a href="http://datacite.org/contact" target="_blank">DataCite
+		پەڕەی سەرەکی</a>, کە ئاماژە بە ئەندامبونی DataCite ناوخۆ دەکات. کاتێک تۆ
+		پەیوەندیت لەگەڵ دەزگایەکی ئەندامدا دروست کردبێت، تۆ 
+		ئەکسێسی DataCite ت پێ دەدرێت بۆ بەدەستهێنانی (DOIs)
+		و تۆمارکردنی زانیاریی ناسێنەر. ئەگەر تۆ ئەژماری کەسی و 
+		ژمارەی نهێنیت نییە، هەر دەتوانیت ڕێکخستنی DataCite XML هەناردە بکەیت بەڵام
+		ناتوانیت DOIs تۆمار بکەیت لەگەڵ DataCite لە سیستەمی گۆڤاری کراوەدا.
+		تکایە ئاگاداری ئەوە بە کە وشەی نهێنییەکەت بە شێوەی تێکست تۆمار دەبێت بەهۆی
+		شێوازی کارکردنی خزمەتگوزاریی DataCite
+	";s:52:"plugins.importexport.datacite.settings.form.username";s:40:"ناوی بەکارهێنەر (هێما)";s:60:"plugins.importexport.datacite.settings.form.usernameRequired";s:218:"تکایە ناوی بەکارهێنەر بە شێوەی (هێما) لێ بدە کە لە DataCiteەوە بەدەستت گەیشتووە. ناوی بەکارهێنەرەکە نابێت فاریزە لەخۆ بگرێت.";s:77:"plugins.importexport.datacite.settings.form.automaticRegistration.description";s:353:"سیستەمی گۆڤاری کراوە DOI بە شێوەیەکی تۆماتیکی بە DataCite  دەبەخشێت. تکایە ئاگاداری ئەوە بە کە ئەمە دوای بڵاوکردنەوە لەوانەیە هەندێک کاتی پێویست بێت. تۆ دەتوانیت بۆ هەمو DOIیە تۆمارنەکراوەکان بگەڕێیت.";s:64:"plugins.importexport.datacite.settings.form.testMode.description";s:136:"تێستی DataCite بۆ تۆمارکردنی DOI بەکار بهێنە. تکایە ئەمە پێش بڵاوکردنەوە بسڕەوە.";s:45:"plugins.importexport.datacite.senderTask.name";s:51:"تۆمارکردنی تۆماتیکی لە DataCite";s:38:"plugins.importexport.datacite.cliUsage";s:245:"بەکارهێنان:
+{$scriptName} {$pluginName} export [outputFileName] [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} register [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+";}}}

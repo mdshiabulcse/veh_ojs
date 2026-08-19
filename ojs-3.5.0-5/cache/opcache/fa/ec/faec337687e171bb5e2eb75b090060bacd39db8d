@@ -1,0 +1,54 @@
+1818656033a:3:{s:6:"domain";N;s:12:"plural-forms";N;s:8:"messages";a:1:{s:0:"";a:27:{s:28:"emails.submissionAck.subject";s:45:"قدردانی برای ارسال مقاله";s:25:"emails.submissionAck.body";s:651:"{$recipientName}:<br />
+<br />
+از ارسال مقاله &quot;{$submissionTitle}&quot; به {$contextName} متشکرم. با استفاده از سامانه الکترونیکی مدیریت مجله، که هم اکنون استفاده می شود، قادر خواهید بود ازطریق وارد شدن به وب سایت مجله، روند پیشرفت بررسی مقاله خود را پیگیری نمائید.<br />
+<br />
+آدرس مقاله : {$submissionUrl}<br />
+نام کاربری: {$recipientUsername}<br />
+<br />
+لطفا چنانچه سوالی دارید، با من تماس بگیرید.<br />
+<br />
+{$contextSignature}";s:32:"emails.submissionAck.description";s:196:"در صورت فعال سازی. این ایمیل به صورت خودکار به نوسنده مقاله پس از تکمیل عملیات ارسال مقاله، فرستاده خواهد شد.";s:24:"emails.reviewAck.subject";s:47:"قدردانی بخاطر بررسی مقاله";s:21:"emails.reviewAck.body";s:296:"{$recipientName}:<br />
+<br />
+برای بررسی مقاله ارسالی &quot;{$submissionTitle}&quot;مربوط به {$contextName}، از شما سپاسگزاریم. مساعدت شما را که باعث ارتقاء سطح کیفی مقاله ای که چاپ شد، ارج می نهیم.";s:43:"emails.editorDecisionSendToExternal.subject";s:19:"تصمیم دبیر";s:40:"emails.editorDecisionSendToExternal.body";s:311:"{$authors}:<br />
+<br />
+در مورد مقاله ارسالی شما (&quot;{$submissionTitle}&quot;) در {$contextName} تصمصم نهایی اتخاذ شده است.<br />
+<br />
+تصمیم : ارسال به داور خارجی<br />
+<br />
+مشاهده وضعیت مقاله ارسالی: {$submissionUrl}";s:45:"emails.editorDecisionSendToProduction.subject";s:19:"تصمیم دبیر";s:42:"emails.editorDecisionSendToProduction.body";s:263:"{$authors}:<br />
+<br />
+ روند داوری مقاله ارسالی شما (&quot;{$submissionTitle}&quot;)  تکمیل شده و به واحد انتشار ارسال شده است.<br />
+<br />
+مشاهده وضعیت مقاله ارسالی: {$submissionUrl}";s:38:"emails.editorDecisionRevisions.subject";s:19:"تصمیم دبیر";s:35:"emails.editorDecisionRevisions.body";s:269:"{$authors}:<br />
+<br />
+در مورد مقاله ارسالی شما (&quot;{$submissionTitle}&quot;) در {$contextName} تصمصم نهایی اتخاذ شده است.<br />
+<br />
+تصمیم : مقاله ارسالی نیاز به انجام اصلاحات دارد";s:37:"emails.editorDecisionResubmit.subject";s:19:"تصمیم دبیر";s:34:"emails.editorDecisionResubmit.body";s:250:"{$authors}:<br />
+<br />
+در مورد مقاله ارسالی شما (&quot;{$submissionTitle}&quot;) در {$contextName} تصمصم نهایی اتخاذ شده است.<br />
+<br />
+تصمیم نهایی: ارسال دوباره برای داوری";s:36:"emails.editorDecisionDecline.subject";s:19:"تصمیم دبیر";s:33:"emails.editorDecisionDecline.body";s:248:"{$authors}:<br />
+<br />
+در مورد مقاله ارسالی شما (&quot;{$submissionTitle}&quot;) در {$contextName} تصمصم نهایی اتخاذ شده است.<br />
+<br />
+تصمیم نهایی: عدم پذیرش مقاله ارسالی";s:35:"emails.editorRecommendation.subject";s:19:"توصیه دبیر";s:32:"emails.editorRecommendation.body";s:177:"{$editors}:<br />
+<br />
+توصیه اینجانب در مورد مقاله ارسالی (&quot;{$submissionTitle}&quot;) در {$contextName} ، {$recommendation} می باشد.";s:30:"emails.copyeditRequest.subject";s:53:"درخواست انجام امور ویراستاری";s:27:"emails.copyeditRequest.body";s:731:"{$recipientName}:<br />
+<br />
+از شما درخواست می شود که امور ویراستاری مقاله &quot;{$submissionTitle}&quot; مربوط به {$contextName} را برعهده بگیرید. شما می توانید فایل مربوطه به همراه مجموعه ای از دستورالعمل های نحوه ویراستاری مقاله را در وب سایت مجله دریافت کنید.<br />
+<br />
+چنانچه در حال حاضر قادر به انجام امور مذکور نیستید و یا سوالی در این زمینه دارید، لطفا با من تماس بگیرید. پیشاپیش از قبول انجام امور ویراستاری برای این مجله سپاسگزارم.";s:43:"emails.editorDecisionInitialDecline.subject";s:19:"تصمیم دبیر";s:40:"emails.editorDecisionInitialDecline.body";s:224:"{$authors}:<br />
+<br />
+در مورد مقاله ارسالی شما (&quot;{$submissionTitle}&quot;) در {$contextName} تصمصم نهایی اتخاذ شده است.<br />
+<br />
+تصمیم نهایی: عدم پذیرش";s:25:"emails.discussion.subject";s:34:"پیامی برای {$contextName}";s:22:"emails.discussion.body";s:49:"لطفاً پیام خود را وارد کنید";s:28:"emails.reviewConfirm.subject";s:36:"داوری را قبول می کنم";s:25:"emails.reviewConfirm.body";s:332:"دبیر محترم:<br />
+<br />
+اینجانب داوری مقاله ارسالی &quot;{$submissionTitle}&quot;مربوط به {$contextName} را قبول می نمایم. از توجه شما متشکرم و بررسی آنرا در موعد مقرر ( {$reviewDueDate}) انجام خواهد داد.<br />
+<br />
+{$senderName}";s:37:"emails.submissionAckNotAuthor.subject";s:45:"قدردانی برای ارسال مقاله";s:34:"emails.submissionAckNotAuthor.body";s:418:"با سلام,<br />
+<br />
+مقاله {$submitterName} مقاله &quot;{$submissionTitle}&quot; را به مجله {$contextName} ارسال نمودند <br />
+<br />
+در صورت داشتن هر گونه سوالی با من تماس حاصل فرمایید. از اینکه نتیجه پژوهش خود را برای این مجله ارسال نمودید، سپاسگذاریم<br />
+<br />
+{$contextSignature}";}}}

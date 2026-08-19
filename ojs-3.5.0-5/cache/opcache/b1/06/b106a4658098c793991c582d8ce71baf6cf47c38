@@ -1,0 +1,182 @@
+1818656031a:3:{s:6:"domain";N;s:12:"plural-forms";s:98:"nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;";s:8:"messages";a:1:{s:0:"";a:70:{s:35:"emails.passwordResetConfirm.subject";s:54:"تأكيد إعادة تعيين كلمة المرور";s:32:"emails.passwordResetConfirm.body";s:504:"لقد تلقينا طلباً لإعادة تعيين كلمة مرورك في الموقع {$siteTitle}.<br />
+<br />
+إن لم تكن أنت شخصياً من أرسل هذا الطلب، لطفاً تجاهل هذه الرسالة لتحتفظ بكلمة مرورك إلى الموقع دون تغيير. لو أردت إعادة تعيين كلمة مرورك، أنقر الرابط أدناه.<br />
+<br />
+أعد تعيين كلمة مروري: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}";s:27:"emails.userRegister.subject";s:32:"التسجيل في المجلة";s:24:"emails.userRegister.body";s:584:"{$recipientName}<br />
+<br />
+أنت الآن مسجل كمستخدم ضمن {$contextName}. قمنا بتضمين اسم الدخول وكلمة المرور في هذه الرسالة، كونهما ضروريان لمتابعة كل الأعمال والوظائف في موقع المجلة. يمكنك المطالبة في أي وقت بإزالة اسمك من قائمة المستخدمين المسجلين عبر مراسلتي.<br />
+<br />
+اسم الدخول: {$recipientUsername}<br />
+كلمة المرور: {$password}<br />
+<br />
+شكراً لك.<br />
+{$signature}";s:34:"emails.userValidateContext.subject";s:28:"تأكيد صحة حسابك";s:31:"emails.userValidateContext.body";s:361:"{$recipientName}<br />
+<br />
+قمت بإنشاء حساب في {$contextName}، لكن قبل شروعك باستعماله، عليك تأكيد عنوان بريدك الالكتروني، وكل ما عليك القيام به الآن، اتباع الرابط أدناه:<br />
+<br />
+{$activateUrl}<br />
+<br />
+شكراً لك.<br />
+{$contextSignature}";s:31:"emails.userValidateSite.subject";s:28:"تأكيد صحة حسابك";s:28:"emails.userValidateSite.body";s:381:"{$recipientName}<br />
+<br />
+لقد أنشأت حسابًا في {$siteTitle}، ولكن قبل أن يتسنى لك استعماله، أنت بحاجة إلى تأكيد صحة عنوان بريدك الالكتروني. للقيام بذلك، فقط عليك اتباع الرابط أدناه:<br />
+<br />
+{$activateUrl}<br />
+<br />
+شكرًا لك،<br />
+{$siteSignature}";s:31:"emails.reviewerRegister.subject";s:52:"التسجيل بصفة محكم في {$contextName}";s:28:"emails.reviewerRegister.body";s:1414:"<p>عزيزي {$recipientName},</p><p>في ضوء ما هو معروف عنك من خبرة، سنحت لنا الظروف بتسجيل اسمك ضمن قاعدة بياناتنا للمحكمين في موقع {$contextName}. هذا الأمر لا يترتب عليه أي مستوى من الإلتزام من جهتك، بل ببساطة، يمكننا من التواصل معك بشأن إحتمالية تحكيم بعض طلبات النشر التي ترد مجلتنا. فيما لو تمت دعوتك مستقبلاً لغرض التحكيم، ستكون لك فرصة الاطلاع على عنوان المؤلَّف وملخصه، وستكون صاحب الرأي بشأن الموافقة على تلك الدعوة أو الاعتذار عنها. فضلاً عن ذلك، بإمكانك دوماً المطالبة برفع اسمك من قائمة المحكمين هذه.</p><p>نحن نزودك باسم الدخول وكلمة المرور الخاصين بك، واللذين يتيحان لك القيام بكل الفعاليات المتعلقة بعملك ضمن موقعنا. فقد ترغب، على سبيل المثال، بتحديث بيانات ملفك الشخصي وتضمين المجالات العلمية التي يهمك التحكيم فيها.</p><p>اسم الدخول: {$recipientUsername}<br />كلمة المرور: {$password}</p><p>شكراً لك.</p>{$signature}";s:33:"emails.issuePublishNotify.subject";s:83:"توًا صدر العدد: {$issueIdentification} من المجلة {$contextName}";s:30:"emails.issuePublishNotify.body";s:515:"<p>عزيزي {$recipientName}،</p><p>يسعدنا أن نعلن عن إصدار <a href="{$issueUrl}">{$issueIdentification}</a> من{$contextName}. نحن ندعوكم إلى قراءة هذا العمل ومشاركته مع مجتمعكم العلمي.</p><p>جزيل الشكر للمؤلفين، المحكمين، والمحررين للإسهاماتهم القيمة، ولقرائنا لاهتمامهم المستمر بأعمالنا.</p><div>{$issueToc}</div><p>مع الاعتزاز،</p>{$signature}";s:27:"emails.editorAssign.subject";s:94:"لقد تم تعيينك كمحرر لطلب التقديم الموجه إلى {$contextName}";s:24:"emails.editorAssign.body";s:787:"<p>عزيزي {$recipientName}،</p><p>طلب التقديم الآتي قد تمت إحالته إليك لتقوم بإجراءات التحرير المتعلقة به.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>الملخص</b></p>{$submissionAbstract}<p>إذا وجدت بأن طلب التقديم ذي صلة بـ {$contextName}، يرجى تمريره إلى مرحلة التحكيم عبر اختيار "الإرسال إلى التحكيم" ومن ثم قم بتعيين المحكمين عبر النقر على "إضافة محكم".</p><p>إذا كان طلب التقديم غير مناسب لهذه المجلة، يرجى رفض الطلب.</p><p>شكرًا لك مقدمًا.</p><p>أطيب التحايا،</p>{$contextSignature}";s:30:"emails.editorAssignReview.body";s:607:"<p>عزيزي {$recipientName}،</p><p>لقد تم تكليفك بطلب التقديم الآتي لمتابعته خلال عملية التحكيم المناظر.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>الملخص</b></p>{$submissionAbstract}<p>يرجى تسجيل الدخول <a href="{$submissionUrl}">لمعاينة طلب التقديم</a> وتعيين المحكمين المؤهلين له. يمكنك تعيين المحكم عبر النقر على "إضافة محكم".</p><p>شكرًا مقدمًا.</p><p>أطيب التحايا،</p>{$signature}";s:34:"emails.editorAssignProduction.body";s:752:"<p>عزيزي {$recipientName}،</p><p>لقد تم تكليفك بطلب التقديم الآتي لمتابعته خلال مرحلة الإنتاج.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>الملخص</b></p>{$submissionAbstract}<p>يرجى تسجيل الدخول <a href="{$submissionUrl}">لمعاينة طلب التقديم</a>. بمجرد توافر الملفات الجاهزة للإنتاج، إرفعها من خلال مقطع <strong>الألواح الطباعية للإنتاج</strong>. بعدها قم بجدولة العمل للنشر عبر النقر على زر <strong>الجدولة للنشر</strong>.</p><p>شكرًا مقدمًا.</p><p>أطيب التحايا،</p>{$signature}";s:28:"emails.reviewRequest.subject";s:34:"دعوة لتحكيم مؤلَّف";s:25:"emails.reviewRequest.body";s:1276:"<p>عزيزي {$recipientName}،</p><p>كلي ثقة بأنك ستكون محكماً متميزاً للمؤلَّف المقدم إلى {$contextName}. إن عنوانه وملخصه مبينان أدناه، وأنا أرجو أنك ستأخذ على عاتقك إنجاز هذه المهمة لمجلتنا.</p><p>إن كنت قادرًا على تحكيم طلب التقديم هذا، فإن الموعد النهائي لتسليم تحكيمك هو {$reviewDueDate}. يمكنك معاينة طلب التقديم ورفع ملفات التحكيم وتسليمه عبر تسجيل دخولك إلى موقع المجلة ومتابعة الخطوات المذكورة في الرابط الآتي.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>الملخص</b></p>{$submissionAbstract}<p>يرجى <a href="{$reviewAssignmentUrl}">قبول تولي المهمة أو رفضها</a> في موعد أقصاه <b>{$responseDueDate}</b>.</p><p>يمكنك التواصل معي بشأن أي استفسارات متعلقة بطلب التقديم وعملية تحكيمه.</p><p>نشكر لك اهتمامك بالتماسنا هذا. مساعدتك لنا نقابلها ببالغ التقدير.</p><p>أطيب التحايا،</p>{$signature}";s:40:"emails.reviewResponseOverdueAuto.subject";s:66:"هل ستتمكن من تحكيم هذا المؤلَّف لنا؟";s:37:"emails.reviewResponseOverdueAuto.body";s:1391:"<p>عزيزي {$recipientName}</p><p>هذه الرسالة هي تذكير آلي من جانب {$contextName} بشأن إلتماسنا لحضرتكم تحكيم طلب التقديم الموسوم "{$submissionTitle}."</p><p>أنت تتلقى هذه الرسالة لأننا لم نتسلم منك حتى الآن تأكيدًا بقبول أو رفض توليك لمهمة تحكيمه.</p><p>يرجى إعلامنا ما إذا كنت قادرًا على التكفل بهذا التحكيم عبر استعمال برنامجنا لإدارة طلبات التقديم لتوثيق قبولك أو رفضك.</p><p>إن كنت قادرًا على تولي مهمة التحكيم هذه، فتسليمك للتحكيم موعده النهائي هو {$reviewDueDate}. يمكنك اتباع خطوات التحكيم لمعاينة طلب التقديم، رفع ملفات التحكيم، وتسليم ملاحظات تحكيمك.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>الملخص</b></p>{$submissionAbstract}<p>رجاءً لا تتردد في مراسلتي بشأن أي استفسارات تتعلق بطلب التقديم أو عملية تحكيمه.</p><p>نشكر لك أخذك لالتماسنا هذا بنظر الاعتبار. مساعدتك نقابلها ببالغ التقدير.</p><p>أطيب التحايا،</p>{$contextSignature}";s:38:"emails.reviewRequestSubsequent.subject";s:45:"إلتماس تحكيم مؤلَّف منقح";s:35:"emails.reviewRequestSubsequent.body";s:1344:"<p>عزيزي {$recipientName}،</p><p>شكرًا لقيامك بتحكيم <a href="{$reviewAssignmentUrl}">{$submissionTitle}</a>. لقد أخذ المؤلفون آراء المحكمين بنظر الاعتبار وقدموا نسخة منقحة من عملهم. إنني أراسل بشأن رغبتكم بإجراء جولة تحكيم مناظر ثانية لطلب التقديم هذا.</p><p>إن كنتم قادرين على تولي مهمة التحكيم هذه، فتسليم التحكيم موعده النهائي هو {$reviewDueDate}. يمكنكم <a href="{$reviewAssignmentUrl}">اتباع خطوات التحكيم</a> لمعاينة طلب التقديم، رفع ملفات التحكيم، وتسليم ملاحظاته.<p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p>الملخص</p>{$submissionAbstract}<p>يرجى <a href="{$reviewAssignmentUrl}">قبول تولي المهمة أو رفضها</a> في موعد أقصاه<b>{$responseDueDate}</b>.</p><p>رجاءً لا تترددوا في مراسلتي بشأن أي استفسارات تتعلق بطلب التقديم أو عملية تحكيمه.</p><p>نشكر لكم أخذكم لالتماسنا هذا بنظر الاعتبار. مساعدتكم نقابلها ببالغ التقدير.</p><p>أطيب التحايا،</p>{$signature}";s:27:"emails.reviewCancel.subject";s:38:"إلغاء إلتماس التحكيم";s:24:"emails.reviewCancel.body";s:605:"<p> عزيزي {$recipientName}،</p><p>مؤخرًا، إلتمسنا منكم تحكيم طلب تقديم معنون إلى {$contextName}. لقد قررنا إلغاء إلتماسنا لكم بتحكيم المؤلَّف الموسوم، {$submissionTitle}.</p><p>نحن نعتذر عن أي إزعاج قد يسببه ذلك لحضرتكم، ونأمل التواصل معكم مستقبلاً فيما يتعلق بتحكيم طلبات التقديم المرسلة إلى هذه المجلة.</p><p>إن كانت لديكم أي استفسارات، لطفاً، إتصلوا بي.</p>{$signature}";s:30:"emails.reviewReinstate.subject";s:82:"هل لا زال بإمكانك تحكيم أي شيء لصالح {$contextName}؟";s:27:"emails.reviewReinstate.body";s:805:"<p>عزيزي {$recipientName}،</p><p>ألغينا مؤخرًا إلتماسنا لكم لتحكيم طلب التقديم الموسوم {$submissionTitle}، لصالح {$contextName}. لقد قمنا بمراجعة ذلك القرار وكلنا أمل بأنكم لا تزالون قادرين على تولي مهمة التحكيم.</p><p>إذا كنتم راغبين بإبداء العون لنا في عملية التحكيم لهذه المجلة، بإمكانكم <a href="{$reviewAssignmentUrl}">تسجيل الدخول إلى موقع المجلة</a>لمعاينة طلب التقديم، رفع ملفات التحكيم، وتسليم نتيجته.</p><p>إذا كانت لديكم أي استفسارات، يرجى التواصل معي.</p><p>أطيب التحايا،</p>{$signature}";s:28:"emails.reviewDecline.subject";s:37:"غير قادر على التحكيم";s:25:"emails.reviewDecline.body";s:331:"أعزائي المحررون:<br />
+<br />
+أخشى أنني حالياً غير متفرغ لتحكيم المؤلَّف الموسوم &quot;{$submissionTitle},&quot; والمرسل إلى {$contextName}. أشكر لكم إعتمادكم عليَّ وأرجو التواصل معي في وقت آخر.<br />
+<br />
+{$senderName}";s:27:"emails.reviewRemind.subject";s:47:"تذكير يلتمس إكمال التحكيم";s:24:"emails.reviewRemind.body";s:890:"<p>عزيزي {$recipientName}،</p><p>هذا مجرد تذكير لجنابكم الكريم بشأن تحكيمكم للمؤلَّف الموسوم "{$submissionTitle}"، لصالح {$contextName}. نحن نأمل الحصول منكم على هذا التحكيم في موعد أقصاه {$reviewDueDate} ونرجو أن نتلقاه منكم حالماً تكونوا جاهزين لإرساله.</p><p>يمكنكم <a href="{$reviewAssignmentUrl}">تسجيل الدخول إلى موقع المجلة</a> وتتبع خطوات التحكيم لمعاينة طلب التقديم، رفع ملفات التحكيم، وتسليم ملاحظاتكم بشأنه.</p><p>إذا كنتم بحاجة إلى تمديد الموعد، يرجى التواصل معي. إنني أتطلع إلى ردكم الكريم.</p><p>شكرًا مقدمًا مع أطيب التحايا،</p>{$signature}";s:31:"emails.reviewRemindAuto.subject";s:45:"تذكير يلتمس إكمال تحكيمك";s:28:"emails.reviewRemindAuto.body";s:958:"<p>عزيزي {$recipientName}:</p><p>رسالة البريد الالكتروني هذه هي تذكير آلي من {$contextName} بشأن إلتماسنا لجنابكم الكريم تحكيم طلب التقديم الموسوم، "{$submissionTitle}".</p><p>كنا نأمل الحصول منكم على هذا التحكيم في موعد أقصاه {$reviewDueDate} ونرجو أن نتلقاه منكم حالماً تكونوا جاهزين لإرساله.</p><p>يرجى <a href="{$reviewAssignmentUrl}">تسجيل الدخول إلى موقع المجلة</a> وتتبع خطوات التحكيم لمعاينة طلب التقديم، رفع ملفات التحكيم، وتسليم ملاحظاتكم بشأنه.</p><p>إذا كنتم بحاجة إلى تمديد الموعد، يرجى التواصل معي. إنني أتطلع إلى ردكم الكريم.</p><p>شكرًا مقدمًا مع أطيب التحايا،</p>{$contextSignature}";s:35:"emails.editorDecisionAccept.subject";s:60:"لقد تم قبول طلب تقديمك في {$contextName}";s:32:"emails.editorDecisionAccept.body";s:1175:"<p>عزيزي {$recipientName}،</p><p>يسعدني إبلاغك بأننا قررنا قبول طلب تقديمك بدون المزيد من التنقيحات. بعد المراجعة المتأنية، وجدنا بأن طلب تقديمك، {$submissionTitle}، يلبي توقعاتنا أو يفوقها. نحن متحمسون لنشر عملك في {$contextName} ونشكرك على اختيار مجلتنا محلاً لإظهار عملك.</p><p>طلب تقديمك من المتوقع نشره في عدد قادم من {$contextName} ويسعدنا أن تضمنه في قائمة أعمالك المنشورة. نحن نميز الجهد المبذول وراء كل طلب تقديم ناجح ونود تهنئتك على بلوغ هذه المرحلة.</p><p>سيخضع طلب تقديمك الآن إلى التدقيق الإملائي والتنسيق لتحضيره للنشر.</p><p>ستتلقى قريبًا المزيد من التعليمات.</p><p>إن كانت لديك أي أسئلة، يرجى التواصل معي من <a href="{$authorSubmissionUrl}">دفة قيادة طلب تقديمك</a>.</p><p>أطيب التحايا،</p>{$signature}";s:39:"emails.editorDecisionSkipReview.subject";s:61:"طلب تقديمك تمت إعادته إلى التدقيق";s:36:"emails.editorDecisionSkipReview.body";s:1236:"<p>عزيزي {$recipientName}،</p>
+<p>يسعدني إبلاغك بأننا قررنا قبول طلب تقديمك بدون إجراء التحكيم المناظر. لقد وجدنا بأن طلب تقديمك، {$submissionTitle}، يلبي توقعاتنا، ولا يتطلب عمل من هذا النوع أن يخضع لإجراءات التحكيم المناظر. نحن نتوقع نشر عملك في {$contextName} ونشكرك على اختيار مجلتنا محلاً لإظهار عملك.</p>
+<p>طلب تقديمك من المتوقع نشره في عدد قادم من {$contextName} ويسعدنا أن تضمنه في قائمة أعمالك المنشورة. نحن نميز الجهد المبذول وراء كل طلب تقديم ناجح ونود تهنئتك على هذا المجهود.</p>
+<p>سيخضع طلب تقديمك الآن إلى التدقيق الإملائي والتنسيق لتحضيره للنشر.</p>
+<p>ستتلقى قريبًا المزيد من التعليمات.</p>
+<p>إن كانت لديك أي أسئلة، يرجى التواصل معي من <a href="{$authorSubmissionUrl}">دفة قيادة طلب تقديمك</a>.</p>
+<p>أطيب التحايا،</p>
+<p>{$signature}</p>
+";s:28:"emails.layoutRequest.subject";s:115:"طلب التقديم {$submissionId} صار جاهزًا لمرحلة الإنتاج من أجل {$contextAcronym}";s:25:"emails.layoutRequest.body";s:984:"<p>عزيزي {$recipientName}،</p><p>طلب تقديم جديد صار جاهزًا لتعديل إخراجه الطباعي:</p><p><a href="{$submissionUrl}">{$submissionId} — {$submissionTitle}</a><br />{$contextName}</p><ol><li>. أنقر على رابط طلب التقديم أعلاه.</li><li>. قم بتنزيل الملفات الجاهزة للإنتاج واستعملها لإنشاء الألواح الطباعية بما يتناسب مع معايير المجلة.</li><li>.إرفع هذه الألواح إلى مقطع النشر العائد لطلب التقديم.</li><li>إستعمل مناقشات الإنتاج لإشعار المحرر بأن الألواح الطباعية صارت جاهزة.</li></ol><p>إذا تعذر عليك القيام بهذا العمل حاليًا أو كانت لديك أي أسئلة، أرجو التواصل معي. شكرًا لمساهمتك في هذه المجلة.</p><p>أطيب التحايا،</p>{$signature}";s:29:"emails.layoutComplete.subject";s:46:"التصميمات الطباعي إكتملت";s:26:"emails.layoutComplete.body";s:417:"<p>عزيزي {$recipientName}،</p><p>لقد تم تحضير الألواح الطباعية الخاصة بطلب التقديم الآتي وصارت جاهزة للمراجعة الأخيرة.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$contextName}</p><p>إن كانت لديكم أي استفسارات، أرجو التواصل معي.</p><p>أطيب التحايا،</p><p>{$senderName}</p>";s:24:"emails.emailLink.subject";s:33:"مقالة قد تكون مهمة";s:21:"emails.emailLink.body";s:325:"لقد وجدت أن المقالة العلمية الموسومة &quot;{$submissionTitle}&quot; قد تحوز على إهتمامك، وهي من تأليف {$authors} ومنشورة في المجلد {$volume}، العدد {$number} لسنة ({$year}) من {$contextName} على الرابط &quot;{$submissionUrl}&quot;.";s:28:"emails.emailLink.description";s:388:"قالب هذه الرسالة نموذج لما يرسله قارئ مسجل في موقع المجلة إلى أحد معارفه ملفتاً نظره إلى مقالة علمية أو بحث. تلك الخاصية متوافرة عبر أدوات القراءة وينبغي تفعيلها من قبل مدير موقع المجلة في صفحة إدارة أدوات القراءة.";s:33:"emails.subscriptionNotify.subject";s:27:"إشعار الإشتراك";s:30:"emails.subscriptionNotify.body";s:1100:"{$recipientName}:<br />
+<br />
+لقد حزت على الإشتراك في موقع مجلتنا على الإنترنت والتي تحمل اسم {$contextName}، وإن هذا الإشتراك هو من نوع:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+للوصول إلى المحتوى المخصص للمشتركين حصراً، ببساطة قم بالدخول إلى الموقع مستعملاً اسم الدخول: &quot;{$recipientUsername}&quot;.<br />
+<br />
+بمجرد دخولك إلى النظام، يمكنك تعديل تفاصيل ملفك التعريفي وكلمة مرورك وفي أي وقت تشاء.<br />
+<br />
+لاحظ لطفاً أنك إن كنت حاصلاً على اشتراك مؤسساتي، فلا داعي لأفراد مؤسستك لتسجيل دخولهم إلى الموقع، طالماً أن محتوى طلبات الإشتراك ستكون عندها مصرحاً لها تلقائياً في النظام.<br />
+<br />
+إن كانت لديك أية استفسارات، فلا تتردد في مراسلتي.<br />
+<br />
+{$subscriptionSignature}";s:31:"emails.openAccessNotify.subject";s:111:"قراءة مجانية: صار الآن {$issueIdentification} من {$contextName} متاحًا بالمجان";s:28:"emails.openAccessNotify.body";s:363:"<p>عزيزي {$recipientName}،</p><p>يسعدنا إبلاغكم بأن <a href="{$issueUrl}">{$issueIdentification}</a> من {$contextName} صار متاحًا الآن بشكل مفتوح. لم يعد الاشتراك مطلوبًا لقراءة هذا العدد.</p><p>نشكر لكم إهتمامكم الدائم بنتاجاتنا.</p>{$contextSignature}";s:39:"emails.subscriptionBeforeExpiry.subject";s:55:"إشعار بانتهاء صلاحية الإشتراك";s:36:"emails.subscriptionBeforeExpiry.body";s:597:"{$recipientName}:<br />
+<br />
+إن إشتراكك في {$contextName} على وشك الإنتهاء.<br />
+<br />
+{$subscriptionType}<br />
+تاريخ إنتهاء صلاحيته: {$expiryDate}<br />
+<br />
+لضمان استمرارية وصولك إلى هذه المجلة، لطفاً أدخل موقعها وجدد إشتراكك. بإمكانك الولوج إلى النظام مستعملاً اسم الدخول: &quot;{$recipientUsername}&quot;.<br />
+<br />
+إن كانت لديك أية استفسارات، فلا تتردد في مراسلتي.<br />
+<br />
+{$subscriptionSignature}";s:38:"emails.subscriptionAfterExpiry.subject";s:40:"إنتهت صلاحية الإشتراك";s:35:"emails.subscriptionAfterExpiry.body";s:534:"{$recipientName}:<br />
+<br />
+إن مدة إشتراكك في {$contextName} قد انتهت.<br />
+<br />
+{$subscriptionType}<br />
+تاريخ إنتهاء صلاحيته: {$expiryDate}<br />
+<br />
+لتجديد إشتراكك، لطفاً أدخل موقع المجلة. بإمكانك الولوج إلى النظام مستعملاً اسم الدخول: &quot;{$recipientUsername}&quot;.<br />
+<br />
+إن كانت لديك أية استفسارات، فلا تتردد في مراسلتي.<br />
+<br />
+{$subscriptionSignature}";s:42:"emails.subscriptionAfterExpiryLast.subject";s:70:"إنتهت صلاحية الإشتراك - التذكير الأخير";s:39:"emails.subscriptionAfterExpiryLast.body";s:656:"{$recipientName}:<br />
+<br />
+إن مدة إشتراكك في {$contextName} قد انتهت.<br />
+لطفاً، نشيرك إلى أن هذه الرسالة هي بمثابة التذكير الأخير بشأنه.<br />
+<br />
+{$subscriptionType}<br />
+تاريخ إنتهاء صلاحيته: {$expiryDate}<br />
+<br />
+لتجديد إشتراكك، لطفاً أدخل موقع المجلة. بإمكانك الولوج إلى النظام مستعملاً اسم الدخول: &quot;{$recipientUsername}&quot;.<br />
+<br />
+إن كانت لديك أية استفسارات، فلا تتردد في مراسلتي.<br />
+<br />
+{$subscriptionSignature}";s:39:"emails.subscriptionPurchaseIndl.subject";s:33:"شراء إشتراك: منفرد";s:36:"emails.subscriptionPurchaseIndl.body";s:515:"لقد تم شراء إشتراك منفرد في المجلة {$contextName} عبر الإنترنت وبالتفاصيل أدناه:<br />
+<br />
+نوع الإشنراك:<br />
+{$subscriptionType}<br />
+<br />
+المستخدم:<br />
+{$subscriberDetails}<br />
+<br />
+معلومات العضوية (إن وجدت):<br />
+{$membership}<br />
+<br />
+لعرض أو تعديل هذا الاشتراك، لطفاً استعمل الرابط الآتي:<br />
+<br />
+رابط الاشتراك: {$subscriptionUrl}<br />
+";s:40:"emails.subscriptionPurchaseInstl.subject";s:37:"شراء إشتراك: مؤسساتي";s:37:"emails.subscriptionPurchaseInstl.body";s:876:"لقد تم شراء إشتراك مؤسساتي في المجلة {$contextName} عبر الإنترنت وبالتفاصيل أدناه، ولتفعيل هذا الإشتراك، لطفاً استعمل رابط الاشتراك وحول حالته إلى فعّال.<br />
+<br />
+نوع الإشنراك:<br />
+{$subscriptionType}<br />
+<br />
+المؤسسة:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+المدى (إن توفر):<br />
+{$domain}<br />
+<br />
+مدى عناوين IP (إن توفرت):<br />
+{$ipRanges}<br />
+<br />
+الشخص المعني:<br />
+{$subscriberDetails}<br />
+<br />
+معلومات العضوية (إن وجدت):<br />
+{$membership}<br />
+<br />
+لعرض أو تعديل هذا الاشتراك، لطفاً استعمل الرابط الآتي:<br />
+<br />
+رابط الاشتراك: {$subscriptionUrl}<br />
+";s:36:"emails.subscriptionRenewIndl.subject";s:35:"تجديد إشتراك: منفرد";s:33:"emails.subscriptionRenewIndl.body";s:517:"لقد تم تجديد إشتراك منفرد في المجلة {$contextName} عبر الإنترنت وبالتفاصيل أدناه:<br />
+<br />
+نوع الإشنراك:<br />
+{$subscriptionType}<br />
+<br />
+المستخدم:<br />
+{$subscriberDetails}<br />
+<br />
+معلومات العضوية (إن وجدت):<br />
+{$membership}<br />
+<br />
+لعرض أو تعديل هذا الاشتراك، لطفاً استعمل الرابط الآتي:<br />
+<br />
+رابط الاشتراك: {$subscriptionUrl}<br />
+";s:37:"emails.subscriptionRenewInstl.subject";s:39:"تجديد إشتراك: مؤسساتي";s:34:"emails.subscriptionRenewInstl.body";s:747:"لقد تم تجديد إشتراك مؤسساتي في المجلة {$contextName} عبر الإنترنت وبالتفاصيل أدناه:<br />
+<br />
+نوع الإشنراك:<br />
+{$subscriptionType}<br />
+<br />
+المؤسسة:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+المدى (إن توفر):<br />
+{$domain}<br />
+<br />
+مدى عناوين IP (إن توفرت):<br />
+{$ipRanges}<br />
+<br />
+الشخص المعني:<br />
+{$subscriberDetails}<br />
+<br />
+معلومات العضوية (إن وجدت):<br />
+{$membership}<br />
+<br />
+لعرض أو تعديل هذا الاشتراك، لطفاً استعمل الرابط الآتي:<br />
+<br />
+رابط الاشتراك: {$subscriptionUrl}<br />
+";s:35:"emails.revisedVersionNotify.subject";s:31:"تم رفع نسخة منقحة";s:32:"emails.revisedVersionNotify.body";s:553:"<p>عزيزي {$recipientName}،</p><p>قام المؤلف برفع نسخة منقحة من طلب التقديم،<b>{$authorsShort} — {$submissionTitle}</b>. <p>بصفتك المحرر المعين له، نلتمس منك تسجيل الدخول و <a href="{$submissionUrl}">معاينة التنقيحات</a> واتخاذ القرار بقبولها، رفضها، أو إرسال طلب التقديم إلى جولة تحكيم أخرى.</p><br><br>—<br>هذه رسالة مؤتمتة من قبل <a href="{$contextUrl}">{$contextName}</a>.";s:43:"emails.statisticsReportNotification.subject";s:60:"نشاط هيئة التحرير لشهر {$month}، {$year}";s:40:"emails.statisticsReportNotification.body";s:953:"
+{$recipientName}, <br />
+<br />
+تقرير حالة مجلتك لشهر {$month}، {$year} متوافر حالياً. الأمور المفصلية لهذا الشهر هي كما يأتي.<br />
+<ul>
+	<li>عدد طلبات التقديم الجديدة: {$newSubmissions}</li>
+	<li>طلبات التقديم المرفوضة: {$declinedSubmissions}</li>
+	<li>طلبات التقديم المقبولة: {$acceptedSubmissions}</li>
+	<li>إجمالي طلبات التقديم في النظام: {$totalSubmissions}</li>
+</ul>
+سجل دخولك إلى المجلة لمعاينة <a href="{$editorialStatsLink}">ما يشغل هيئة التحرير</a> بشكل مفصل فضلاً عن <a href="{$publicationStatsLink}">حالة المقالات المنشورة</a>. لديك نسخة مرفقة بهذه الرسالة تتضمن كل مشاغل هيئة التحرير لهذا الشهر.<br />
+<br />
+مع التقدير<br />
+{$contextSignature}";s:27:"emails.announcement.subject";s:20:"{$announcementTitle}";s:24:"emails.announcement.body";s:202:"<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+قم بزيارة موقعنا للاطلاع على <a href="{$announcementUrl}">الإعلان بشكله الكامل</a>.";s:41:"emails.paymentRequestNotification.subject";s:34:"إشعار إلتماس الدفع";s:38:"emails.paymentRequestNotification.body";s:644:"<p>عزيزي {$recipientName}،</p><p>تهانينا على قبول طلب تقديمك، {$submissionTitle}، الموجه إلى {$contextName}. طالما قد حصل القبول، نرغب أن نطالبك بتسديد رسم النشر.</p><p>هذا الرسم يغطي تكاليف الإنتاج المتربة على إيصال طلب تقديمك إلى النشر. لإجراء الدفع المالي، يرجى زيارة <a href="{$queuedPaymentUrl}">{$queuedPaymentUrl}</a>.</p><p>إذا كانت لديك أي استفسارات، راجع لطفًا <a href="{$submissionGuidelinesUrl}">إرشادات التقديم</a></p>";s:40:"emails.paymentRequestNotification.footer";s:90:"<br><br>—<br>هذه رسالة آلية من <a href="{$contextUrl}">{$contextName}</a>.";}}}

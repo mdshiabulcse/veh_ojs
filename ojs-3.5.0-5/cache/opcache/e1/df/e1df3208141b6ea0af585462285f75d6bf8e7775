@@ -1,0 +1,1 @@
+1818656037a:3:{s:6:"domain";N;s:12:"plural-forms";s:21:"nplurals=1; plural=0;";s:8:"messages";a:1:{s:0:"";a:2:{s:38:"plugins.generic.usageEvent.displayName";s:17:"Sự kiện usage";s:38:"plugins.generic.usageEvent.description";s:73:"Tạo một hook cung cấp usage event theo định dạng xác định.";}}}

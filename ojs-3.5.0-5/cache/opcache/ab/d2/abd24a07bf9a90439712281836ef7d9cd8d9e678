@@ -1,0 +1,1 @@
+1818656032a:3:{s:6:"domain";N;s:12:"plural-forms";s:55:"nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;";s:8:"messages";a:1:{s:0:"";a:3:{s:27:"userAccess.tableHeader.name";s:6:"Jméno";s:17:"userAccess.search";s:77:"Zadejte uživatelské jméno, roli (např. Redaktor časopisu), nebo afiliaci";s:32:"userAccess.tableHeader.startDate";s:16:"Datum zahájení";}}}

@@ -1,0 +1,158 @@
+1818656036a:3:{s:6:"domain";N;s:12:"plural-forms";s:78:"nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;";s:8:"messages";a:1:{s:0:"";a:70:{s:35:"emails.passwordResetConfirm.subject";s:28:"Potrditev ponastavitve gesla";s:32:"emails.passwordResetConfirm.body";s:311:"Oddano je bila zahteva za ponastavitev gesla za {$siteTitle}.<br />
+<br />
+Če zahteve niste oddali, prosimo ignoriranje e-pošto in geslo bo ostalo nespremenjeno. Če želite ponastaviti geslo, kliknite na spodnjo povezavo.<br />
+<br />
+Ponastavi moje geslo: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}";s:27:"emails.userRegister.subject";s:21:"Potrdilo registracije";s:24:"emails.userRegister.body";s:397:"{$recipientName}<br />
+<br />
+Registrirani ste bili pri reviji {$contextName}. Spodaj vam pošiljamo uporabniško ime in geslo, ki ju potrebujete za dostop delo s revijo preko spleta. Če želite biti odstranjeni z seznama uporabnikov revije, nas lahko kadarkoli kontaktirate.<br />
+<br />
+Uporabniško ime: {$recipientUsername}<br />
+Geslo: {$password}<br />
+<br />
+Hvala lepa,<br />
+{$signature}";s:34:"emails.userValidateContext.subject";s:20:"Potrdite svoj račun";s:31:"emails.userValidateContext.body";s:263:"{$recipientName}<br />
+<br />
+Ustvarili ste uporabniški račun za revijo {$contextName}. Pred uporabo morate potrditi vaš e-poštni naslov, zato prosimo, da sledite spodnji povezavi:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Hvala lepa,<br />
+{$contextSignature}";s:31:"emails.userValidateSite.subject";s:20:"Potrdite vaš račun";s:28:"emails.userValidateSite.body";s:272:"{$recipientName}<br />
+<br />
+Ustvarili ste račun pri {$siteTitle}. Preden ga lahko začnete uporabljati, morate potrditi veljavnost vašega e-poštnega naslova. Za potrditev kliknite povezavo spodaj:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Hvala,<br />
+{$siteSignature}";s:31:"emails.reviewerRegister.subject";s:52:"Registracija kot recenzent pri reviji {$contextName}";s:28:"emails.reviewerRegister.body";s:757:"<p>Spoštovani {$recipientName},</p><p>V luči vašega znanja smo si dovolili registrirati vaše ime v bazo recenzentov za revijo {$contextName}. To ne pomeni nobene obveze z vaše strani in nam le omogoča, da vas lahko povabimo k recenziji prispevkov. Ko boste povabljeni k recenziji, boste lahko videli naslov in povzetek prispevka in se boste lahko odločili ali sodelujete v recenziji ali ne. Kadarkoli lahko zahtevate, da vas odstranimo iz seznama recenzentov.</p><p>Pošiljamo vam uporabniško ime in geslo, ki ju potrebujete za vso interakcijo s revijo preko spleta. Če želite lahko posodobite vaš račun, vključno z recenzentskimi interesi.</p><p>Uporabniško ime: {$recipientUsername}<br /> Geslo: {$password}</p><p>Lepa hvala,</p>{$signature}";s:33:"emails.issuePublishNotify.subject";s:72:"Na voljo je nova številka revije {$contextName}: {$issueIdentification}";s:30:"emails.issuePublishNotify.body";s:412:"<p>Spoštovani bralec,</p><p>Z veseljem sporočamo, da je izšla je nova številka revije {$contextName} : {$issueIdentification}. Vabimo vas, da pogledate kazalo vsebine in da preberete članke in ostale stvari, ki vas zanimajo. Zahvaljujemo se tudi našim avtorjem, recenzentom in lektorjem za njihov dragoc prispevek pri tem delu. </p><div>{$issueToc}</div><p>Hvala za zanimanje za naše delo,</p>{$signature}";s:27:"emails.editorAssign.subject";s:58:"Kot urednik ste bili dodeljeni na prispevek {$contextName}";s:24:"emails.editorAssign.body";s:571:"<p>Spoštovani {$recipientName},</p><p>Spodnji prispevek vam je bil dodeljen, da ga vodite skozi uredniški postopek.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Povzetek</b></p>{$submissionAbstract}<p>Če smatrate, da je prispevek relevanten za revijo {$contextName}, ga prosimo premaknite v fazo recenzije s klikom na "Pošlji v recenzijo" in določite recenzente s klikom na "Dodaj recenzenta".</p><p>Če prispevek ni primeren za to revijo, ga prosim zavrnite.</p><p>Hvala že vnaprej.</p><p>S spoštovanjem,</p>{$contextSignature}";s:30:"emails.editorAssignReview.body";s:472:"<p>Spoštovani {$recipientName},</p><p>Spodnji prispevek vam je bil dodeljen, da gavodite skozi recenzijski postopek.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Povzetek</b></p>{$submissionAbstract}<p>Prosimo, da se prijavite, da <a href="{$submissionUrl}">pogledate prispevek</a> in določite primerne recenzente. Recenzente lahko dodate s klikom na "Dodaj recenzenta".</p><p>Hvala že vnaprej.</p><p>S spoštovanjem,</p>{$signature}";s:34:"emails.editorAssignProduction.body";s:562:"<p>Spoštovani {$recipientName},</p><p>Spodnji prispevek vam je bil dodeljen, da ga vodite skozi fazo produkcije.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Izvleček</b></p>{$submissionAbstract}<p>prosimo, da se prijavite, da <a href="{$submissionUrl}">vidite prispevek</a>. Ko bodo pripravljene datoteke za objavo, jih naložite pod rubriko <strong>Produkcija> Prelomi</strong>. Potem splanirajte objavo s klikom na gumb <strong>Dodeli v številko</strong> .</p><p>Hvala že vnaprej.</p><p>S spoštovanjem,</p>{$signature}";s:28:"emails.reviewRequest.subject";s:31:"Prošnja za recenzijo prispevka";s:25:"emails.reviewRequest.body";s:898:"<p>Spoštovani {$recipientName},</p><p>Verjamem, da bi lahko bili odličen recenzent prispevka oddanega v revijo {$contextName}. Spodaj sta naslov in izvleček prispevka in upam, da boste sprejeli to nalogo, ki je za nas pomembna.</p><p>Če ste pripravljeni opraviti to recenzijo, je rok za končanje recenzije do {$reviewDueDate}. Prispevek si lahko pogledate, opravite recenzijo in oddate morebiten popravke s prijavo na spletno stran naše revije in sledite korakom na spodnji povezavi.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p>Povzetek</p>{$submissionAbstract}<p>Prosimo potrdite ali zavrnite opravljenje recenzije do {$responseDueDate}</p><p>V kolikor imate vprašanja v zvezi s prispevkom ali recenzijskem postopku, se lahko obrnete name.</p><p>Zahvaljujemo se vam za sprejetje prošnje in se vam za vašo pomoč zahvaljujemo.</p><p>S spoštovanjem,</p>{$signature}";s:40:"emails.reviewResponseOverdueAuto.subject";s:41:"Boste lahko opravili to recenzijo za nas?";s:37:"emails.reviewResponseOverdueAuto.body";s:885:"<p>Spoštovani {$recipientName},</p><p>Ta email je avtomatičen opomnik od revije {$contextName} v zvezi z našo prošnjo za recenzijo prispevka "{$submissionTitle}."</p><p>Email ste dobili, ker do sedaj še niste potrdili ali boste recenzijo tega prispevka lahko opravili ali ne.</p><p>Prosimo potrdite ali zavrnite prošnjo za recenzijo preko našega sistema.</p><p>Če ste pripravljeni opraviti recenzijo, je rok za opravljanje recenzije do {$reviewDueDate}. Sledite lahko recenzijskim korakom, da vidite prispevek, naložite popravljene datoteke in oddate svoje priporočilo. </p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Povzetek</b></p>{$submissionAbstract}<p>V kolikor imate vprašanja v zvezi s prispevkom ali recenzijskem postopku, se lahko obrnete name.</p><p>Zahvaljujemo se vam za vaš čas in pomoč.</p><p>S spoštovanjem,</p>{$contextSignature}";s:38:"emails.reviewRequestSubsequent.subject";s:45:"Prošnja za recenzijo spremenjenega prispevka";s:35:"emails.reviewRequestSubsequent.body";s:1081:"{$recipientName}:<br />
+<br />
+Ta e-pošta se nanaša na rokopis &quot;{$submissionTitle},&quot; , ki je v obravnavi pri reviji {$contextName}.<br />
+<br />
+Po pregledu recenzije prejšnje verzije rokopisa, so avtorji oddali dopolnjeno verzijo prispevka. Prosimo vas, če nam lahko pomagate pri ponovni oceni prispevka.<br />
+<br />
+Prosimo prijavite se na spletno stran revije do {$responseDueDate} in potrdite ali zavrnite prošnjo za recenzijo. Enako lahko dostopate do prispevka in oddate vašo recenzijo in priporočilo. Spletna stran je {$contextUrl}<br />
+<br />
+Sama recenzija mora biti opravljena do {$reviewDueDate}.<br />
+<br />
+Če nimate uporabniškega imena in gesla za dostop do spletne strani revije, lahko uporabite naslednjo povezavo za ponastavitev gesla (ki vam bo posredovano po e-pošti skupaj z vašim uporabniškim imenom): {$passwordLostUrl}<br />
+<br />
+URL povezava do prispevka: {$reviewAssignmentUrl}<br />
+<br />
+Hvala lepa za sprejetje prošnje.<br />
+<br />
+{$signature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}";s:27:"emails.reviewCancel.subject";s:29:"Prošnja za preklic recenzije";s:24:"emails.reviewCancel.body";s:405:"{$recipientName}:<br />
+<br />
+Odločili smo se, da prekličemo našo prošnjo za vašo recenzijo prispevka, &quot;{$submissionTitle},&quot; za publikacjo {$contextName}. Opravičujemo se vam za vse nevšečnosti, ki vam jih to lahko povzroči in upamo, da se lahko še obrnemo na vas pri uredniškem procesu revije tudi v prihodnje.<br />
+<br />
+Če imate kakršnokoli vprašanje, se prosim obrnite name.";s:30:"emails.reviewReinstate.subject";s:58:"Ali lahko še vedno opravite recenzijo pri {$contextName}?";s:27:"emails.reviewReinstate.body";s:562:"<p>Spoštovani {$recipientName},</p><p>Pred kratkim smo preklicali prošnjo za vaše opravljanje recenzije prispevka {$submissionTitle} pri reviji {$contextName}. Našo oločitev smo spremenili in upamo, da ste še vedno pripravljeni opraviti to recenzijo.</p><p>Če ste nam pripravljeni pomagati, vas prosimo, da se prijavite v sistem za urejanje naše revije, da pogledate prispevek, naložite recenzirane datoteke in oddate vaše recenzijsko priporočilo.</p><p>Če imate kakršnakoli vprašanja, se prosim obrnite name.</p><p>S spoštovanjem,</p>{$signature}";s:28:"emails.reviewDecline.subject";s:27:"Ne morem opraviti recenzije";s:25:"emails.reviewDecline.body";s:246:"Editors:<br />
+<br />
+Žal mi je, vendar v tem trenutku ne morem opraviti recenzije prispevka, &quot;{$submissionTitle},&quot; za revijo {$contextName}. Hvala za povabilo in upam, da me boste še povabili k sodelovanju.<br />
+<br />
+{$senderName}";s:27:"emails.reviewRemind.subject";s:40:"Opomnik za končanje recenzije prispevka";s:24:"emails.reviewRemind.body";s:599:"<p>Spoštovani {$recipientName},</p><p>Prijazen opomnik zanašo prošnjo za recenzijo prispevka"{$submissionTitle}" pri reviji {$contextName}. Recenzijo pričakujemo do {$reviewDueDate}, a bi je bili veseli takoj, ko ste jo pripravljeni opraviti.</p><p><a href="{$reviewAssignmentUrl}">Prijavite se v sistem</a> in sledite recenzijskim korakom, da boste lahko videli prispevek, naložili recenzijske datoteke in oddali vaše recenzijsko mnenje.</p><p>Če bi želeli podaljšati rok, se prosim obrnite name. Veselimo se vašega odziva.</p><p>Hvala lepa že vnaprej in s spoštovanjem,</p>{$signature}";s:31:"emails.reviewRemindAuto.subject";s:41:"Opomnik za koknčanje recenzije prispevka";s:28:"emails.reviewRemindAuto.body";s:644:"<p>Spoštovani {$recipientName},</p><p>Ta e-pošta je avtomatski opomnik za našo prošnjo za vašo recenziranje prispevka "{$submissionTitle}" pri reviji {$contextName}. </p><p>Recenzijo pričakujemo do {$reviewDueDate}, a bi je bili veseli takoj, ko ste jo pripravljeni opraviti.</p><p><a href="{$reviewAssignmentUrl}">Prijavite se v sistem</a> in sledite recenzijskim korakom, da boste lahko videli prispevek, naložili recenzijske datoteke in oddali vaše recenzijsko mnenje.</p><p>Če bi želeli podaljšati rok, se prosim obrnite name. Se že veselim vašega odziva.</p><p>Hvala lepa že vnaprej in s spoštovanjem,</p>{$contextSignature}";s:35:"emails.editorDecisionAccept.subject";s:55:"Vaš prispevek je bil sprejet pri reviji {$contextName}";s:32:"emails.editorDecisionAccept.body";s:965:"<p>Spoštovani {$recipientName},</p><p>Veseli me, da vam lahko sporočim, da smo se odločili sprejeti vaš prispevek brez dodatnih popravkov. Po temeljitem pregledu, smo zaključili, da vaš prispevek {$submissionTitle} dosega in presega naša pričakovanja. Veseli nas, da bomo lahko vaše delo objavili v reviji {$contextName} in da ste izbrali našo revijo za objavo vašega dela.</p><p>Vaš prispevek bo objavljen v eni od prihajajočih številk revije {$contextName}, povabljeni ste, da ga dodate na seznam vaših objav. Zavedamo se težkega dela, ki je potreben za dober prispevek in vam čestitamo, da ste pripeljali prispevek do objave.</p><p>Vaš prispevek bo šel sedaj še v postopek lektoriranja in oblikovanja, da bo primeren za objavo.</p><p>Kmalu boste prejeli nadaljna navodila.</p><p>Če imate kakšno vprašanje, se name lahko obrnete preko vaše <a href="{$submissionUrl}">nadzorne plošče prispevkov</a>.</p><p>S spoštovanjem,</p>{$signature}";s:39:"emails.editorDecisionSkipReview.subject";s:48:"Vaš prispevek je bil poslan v fazo lektoriranja";s:36:"emails.editorDecisionSkipReview.body";s:881:"<p>Spoštovani {$recipientName},</p>
+<p>V veselje mi je, da vam lahko sporočim, da bomo sprejeli vaš prispevek brez recenzijskega postopka. Vaš prispevek, {$submissionTitle}, dosega naše zahteve in zato recenzija ni potrebna. Veseli nas, da bomo lahko objavili vaše delo v reviji {$contextName} in se vam zahvaljujemo za objavo v naši reviji.</p>
+Vaš prispevek je sedaj na voljo za objavo v eni od prihodnjih številk revije {$contextName}. Zavedamo se dela, ki je potreben za vsak uspešen prispevek in se vam zahvaljujemo za vaš trud.</p>
+<p>Vaš prispevek bo šel zdaj v fazo lektoriranja in produkcije, da se ga pripravi za objavo. </p>
+<p>V kratkem prejmete nadaljna navodila.</p>
+<p>Če imate kakršnokoli vprašanje, me lahko kontaktirate preko vaše <a href="{$authorSubmissionUrl}">nadzorne plošče prispevkov</a>.</p>
+<p>S spoštovanjem,</p>
+<p>{$signature}</p>
+";s:28:"emails.layoutRequest.subject";s:83:"Prispevek {$submissionId} je pripravljen za produkcijo pri reviji {$contextAcronym}";s:25:"emails.layoutRequest.body";s:708:"<p>Spoštovani {$recipientName},</p><p>Nov prispevek je pripravljen za pripravo preloma:</p><p><a href="{$submissionUrl}">{$submissionId} {$submissionTitle}</a><br />{$contextName}</p><ol><li>1. Kliknite na URL povezavo prispevka zgoraj.</li><li>2. Prenesite Datoteke pripravljene za produkcijo in jih uporabite za izdelavo prelomov kot je zahtevano pri tej reviji.</li><li>3. Naložite prelome pod razdelek Prelomi.</li><li>4. Obvestite urednika preko razprave za produkcijo, da so prelomi pripravljeni in naloženi.</li></ol><p>Če v tem trenutku ne morete opraviti tega dela ali imate kakšno vprašanje, se prosim obrnite name. Hvala za vaš trud za to publikacijo.</p><p>S spoštovanjem,</p>{$signature}";s:29:"emails.layoutComplete.subject";s:14:"Prelom končan";s:26:"emails.layoutComplete.body";s:308:"<p>Spoštovani {$recipientName},</p><p>Za spodnji prispevek je pripravljen prelom in so pripravljene za končni pregled.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$contextName}</p><p>Če imate kakršnakoli vprašanja, me prosim kontaktirajte.</p><p>S spoštovanjem,</p><p>{$signature}</p>";s:24:"emails.emailLink.subject";s:17:"Zanimiv prispevek";s:21:"emails.emailLink.body";s:268:"Zdelo se mi je, da vas morda zanima prispevek &quot;{$submissionTitle}&quot; avtorja {$authors} objavljen v zvezku {$volume}, številka {$number} ({$year}) publikacije {$contextName} na voljo na URL povezavi &quot;<a href="{$submissionUrl}">{$submissionUrl}</a>&quot;.";s:28:"emails.emailLink.description";s:321:"Ta email pošlje registrirani bralec, kadar želi nekoga obvestiti o zanimivem prispevku. Email vsebuje nekaj informacij o prispevku in povezavo do prispevka. Ta funkcionalnost mora biti posebej vkljkučena med Orodji za branje in jo mora vključiti Administrator publikacije na strani z nastavitvami za Orodja za branje.";s:33:"emails.subscriptionNotify.subject";s:22:"Obvestilo o naročnini";s:30:"emails.subscriptionNotify.body";s:762:"<p>Spoštovani {$recipientName},</p>
+<p>Zdaj ste registrirani kot naročnik v našem spletnem sistemu za upravljanje revij za {$contextName}, z naslednjo naročnino:</p>
+<p>{$subscriptionType}</p>
+<p>Za dostop do vsebin, ki so na voljo samo naročnikom, preprosto prijavite v sistem z vašim uporabniškim imenom, "&quot;{$recipientUsername}&quot;".</p>
+<p>Ko se prijavite v sistem, lahko kadarkoli spremenite podatke o svojem profilu in geslu.</p>
+<p>Prosimo, upoštevajte, da če imate institucionalno naročnino, ni potrebno, da se uporabniki na vaši instituciji prijavijo, saj bo sistem samodejno avtentificiral zahteve za vsebine, namenjene naročnikom.</p>
+<p>Če imate kakršnakoli vprašanja, me prosim kontaktirajte.</p>
+<p>{$subscriptionSignature}</p>";s:31:"emails.openAccessNotify.subject";s:79:"Številka {$issueIdentification} revije {$contextName} je sedaj prosto dostopna";s:28:"emails.openAccessNotify.body";s:305:"<p>Spoštovani {$recipientName},</p><p>Z veseljem vas obveščamo, da je <a href="{$issueUrl}">{$issueIdentification}</a> revije {$contextName} zdaj na voljo v odprtem dostopu. Naročnina ni več potrebna za branje tega izida.</p><p>Hvala za vaše nadaljnje zanimanje za naše delo.</p>{$contextSignature}";s:39:"emails.subscriptionBeforeExpiry.subject";s:29:"Obvestilo o poteku naročnine";s:36:"emails.subscriptionBeforeExpiry.body";s:476:"<p>Spoštovani {$recipientName},</p>
+<p>Vaša naročnina na {$contextName} se kmalu izteče.</p>
+<p>{$subscriptionType}<br />
+Datum poteka: {$expiryDate}</p>
+<p>Za zagotavljanje nadaljnjega dostopa do revije, prosimo obiščite spletno stran revije in obnovite svojo naročnino. V sistem se lahko prijavite z vašim uporabniškim imenom, "&quot;{$recipientUsername}&quot;".</p>
+<p>Če imate kakršnakoli vprašanja, me prosim kontaktirajte.</p>
+<p>{$subscriptionSignature}</p>";s:38:"emails.subscriptionAfterExpiry.subject";s:21:"Naročnina je potekla";s:35:"emails.subscriptionAfterExpiry.body";s:418:"<p>Spoštovani {$recipientName},</p>
+<p>Vaša naročnina na {$contextName} je potekla.</p>
+<p>{$subscriptionType}<br />
+Datum poteka: {$expiryDate}</p>
+<p>Za obnovitev naročnine, prosimo obiščite spletno stran revije. V sistem se lahko prijavite z vašim uporabniškim imenom, "&quot;{$recipientUsername}&quot;".</p>
+<p>Če imate kakršnakoli vprašanja, me prosim kontaktirajte.</p>
+<p>{$subscriptionSignature}</p>";s:42:"emails.subscriptionAfterExpiryLast.subject";s:38:"Naročnina je potekla - Zadnji opomnik";s:39:"emails.subscriptionAfterExpiryLast.body";s:512:"<p>Spoštovani {$recipientName},</p>
+<p>Vaša naročnina na {$contextName} je potekla.<br />
+Prosimo, upoštevajte, da je to zadnji opomnik, ki vam bo poslan po elektronski pošti.</p>
+<p>{$subscriptionType}<br />
+Datum poteka: {$expiryDate}</p>
+<p>Za obnovitev naročnine, prosimo obiščite spletno stran revije. V sistem se lahko prijavite z vašim uporabniškim imenom, "&quot;{$recipientUsername}&quot;".</p>
+<p>Če imate kakršnakoli vprašanja, me prosim kontaktirajte.</p>
+<p>{$subscriptionSignature}</p>";s:39:"emails.subscriptionPurchaseIndl.subject";s:28:"Nakup naročnine: Posameznik";s:36:"emails.subscriptionPurchaseIndl.body";s:398:"<p>Posamezna naročnina je bila kupljena spletno za {$contextName} z naslednjimi podrobnostmi.</p>
+<p>Vrsta naročnine:<br />
+{$subscriptionType}</p>
+<p>Uporabnik:<br />
+{$subscriberDetails}</p>
+<p>Podatki o članstvu (če so bili navedeni):<br />
+{$membership}</p>
+<p>Za ogled ali ureditev te naročnine, prosimo uporabite naslednjo povezavo.</p>
+<p>Povezava do naročnine: {$subscriptionUrl}</p>
+";s:40:"emails.subscriptionPurchaseInstl.subject";s:33:"Nakup naročnine: Institucionalna";s:37:"emails.subscriptionPurchaseInstl.body";s:731:"<p>Institucionalna naročnina je bila kupljena spletno za {$contextName} z naslednjimi podrobnostmi. Za aktivacijo te naročnine, prosimo uporabite zagotovljeno povezavo za naročnino in nastavite status naročnine na 'Aktivno'.</p>
+<p>Vrsta naročnine:<br />
+{$subscriptionType}</p>
+<p>Institucija:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}</p>
+<p>Domene (če so bile navedene):<br />
+{$domain}</p>
+<p>IP obsegi (če so bili navedeni):<br />
+{$ipRanges}</p>
+<p>Kontaktna oseba:<br />
+{$subscriberDetails}</p>
+<p>Podatki o članstvu (če so bili navedeni):<br />
+{$membership}</p>
+<p>Za ogled ali ureditev te naročnine, prosimo uporabite naslednjo povezavo.</p>
+<p>Povezava do naročnine: {$subscriptionUrl}</p>
+";s:36:"emails.subscriptionRenewIndl.subject";s:29:"Obnova naročnine: Posameznik";s:33:"emails.subscriptionRenewIndl.body";s:400:"<p>Posamezna naročnina je bila obnovljena spletno za {$contextName} z naslednjimi podrobnostmi.</p>
+<p>Vrsta naročnine:<br />
+{$subscriptionType}</p>
+<p>Uporabnik:<br />
+{$subscriberDetails}</p>
+<p>Podatki o članstvu (če so bili navedeni):<br />
+{$membership}</p>
+<p>Za ogled ali ureditev te naročnine, prosimo uporabite naslednjo povezavo.</p>
+<p>Povezava do naročnine: {$subscriptionUrl}</p>
+";s:37:"emails.subscriptionRenewInstl.subject";s:34:"Obnova naročnine: Institucionalna";s:34:"emails.subscriptionRenewInstl.body";s:605:"<p>Institucionalna naročnina je bila obnovljena spletno za {$contextName} z naslednjimi podrobnostmi.</p>
+<p>Vrsta naročnine:<br />
+{$subscriptionType}</p>
+<p>Institucija:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}</p>
+<p>Domene (če so bile navedene):<br />
+{$domain}</p>
+<p>IP obsegi (če so bili navedeni):<br />
+{$ipRanges}</p>
+<p>Kontaktna oseba:<br />
+{$subscriberDetails}</p>
+<p>Podatki o članstvu (če so bili navedeni):<br />
+{$membership}</p>
+<p>Za ogled ali ureditev te naročnine, prosimo uporabite naslednjo povezavo.</p>
+<p>Povezava do naročnine: {$subscriptionUrl}</p>
+";s:35:"emails.revisedVersionNotify.subject";s:33:"Posodobljena verzija je naložena";s:32:"emails.revisedVersionNotify.body";s:436:"<p>Spoštovani {$recipientName},</p><p>Avtor je naložil popravke za prispevek, <b>{$authorsShort} — {$submissionTitle}</b>.</p><p>Kot dodeljeni urednik vas prosimo, da se prijavite in <a href="{$submissionUrl}">ogledate popravke</a> ter sprejmete odločitev o tem, ali boste prispevek sprejeli, zavrnili ali poslali v nadaljnjo recenzijo.</p><br><br>—<br>To je avtomatično sporočilo iz <a href="{$contextUrl}">{$contextName}</a>.";s:43:"emails.statisticsReportNotification.subject";s:42:"Uredniške aktivnosti za {$month}, {$year}";s:40:"emails.statisticsReportNotification.body";s:715:"
+{$recipientName}, <br />
+<br />
+Poročilo o stanju vaše revije za mesec {$month}, {$year} je na voljo. Ključne statistike so spodaj.<br />
+<ul>
+	<li>Novi prispevki v tem mesecu: {$newSubmissions}</li>
+	<li>Zavrnjeni prispevki v tem mesecu: {$declinedSubmissions}</li>
+	<li>Sprejeti prispevki v tem mesecu: {$acceptedSubmissions}</li>
+	<li>Skupno število prispevkov v sistemu: {$totalSubmissions}</li>
+</ul>
+Za podrobnejše podatke se prijavite v sistem <a href="{$editorialStatsLink}">uredniški trendi</a> in <a href="{$publicationStatsLink}">statistike objavljenih člankov</a>. Kopija celotnega mesečnega poročila o uredniških aktivnostih je v priponki.<br />
+<br />
+Lep pozdrav,<br />
+{$contextSignature}";s:27:"emails.announcement.subject";s:20:"{$announcementTitle}";s:24:"emails.announcement.body";s:170:"<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Obiščite našo spletno stran, da vidite <a href="{$announcementUrl}">celotno obvestilo</a>.";s:41:"emails.paymentRequestNotification.subject";s:19:"Zahteva za plačilo";s:38:"emails.paymentRequestNotification.body";s:503:"<p>Spoštovani {$recipientName},</p><p>Čestitamo za vaš sprejeti prispevek, {$submissionTitle}, v {$contextName}. Sedaj, ko je vaš članek sprejet, vas želimo prositi za plačilo stroškov objave.</p><p>Ta pristojbina krije proizvodne stroške pri pripravi vašega prispevka za objavo. Za opravljanje plačila obiščite <a href="{$queuedPaymentUrl}">{$queuedPaymentUrl}</a>.</p><p>Če imate kakršna koli vprašanja, si oglejte naša <a href="{$submissionGuidelinesUrl}">Smernice za oddajo</a>.</p>";s:40:"emails.paymentRequestNotification.footer";s:96:"<br><br>—<br>To je avtomatsko sporočilo od revije <a href="{$contextUrl}">{$contextName}</a>.";}}}

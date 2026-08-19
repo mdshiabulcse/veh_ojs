@@ -1,0 +1,1 @@
+1818656034a:3:{s:6:"domain";N;s:12:"plural-forms";s:48:"nplurals=2; plural=n % 10 != 1 || n % 100 == 11;";s:8:"messages";a:1:{s:0:"";a:2:{s:45:"plugins.generic.htmlArticleGalley.displayName";s:25:"Galley fyrir HTML greinar";s:45:"plugins.generic.htmlArticleGalley.description";s:70:"Þessi viðbót styður við myndsetingu á galley fyrir HTML greinar.";}}}

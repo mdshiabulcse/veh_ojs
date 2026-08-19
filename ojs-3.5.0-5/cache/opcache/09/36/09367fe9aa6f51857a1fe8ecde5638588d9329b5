@@ -1,0 +1,11 @@
+1818656038a:3:{s:6:"domain";N;s:12:"plural-forms";s:21:"nplurals=1; plural=0;";s:8:"messages";a:1:{s:0:"";a:20:{s:41:"plugins.importexport.datacite.displayName";s:28:"DataCite 导出/注册插件";s:41:"plugins.importexport.datacite.description";s:92:"导出或者注册DataCite格式的期次，文章，初次排版和附加文件元数据。";s:50:"plugins.importexport.datacite.settings.description";s:53:"首次使用之前，请配置DataCite导出插件。";s:44:"plugins.importexport.datacite.settings.label";s:15:"DataCite 设置";s:53:"plugins.importexport.datacite.registrationAgency.name";s:26:"DataCite（数据引用）";s:35:"plugins.importexport.datacite.intro";s:506:"
+		如果您希望在Datacite注册DOI，请联系代管人
+		<a href="https://datacite.org/contact" target="_blank">DataCite
+		主页</a>，他会建议你去加入当地 DataCite 会员。一旦您成为其中的会员，
+		您将获得永久的 DOI 和注册相关元数据的服务。如果您没有自己的用户名
+		和密码，您仍可以导出 DataCiteXML 格式。但是在 OJS 中 DataCite 无法注
+		册 DOI。请注意：注册 DataCite 服务时密码将保存为不加密的纯文本。
+	";s:52:"plugins.importexport.datacite.settings.form.username";s:21:"用户名（符号）";s:60:"plugins.importexport.datacite.settings.form.usernameRequired";s:82:"请输入 DataCite 分配的用户名（符号）。用户名不能包含冒号。";s:77:"plugins.importexport.datacite.settings.form.automaticRegistration.description";s:194:"OJS 将自动将 DOI 存入 DataCite。 请注意，这可能需要在发布后用一小段时间来处理（这可能取决于您的 cronjob 配置）。 您可以检查所有未注册的DOI。";s:64:"plugins.importexport.datacite.settings.form.testMode.description";s:98:"使用 DataCite 测试前缀进行DOI注册。 请不要忘记在生产环境中删除此选项。";s:56:"plugins.importexport.datacite.settings.form.testUsername";s:15:"测试用户名";s:56:"plugins.importexport.datacite.settings.form.testPassword";s:12:"测试密码";s:57:"plugins.importexport.datacite.settings.form.testDOIPrefix";s:17:"测试 DOI 前缀";s:65:"plugins.importexport.datacite.settings.form.testDOIPrefixRequired";s:88:"当选择“使用测试前缀进行 DOI 注册”时，必须填写测试 DOI 前缀。";s:45:"plugins.importexport.datacite.senderTask.name";s:27:"DataCite 自动注册任务";s:38:"plugins.importexport.datacite.cliUsage";s:231:"用法：
+{$scriptName} {$pluginName} 导出 [outputFileName] [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+{$scriptName} {$pluginName} 注册 [journal_path] {issues|articles|galleys} objectId1 [objectId2] ...
+";s:36:"plugins.generic.datacite.displayName";s:21:"DataCite 管理插件";s:36:"plugins.generic.datacite.description";s:40:"负责提交和导出 DataCite 元数据";s:48:"plugins.generic.datacite.registrationAgency.name";s:26:"DataCite（数据引用）";s:45:"plugins.generic.datacite.deposit.unsuccessful";s:51:"注册未成功！请检查您的配置并重试。";}}}

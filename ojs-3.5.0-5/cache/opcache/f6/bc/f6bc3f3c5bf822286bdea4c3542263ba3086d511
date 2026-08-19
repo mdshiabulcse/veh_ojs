@@ -1,0 +1,1 @@
+1818656035a:3:{s:6:"domain";N;s:12:"plural-forms";s:26:"nplurals=2; plural=n != 1;";s:8:"messages";a:1:{s:0:"";a:2:{s:40:"plugins.generic.jatsTemplate.displayName";s:51:"JATS შაბლონის პლაგინი";s:40:"plugins.generic.jatsTemplate.description";s:311:"ავტომატურად ქმნის მინიმალურ JATS დოკუმენტს მეტა-მონაცემებიდან, როდესაც სხვაგვარად არ არის ხელმისაწვდომი JATS დოკუმენტი.";}}}

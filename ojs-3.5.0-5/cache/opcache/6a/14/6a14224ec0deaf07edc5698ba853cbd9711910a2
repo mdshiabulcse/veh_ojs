@@ -1,0 +1,15 @@
+1818656037a:3:{s:6:"domain";N;s:12:"plural-forms";s:26:"nplurals=2; plural=n != 1;";s:8:"messages";a:1:{s:0:"";a:13:{s:41:"plugins.importexport.datacite.displayName";s:40:"DataCite eksport/ro'yxatga olish plagini";s:41:"plugins.importexport.datacite.description";s:117:"DataCite formatida nashr, maqola, oshxona va qo'shimcha fayl metadatalarini eksport qilish yoki ro'yxatdan o'tkazish.";s:50:"plugins.importexport.datacite.settings.description";s:78:"Iltimos, DataCite eksport plaginini birinchi marta ishlatishdan oldin sozlang.";s:35:"plugins.importexport.datacite.intro";s:767:"
+		Agar siz DOI -ni DataCite -da ro'yxatdan o'tkazmoqchi bo'lsangiz, iltimos, menejment bilan bog'laning
+<a href="https://datacite.org/contact" target="_blank"> DataCite orqali agent
+Bosh sahifa </a>, u sizni DataCite mahalliy a'zosiga yo'naltiradi. Bir marta bor
+a'zo tashkilot bilan aloqa o'rnatgan bo'lsangiz, sizga taqdim etiladi
+doimiy identifikatorlarni (DOI) zarb qilish uchun DataCite xizmatidan foydalanish.
+va tegishli metadatani ro'yxatdan o'tkazish. Agar sizda o'z foydalanuvchi ismingiz bo'lmasa va
+Parolni siz hali ham DataCite XML formatiga eksport qila olasiz, lekin siz
+DOI -ni DataCite -da OJS ichida ro'yxatdan o'tkaza olmaydi.
+E'tibor bering, parol oddiy matn sifatida saqlanadi, ya'ni shifrlanmagan
+DataCite ro'yxatga olish xizmati talablariga.
+	";s:52:"plugins.importexport.datacite.settings.form.username";s:28:"Foydalanuvchi nomi (belgisi)";s:60:"plugins.importexport.datacite.settings.form.usernameRequired";s:123:"Iltimos, DataCite -dan olgan foydalanuvchi nomini (belgisini) kiriting. Foydalanuvchi nomida ikki nuqta bo'lmasligi mumkin.";s:77:"plugins.importexport.datacite.settings.form.automaticRegistration.description";s:254:"OJS DOI-larni DataCite-ga avtomatik ravishda kiritadi. Iltimos, e'tibor bering, nashrdan keyin buni qayta ishlash uchun qisqa vaqt ketishi mumkin (masalan, cronjob konfiguratsiyasiga qarab). Siz ro'yxatdan o'tmagan barcha DOIlarni tekshirishingiz mumkin.";s:64:"plugins.importexport.datacite.settings.form.testMode.description";s:145:"DOIni ro'yxatdan o'tkazish uchun DataCite test prefiksidan foydalaning. Iltimos, ishlab chiqarish uchun ushbu variantni olib tashlashni unutmang.";s:56:"plugins.importexport.datacite.settings.form.testUsername";s:34:"Foydalanuvchi nomini sinab ko'rish";s:56:"plugins.importexport.datacite.settings.form.testPassword";s:11:"Sinov parol";s:57:"plugins.importexport.datacite.settings.form.testDOIPrefix";s:28:"DOI prefiksini sinab ko'ring";s:45:"plugins.importexport.datacite.senderTask.name";s:43:"DataCite avtomatik ro'yxatga olish vazifasi";s:38:"plugins.importexport.datacite.cliUsage";s:261:"Foydalanish:
+{$ scriptName} {$ pluginName} eksporti [outputFileName] [journal_path] {sonlar | maqolalar | galleys} objectId1 [objectId2] ...
+{$ scriptName} {$ pluginName} ro'yxatdan o'ting [journal_path] {sonlar | maqolalar | galleys} objectId1 [objectId2] ...
+";}}}

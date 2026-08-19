@@ -1,0 +1,1 @@
+1818656035a:3:{s:6:"domain";N;s:12:"plural-forms";s:26:"nplurals=2; plural=n != 1;";s:8:"messages";a:1:{s:0:"";a:2:{s:40:"plugins.generic.jatsTemplate.description";s:119:"Genererer automatisk et minimalt JATS-dokument fra innleveringens metadata når ikke noe JATS dokument er tilgjengelig.";s:40:"plugins.generic.jatsTemplate.displayName";s:23:"JATS-mal programtillegg";}}}

@@ -1,0 +1,192 @@
+1818656034a:3:{s:6:"domain";N;s:12:"plural-forms";s:100:"nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;";s:8:"messages";a:1:{s:0:"";a:70:{s:35:"emails.passwordResetConfirm.subject";s:26:"Potvrda o promjeni lozinke";s:32:"emails.passwordResetConfirm.body";s:394:"Zaprimili smo zahtjev za promjenom vaše lozinke za mrežnu stranicu {$siteTitle}.<br />
+<br />
+U slučaju da niste poslali takav zahtjev, slobodno zanemarite ovu poruku i vaša će lozinka ostati nepromijenjena. U slučaju da želite promijeniti lozinku, molimo vas da kliknete na niže navedenu URL poveznicu.<br />
+<br />
+Promjeni lozinku: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}";s:27:"emails.userRegister.subject";s:28:"Registracija novog korisnika";s:24:"emails.userRegister.body";s:445:"{$recipientName}<br />
+<br />
+Registrirani ste kao korisnik na {$contextName}. U ovu smo poruku uključili vVaše korisničko ime i lozinku, koji su Vam potrebni za sav rad s ovim časopisom putem njegove web stranice. U bilo kojem trenutku možete zatražiti uklanjanje s popisa korisnika časopisa tako da me kontaktirate.<br />
+<br />
+Korisničko ime: {$recipientUsername}<br />
+Lozinka: {$password}<br />
+<br />
+Hvala vam,<br />
+{$signature}";s:34:"emails.userValidateContext.subject";s:21:"Potvrdite svoj račun";s:31:"emails.userValidateContext.body";s:338:"{$recipientName}<br />
+<br />
+Izradili ste korisnički račun za {$contextName}, ali prije nego što ga počnete koristiti, potrebno je potvrditi vašu adresu e-pošte. Da biste to učinili, jednostavno slijedite poveznicu u nastavku<br />
+<br />
+{$activateUrl}<br />
+<br />
+Zahvaljujemo i srdačno pozdravljamo,<br />
+{$contextSignature}";s:31:"emails.userValidateSite.subject";s:21:"Potvrdite svoj račun";s:28:"emails.userValidateSite.body";s:343:"{$recipientName}<br />
+<br />
+Izradili ste korisnički račun na stranici {$siteTitle}, ali prije nego što ga počnete koristiti, potrebno je potvrditi vašu adresu e-pošte. Da biste to učinili, jednostavno slijedite poveznicu u nastavku:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Zahvaljujemo i srdačno pozdravljamo,<br />
+{$siteSignature}";s:31:"emails.reviewerRegister.subject";s:49:"Registracija u ulozi recenzenta za {$contextName}";s:28:"emails.reviewerRegister.body";s:898:"<p>Poštovani/a {$recipientName},</p><p>s obzirom na vaše područje stručnosti, unijeli smo vas u bazu recenzenata sljedeće publikacije: {$contextName}. To ne podrazumijeva nikakvu obvezu s vaše strane, već nam to omogućuje da vam se obratimo s molbom za moguću recenziju rada. Prilikom poziva na recenziranje, imat ćete priliku vidjeti naslov i sažetak predmetnog rada te ćete uvijek moći prihvatiti ili odbiti poziv. Također, u bilo kojem trenutku možete zatražiti uklanjanje vašeg imena s popisa recenzenata.</p><p>Dostavljamo vam korisničko ime i lozinku koji se koriste u svim interakcijama s našom publikacijom dostupnom u webu. U našem sustavu možete, primjerice, dopuniti svoj profil, uključujući i područja vašeg recenzentskog interesa.</p><p>Korisničko ime: {$recipientUsername}<br />Lozinka: {$password}</p><p>Zahvaljujemo i srdačno pozdravljamo,</p>{$signature}";s:33:"emails.issuePublishNotify.subject";s:58:"Upravo objavljeno: {$issueIdentification} | {$contextName}";s:30:"emails.issuePublishNotify.body";s:501:"<p>Poštovani/a {$recipientName},</p><p>veliko nam je zadovoljstvo obavijestiti vas da je objavljen novi svezak <a href="{$issueUrl}">{$issueIdentification}</a> časopisa {$contextName}. Pozivamo vas da pročitate ovaj broj i podijelite ga sa svojom znanstvenom zajednicom.</p><p>Veliko hvala našim autorima, recenzentima i urednicima na njihovim dragocjenim doprinosima, kao i našim čitateljima na stalnom interesu.</p><div>{$issueToc}</div><p>Zahvaljujemo i srdačno pozdravljamo,</p>{$signature}";s:27:"emails.editorAssign.subject";s:61:"Dodijeljena vam je uloga urednika za prijavu u {$contextName}";s:24:"emails.editorAssign.body";s:602:"<p>Poštovani/a {$recipientName},</p><p>sljedeća prijava vam je dodijeljena kako biste vodili urednički proces.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Sažetak</b></p>{$submissionAbstract}<p>Ako smatrate da je prijava relevantna za {$contextName}, molimo vas da je proslijedite u recenzijski postupak odabirom opcije "Pošalji na recenziju", a zatim dodijelite recenzente odabirom "Dodaj recenzenta".</p><p>Ako prijava nije prikladna za ovaj časopis, molimo vas da je odbijete.</p><p>Unaprijed zahvaljujemo.</p><p>Uz srdačan pozdrav,</p>{$contextSignature}";s:30:"emails.editorAssignReview.body";s:512:"<p>Poštovani/a {$recipientName},</p><p>sljedeća prijava vam je dodijeljena kako biste vodili recenzijski postupak.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Sažetak</b></p>{$submissionAbstract}<p>Molimo vas da se prijavite u sustav kako biste <a href="{$submissionUrl}">pregledali prijavu</a> i dodijelili kvalificirane recenzente. Recenzenta možete dodijeliti odabirom opcije "Dodaj recenzenta".</p><p>Unaprijed zahvaljujemo.</p><p>Uz srdačan pozdrav,</p>{$signature}";s:34:"emails.editorAssignProduction.body";s:607:"<p>Poštovani/a {$recipientName},</p><p>sljedeća prijava vam je dodijeljena kako biste ju proveli kroz fazu proizvodnje.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Sažetak</b></p>{$submissionAbstract}<p>Molimo vas da se prijavite u sustav kako biste <a href="{$submissionUrl}">pregledali prijavu</a>. Kada datoteke spremne za objavu budu dostupne, učitajte ih u odjeljku <strong>Publikacija > Prijelomi</strong>. Nakon toga zakažite objavu rada odabirom gumba <strong>Zakaži za objavu</strong>.</p><p>Unaprijed zahvaljujemo.</p><p>Srdačan pozdrav,</p>{$signature}";s:28:"emails.reviewRequest.subject";s:25:"Zamolba za recenziju rada";s:25:"emails.reviewRequest.body";s:995:"<p>Poštovani/a {$recipientName},</p><p>vjerujem da biste bili izvrstan recenzent/ica za prijavu koju smo zaprimili u {$contextName}. Naslov i sažetak prijave nalaze se u nastavku te se nadam da ćete razmotriti mogućnost prihvaćanja ove važne zadaće.</p><p>Ako ste u mogućnosti recenzirati ovu prijavu, rok za dostavu recenzije je {$reviewDueDate}. Prijavu možete pregledati, učitati recenzentske datoteke i dostaviti svoju recenziju prijavom na mrežnu stranicu časopisa i praćenjem koraka na sljedećoj poveznici.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Sažetak</b></p>{$submissionAbstract}<p>Molimo vas da <a href="{$reviewAssignmentUrl}">prihvatite ili odbijete</a> poziv za recenziju najkasnije do <b>{$responseDueDate}</b>.</p><p>Slobodno me možete kontaktirati ako imate bilo kakva pitanja o prijavi ili recenzijskom postupku.</p><p>Zahvaljujemo na razmatranju ovog poziva i izuzetno cijenimo vašu pomoć.</p><p>S poštovanjem,</p>{$signature}";s:40:"emails.reviewResponseOverdueAuto.subject";s:46:"Jeste li u mogućnosti recenzirati ovo za nas?";s:37:"emails.reviewResponseOverdueAuto.body";s:999:"<p>Poštovani/a {$recipientName},</p><p>ova je poruka automatski podsjetnik časopisa {$contextName} u vezi s našim zahtjevom za recenziju prijave "{$submissionTitle}".</p><p>Ovu poruku ste primili jer još nismo dobili potvrdu o tome jeste li u mogućnosti prihvatiti recenziranje ove prijave.</p><p>Molimo Vas da nas obavijestite o svojoj odluci koristeći naš sustav za upravljanje prijavama u kojem možete prihvatiti ili odbiti ovaj zahtjev.</p><p>Ako ste u mogućnosti recenzirati ovu prijavu, rok za dostavu recenzije je {$reviewDueDate}. Možete slijediti korake za recenziju kako biste pregledali prijavu, učitali recenzentske datoteke i poslali svoje komentare.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Sažetak</b></p>{$submissionAbstract}<p>Slobodno me kontaktirajte ako imate pitanja u vezi s prijavom ili recenzijskim postupkom.</p><p>Zahvaljujemo na razmatranju ove zamolbe. Doista cijenimo vaša pomoć.</p><p>Srdačan pozdrav,</p>{$contextSignature}";s:38:"emails.reviewRequestSubsequent.subject";s:38:"Zahtjev za recenziju dorađene prijave";s:35:"emails.reviewRequestSubsequent.body";s:1071:"<p>Poštovani/a {$recipientName},</p><p>zahvaljujemo na recenziji rada <a href="{$reviewAssignmentUrl}">{$submissionTitle}</a>. Autori su razmotrili povratne informacije recenzenata i predali dorađenu verziju svog rada. Ovim putem vas molimo da provede drugi recenzijski krug za ovu prijavu.</p><p>Ako ste u mogućnosti recenzirati ovu prijavu, rok za dostavu recenzije je {$reviewDueDate}. Možete <a href="{$reviewAssignmentUrl}">slijediti korake za recenziju</a> kako biste pregledali prijavu, učitali recenzentske datoteke i poslali svoje recenzentske komentare.<p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Sažetak</b></p>{$submissionAbstract}<p>Ljubazno vas molimo da <a href="{$reviewAssignmentUrl}">prihvatite ili odbijete</a> poziv na recenziranje najkasnije do <b>{$responseDueDate}</b>.</p><p>Slobodno me kontaktirajte ako imate bilo kakvih pitanja u vezi s prijavom ili tijekom recenzijskog postupka.</p><p>Zahvaljujemo na razmatranju ovog zahtjeva. Doista cijenimo vašu angažman i pomoć.</p><p>Srdačan pozdrav,</p>{$signature}";s:27:"emails.reviewCancel.subject";s:32:"Zamolba za recenziju je otkazana";s:24:"emails.reviewCancel.body";s:471:"p>Poštovani/a {$recipientName},</p><p>nedavno smo vas zamolili za recenziju prijave časopisa {$contextName}. Odlučili smo otkazati zamolbu za recenziju prijave pod naslovom „{$submissionTitle}”.</p><p>Ispričavamo se zbog eventualno prouzročenih neugodnosti i nadamo se da ćemo i ubuduće moći računati na vašu pomoć u procesu recenziranja prijava zaprimljenih u ovom časopisu.</p><p>Ako imate bilo kakvih pitanja, slobodno me kontaktirajte.</p>{$signature}";s:30:"emails.reviewReinstate.subject";s:60:"Možete li još uvijek recenzirati nešto za {$contextName}?";s:27:"emails.reviewReinstate.body";s:579:"<p>Poštovani/a {$recipientName},</p> <p>nedavno smo otkazali zahtjev za vašu recenziju prijave "{$submissionTitle}" za časopis {$contextName}. Međutim, tu smo odluku povukli i nadamo se da ste i dalje u mogućnosti obaviti recenziju.</p> <p>Ako ste u mogućnosti pomoći s recenzijom ove prijave, možete se <a href="{$reviewAssignmentUrl}">prijaviti na časopis</a> kako biste pregledali prijavu, učitali recenzentske datoteke i dostavili svoj recenzentski izvještaj.</p> <p>Ako imate bilo kakvih pitanja, slobodno me kontaktirajte.</p> <p>S poštovanjem,</p> {$signature}";s:28:"emails.reviewDecline.subject";s:25:"Nemogućnost recenziranja";s:25:"emails.reviewDecline.body";s:241:"Urednici:<br />
+<br />
+Nažalost, trenutno nisam u mogućnosti recenzirati prijavu pod nazivom „{$submissionTitle}“ za {$contextName}. Hvala vam što ste me uzeli u obzir, a slobodno me kontaktirajte drugi put.<br />
+<br />
+{$senderName}";s:27:"emails.reviewRemind.subject";s:34:"Podsjetnik za dovršetak recenzije";s:24:"emails.reviewRemind.body";s:665:"<p>Poštovani/a {$recipientName},</p><p>ljubazno vam šaljemo podsjetnik u vezi s našom zamolbom za recenziju prijave „{$submissionTitle}” za časopis {$contextName}. Recenziju smo očekivali do {$reviewDueDate} te bismo bili zahvalni kada biste nam je dostavili čim budete u mogućnosti.</p><p>Možete se <a href="{$reviewAssignmentUrl}">prijaviti u sustav časopisa</a> i slijediti korake za recenziju kako biste pregledali prijavu, učitali recenzentske datoteke i poslali svoje komentare.</p><p>Ako Vam je potrebno produljenje roka, slobodno me kontaktirajte. Radujem se vašem odgovoru.</p><p>Unaprijed zahvaljujem i srdačno pozdravljam,</p>{$signature}";s:31:"emails.reviewRemindAuto.subject";s:34:"Podsjetnik za dovršetak recenzije";s:28:"emails.reviewRemindAuto.body";s:691:"<p>Poštovani/a {$recipientName},</p><p>ova je poruka automatski podsjetnik časopisa {$contextName} u vezi s našom zamolbom za recenziju prijave „{$submissionTitle}”.</p><p>Recenziju smo očekivali najkasnije do {$reviewDueDate} te bismo bili zahvalni kada biste nam je dostavili čim budete u mogućnosti.</p><p>Molimo vas da se <a href="{$reviewAssignmentUrl}">prijavite u naš sustav</a> i slijedite korake za recenziju kako biste pregledali prijavu, učitali recenzentske datoteke i poslali svoje komentare.</p><p>Ako vam je potrebno produljenje roka, slobodno me kontaktirajte. Radujem se vašem odgovoru.</p><p>Unaprijed zahvaljujem i srdačno pozdravljam,</p>{$contextSignature}";s:35:"emails.editorDecisionAccept.subject";s:62:"Vaša prijava je prihvaćena za objavljivanje u {$contextName}";s:32:"emails.editorDecisionAccept.body";s:978:"<p>Poštovani/a {$recipientName},</p><p>zadovoljstvo mi je obavijestiti vas da smo prihvatili vašu prijavu bez daljnjih dorada. Nakon pažljive recenzije, utvrdili smo da vaša prijava „{$submissionTitle}” ispunjava ili nadmašuje naša očekivanja. Drago nam je što ćemo vaš rad objaviti u časopisu {$contextName} te vam zahvaljujemo što ste odabrali naš časopis za objavu svog rada.</p><p>Vaša je prijava uvrštena u jedan od budućih brojeva časopisa {$contextName}, te je slobodno možete u svoj popis publikacija. Svjesni smo truda koji je uložen u svaku uspješnu prijavu te vam čestitamo na dostizanju ove faze.</p><p>Vaša će prijava sada proći kroz lekturu i tehničko-grafičku pripremu (prijelom) kako bi bila spremna za objavu.</p><p>Uskoro ćete dobiti dodatne upute.</p><p>Ako imate bilo kakvih pitanja, slobodno me kontaktirajte putem svoje <a href="{$authorSubmissionUrl}">nadzorne ploče za prijave</a>.</p><p>Srdačan pozdrav,</p>{$signature}";s:39:"emails.editorDecisionSkipReview.subject";s:35:"Vaša je prijava poslana na lekturu";s:36:"emails.editorDecisionSkipReview.body";s:1030:"<p>Poštovani/a {$recipientName},</p>
+<p>zadovoljstvo mi je obavijestiti vas da smo odlučili prihvatiti vašu prijavu bez recenzije. Utvrdili smo da vaša prijava „{$submissionTitle}” ispunjava naša očekivanja te smatramo da radovi ove vrste ne moraju prolaziti kroz recenzentski postupak. Drago nam je što ćemo vaš rad objaviti u časopisu {$contextName} te vam zahvaljujemo što ste odabrali naš časopis za objavu svog rada.</p>
+<p>Vaša je prijava uvrštena u jedan od budućih brojeva časopisa {$contextName} te je slobodno možete uvrstiti u svoj popis publikacija. Svjesni smo truda koji je uložen u svaku uspješnu prijavu te vam čestitamo na vašem zalaganju.</p>
+<p>Vaša će prijava sada proći kroz lekturu i tehničko-grafičku pripremu kako bi se pripremila za objavu.</p>
+<p>Uskoro ćete primiti daljnje upute.</p>
+<p>Ako imate bilo kakvih pitanja, slobodno me kontaktirajte putem svoje <a href="{$authorSubmissionUrl}">nadzorne ploče za prijave</a>.</p>
+<p>Srdačan pozdrav,</p>
+<p>{$signature}</p>
+";s:28:"emails.layoutRequest.subject";s:74:"Prijava {$submissionId} je spremna za fazu proizvodnje u {$contextAcronym}";s:25:"emails.layoutRequest.body";s:758:"<p>Poštovani/a {$recipientName},</p><p>nova prijava spremna je za grafičko oblikovanje (prijelom):</p><p><a href="{$submissionUrl}">{$submissionId} — {$submissionTitle}</a><br />{$contextName}</p><ol><li>Kliknite na gornju poveznicu prijave.</li><li>Preuzmite datoteke spremne za proizvodnju i koristite ih za izradu prijeloma (galleys) prema standardima časopisa.</li><li>Učitajte prijelome (galleys) u odjeljak „Publikacija” unutar prijave.</li><li>Putem „Rasprava u fazi proizvodnje” obavijestite urednika da su prijelomi spremni.</li></ol><p>Ako u ovom trenutku niste u mogućnosti preuzeti ovaj zadatak ili imate bilo kakvih pitanja, slobodno me kontaktirajte. Hvala vam na doprinosu ovom časopisu.</p><p>Srdačan pozdrav,</p>{$signature}";s:29:"emails.layoutComplete.subject";s:22:"Prijelomi su dovršeni";s:26:"emails.layoutComplete.body";s:307:"<p>Poštovani/a {$recipientName},</p><p>prijelomi za sljedeću prijavu su pripremljeni i spremni su za završni pregled.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$contextName}</p><p>Ako imate bilo kakvih pitanja, slobodno me kontaktirajte.</p><p>Srdačan pozdrav,</p><p>{$signature}</p>";s:24:"emails.emailLink.subject";s:34:"Članak koji bi vas mogao zanimati";s:21:"emails.emailLink.body";s:222:"Skrećem vam pozornost na članak &quot;{$submissionTitle}&quot; autora {$authors} koji je objavljen u god. {$volume}, br. {$number} ({$year}) časopisa {$contextName}. Članak možete pogledati na: „{$submissionUrl}”.";s:28:"emails.emailLink.description";s:279:"Ovaj obrazac e-pošte omogućuje registriranom čitatelju da šalje informaciju o članku nekome tko je zainteresiran. Ovaj je obrazac dostupan putem alata za čitanje i njegovu upotrebu mora aktivirati glavni urednik unutar postavki alata za čitanje među postavkama časopisa.";s:33:"emails.subscriptionNotify.subject";s:21:"Obavijest o pretplati";s:30:"emails.subscriptionNotify.body";s:815:"Poštovani/a {$recipientName},<br />
+<br />
+registrirani ste kao pretplatnik u našem sustavu za upravljanje časopisom {$contextName}, sa sljedećom vrstom pretplate:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Kako biste pristupili sadržaju koji je dostupan samo pretplatnicima, jednostavno se prijavite u sustav sa svojim korisničkim imenom: „{$recipientUsername}”.<br />
+<br />
+Nakon što se prijavite u sustav, u bilo kojem trenutku možete promijeniti svoje podatke u profilu i lozinku.<br />
+<br />
+Napominjemo da, ako imate institucionalnu pretplatu, korisnici u vašoj ustanovi se ne moraju prijavljivati, jer će sustav automatski prepoznati zahtjeve za pristup pretplatničkom sadržaju.<br />
+<br />
+Ako imate bilo kakvih pitanja, slobodno me kontaktirajte.<br />
+<br />
+{$subscriptionSignature}";s:31:"emails.openAccessNotify.subject";s:99:"Besplatno za čitanje: {$issueIdentification} časopisa {$contextName} sada je u otvorenom pristupu";s:28:"emails.openAccessNotify.body";s:337:"<p>Poštovani/Poštovana {$recipientName},</p>
+<p>zadovoljstvo nam je obavijestiti vas da je <a href="{$issueUrl}">{$issueIdentification}</a> časopisa {$contextName} sada dostupan u otvorenom pristupu. Za čitanje ovog broja više nije potrebna pretplata.</p>
+<p>Hvala vam na kontinuiranom zanimanju za naš rad.</p>
+{$contextSignature}";s:39:"emails.subscriptionBeforeExpiry.subject";s:28:"Obavijest o isteku pretplate";s:36:"emails.subscriptionBeforeExpiry.body";s:486:"{$recipientName}:<br />
+<br />
+Vaša pretplata za {$contextName} uskoro istječe.<br />
+<br />
+{$subscriptionType}<br />
+Datum isteka: {$expiryDate}<br />
+<br />
+Kako biste osigurali neprekidan pristup ovom časopisu, molimo posjetite web-stranicu časopisa i obnovite svoju pretplatu. Možete se prijaviti u sustav koristeći svoje korisničko ime, „{$recipientUsername}“.<br />
+<br />
+Ako imate bilo kakvih pitanja, slobodno me kontaktirajte.<br />
+<br />
+{$subscriptionSignature}";s:38:"emails.subscriptionAfterExpiry.subject";s:26:"Vaša pretplata je istekla";s:35:"emails.subscriptionAfterExpiry.body";s:419:"{$recipientName}:<br />
+<br />
+Vaša pretplata za {$contextName} je istekla.<br />
+<br />
+{$subscriptionType}<br />
+Datum isteka: {$expiryDate}<br />
+<br />
+Za obnovu pretplate, molimo posjetite web-stranicu časopisa. Možete se prijaviti u sustav koristeći svoje korisničko ime, „{$recipientUsername}“.<br />
+<br />
+Ako imate bilo kakvih pitanja, slobodno me kontaktirajte.<br />
+<br />
+{$subscriptionSignature}";s:42:"emails.subscriptionAfterExpiryLast.subject";s:48:"Vaša pretplata je istekla - konačni podsjetnik";s:39:"emails.subscriptionAfterExpiryLast.body";s:512:"{$recipientName}:<br />
+<br />
+Vaša pretplata za {$contextName} je istekla.<br />
+Imajte na umu da je ovo posljednja obavijest koja će vam biti poslana putem e-pošte.<br />
+<br />
+{$subscriptionType}<br />
+Datum isteka: {$expiryDate}<br />
+<br />
+Za obnovu pretplate, molimo posjetite web-stranicu časopisa. Možete se prijaviti u sustav koristeći svoje korisničko ime, „{$recipientUsername}“.<br />
+<br />
+Ako imate bilo kakvih pitanja, slobodno me kontaktirajte.<br />
+<br />
+{$subscriptionSignature}";s:39:"emails.subscriptionPurchaseIndl.subject";s:30:"Kupnja pretplate: Individualna";s:36:"emails.subscriptionPurchaseIndl.body";s:410:"Pojedinačna pretplata je kupljena online za časopis {$contextName} sa sljedećim podacima.<br />
+<br />
+Vrsta pretplate:<br />
+{$subscriptionType}<br />
+<br />
+Korisnik:<br />
+{$subscriberDetails}<br />
+<br />
+Podaci o članstvu (ako su navedeni):<br />
+{$membership}<br />
+<br />
+Za pregled ili uređivanje ove pretplate, molimo koristite sljedeći URL.<br />
+<br />
+URL pretplate: {$subscriptionUrl}<br />
+";s:40:"emails.subscriptionPurchaseInstl.subject";s:33:"Kupnja pretplate: Institucionalna";s:37:"emails.subscriptionPurchaseInstl.body";s:704:"Institucionalna pretplata je kupljena putem interneta za časopis {$contextName} s sljedećim podacima. Da biste aktivirali ovu pretplatu, upotrijebite priloženi URL pretplate i postavite status pretplate na "Aktivno".
+<br /><br />
+
+Vrsta pretplate:
+{$subscriptionType}
+<br /><br />
+
+Institucija:
+{$institutionName}
+{$institutionMailingAddress}
+<br /><br />
+
+Domena (ako je navedena):
+{$domain}
+<br /><br />
+
+IP rasponi (ako su navedeni):
+{$ipRanges}
+<br /><br />
+
+Kontakt osoba:
+{$subscriberDetails}
+<br /><br />
+
+Informacije o članstvu (ako su navedene):
+{$membership}
+<br /><br />
+
+Za pregled ili uređivanje ove pretplate, upotrijebite sljedeći URL:
+<br /><br />
+URL pretplate: {$subscriptionUrl}
+";s:36:"emails.subscriptionRenewIndl.subject";s:30:"Obnova pretplate: Individualna";s:33:"emails.subscriptionRenewIndl.body";s:417:"Pojedinačna pretplata je obnovljena putem interneta za {$contextName} sa sljedećim podacima.<br />
+<br />
+Vrsta pretplate:<br />
+{$subscriptionType}<br />
+<br />
+Korisnik:<br />
+{$subscriberDetails}<br />
+<br />
+Informacije o članstvu (ako su dostupne):<br />
+{$membership}<br />
+<br />
+Za pregled ili uređivanje ove pretplate, molimo koristite sljedeći URL.<br />
+<br />
+URL pretplate: {$subscriptionUrl}<br />
+";s:37:"emails.subscriptionRenewInstl.subject";s:33:"Obnova pretplate: Institucionalna";s:34:"emails.subscriptionRenewInstl.body";s:627:"Institucionalna pretplata je obnovljena putem interneta za {$contextName} sa sljedećim podacima.<br />
+<br />
+Vrsta pretplate:<br />
+{$subscriptionType}<br />
+<br />
+Institucija:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domena (ako je navedena):<br />
+{$domain}<br />
+<br />
+IP rasponi (ako su navedeni):<br />
+{$ipRanges}<br />
+<br />
+Kontakt osoba:<br />
+{$subscriberDetails}<br />
+<br />
+Informacije o članstvu (ako su dostupne):<br />
+{$membership}<br />
+<br />
+Za pregled ili uređivanje ove pretplate, molimo koristite sljedeći URL.<br />
+<br />
+URL pretplate: {$subscriptionUrl}<br />
+";s:35:"emails.revisedVersionNotify.subject";s:31:"Učitana je ispravljena verzija";s:32:"emails.revisedVersionNotify.body";s:339:"<p>Poštovani/a {$recipientName},</p><p>autor je učitao prerađenu verziju prijave <b>{$authorsShort} — {$submissionTitle}</b>. <p>Kao dodijeljeni urednik, molimo vas da se prijavite u sustav, <a href="{$submissionUrl}">pregledate izmjene</a> te donesete odluku o prihvaćanju, odbijanju ili slanju prijave u daljnji krug recenzije.</p>";s:43:"emails.statisticsReportNotification.subject";s:42:"Uredničke aktivnosti za {$month}, {$year}";s:40:"emails.statisticsReportNotification.body";s:798:"
+Poštovani/a {$recipientName}, <br />
+<br />
+Izvještaj o statusu vašeg časopisa za {$month}. {$year}. sada je dostupan. Vaši ključni statistički podaci za ovaj mjesec navedeni su u nastavku.<br />
+<ul>
+<li>Broj novih prijava u ovom mjesecu: {$newSubmissions}</li>
+<li>Broj odbijenih prijava u ovom mjesecu: {$declinedSubmissions}</li>
+<li>Broj prihvaćenih prijava u ovom mjesecu: {$acceptedSubmissions}</li>
+<li>Ukupan broj prijava u sustavu: {$totalSubmissions}</li>
+</ul>
+Prijavite se u sustav kako biste pregledali detaljnije <a href="{$editorialStatsLink}">uredničke trendove</a> i <a href="{$publicationStatsLink}">statistike objavljenih članaka</a>. Cijeli izvještaj uredničkih trendova za ovaj mjesec nalazi se u privitku.<br />
+<br />
+Srdačan pozdrav,<br />
+{$contextSignature}";s:27:"emails.announcement.subject";s:20:"{$announcementTitle}";s:24:"emails.announcement.body";s:178:"<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Posjetite našu web stranicu kako biste pročitali <a href="{$announcementUrl}">cjelovitu objavu</a>.";s:41:"emails.paymentRequestNotification.subject";s:33:"Obavijest o zahtjevu za plaćanje";s:38:"emails.paymentRequestNotification.body";s:490:"<p>Poštovani {$recipientName},</p><p>Čestitamo na prihvaćanju vašeg rada, {$submissionTitle}, u {$contextName}. Sada kada je vaš rad prihvaćen, željeli bismo zatražiti uplatu naknade za objavu.</p><p>Ova naknada pokriva troškove produkcije potrebne za objavu vašeg rada. Za izvršenje uplate, molimo posjetite <a href="{$queuedPaymentUrl}">{$queuedPaymentUrl}</a>.</p><p>Ako imate pitanja, molimo pogledajte naše <a href="{$submissionGuidelinesUrl}">Smjernice za prijavu</a>.</p>";s:40:"emails.paymentRequestNotification.footer";s:90:"<br><br>—<br>Ovo je automatizirana poruka od <a href="{$contextUrl}">{$contextName}</a>.";}}}

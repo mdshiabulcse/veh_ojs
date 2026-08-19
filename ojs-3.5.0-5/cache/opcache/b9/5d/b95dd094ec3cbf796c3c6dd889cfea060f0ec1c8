@@ -1,0 +1,312 @@
+1818656037a:3:{s:6:"domain";N;s:12:"plural-forms";s:21:"nplurals=1; plural=0;";s:8:"messages";a:1:{s:0:"";a:67:{s:35:"emails.passwordResetConfirm.subject";s:37:"Xác nhận đặt lại mật khẩu";s:32:"emails.passwordResetConfirm.body";s:442:"Chúng tôi đã nhận được yêu cầu đặt lại mật khẩu của bạn cho {$siteTitle}.<br />
+<br />
+Nếu bạn không thực hiện yêu cầu này, vui lòng bỏ qua email này và mật khẩu của bạn sẽ không bị thay đổi. Nếu bạn muốn đặt lại mật khẩu của mình, nhấp vào URL bên dưới.<br />
+<br />
+Đặt lại mật khẩu của tôi: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}";s:27:"emails.userRegister.subject";s:21:"Đăng ký tạp chí";s:24:"emails.userRegister.body";s:602:"{$recipientName}<br />
+<br />
+Bây giờ bạn đã được đăng ký là người dùng với {$contextName}. Chúng tôi đã gửi bao gồm tên người dùng và mật khẩu của bạn trong email này, điều này là cần thiết cho tất cả các công việc với tạp chí này thông qua trang web. Tại bất kỳ thời điểm nào, bạn có thể yêu cầu xóa khỏi danh sách người dùng của tạp chí bằng cách liên hệ với chúng tôi.<br />
+<br />
+Username: {$recipientUsername}<br />
+Password: {$password}<br />
+<br />
+Trân trọng,<br />
+{$signature}";s:34:"emails.userValidateContext.subject";s:36:"Xác thực tài khoản của bạn";s:31:"emails.userValidateContext.body";s:366:"{$recipientName}<br />
+<br />
+Bạn đã tạo một tài khoản với {$contextName}, nhưng trước khi bạn có thể bắt đầu sử dụng nó, bạn cần xác thực tài khoản email của mình. Để làm điều này, chỉ cần truy cập liên kết dưới đây:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Trân trọng,<br />
+{$contextSignature}";s:31:"emails.userValidateSite.subject";s:35:"Kiểm tra tài khoản của bạn";s:28:"emails.userValidateSite.body";s:290:"{$recipientName}<br />
+<br />
+Bạn đã tạo 1 tài khoản với {$siteTitle}, nhưng trước khi bắt đầu sử dụng, bạn cần phải xác nhận email. Để xác nhận, hãy click link dưới đây:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Cảm ơn,<br />
+{$siteSignature}";s:31:"emails.reviewerRegister.subject";s:57:"Đăng ký làm Người phản biện cho {$contextName}";s:28:"emails.reviewerRegister.body";s:1086:"Dựa theo chuyên môn của bạn, chúng tôi đã tự đăng ký tên của bạn trong cơ sở dữ liệu của người phản biện cho {$contextName}. Điều này không đòi hỏi bất kỳ hình thức cam kết nào từ phía bạn, mà chỉ cho phép chúng tôi tiếp cận bạn với một bài gửi để bạn có thể nhận xét. Khi được mời nhận xét, bạn sẽ có thể xem tiêu đề và tóm tắt của bài báo đang đề cập và bạn sẽ có thể chấp nhận hoặc từ chối lời mời. Bạn cũng có thể yêu cầu bất cứ lúc nào để xóa tên của bạn khỏi danh sách phản biện.<br />
+<br />
+Chúng tôi đang cung cấp cho bạn username và mật khẩu, được sử dụng trong tất cả các tương tác với tạp chí thông qua trang web. Bạn có thể muốn, ví dụ, để cập nhật hồ sơ của bạn, bao gồm cả lĩnh vực mà bạn đang quan tâm.<br />
+<br />
+Username: {$recipientUsername}<br />
+Password: {$password}<br />
+<br />
+Trân trọng,<br />
+{$signature}";s:33:"emails.issuePublishNotify.subject";s:56:"Số vừa được xuất bản: {$issueIdentification}";s:30:"emails.issuePublishNotify.body";s:487:"Kính gửi quý độc giả:<br />
+<br />
+{$contextName} vừa xuất bản số mới nhất tại {$contextUrl}. Chúng tôi kính mời độc đọc tham khảo Mục lục tại đây và sau đó truy cập trang web của chúng tôi để xem chi tiết các bài viết và các bài bạn quan tâm.<br />
+<br />
+Trân trọng cảm ơn  và mong tiếp tục nhận được sự quan tâm của quý độc giả với các ấn phẩm của chúng tôi,<br />
+{$signature}";s:27:"emails.editorAssign.subject";s:88:"Bạn đã được chỉ định là người biên tập cho bài gửi {$contextName}";s:24:"emails.editorAssign.body";s:343:"Kính gửi {$recipientName},<br />
+<br />
+Bài gửi, &quot;{$submissionTitle},&quot; của {$contextName} đã được phân công cho bạn để xem qua quy trình biên tập với vai trò là Biên tập viên chuyên mục.<br />
+<br />
+URL bài gửi: {$submissionUrl}<br />
+Username: {$recipientUsername}<br />
+<br />
+Trân trọng.";s:30:"emails.editorAssignReview.body";s:564:"<p>Kính gửi {$recipientName},</p><p>Bài gửi sau đây đã được giao cho bạn để tổ chức phản biện kín.</p><p><a href="{$submissionUrl}"> {$submissionTitle</a><br />{$authors</p><p><b>Tóm tắt</b></p>{$submissionAbstract<p>Vui lòng đăng nhập vào <a href=" {$submissionUrl}">xem nội dung gửi</a> và chỉ định người đánh giá đủ tiêu chuẩn. Bạn có thể chỉ định người đánh giá bằng cách nhấp vào "Thêm người đánh giá".</p><p>Cảm ơn bạn trước.</p><p>Trân trọng,</p>{$signature}";s:28:"emails.reviewRequest.subject";s:22:"Mời review bài báo";s:25:"emails.reviewRequest.body";s:1260:"Kính gửi {$recipientName},<br />
+<br />
+Tôi tin rằng bạn sẽ một người phản biện thích hợp của bản thảo, &quot;{$submissionTitle},&quot; được gửi tới {$contextName}. Bản tóm tắt của bản thảo được chèn bên dưới và tôi hy vọng rằng bạn sẽ xem xét thực hiện quá trình quan trọng này cho chúng tôi.<br />
+<br />
+Vui lòng đăng nhập vào trang web tạp chí trước ngày {$responseDueDate} để cho biết liệu bạn sẽ thực hiện đánh giá này hay không, cũng như truy cập vào bài gửi và ghi lại nhận xét và đề xuất của bạn. Trang web là {$contextUrl}<br />
+<br />
+Thời hạn của việc đánh giá là ngày {$reviewDueDate}.<br />
+<br />
+Nếu bạn quên username và mật khẩu đăng nhập vào trang web của tạp chí, bạn có thể sử dụng liên kết này để đặt lại mật khẩu của mình (sau đó sẽ được gửi qua email cho bạn cùng với username của bạn).{$passwordLostUrl}<br />
+<br />
+URL bài gửi: {$reviewAssignmentUrl}<br />
+<br />
+Cảm ơn bạn đã xem xét yêu cầu này.<br />
+<br />
+{$signature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}";s:40:"emails.reviewResponseOverdueAuto.subject";s:33:"Yều cầu đánh giá bài báo";s:37:"emails.reviewResponseOverdueAuto.body";s:1447:"Kính gửi {$recipientName},<br />
+Đây là email để nhắc bạn về việc đánh giá bài gửi, &quot;{$submissionTitle},&quot; cho {$contextName}. Chúng tôi hy vọng sẽ có phản hồi của bạn vào ngày {$responseDueDate}, và email này đã được tự động tạo và gửi cùng với ngày đó.
+<br />
+Tôi tin rằng bạn là một người phản biện phù hợp của bản thảo này. Bản tóm tắt của bài gửi được chèn bên dưới và tôi hy vọng rằng bạn sẽ xem xét thực hiện quá trình quan trọng này cho chúng tôi.<br />
+<br />
+Vui lòng đăng nhập vào trang web tạp chí để cho biết liệu bạn sẽ thực hiện đánh giá hay không, cũng như để truy cập vào bài gửi và ghi lại đánh giá và đề xuất của bạn. Trang web là {$contextUrl}<br />
+<br />
+Thời hạn phản biện là ngày {$reviewDueDate}.<br />
+<br />
+Nếu bạn quên username và mật khẩu đăng nhập vào trang web của tạp chí, bạn có thể sử dụng liên kết này để đặt lại mật khẩu của mình (sau đó sẽ được gửi qua email cho bạn cùng với username của bạn). {$passwordLostUrl}<br />
+<br />
+URL bài gửi: {$reviewAssignmentUrl}<br />
+<br />
+Cảm ơn bạn đã xem xét yêu cầu này.<br />
+<br />
+{$contextSignature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}";s:38:"emails.reviewRequestSubsequent.subject";s:54:"Yêu cầu review một bài báo được gửi lại";s:35:"emails.reviewRequestSubsequent.body";s:1255:"Kính gửi {$recipientName},<br />
+<br />
+Liên quan tới bản thảo &quot;{$submissionTitle},&quot; được xem xét bởi {$contextName}.<br />
+<br />
+Sau khi xem xét phiên bản trước của bản thảo, các tác giả hiện đã gửi phiên bản sửa chữa bài báo của họ. Chúng tôi đánh giá cao nếu bạn có thể giúp đánh giá bản sửa chữa này.<br />
+<br />
+Vui lòng đăng nhập vào trang web tạp chí trước ngày {$responseDueDate} để cho biết liệu bạn sẽ thực hiện đánh giá hay không, cũng như truy cập vào bài gửi và ghi lại đánh giá và đề xuất của bạn. Trang web là {$contextUrl}<br />
+<br />
+Thời hạn đánh giá là ngày {$reviewDueDate}.<br />
+<br />
+Nếu bạn không nhớ username và mật khẩu cho trang web của tạp chí, bạn có thể sử dụng liên kết này để đặt lại mật khẩu của mình (sau đó sẽ được gửi qua email cho bạn cùng với username của bạn). {$passwordLostUrl}<br />
+<br />
+URL bài gửi: {$reviewAssignmentUrl}<br />
+<br />
+Cảm ơn bạn đã xem xét yêu cầu này.<br />
+<br />
+{$signature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}";s:27:"emails.reviewCancel.subject";s:38:"Hủy yêu cầu đánh giá bài báo";s:24:"emails.reviewCancel.body";s:562:"Kính gửi {$recipientName},<br />
+<br />
+Tại thời điểm này, chúng tôi đã quyết định hủy yêu cầu của chúng tôi để bạn đánh giá bài gửi, &quot;{$submissionTitle},&quot; cho {$contextName}. Chúng tôi xin lỗi vì bất kỳ sự bất tiện nào mà điều này có thể gây ra cho bạn và hy vọng rằng chúng tôi sẽ có thể nhờ bạn hỗ trợ quá trình đánh giá của tạp chí trong tương lai.<br />
+<br />
+Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng liên hệ với chúng tôi.";s:30:"emails.reviewReinstate.subject";s:64:"Bạn vẫn còn đang review thêm gì đó cho {$contextName}?";s:27:"emails.reviewReinstate.body";s:386:"Kính gửi {$recipientName},<br />
+<br />
+Chúng tôi muốn khôi phục yêu cầu của chúng tôi để bạn đánh giá bài gửi, &quot;{$submissionTitle},&quot; cho {$contextName}. Chúng tôi hy vọng rằng bạn sẽ có thể hỗ trợ quá trình đánh giá của tạp chí này.<br />
+<br />
+Nếu bạn có thắc mắc, xin vui lòng liên hệ với chúng tôi.";s:28:"emails.reviewDecline.subject";s:31:"Không thể nhận đánh giá";s:25:"emails.reviewDecline.body";s:314:"Kính gửi biên tập viên,<br />
+<br />
+Tôi e rằng tại thời điểm này tôi không thể đánh giá bài gửi, &quot;{$submissionTitle},&quot; cho {$contextName}. Cảm ơn bạn đã nghĩ đến  tôi, và bạn có thể liên hệ với tôi vào thời điểm khác.<br />
+<br />
+{$senderName}";s:27:"emails.reviewRemind.subject";s:33:"Nhắc việc hoàn thành review";s:24:"emails.reviewRemind.body";s:888:"Kính gửi {$recipientName},<br />
+<br />
+Đây là nhắc nhở về yêu cầu của chúng tôi để bạn xem xét bài gửi, &quot;{$submissionTitle},&quot; for {$contextName}. Chúng tôi hy vọng sẽ có đánh giá này vào ngày {$reviewDueDate}, và sẽ rất vui khi nhận được nó ngay khi bạn có thể gửi nó.<br />
+<br />
+Nếu bạn không có username và mật khẩu cho trang web của tạp chí, bạn có thể sử dụng liên kết này để đặt lại mật khẩu của mình (sau đó sẽ được gửi qua email cho bạn cùng với username của bạn). {$passwordLostUrl}<br />
+<br />
+URL bài gửi: {$reviewAssignmentUrl}<br />
+<br />
+Vui lòng xác nhận khả năng hoàn thành quy trình quan trọng này cho công việc của tạp chí. Chúng tôi mong nhận được phản hồi của bạn.<br />
+<br />
+{$signature}";s:31:"emails.reviewRemindAuto.subject";s:33:"Nhắc việc hoàn thành review";s:28:"emails.reviewRemindAuto.body";s:945:"Kính gửi {$recipientName},<br />
+<br />
+Just a gentle reminder of our request for your review of the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We were hoping to have this review by {$reviewDueDate}, and this email has been automatically generated and sent with the passing of that date. We would still be pleased to receive it as soon as you are able to prepare it.<br />
+<br />
+Nếu bạn không có username và mật khẩu cho trang web của tạp chí, bạn có thể sử dụng liên kết này để đặt lại mật khẩu của mình (sau đó sẽ được gửi qua email cho bạn cùng với username của bạn). {$passwordLostUrl}<br />
+<br />
+URL bài gửi: {$reviewAssignmentUrl}<br />
+<br />
+Vui lòng xác nhận khả năng hoàn thành quy trình quan trọng này cho công việc của tạp chí. Chúng tôi mong nhận được phản hồi của bạn.<br />
+<br />
+{$contextSignature}";s:35:"emails.editorDecisionAccept.subject";s:69:"Bài gửi của bạn đã được chấp nhận cho {$contextName}";s:32:"emails.editorDecisionAccept.body";s:265:"Kính gửi {$authors},<br />
+<br />
+Chúng tôi đã đạt được một quyết định liên quan đến việc bài gửi của bạn  {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Quyết định của chúng tôi là: Chấp nhận cho đăng";s:39:"emails.editorDecisionSkipReview.subject";s:58:"Bài gửi của bạn đã được gửi để sao chép";s:28:"emails.layoutRequest.subject";s:78:"Bài gửi {$submissionId} đã sẵn sàng xuất bản ở {$contextAcronym}";s:25:"emails.layoutRequest.body";s:920:"Kính gửi {$recipientName},<br />
+<br />
+Bài gửi &quot;{$submissionTitle}&quot; đến {$contextName} bây giờ cần bản in bằng cách làm theo các bước sau.<br />
+1. Nhấp vào URL gửi dưới đây.<br />
+2. Đăng nhập vào tạp chí và sử dụng các tập tin sẵn sàng chế bản để tạo ra các bản in theo tiêu chuẩn của tạp chí.<br />
+3. Tải các bản in thử vào tập tin Bản in<br />
+4. Thông báo cho Biên tập viên bằng mục thảo luận khi chế bản rằng các bản in được tải lên và sẵn sàng.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+URL bài gửi: {$submissionUrl}<br />
+Username: {$recipientUsername}<br />
+<br />
+Nếu bạn không thể thực hiện công việc này vào lúc này hoặc có bất kỳ câu hỏi nào, xin vui lòng liên hệ với tôi. Cảm ơn bạn đã đóng góp cho tạp chí này.";s:29:"emails.layoutComplete.subject";s:21:"Hoàn thành bản in";s:26:"emails.layoutComplete.body";s:319:"Kính gửi {$recipientName},<br />
+<br />
+Bản in hiện đã được chuẩn bị cho bản thảo, &quot;{$submissionTitle},&quot; của {$contextName} và sẵn sàng cho hiệu đính.<br />
+<br />
+Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng liên hệ với chúng tôi.<br />
+<br />
+{$senderName}";s:24:"emails.emailLink.subject";s:19:"Bài báo quan tâm";s:21:"emails.emailLink.body";s:205:"Tôi nghĩ rằng bạn có thể quan tâm &quot;{$submissionTitle}&quot; bởi {$authors} xuất bản trong Vol {$volume}, No {$number} ({$year}) của {$contextName} tại &quot;{$submissionUrl}&quot;.";s:28:"emails.emailLink.description";s:288:"Mẫu email này cung cấp cho người đọc đã đăng ký cơ hội gửi thông tin về một bài viết cho ai đó có thể quan tâm. Nó có sẵn thông qua Công cụ đọc và phải được Quản lý tạp chí kích hoạt trong trang Quản trị công cụ đọc.";s:33:"emails.subscriptionNotify.subject";s:21:"Thông báo thuê bao";s:30:"emails.subscriptionNotify.body";s:986:"Kính gửi {$recipientName},<br />
+<br />
+Bây giờ bạn đã được đăng ký như một thuê bao trong hệ thống quản lý tạp chí trực tuyến của chúng tôi cho {$contextName}, với đăng ký sau:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Để truy cập nội dung chỉ dành cho người thuê bao, chỉ cần đăng nhập vào hệ thống bằng username của bạn, &quot;{$recipientUsername}&quot;.<br />
+<br />
+Khi bạn đã đăng nhập vào hệ thống, bạn có thể thay đổi chi tiết hồ sơ và mật khẩu của mình bất cứ lúc nào.<br />
+<br />
+Xin lưu ý rằng nếu bạn có thuê bao tổ chức, người dùng tại tổ chức của bạn không cần phải đăng nhập, vì các yêu cầu cho nội dung thuê bao sẽ được hệ thống xác thực tự động.<br />
+<br />
+Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng liên hệ với chúng tôi.<br />
+<br />
+{$subscriptionSignature}";s:31:"emails.openAccessNotify.subject";s:98:"Đọc miễn phí: {$issueIdentification} của {$contextName} hiện có quyền truy cập mở";s:28:"emails.openAccessNotify.body";s:418:"Kính gửi  Độc giả,<br />
+<br />
+{$contextName} vừa có sẵn một số cho phép truy cập mở. Chúng tôi kính mời bạn tham khảo mục lục tại đây và sau đó truy cập trang web của chúng tôi ({$contextUrl}) để xem chi tiết các bài viết mà bạn quan tâm.<br />
+<br />
+Cám ơn sự quan tâm của bạn với các ấn phẩm của chúng tôi,<br />
+{$contextSignature}";s:39:"emails.subscriptionBeforeExpiry.subject";s:33:"Thông báo hết hạn thuê bao";s:36:"emails.subscriptionBeforeExpiry.body";s:573:"Kính gửi {$recipientName},<br />
+<br />
+Thuê bao tại {$contextName} sắp hết hạn<br />
+<br />
+{$subscriptionType}<br />
+Expiry date: {$expiryDate}<br />
+<br />
+Để đảm bảo tính liên tục khi truy cập vào tạp chí này, vui lòng truy cập trang web tạp chí và gia hạn thuê bao của bạn. Bạn có thể đăng nhập vào hệ thống bằng username của bạn, &quot;{$recipientUsername}&quot;.<br />
+<br />
+Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng liên hệ với chúng tôi.<br />
+<br />
+{$subscriptionSignature}";s:38:"emails.subscriptionAfterExpiry.subject";s:21:"Thuê bao hết hạn";s:35:"emails.subscriptionAfterExpiry.body";s:507:"Kính gửi {$recipientName},<br />
+<br />
+Thuê bao tại {$contextName} đã hết hạn.<br />
+<br />
+{$subscriptionType}<br />
+Ngày hết hạn: {$expiryDate}<br />
+<br />
+Để gia hạn thuê bao của bạn, vui lòng truy cập trang web tạp chí. Bạn có thể đăng nhập vào hệ thống bằng username của bạn,&quot;{$recipientUsername}&quot;.<br />
+<br />
+Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng liên hệ với chúng tôi.<br />
+<br />
+{$subscriptionSignature}";s:42:"emails.subscriptionAfterExpiryLast.subject";s:54:"Thuê bao đã hết hạn - Nhắc nhở cuối cùng";s:39:"emails.subscriptionAfterExpiryLast.body";s:610:"Kính gửi {$recipientName},<br />
+<br />
+Thuê bao tại {$contextName} đã hết hạn.<br />
+Xin lưu ý rằng đây là lời nhắc cuối cùng sẽ được gửi qua email cho bạn.<br />
+<br />
+{$subscriptionType}<br />
+Ngày hết hạn: {$expiryDate}<br />
+<br />
+Để gia hạn thuê bao của bạn, vui lòng truy cập trang web tạp chí. Bạn có thể đăng nhập vào hệ thống bằng username của bạn, &quot;{$recipientUsername}&quot;.<br />
+<br />
+Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng liên hệ với chúng tôi.<br />
+<br />
+{$subscriptionSignature}";s:39:"emails.subscriptionPurchaseIndl.subject";s:25:"Đăng ký mua: Cá nhân";s:36:"emails.subscriptionPurchaseIndl.body";s:441:"Một thuê bao cá nhân đã được mua trực tuyến với {$contextName} với các chi tiết sau.<br />
+<br />
+Kiểu thuê bao:<br />
+{$subscriptionType}<br />
+<br />
+User:<br />
+{$subscriberDetails}<br />
+<br />
+Thông tin thành viên (nếu được cung cấp):<br />
+{$membership}<br />
+<br />
+Để xem hoặc chỉnh sửa đăng ký này, vui lòng sử dụng URL sau.<br />
+<br />
+URL thuê bao: {$subscriptionUrl}<br />
+";s:40:"emails.subscriptionPurchaseInstl.subject";s:27:"Đăng ký mua: Tổ chức";s:37:"emails.subscriptionPurchaseInstl.body";s:839:"Một thuê bao tổ chức đã được mua trực tuyến với {$contextName} với các chi tiết sau. Để kích hoạt đăng ký này, vui lòng sử dụng URL đăng ký được cung cấp và đặt trạng thái đăng ký thành 'Kích hoạt'.<br />
+<br />
+Kiểu thuê bao:<br />
+{$subscriptionType}<br />
+<br />
+Tổ chức:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Tên miền (nếu được cung cấp):<br />
+{$domain}<br />
+<br />
+Phạm vi IP (nếu được cung cấp):<br />
+{$ipRanges}<br />
+<br />
+Người liên hệ:<br />
+{$subscriberDetails}<br />
+<br />
+Thông tin thành viên (nếu được cung cấp):<br />
+{$membership}<br />
+<br />
+Để xem hoặc chỉnh sửa đăng ký này, vui lòng sử dụng URL sau.<br />
+<br />
+URL thuê bao: {$subscriptionUrl}<br />
+";s:36:"emails.subscriptionRenewIndl.subject";s:30:"Gia hạn thuê bao: Cá nhân";s:33:"emails.subscriptionRenewIndl.body";s:447:"Một thuê bao cá nhân đã được gia hạn trực tuyến với {$contextName} với các chi tiết sau.<br />
+<br />
+Kiểu thuê bao:<br />
+{$subscriptionType}<br />
+<br />
+User:<br />
+{$subscriberDetails}<br />
+<br />
+Thông tin thành viên (nếu được cung cấp):<br />
+{$membership}<br />
+<br />
+Để xem hoặc chỉnh sửa đăng ký này, vui lòng sử dụng URL sau.<br />
+<br />
+URL thuê bao: {$subscriptionUrl}<br />
+";s:37:"emails.subscriptionRenewInstl.subject";s:32:"Gia hạn thuê bao: Tổ chức";s:34:"emails.subscriptionRenewInstl.body";s:679:"An institutional subscription has been renewed online for {$contextName} with the following details.<br />
+<br />
+Kiểu thuê bao:<br />
+{$subscriptionType}<br />
+<br />
+Tổ chức:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Tên miền (nếu được cung cấp):<br />
+{$domain}<br />
+<br />
+Phạm vi IP (nếu được cung cấp):<br />
+{$ipRanges}<br />
+<br />
+Người liên hệ:<br />
+{$subscriberDetails}<br />
+<br />
+Thông tin thành viên (nếu được cung cấp):<br />
+{$membership}<br />
+<br />
+Để xem hoặc chỉnh sửa đăng ký này, vui lòng sử dụng URL sau.<br />
+<br />
+URL thuê bao: {$subscriptionUrl}<br />
+";s:35:"emails.revisedVersionNotify.subject";s:29:"Tải lên bản sửa chữa";s:32:"emails.revisedVersionNotify.body";s:248:"Kính gửi Biên tập viên,<br />
+<br />
+Một bản sửa chữa của bài gửi &quot;{$submissionTitle}&quot; đã được tải lên bởi tác giả {$submitterName}.<br />
+<br />
+URL bài gửi: {$submissionUrl}<br />
+<br />
+{$signature}";s:43:"emails.statisticsReportNotification.subject";s:36:"Hoạt động cho {$month}, {$year}";s:40:"emails.statisticsReportNotification.body";s:838:"
+{$recipientName}, <br />
+<br />
+Báo cáo tình trạng hoạt động của tạp chí vào {$month}, {$year} đã có. Số liệu thống kê quan trọng của tạp chí trong tháng này hiển thị ở dưới đây.<br />
+<ul>
+	<li>Bài gửi mới trong tháng này: {$newSubmissions}</li>
+	<li>Bài từ chối trong tháng này: {$declinedSubmissions}</li>
+	<li>Bài đồng ý đăng trong tháng này: {$acceptedSubmissions}</li>
+	<li>Tổng số bài trên hệ thống: {$totalSubmissions}</li>
+</ul>
+Đăng nhập vào tạp chí để xem chi tiết hơn <a href="{$editorialStatsLink}">xu thế</a> và <a href="{$publicationStatsLink}">số liệu thống kê bài báo</a>. Một bản sao đầy đủ của các xu thế trong tháng này được đính kèm.<br />
+<br />
+Trân trọng,<br />
+{$contextSignature}";s:27:"emails.announcement.subject";s:20:"{$announcementTitle}";s:24:"emails.announcement.body";s:187:"<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Ghé thăm trang web của chúng tôi để đọc <a href="{$announcementUrl}">thông báo đầy đủ</a>.";s:41:"emails.paymentRequestNotification.subject";s:34:"Thông báo yêu cầu thanh toán";s:40:"emails.paymentRequestNotification.footer";s:97:"<br><br>—<br>Đây là tin nhắn tự động từ <a href="{$contextUrl}">{$contextName}</a>.";}}}

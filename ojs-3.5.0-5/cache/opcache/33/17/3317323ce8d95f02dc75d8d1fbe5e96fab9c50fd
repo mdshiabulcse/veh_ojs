@@ -1,0 +1,182 @@
+1818656035a:3:{s:6:"domain";N;s:12:"plural-forms";s:114:"nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);";s:8:"messages";a:1:{s:0:"";a:69:{s:35:"emails.passwordResetConfirm.subject";s:40:"Paroles atiestatīšanas apstiprinājums";s:27:"emails.userRegister.subject";s:25:"Reģistrācija žurnālā";s:34:"emails.userValidateContext.subject";s:23:"Apstipriniet savu kontu";s:31:"emails.userValidateSite.subject";s:23:"Apstipriniet savu kontu";s:31:"emails.userValidateContext.body";s:292:"{$recipientName}!<br />
+<br />
+Jūs esat izveidojis lietotāja kontu žurnālā {$contextName}, bet, pirms sākat to izmantot, ir jāapstiprina jūsu e-pasts. Lai to izdarītu, sekojiet tālāk norādītajai saitei:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Ar cieņu<br />
+{$contextSignature}";s:31:"emails.reviewerRegister.subject";s:59:"Reģistrēšanās kā recenzentam žurnālā {$contextName}";s:33:"emails.issuePublishNotify.subject";s:66:"Tikko publicēts: {$issueIdentification} žurnālā {$contextName}";s:30:"emails.issuePublishNotify.body";s:399:"<p> {$recipientName}!</p><p>Ar prieku paziņojam par <a href="{$issueUrl}">{$issueIdentification}</a> publicēšanu žurnālā {$contextName}. Aicinām jūs izlasīt šo darbu un dalīties tajā ar savu pētnieku kopienu.</p><p>Liels paldies mūsu autoriem, recenzentiem un redaktoriem par vērtīgo ieguldījumu, kā arī mūsu lasītājiem par pastāvīgo interesi.</p><p>Ar cieņu</p>{$signature}";s:27:"emails.editorAssign.subject";s:88:"Jūs esat iecelts par redaktoru darbam ar iesniegto materiālu žurnālā {$contextName}";s:32:"emails.passwordResetConfirm.body";s:366:"Mēs esam saņēmuši pieprasījumu atjaunot jūsu paroli vietnei {$siteTitle}.<br />
+<br />
+Ja neesat iesniedzis šo pieprasījumu, lūdzu, ignorējiet šo e-pastu, un jūsu parole netiks mainīta. Ja vēlaties atjaunot paroli, noklikšķiniet uz tālāk norādītās saites.<br />
+<br />
+Atiestatīt manu paroli: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}";s:28:"emails.userValidateSite.body";s:287:"{$recipientName}!<br />
+<br />
+Jūs esat izveidojis lietotāja kontu žurnālā {$siteTitle}, bet, pirms sākat to izmantot, ir jāapstiprina jūsu e-pasts. Lai to izdarītu, sekojiet tālāk norādītajai saitei:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Ar cieņu<br />
+{$siteSignature}";s:24:"emails.userRegister.body";s:492:"{$recipientName}!<br />
+<br />
+Jūs tagad esat reģistrēts kā lietotājs žurnālā {$contextName}. Šajā e-pastā ir iekļauts jūsu lietotājvārds un parole, kas ir nepieciešami, lai strādātu ar šo žurnālu tā tīmekļa vietnē. Jebkurā brīdī varat lūgt, lai jūs svītrotu no žurnāla lietotāju saraksta. Tādā gadījumā, lūdzu, sazinieties ar mani.<br />
+<br />
+Lietotāja vārds: {$recipientUsername}<br />
+Parole: {$password}<br />
+<br />
+Ar cieņu<br />
+{$signature}";s:28:"emails.reviewerRegister.body";s:870:"<p>{$recipientName}!</p><p>Ņemot vērā Jūsu kompetenci, esam reģistrējuši Jūs žurnāla {$contextName} recenzentu datubāzē. Jums tas nerada nekādas saistības, bet mums ļauj vērsties pie jums ar žurnālā iesniegto materiālu, lai to, iespējams, recenzētu. Saņemot uzaicinājumu recenzēt, Jums būs iespēja iepazīties ar attiecīgā darba virsrakstu un kopsavilkumu, un Jūs vienmēr varēsiet pieņemt vai noraidīt uzaicinājumu. Jebkurā brīdī varat arī lūgt, lai Jūsu vārdu svītro no šī recenzentu saraksta.</p><p>Mēs piešķiram Jums lietotājvārdu un paroli, kas tiek izmantota visās darbībās ar žurnālu, izmantojot tā tīmekļa vietni. Jūs, piemēram, varat atjaunināt savu profilu, tostarp savas recenzēšanas intereses.</p><p>Lietotāja vārds: {$recipientUsername}<br />Parole: {$password}</p><p>Ar cieņu</p>{$signature}";s:30:"emails.editorAssignReview.body";s:479:"<p>{$recipientName}!</p><p>Jums ir uzticēts vadīt šī materiāla zinātniskās recenzēšanas procesu.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Kopsavilkums</b></p>{$submissionAbstract}<p>Lūdzu pieteikties, lai skatītu <a href="{$submissionUrl}">iesniegto materiālu</a> un ieceltu kvalificētus recenzentus. Recenzentu var iecelt, noklikšķinot uz "Pievienot recenzentu".</p><p>Paldies jau iepriekš!</p><p>Ar cieņu</p>{$signature}";s:28:"emails.reviewRequest.subject";s:27:"Aicinājums veikt recenziju";s:40:"emails.reviewResponseOverdueAuto.subject";s:58:"Vai Jūs varētu mums veikt šī materiāla recenzēšanu?";s:38:"emails.reviewRequestSubsequent.subject";s:43:"Pieprasījums recenzēt izlabotu materiālu";s:27:"emails.reviewCancel.subject";s:36:"Recenzēšanas pieprasījums atcelts";s:24:"emails.reviewCancel.body";s:425:"<p>{$recipientName}!</p><p>Nesen mēs lūdzām Jūs recenzēt materiālu žurnālam {$contextName}. Mēs esam nolēmuši atcelt pieprasījumu atkārtoti recenzēt materiālu {$submissionTitle}.</p><p>Atvainojamies par sagādātajām neērtībām un ceram, ka arī turpmāk varēsim lūgt Jūsu palīdzību šī žurnāla recenzēšanas procesā.</p><p>Ja Jums ir kādi jautājumi, lūdzu, sazinieties ar mani.</p>{$signature}";s:30:"emails.reviewReinstate.subject";s:71:"Vai Jūs joprojām varētu kaut ko recenzēt žurnālam {$contextName}?";s:28:"emails.reviewDecline.subject";s:24:"Nav iespējams recenzēt";s:25:"emails.reviewDecline.body";s:251:"Cienījamie redaktori!<br />
+<br />
+Diemžēl šobrīd es nevaru veikt materiālu {$submissionTitle} recenzēšanu žurnālam {$contextName}. Paldies, ka domājāt par mani, lūdzu, citreiz arī droši vērsieties pie manis.<br />
+<br />
+{$senderName}";s:27:"emails.reviewRemind.subject";s:47:"Atgādinājums ar lūgumu pabeigt recenzēšanu";s:31:"emails.reviewRemindAuto.subject";s:47:"Atgādinājums ar lūgumu pabeigt recenzēšanu";s:35:"emails.editorDecisionAccept.subject";s:67:"Jūsu iesniegtais materiāls ir pieņemts žurnālā {$contextName}";s:39:"emails.editorDecisionSkipReview.subject";s:56:"Jūsu materiāls ir nosūtīts literārai rediģēšanai";s:28:"emails.layoutRequest.subject";s:73:"Materiāls {$submissionId} ir gatavs izstrādei vietnē {$contextAcronym}";s:29:"emails.layoutComplete.subject";s:18:"Saliktņi pabeigti";s:26:"emails.layoutComplete.body";s:303:"<p>{$recipientName}!</p><p>Ir sagatavoti saliktņi zemāk minētajam materiālam, un tie ir gatavi galīgajai izkatīšanai.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$contextName}</p><p>Ja Jums ir kādi jautājumi, lūdzu, sazinieties ar mani.</p><p>Ar cieņu</p><p>{$signature}</p>";s:24:"emails.emailLink.subject";s:30:"Raksts, kas varētu interesēt";s:21:"emails.emailLink.body";s:207:"Domājams, ka Jūs varētu ieinteresēt autoru {$authors} materiāls {$submissionTitle}, kas publicēts žurnāla {$contextName} {$volume}. sējumā Nr. {$number} ({$year}), raksts pieejams {$submissionUrl}.";s:33:"emails.subscriptionNotify.subject";s:24:"Abonēšanas paziņojums";s:31:"emails.openAccessNotify.subject";s:97:"Lasīt bez maksas: {$issueIdentification} žurnālā {$contextName} tagad ir atvērtā piekļuvē";s:28:"emails.openAccessNotify.body";s:320:"<p>{$recipientName}!</p><p>Ar prieku paziņojam, ka <a href="{$issueUrl}">{$issueIdentification}</a> žurnālā {$contextName} tagad ir pieejams atklātā piekļuvē. Lai lasītu šo žurnāla numuru, abonements vairs nav nepieciešams.</p><p>Paldies, ka joprojām interesējaties par mūsu darbu.</p>{$contextSignature}";s:39:"emails.subscriptionBeforeExpiry.subject";s:45:"Paziņojums par abonēšanas termiņa beigām";s:38:"emails.subscriptionAfterExpiry.subject";s:31:"Abonēšanas termiņš beidzies";s:35:"emails.subscriptionAfterExpiry.body";s:451:"{$recipientName}!<br />
+<br />
+Jūsu abonēšanas termiņš žurnālam {$contextName} ir beidzies.<br />
+<br />
+{$subscriptionType}<br />
+Termiņa beigu datums: {$expiryDate}<br />
+<br />
+Lai atjaunotu abonementu, apmeklējiet žurnāla tīmekļa vietni. Jūs varat pieteikties sistēmā, izmantojot savu lietotājvārdu {$recipientUsername}.<br />
+<br />
+Ja jums ir kādi jautājumi, lūdzu, sazinieties ar mani.<br />
+<br />
+{$subscriptionSignature}";s:42:"emails.subscriptionAfterExpiryLast.subject";s:61:"Abonēšanas termiņš beidzies – pēdējais atgādinājums";s:39:"emails.subscriptionPurchaseIndl.subject";s:32:"Abonementa iegāde: Individuāli";s:36:"emails.subscriptionPurchaseIndl.body";s:435:"Tiešsaistē ir iegādāts individuāls abonements žurnālam {$contextName} ar šādu informāciju.<br />
+<br />
+Abonēšanas veids:<br />
+{$subscriptionType}<br />
+<br />
+Lietotājs:<br />
+{$subscriberDetails}<br />
+<br />
+Informācija par dalību (ja ir sniegta):<br />
+{$membership}<br />
+<br />
+Lai skatītu vai rediģētu šo abonementu, lūdzu, izmantojiet sekojošo saiti.<br />
+<br />
+Abonementa URL: {$subscriptionUrl}<br />
+";s:40:"emails.subscriptionPurchaseInstl.subject";s:29:"Abonementa iegāde: Iestādes";s:36:"emails.subscriptionRenewIndl.subject";s:39:"Abonēšanas atjaunošana: Individuāla";s:37:"emails.subscriptionRenewInstl.subject";s:36:"Abonēšanas atjaunošana: Iestādes";s:24:"emails.reviewRemind.body";s:693:"<p>{$recipientName}!</p><p>Vēlamies Jums atgādināt par mūsu lūgumu recenzēt materiālu {$submissionTitle} žurnālam {$contextName}. Mēs ceram, ka šī recenzēšana tiks veikta līdz {$reviewDueDate}, un priecāsimies saņemt recenziju, tiklīdz varēsiet to sagatavot.</p><p>Jūs varat <a href="{$reviewAssignmentUrl}">pieteikties žurnālā</a> un veikt recenzēšanas soļus, lai apskatītu iesniegto materiālu, augšupielādētu recenzēšanas datnes un iesniegtu savas recenzijas komentārus.</p><p>Ja Jums ir nepieciešams termiņa pagarinājums, lūdzu, sazinieties ar mani. Es gaidīšu ziņas no Jums.</p><p>Liels paldies jau iepriekš un sirsnīgi sveicieni,</p>{$signature}";s:34:"emails.editorAssignProduction.body";s:585:"<p>{$recipientName}!</p><p>Jums ir uzticēts uzraudzīt izstrādes posmu šādam materiālam:</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Kopsavilkums</b></p>{$submissionAbstract}<p>Lūdzu pieteikties, lai skatītu <a href="{$submissionUrl}">iesniegto materiālu</a>. Kad ir sagatavotas izstrādes datnes, augšupielādējiet tās sadaļā <strong>Publikācija > Saliktņi</strong>. Tad ieplānojiet darba publicēšanu, noklikšķinot uz pogas <strong>Ieplānot publicēšanai</strong>.</p><p>Paldies jau iepriekš!</p><p>Ar cieņu</p>{$signature}";s:30:"emails.subscriptionNotify.body";s:759:"{$recipientName}!<br />
+<br />
+Jūs esat reģistrēts kā žurnāla {$contextName} abonents mūsu tiešsaistes žurnālu pārvaldības sistēmā ar šādu abonementu:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Lai piekļūtu tikai abonentiem pieejamam saturam, autorizējieties sistēmā ar savu lietotājvārdu {$recipientUsername}.<br />
+<br />
+Kad esat pieteicies sistēmā, jebkurā brīdī varat mainīt profila informāciju un paroli.<br />
+<br />
+Lūdzu, ņemiet vērā, ka jūsu iestādes lietotājiem nav nepieciešams autorizēties, ja jums ir iestādes abonements, jo sistēma automātiski autentificēs abonētā satura pieprasījumus.<br />
+<br />
+Ja jums ir kādi jautājumi, lūdzu, sazinieties ar mani.<br />
+<br />
+{$subscriptionSignature}";s:28:"emails.reviewRemindAuto.body";s:731:"<p>{$recipientName}!</p><p>Šis e-pasts ir automātisks atgādinājums no žurnāla {$contextName} saistībā ar mūsu lūgumu recenzēt iesniegto materiālu {$submissionTitle}.</p><p>Mēs ceram, ka šī recenzija tiks sagatavota līdz {$reviewDueDate} un priecāsimies to saņemt, tiklīdz varēsiet to sagatavot.</p><p>Lūdzu, <a href="{$reviewAssignmentUrl}">pieteicieties žurnālā</a> un veiciet recenzēšanas soļus, lai apskatītu iesniegto materiālu, augšupielādētu recenzēšanas datnes un iesniegtu savas recenzijas komentārus.</p><p>Ja Jums ir nepieciešams termiņa pagarinājums, lūdzu, sazinieties ar mani. Gaidīšu ziņas no Jums.</p><p>Iepriekš liels paldies un sirsnīgi sveicieni.</p>{$contextSignature}";s:25:"emails.reviewRequest.body";s:987:"<p>{$recipientName}!</p><p>Uzskatu, ka Jūs varētu būt lielisks recenzents žurnālā {$contextName} iesniegtajam materiālam. Materiāla virsraksts un kopsavilkums ir sniegts tālāk, un es ceru, ka Jūs apsvērsiet iespēju uzņemties šo svarīgo uzdevumu.</p><p>Ja Jums ir iespēja recenzēt šo materiālu, recenzija ir jāveic līdz {$reviewDueDate}. Apskatīt materiālu, augšupielādēt recenzijas datnes un iesniegt savu recenziju varat, autorizējoties žurnāla vietnē un izpildot tālākajā saitē sniegtos norādījumus.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Kopsavilkums</b></p>{$submissionAbstract}<p>Lūdzu <a href="{$reviewAssignmentUrl}">pieņemiet vai noraidiet</a> recenzēšanu līdz <b>{$responseDueDate}</b>.</p><p>Ja Jums ir kādi jautājumi par materiālu vai recenzēšanas procesu, lūdzu, sazinieties ar mani.</p><p>Paldies, ka apsverat šo lūgumu. Jūsu palīdzība būs ļoti vērtīga.</p><p>Ar cieņu</p>{$signature}";s:32:"emails.editorDecisionAccept.body";s:1069:"<p>{$recipientName}!</p><p>Ar prieku paziņoju, ka esam nolēmuši pieņemt Jūsu iesniegto materiālu bez turpmākas recenzēšanas. Pēc rūpīgas izskatīšanas mēs konstatējām, ka Jūsu iesniegtais materiāls {$submissionTitle} atbilst mūsu prasībām vai pārsniedz tās. Mēs ar prieku publicēsim Jūsu darbu žurnālā {$contextName} un pateicamies, ka izvēlējāties mūsu žurnālu kā vietu, kur publicēt savu darbu.</p><p>Jūsu iesniegtais darbs tiks publicēts kādā no nākamajiem žurnāla {$contextName} numuriem. Jūs esat laipni aicināts to iekļaut savu publikāciju sarakstā. Mēs apzināmies, cik smags darbs ieguldīts katrā veiksmīgā materiālā, un vēlamies Jūs apsveikt, sasniedzot šo posmu.</p><p>Tagad Jūsu iesniegtais materiāls tiks rediģēts un formatēts, lai to sagatavotu publicēšanai.</p><p>Drīzumā saņemsiet turpmākus norādījumus.</p><p>Ja Jums ir kādi jautājumi, lūdzu, sazinieties ar mani no sava <a href="{$authorSubmissionUrl}">iesniegto materiālu vadības paneļa</a>.</p><p>Ar cieņu</p>{$signature}";s:24:"emails.editorAssign.body";s:612:"<p> {$recipientName}!</p><p>Jums ir uzticēts vadīt redakcijas procesu šādam iesniegtajam materiālam:</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Kopsavilkums</b></p>{$submissionAbstract}<p>Ja uzskatāt, ka materiāls attiecas uz žurnālu {$contextName}, lūdzu, pārsūtiet to uz recenzēšanas posmu, izvēloties "Sūtīt recenzēšanai", un pēc tam ieceliet recenzentus, noklikšķinot uz "Pievienot recenzentu".</p><p>Ja iesniegtais materiāls nav piemērots šim žurnālam, lūdzu, noraidiet to.</p><p>Paldies jau iepriekš!</p><p>Ar cieņu</p>{$contextSignature}";s:36:"emails.editorDecisionSkipReview.body";s:1082:"<p>{$recipientName}!</p>
+<p>Esmu priecīgs Jūs informēt, ka esam nolēmuši pieņemt Jūsu iesniegto materiālu bez recenzēšanas. Mēs uzskatām, ka Jūsu iesniegtais darbs {$submissionTitle} atbilst mūsu žurnāla prasībām, un ka šāda veida darbus nav nepieciešams recenzēt. Mēs esam priecīgi publicēt jūsu darbu žurnālā {$contextName} un pateicamies, ka izvēlējāties mūsu žurnālu kā vietu, kur publicēt savu darbu.</p>
+Jūsu iesniegtais darbs tiks publicēts kādā no nākamajiem žurnāla {$contextName} numuriem, un Jūs esat laipni aicināts to iekļaut publikāciju sarakstā. Mēs apzināmies, cik smags darbs ieguldīts katrā veiksmīgā materiālā, tāpēc vēlamies apsveikt Jūs ar veikumu.</p>
+<p>Tagad Jūsu iesniegtais materiāls tiks rediģēts un formatēts, lai to sagatavotu publicēšanai. </p>
+<p>Drīzumā saņemsiet turpmākus norādījumus.</p>
+<p>Ja Jums ir kādi jautājumi, lūdzu, sazinieties ar mani no sava <a href="{$authorSubmissionUrl}">iesniegto materiālu vadības paneļa</a>.</p>
+<p>Ar cieņu</p>
+<p>{$signature}</p>
+";s:36:"emails.subscriptionBeforeExpiry.body";s:522:"{$recipientName}!<br />
+<br />
+Jūsu abonēšanas termiņš žurnālam {$contextName} tuvojas beigām.<br />
+<br />
+{$subscriptionType}<br />
+Termiņa beigu datums: {$expiryDate}<br />
+<br />
+Lai nodrošinātu nepārtrauktu piekļuvi šim žurnālam, lūdzu, apmeklējiet žurnāla tīmekļa vietni un atjaunojiet abonementu. Jūs varat pieteikties sistēmā, izmantojot savu lietotājvārdu {$recipientUsername}.<br />
+<br />
+Ja jums ir kādi jautājumi, lūdzu, sazinieties ar mani.<br />
+<br />
+{$subscriptionSignature}";s:25:"emails.layoutRequest.body";s:759:"<p>{$recipientName}!</p><p>Jauns materiāls ir gatavs maketēšanai:</p><p><a href="{$submissionUrl}">{$submissionId} — {$submissionTitle}</a><br />{$contextName}</p><ol><li>Noklikšķiniet uz iepriekš norādīto iesniegtā materiāla URL.</li><li>Lejupielādējiet izstrādei sagatavotās datnes un izmantojiet tās, lai sagatavotu saliktņus atbilstoši žurnāla standartiem.</li><li>Augšupielādējiet saliktņus iesniegtā materiāla Publicēšanas sadaļā.</li><li>Izmantojiet sadaļu "Izstrādes apspriedes", lai paziņotu redaktoram, ka saliktņi ir gatavi.</li></ol><p>Ja šobrīd nevarat veikt šo darbu vai Jums ir kādi jautājumi, lūdzu, sazinieties ar mani. Paldies par Jūsu ieguldījumu šajā žurnālā.</p><p>Ar cieņu</p>{$signature}";s:37:"emails.reviewResponseOverdueAuto.body";s:1023:"<p>{$recipientName}!</p><p>Šis e-pasts ir automātisks atgādinājums no žurnāla {$contextName} attiecībā uz lūgumu recenzēt iesniegto materiālu {$submissionTitle}.</p><p>Jūs saņēmāt šo e-pastu, jo mēs vēl neesam saņēmuši no Jums apstiprinājumu tam, vai varēsiet recenzēt šo materiālu.</p><p>Lūdzu, informējiet par to, vai varēsiet veikt šo recenzēšanu, mūsu materiālu pārvaldības sistēmā pieņemot vai noraidot šo pieprasījumu.</p><p>Ja jums ir iespēja recenzēt šo materiālu, tas ir jāveic līdz {$reviewDueDate}. Varat veikt recenzēšanas soļus, lai apskatītu iesniegto materiālu, augšupielādētu recenzēšanas datnes un iesniegtu savu recenziju.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Kopsavilkums</b></p>{$submissionAbstract}<p>Lūdzu, sazinieties ar mani, ja rodas jautājumi par materiālu vai recenzēšanas procesu.</p><p>Paldies, ka apsverat šo lūgumu. Jūsu palīdzība būs ļoti vērtīga.</p><p>Ar cieņu</p>{$contextSignature}";s:39:"emails.subscriptionAfterExpiryLast.body";s:539:"{$recipientName}!<br />
+<br />
+Jūsu abonements žurnālam {$contextName} ir beidzies.<br />
+Lūdzu, ņemiet vērā, ka šis ir pēdējais atgādinājums, kas tiek nosūtīts pa e-pastu.<br />
+<br />
+{$subscriptionType}<br />
+Termiņa beigu datums: {$expiryDate}<br />
+<br />
+Lai atjaunotu abonementu, apmeklējiet žurnāla tīmekļa vietni. Jūs varat pieteikties sistēmā, izmantojot savu lietotājvārdu {$recipientUsername}.<br />
+<br />
+Ja jums ir kādi jautājumi, lūdzu, sazinieties ar mani.<br />
+<br />
+{$subscriptionSignature}";s:35:"emails.reviewRequestSubsequent.body";s:1027:"<p>{$recipientName}!</p><p>Paldies par Jūsu recenziju materiālam <a href="{$reviewAssignmentUrl}">{$submissionTitle}</a>. Autori ir ņēmuši vērā recenzentu atsauksmes un tagad ir iesnieguši labotu darba versiju, tāpēc vēlamies uzzināt, vai Jūs varētu veikt otro recenzēšanas kārtu šim materiālam.</p><p>Ja jūs varat recenzēt šo materiālu, recenzija jāiesniedz līdz {$reviewDueDate}. Jūs varat <a href="{$reviewAssignmentUrl}">veikt recenzēšanas soļus</a>, lai apskatītu materiālu, augšupielādētu recenzēšanas datnes un iesniegtu savu recenziju.<p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Kopsavilkums</b></p>{$submissionAbstract}<p>Lūdzu, <a href="{$reviewAssignmentUrl}">pieņemiet vai noraidiet</a> recenzēšanu līdz <b>{$responseDueDate}</b>.</p><p>Lūdzu, sazinieties ar mani, ja rodas jautājumi par materiālu vai recenzēšanas procesu.</p><p>Paldies, ka apsverat šo lūgumu. Jūsu palīdzība būs ļoti vērtīga.</p><p>Ar cieņu</p>{$contextSignature}";s:27:"emails.reviewReinstate.body";s:519:"<p>{$recipientName}!</p><p>Nesen mēs atcēlām lūgumu Jums recenzēt materiālu {$submissionTitle} žurnālam {$contextName}. Mēs esam mainījuši šo lēmumu un ceram, ka Jūs joprojām varēsiet veikt recenzēšanu.</p><p>Ja varat recenzēt šo materiālu, lūdzu, <a href="{$reviewAssignmentUrl}">pieteicieties žurnālā</a>, lai apskatītu materiālu, augšupielādētu recenzēšanas datnes un iesniegtu recenziju.</p><p>Ja Jums ir kādi jautājumi, lūdzu, sazinieties ar mani.</p><p>Ar cieņu</p>{$signature}";s:37:"emails.subscriptionPurchaseInstl.body";s:752:"Tiešsaistē ir iegādāts iestāžu abonements žurnālam {$contextName} ar šādu informāciju. Lai aktivizētu šo abonementu, lūdzu, izmantojiet sniegto abonementa URL un iestatiet abonementa statusu uz "Aktīvs".<br />
+<br />
+Abonementa tips:<br />
+{$subscriptionType}<br />
+<br />
+Iestāde:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domēns (ja norādīts):<br />
+{$domain}<br />
+<br />
+IP diapazoni (ja norādīts):<br />
+{$ipRanges}<br />
+<br />
+Kontaktpersona:<br />
+{$subscriberDetails}<br />
+<br />
+Informācija par dalību (ja norādīta):<br />
+{$membership}<br />
+<br />
+Lai skatītu vai rediģētu šo abonementu, lūdzu, izmantojiet sekojošo saiti.<br />
+<br />
+Abonementa URL: {$subscriptionUrl}<br />
+";s:33:"emails.subscriptionRenewIndl.body";s:432:"Tiešsaistē ir atjaunota individuālā abonēšana žurnālam {$contextName}ar šādu informāciju.<br />
+<br />
+Abonementa tips:<br />
+{$subscriptionType}<br />
+<br />
+Lietotājs:<br />
+{$subscriberDetails}<br />
+<br />
+Informācija par dalību (ja norādīta):<br />
+{$membership}<br />
+<br />
+Lai skatītu vai rediģētu šo abonementu, lūdzu, izmantojiet sekojošo saiti.<br />
+<br />
+Abonementa URL: {$subscriptionUrl}<br />
+";s:35:"emails.revisedVersionNotify.subject";s:35:"Izlabotā versija augšupielādēta";s:34:"emails.subscriptionRenewInstl.body";s:633:"Tiešsaistē ir atjaunots iestāžu abonements žurnālam {$contextName} ar sekojošu informāciju.<br />
+<br />
+Abonementa tips:<br />
+{$subscriptionType}<br />
+<br />
+Iestāde:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domēns (ja norādīts):<br />
+{$domain}<br />
+<br />
+IP diapazoni (ja norādīti):<br />
+{$ipRanges}<br />
+<br />
+Kontaktpersona:<br />
+{$subscriberDetails}<br />
+<br />
+Informācija par dalību (ja norādīts):<br />
+{$membership}<br />
+<br />
+Lai skatītu vai rediģētu šo abonementu, lūdzu, izmantojiet sekojošo saiti.<br />
+<br />
+Abonementa URL: {$subscriptionUrl}<br />
+";s:32:"emails.revisedVersionNotify.body";s:441:"<p>{$recipientName}!</p><p>Autors ir augšupielādējis materiāla labojumus <b>{$authorsShort} — {$submissionTitle}</b>.<p>Mēs lūdzam Jūs kā piešķirto redaktoru pieteikties sistēmā un <a href="{$submissionUrl}">pārskatīt labojumus</a>, kā arī lemt par materiāla pieņemšanu, noraidīšanu vai nosūtīšanu tālākai recenzēšanai.</p><br><br>—<br>Šī ir automātiska ziņa no <a href="{$contextUrl}">{$contextName}</a>.";s:43:"emails.statisticsReportNotification.subject";s:37:"Redakcijas darbība {$month}, {$year}";s:27:"emails.announcement.subject";s:20:"{$announcementTitle}";s:24:"emails.announcement.body";s:167:"<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Apmeklējiet mūsu vietni, lai lasītu <a href="{$announcementUrl}">pilnu paziņojumu</a>.";s:41:"emails.paymentRequestNotification.subject";s:36:"Maksājuma pieprasījuma paziņojums";s:38:"emails.paymentRequestNotification.body";s:545:"<p>{$recipientName}!</p><p>Apsveicam ar Jūsu iesniegtā materiāla {$submissionTitle} pieņemšanu žurnālā {$contextName}. Tagad, kad Jūsu materiāls ir pieņemts, mēs vēlamies lūgt samaksāt publicēšanas maksu.</p><p>Šī maksa sedz izmaksas, kas saistītas ar Jūsu materiāla sagatavošanu publicēšanai. Lai veiktu maksājumu, lūdzu, apmeklējiet <a href="{$queuedPaymentUrl}">{$queuedPaymentUrl}</a>.</p><p>Ja Jums ir kādi jautājumi, lūdzu, skatiet mūsu <a href="{$submissionGuidelinesUrl}">Iesniegšanas vadlīnijas</a></p>";s:40:"emails.paymentRequestNotification.footer";s:98:"<br><br>—<br>Šī ir automātiska ziņa no žurnāla <a href="{$contextUrl}">{$contextName}</a>.";s:40:"emails.statisticsReportNotification.body";s:752:"
+{$recipientName}! <br />
+<br />
+Ir pieejams pārskats par jūsu žurnāla aktivitāti {$month}, {$year}. Šī mēneša galvenie statistikas dati ir redzami zemāk.<br />
+<ul>
+	<li>Šomēnes iesniegti jauni materiāli: {$newSubmissions}</li>
+	<li>Šomēnes noraidīti materiāli: {$declinedSubmissions}</li>
+	<li>Šomēnes pieņemti materiāli: {$acceptedSubmissions}</li>
+	<li>Kopējais sistēmā iesniegto materiālu skaits: {$totalSubmissions}</li>
+</ul>
+Pieteicieties žurnālā, lai redzētu detalizētākas <a href="{$editorialStatsLink}">redakcijas tendences</a> un <a href="{$publicationStatsLink}">publicēto rakstu statistiku</a>. Šī mēneša redakcijas tendenču pilna kopija ir pievienota.<br />
+<br />
+Ar cieņu<br />
+{$contextSignature}";}}}

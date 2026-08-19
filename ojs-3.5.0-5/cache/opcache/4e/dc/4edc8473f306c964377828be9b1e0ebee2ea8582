@@ -1,0 +1,1 @@
+1818656032a:3:{s:6:"domain";N;s:12:"plural-forms";N;s:8:"messages";a:1:{s:0:"";a:2:{s:40:"plugins.generic.jatsTemplate.displayName";s:20:"JATS-Template-Plugin";s:40:"plugins.generic.jatsTemplate.description";s:139:"Erzeugen Sie automatisch ein minimales JATS-Document aus den Metadaten einer Einreichung, wenn ansonsten kein JATS-Dokument verfügbar ist.";}}}

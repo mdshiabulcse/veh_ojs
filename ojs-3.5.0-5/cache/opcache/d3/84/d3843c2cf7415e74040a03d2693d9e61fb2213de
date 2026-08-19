@@ -1,0 +1,24 @@
+1818656034a:3:{s:6:"domain";N;s:12:"plural-forms";s:85:"nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3));";s:8:"messages";a:1:{s:0:"";a:9:{s:28:"emails.submissionAck.subject";s:21:"אישור ההגשה";s:25:"emails.submissionAck.body";s:527:"{$recipientName}:<br />
+<br />
+תודה על הגשת המאמר {$submissionTitle} אל {$contextName}. דרך המערכת תוכל לעקוב אחר התקדמותו בתהליך העריכה על ידי כניסה לאתר כתב העת.<br />
+<br />
+כתובת אתר להגשה: {$submissionUrl}<br />
+שם משתמש: {$recipientUsername}<br />
+<br />
+אם יש לך שאלות, אנא צור איתי קשר. תודה ששקלת את כתב העת הזה כמקום לעבודה שלך.<br />
+<br />
+{$contextSignature}";s:32:"emails.submissionAck.description";s:276:"דוא"ל זה, כאשר הוא מופעל, נשלח אוטומטית למחבר כאשר הם משלימים את תהליך הגשת כתב היד לכתב העת. הוא מספק מידע על מעקב אחר ההגשה בתהליך ומודה למחבר על המסירה.";s:24:"emails.reviewAck.subject";s:30:"אישור סקירת מאמר";s:21:"emails.reviewAck.body";s:203:"{$recipientName}:
+
+<br />
+
+תודה על חוות דעתך על ההגשה "{$submissionTitle} ל{$contextName}. אנו מעריכים את תרומתך לאיכות העבודה שאנו מפרסמים.";s:28:"emails.reviewConfirm.subject";s:19:"יכול לבדוק";s:25:"emails.reviewConfirm.body";s:262:"לעורכים:<br />
+<br />
+אני מסכים לבדוק ההגשה "{$submissionTitle}" ל{$contextName}. תודה שפניתם אלי ואני מתכנן להחזיר את חוות הדעת עד {$reviewDueDate}, אם לא לפני.<br />
+<br />
+{$senderName}";s:37:"emails.submissionAckNotAuthor.subject";s:19:"אישור הגשה";s:34:"emails.submissionAckNotAuthor.body";s:234:"שלום,<br />
+<br />
+{$submitterName} הגיש כתב יד {$sumbissionTitle} ל{$contextName}.<br />
+<br />
+בכל שאלה ניתן לפנות אלי. תודה על פנייתך לכתב עת זה.<br />
+<br />
+{$contextSignature}";}}}

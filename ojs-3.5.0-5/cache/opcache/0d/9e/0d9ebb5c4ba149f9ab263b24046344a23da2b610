@@ -1,0 +1,191 @@
+1818656038a:3:{s:6:"domain";N;s:12:"plural-forms";s:21:"nplurals=1; plural=0;";s:8:"messages";a:1:{s:0:"";a:70:{s:35:"emails.passwordResetConfirm.subject";s:18:"密码重置确认";s:32:"emails.passwordResetConfirm.body";s:347:"我们收到您的请求，将重新设定您在{$siteTitle}网站的密码。<br />
+<br />
+如果您没有提出这个请求，请忽略这封电子邮件，同时您的密码将会保持不变。如果您希望要重置您的密码，请按下面的链接。<br />
+<br />
+重置我的密码： {$passwordResetUrl}<br />
+<br />
+{$siteContactName}";s:27:"emails.userRegister.subject";s:15:"新用户注册";s:24:"emails.userRegister.body";s:312:"{$recipientName}<br />
+<br />
+谢谢您注册成为《{$contextName}》的一个用户。请保管好这份用户名称和密码，它对于使用本站的所有功能来说是非常必要的。<br />
+<br />
+用户名称：{$recipientUsername}<br />
+密码：{$password}<br />
+<br />
+谢谢您<br />
+{$signature}";s:34:"emails.userValidateContext.subject";s:18:"验证您的账户";s:31:"emails.userValidateContext.body";s:271:"{$recipientName}<br />
+<br />
+您已经在《{$contextName}》创建了账户, 在开始使用前，您需要验证您的电子邮件账号。要做到这一点，只需按照下面的链接：<br />
+<br />
+{$activateUrl}<br />
+<br />
+谢谢您,<br />
+{$contextSignature}";s:31:"emails.userValidateSite.subject";s:18:"验证您的账户";s:28:"emails.userValidateSite.body";s:253:"{$recipientName}<br />
+<br />
+您已在 {$siteTitle} 创建了账户，但在开始使用之前，您需要验证您的电子邮件账户。为此，只需点击以下链接：<br />
+<br />
+{$activateUrl}<br />
+<br />
+感谢您，<br />
+{$siteSignature}";s:31:"emails.reviewerRegister.subject";s:41:"在《{$contextName}》注册为审稿人";s:28:"emails.reviewerRegister.body";s:718:"<p>尊敬的 {$recipientName},</p><p>鉴于您的专业背景，我们已将您的姓名注册在 {$contextName} 的审稿人数据库中。这并不意味着您需要承担任何义务，而仅仅是让我们能够在有相关提交需要审阅时联系您。在被邀请审阅时，您将有机会查看该论文的标题和摘要，您始终可以选择接受或拒绝该邀请。您也可以随时请求将您的名字从审稿人名单中移除。</p> <p>我们为您提供了一个用户名和密码，您可以通过期刊网站进行所有操作。您可以更新个人资料，包括您的审阅兴趣等。</p> <p>用户名：{$recipientUsername}<br />密码：{$password}</p> <p>感谢您，</p>{$signature}";s:33:"emails.issuePublishNotify.subject";s:24:"新一期期刊已出版";s:30:"emails.issuePublishNotify.body";s:398:"<p>尊敬的 {$recipientName},</p><p>我们很高兴地宣布，{$contextName} 的 <a href="{$issueUrl}">{$issueIdentification}</a> 已经发布。我们邀请您阅读并与您的学术社区分享这项工作。</p> <p>衷心感谢我们的作者、审稿人和编辑们的宝贵贡献，也感谢我们的读者一直以来的关注。</p> <div>{$issueToc}</div> <p>谢谢您，</p> {$signature}";s:27:"emails.editorAssign.subject";s:55:"您已被分配为 {$contextName} 提交稿件的编辑";s:24:"emails.editorAssign.body";s:546:"<p>尊敬的 {$recipientName},</p><p>以下提交稿件已分配给您，需您完成编辑流程。</p> <p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p> <p><b>摘要</b></p> {$submissionAbstract} <p>如果您认为该提交稿件符合 {$contextName} 的要求，请通过选择“发送至审稿”将稿件推进到审稿阶段，然后点击“添加审稿人”来分配审稿人。</p> <p>如果该稿件不适合本期刊，请拒绝该提交。</p> <p>感谢您的配合。</p> <p>此致，</p> {$contextSignature}";s:30:"emails.editorAssignReview.body";s:446:"<p>尊敬的 {$recipientName},</p><p>以下提交稿件已分配给您，需您完成同行评审流程。</p> <p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p> <p><b>摘要</b></p> {$submissionAbstract} <p>请登录 <a href="{$submissionUrl}">查看提交稿件</a> 并分配合格的审稿人。您可以通过点击“添加审稿人”来分配审稿人。</p> <p>感谢您的配合。</p> <p>此致，</p> {$signature}";s:34:"emails.editorAssignProduction.body";s:540:"<p>尊敬的 {$recipientName},</p><p>以下提交稿件已分配给您，需您完成出版阶段的工作。</p> <p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p> <p><b>摘要</b></p> {$submissionAbstract} <p>请登录 <a href="{$submissionUrl}">查看提交稿件</a>。一旦生产就绪的文件可用，请在 <strong>出版 > 排版稿</strong> 部分上传这些文件。然后，通过点击 <strong>排期出版</strong> 按钮来安排出版。</p> <p>感谢您的配合。</p> <p>此致，</p> {$signature}";s:28:"emails.reviewRequest.subject";s:12:"审稿邀请";s:25:"emails.reviewRequest.body";s:831:"<p>尊敬的 {$recipientName},</p><p>我相信您将是 {$contextName} 提交稿件的优秀审稿人。以下是该提交的标题和摘要，希望您能考虑为我们承担这项重要的任务。</p> <p>如果您能够审阅该提交，请在 {$reviewDueDate} 前提交您的评审意见。您可以通过登录期刊网站，点击以下链接查看提交稿件、上传评审文件并提交您的评审意见。</p> <p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p> <p><b>摘要</b></p> {$submissionAbstract} <p>请在 <b>{$responseDueDate}</b> 前 <a href="{$reviewAssignmentUrl}">接受或拒绝</a> 该审稿邀请。</p> <p>如果您对提交稿件或评审流程有任何问题，欢迎随时联系我。</p> <p>感谢您考虑我们的请求，您的帮助非常感谢。</p> <p>此致，</p> {$signature}";s:40:"emails.reviewResponseOverdueAuto.subject";s:39:"您能为我们审阅这篇稿件吗？";s:37:"emails.reviewResponseOverdueAuto.body";s:913:"<p>尊敬的 {$recipientName},</p><p>这封电子邮件是来自 {$contextName} 的自动提醒，关于我们请求您审阅提交稿件 "{$submissionTitle}" 的事项。</p> <p>您收到这封邮件是因为我们尚未收到您是否能够承担此提交稿件评审的确认。</p> <p>请通过我们的提交管理软件告知我们您是否能够承担此次评审任务，选择接受或拒绝该请求。</p> <p>如果您能够审阅该提交稿件，请在 {$reviewDueDate} 前提交您的评审意见。您可以按照评审步骤查看提交稿件、上传评审文件并提交您的评审意见。</p> <p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p> <p><b>摘要</b></p> {$submissionAbstract} <p>如果您对提交稿件或评审流程有任何问题，欢迎随时联系我。</p> <p>感谢您考虑我们的请求，您的帮助非常感谢。</p> <p>此致，</p> {$contextSignature}";s:38:"emails.reviewRequestSubsequent.subject";s:18:"文章审稿请求";s:35:"emails.reviewRequestSubsequent.body";s:908:"<p>尊敬的 {$recipientName},</p><p>感谢您对 <a href="{$reviewAssignmentUrl}">{$submissionTitle}</a> 的评审。作者已经考虑了审稿人的反馈，并提交了修订版。我写信是想问您是否能够对该提交进行第二轮同行评审。</p> <p>如果您能够审阅该提交稿件，请在 {$reviewDueDate} 前提交您的评审意见。您可以 <a href="{$reviewAssignmentUrl}">按照评审步骤</a> 查看提交稿件、上传评审文件并提交您的评审意见。</p> <p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p> <p><b>摘要</b></p> {$submissionAbstract} <p>请在 <b>{$responseDueDate}</b> 前 <a href="{$reviewAssignmentUrl}">接受或拒绝</a> 该审稿邀请。</p> <p>如果您对提交稿件或评审流程有任何问题，欢迎随时联系我。</p> <p>感谢您考虑我们的请求，您的帮助非常感谢。</p> <p>此致，</p> {$signature}";s:27:"emails.reviewCancel.subject";s:21:"请取消审查工作";s:24:"emails.reviewCancel.body";s:386:"<p>尊敬的 {$recipientName},</p><p>最近，我们请求您审阅一篇提交稿件，{$contextName}。我们决定取消您对提交稿件 {$submissionTitle} 的审阅请求。</p> <p>对于因此给您带来的不便，我们深感抱歉，并希望将来能够再次邀请您协助本期刊的审稿工作。</p> <p>如果您有任何问题，请随时联系我。</p> {$signature}";s:30:"emails.reviewReinstate.subject";s:46:"您仍然可以为 {$contextName} 审稿吗？";s:27:"emails.reviewReinstate.body";s:477:"<p>尊敬的 {$recipientName},</p><p>我们最近取消了您对 {$contextName} 提交稿件 {$submissionTitle} 的审阅请求。现在我们已撤回该决定，并希望您仍然能够进行审阅。</p> <p>如果您能够协助该提交稿件的审阅，您可以 <a href="{$reviewAssignmentUrl}">登录期刊</a> 查看提交稿件、上传评审文件并提交您的评审意见。</p> <p>如果您有任何问题，请随时联系我。</p> <p>此致，</p> {$signature}";s:28:"emails.reviewDecline.subject";s:24:"无法进行审查工作";s:25:"emails.reviewDecline.body";s:243:"{$recipientName}:<br />
+<br />
+我恐怕在这个时候无法为《{$contextName}》进行稿件〈{$submissionTitle}〉的审查工作。谢谢您考虑我担任审查人，有机会我仍乐意接受审查工作。<br />
+<br />
+{$senderName}";s:27:"emails.reviewRemind.subject";s:36:"温馨提醒，请完成您的审稿";s:24:"emails.reviewRemind.body";s:566:"<p>尊敬的 {$recipientName},</p><p>温馨提醒，关于我们请求您审阅的提交稿件 "{$submissionTitle}"，期刊 {$contextName}。我们原本期望在 {$reviewDueDate} 前收到您的评审意见，我们将非常高兴尽早收到您的反馈。</p> <p>您可以 <a href="{$reviewAssignmentUrl}">登录期刊</a>，并按照评审步骤查看提交稿件、上传评审文件并提交您的评审意见。</p> <p>如果您需要延长评审期限，请随时联系我。期待您的回复。</p> <p>提前感谢您的帮助，祝好，</p> {$signature}";s:31:"emails.reviewRemindAuto.subject";s:36:"温馨提醒，请完成您的审稿";s:28:"emails.reviewRemindAuto.body";s:597:"<p>尊敬的 {$recipientName}：</p><p>这封电子邮件是来自 {$contextName} 的自动提醒，关于我们请求您审阅的提交稿件 "{$submissionTitle}"。</p> <p>我们原本期望在 {$reviewDueDate} 前收到您的评审意见，我们将非常高兴尽早收到您的反馈。</p> <p>请 <a href="{$reviewAssignmentUrl}">登录期刊</a> 并按照评审步骤查看提交稿件、上传评审文件并提交您的评审意见。</p> <p>如果您需要延长评审期限，请随时联系我。期待您的回复。</p> <p>提前感谢您的帮助，祝好，</p> {$contextSignature}";s:35:"emails.editorDecisionAccept.subject";s:40:"您的提交已被 {$contextName} 接受";s:32:"emails.editorDecisionAccept.body";s:875:"<p>尊敬的 {$recipientName},</p><p>我很高兴地通知您，我们已决定接受您的提交，无需进一步修订。经过仔细审阅，我们认为您的提交稿件 {$submissionTitle} 达到了或超出了我们的期望。我们很高兴将在 {$contextName} 上发布您的作品，并感谢您选择我们的期刊作为您的发表平台。</p> <p>您的提交将会在 {$contextName} 的未来一期中出版，您可以将其列入您的出版物清单。我们认识到每一篇成功提交背后的辛勤工作，并衷心祝贺您达到了这个阶段。</p> <p>您的提交稿件将进入排版编辑和格式调整阶段，以便为出版做好准备。</p> <p>您将很快收到进一步的指示。</p> <p>如果您有任何问题，请通过您的 <a href="{$authorSubmissionUrl}">提交仪表板</a> 与我联系。</p> <p>此致，</p> {$signature}";s:39:"emails.editorDecisionSkipReview.subject";s:39:"您的提交稿件已送交排版编辑";s:36:"emails.editorDecisionSkipReview.body";s:900:"<p>尊敬的 {$recipientName},</p> 
+<p>我很高兴地通知您，我们已决定接受您的提交，无需同行评审。我们认为您的提交稿件 {$submissionTitle} 符合我们的期望，并且我们认为此类作品无需经过同行评审。我们非常高兴将在 {$contextName} 上发布您的作品，并感谢您选择我们的期刊作为您的发表平台。</p> 
+<p>您的提交将会在 {$contextName} 的未来一期中出版，您可以将其列入您的出版物清单。我们认识到每一篇成功提交背后的辛勤工作，并衷心祝贺您的努力。</p> 
+<p>您的提交稿件将进入排版编辑和格式调整阶段，以便为出版做好准备。</p> 
+<p>您将很快收到进一步的指示。</p> 
+<p>如果您有任何问题，请通过您的 <a href="{$authorSubmissionUrl}">提交仪表板</a> 与我联系。</p> 
+<p>此致，</p> 
+<p>{$signature}</p>
+";s:28:"emails.layoutRequest.subject";s:81:"提交稿件 {$submissionId} 已准备好进入 {$contextAcronym} 的出版流程";s:25:"emails.layoutRequest.body";s:608:"<p>尊敬的 {$recipientName},</p><p>一篇新的提交稿件已准备好进行排版编辑：</p> <p><a href="{$submissionUrl}">{$submissionId} — {$submissionTitle}</a><br />{$contextName}</p> <ol> <li>点击上面的提交链接。</li> <li>下载已准备好的生产文件，并按照期刊的标准制作排版稿。</li> <li>将排版稿上传到提交的出版部分。</li> <li>使用生产讨论功能通知编辑排版稿已准备好。</li> </ol> <p>如果您目前无法承担此项工作或有任何问题，请与我联系。感谢您对本期刊的贡献。</p> <p>此致，</p> {$signature}";s:29:"emails.layoutComplete.subject";s:15:"排版稿完成";s:26:"emails.layoutComplete.body";s:298:"<p>尊敬的 {$recipientName},</p><p>以下提交稿件的排版稿已准备完毕，现已准备好进行最终审阅。</p> <p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$contextName}</p> <p>如果您有任何问题，请随时联系我们。</p> <p>此致，</p> <p>{$signature}</p>";s:24:"emails.emailLink.subject";s:36:"您可能会感兴趣的期刊文章";s:21:"emails.emailLink.body";s:198:"我想您会有兴趣想看看{$authors}所写的〈{$submissionTitle}〉，刊行在《{$contextName}》 ，第{$volume}册，第{$number}期 ({$year}) 。网址为： &quot;{$submissionUrl}&quot;.";s:28:"emails.emailLink.description";s:258:"这份电子邮件样版让一个注册的读者有机会将有关一篇文章的相关信息寄给可能会感兴趣的人。这可以透过「阅读工具」进行，并且一定要由期刊管理员在「阅读工具管理」页面中启用这项功能。";s:33:"emails.subscriptionNotify.subject";s:21:"期刊订阅通知信";s:30:"emails.subscriptionNotify.body";s:764:"{$recipientName}:<br />
+<br />
+您目前以下列的订阅信息，注册登记成为我们线上期刊网站《{$contextName}》的一个订户：<br />
+<br />
+{$subscriptionType}<br />
+<br />
+要访问只有订户才能阅读的文章内容，只要简单地以您的用户帐号名称登入系统即可：「{$recipientUsername}」。<br />
+<br />
+一旦您登入本系统，您就能够在任何时候变更您的帐号相关设定以及密码。<br />
+<br />
+请注意，如果您是以机关单位进行订阅，贵单位的用户就不需要进行登入，因为文章内容的订阅动作将会自动地由系统进行授权。<br />
+<br />
+如果您有任何的疑问，请直接联络我们。<br />
+<br />
+谢谢您<br />
+<br />
+{$subscriptionSignature}";s:31:"emails.openAccessNotify.subject";s:78:"免费阅读：{$contextName} 的 {$issueIdentification} 期现已开放获取";s:28:"emails.openAccessNotify.body";s:335:"亲爱的读者您好：<br />
+<br />
+《{$contextName}》已经以开放访问的格式公开本期期刊内容。我们邀请您浏览这里所附的目录，并且接着访问我们的网站 ({$contextUrl}) ，阅读文章以及您感兴趣的项目。<br />
+<br />
+感谢您持续地关注本期刊<br />
+<br />
+{$contextSignature}";s:39:"emails.subscriptionBeforeExpiry.subject";s:18:"订阅到期通知";s:36:"emails.subscriptionBeforeExpiry.body";s:427:"{$recipientName}:<br />
+<br />
+您订阅《{$contextName}》的期限将要到期。<br />
+<br />
+{$subscriptionType}<br />
+到期日：{$expiryDate}<br />
+<br />
+为确保您能够持续阅读本期刊，请至期刊网站并且续订本期刊。您可以使用您的帐号名称「{$recipientUsername}」登入系统。<br />
+<br />
+如果您有任何的疑问，请直接联络我们。<br />
+<br />
+{$subscriptionSignature}";s:38:"emails.subscriptionAfterExpiry.subject";s:24:"订阅时间已经过期";s:35:"emails.subscriptionAfterExpiry.body";s:391:"{$recipientName}:<br />
+<br />
+您订阅《{$contextName}》的期限已经过期。<br />
+<br />
+{$subscriptionType}<br />
+到期日：{$expiryDate}<br />
+<br />
+要续订本期刊，请前往本期刊网站。您可以使用您的帐号名称「{$recipientUsername}」登入系统。<br />
+<br />
+如果您有任何的疑问，请直接联络我们。<br />
+<br />
+{$subscriptionSignature}";s:42:"emails.subscriptionAfterExpiryLast.subject";s:39:"订阅时间已经过期—最后提醒";s:39:"emails.subscriptionAfterExpiryLast.body";s:449:"{$recipientName}:<br />
+<br />
+您订阅《{$contextName}》的期限已经过期。<br />
+请注意，这是最后一封寄发给您的提醒信函。<br />
+<br />
+{$subscriptionType}<br />
+到期日：{$expiryDate}<br />
+<br />
+要续订本期刊，请前往本期刊网站。您可以使用您的帐号「{$recipientUsername}」登入系统。<br />
+<br />
+如果您有任何疑问，请直接联系我们。<br />
+<br />
+{$subscriptionSignature}";s:39:"emails.subscriptionPurchaseIndl.subject";s:19:"订阅购买:个人";s:36:"emails.subscriptionPurchaseIndl.body";s:357:"一个《{$contextName} 》的个人订阅已经被在线购买，详细如下：<br />
+<br />
+订阅类型:<br />
+{$subscriptionType}<br />
+<br />
+用户:<br />
+{$subscriberDetails}<br />
+<br />
+会员信息 (可选):<br />
+{$membership}<br />
+<br />
+审阅或者编辑这个订阅，请使用如下链接.<br />
+<br />
+订阅URL: {$subscriptionUrl}<br />
+";s:40:"emails.subscriptionPurchaseInstl.subject";s:20:"订阅购买: 团体";s:37:"emails.subscriptionPurchaseInstl.body";s:652:"一个《{$contextName} 》的团体订阅已经被在线购买，详细如下：<br />
+		激活这个订阅, 请使用提供的订阅URL，并且设置订阅状态为'激活（Active）'.<br />
+<br />
+订阅类型:<br />
+{$subscriptionType}<br />
+<br />
+团体信息:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+域名(可选):<br />
+{$domain}<br />
+<br />
+IP范围(可选):<br />
+{$ipRanges}<br />
+<br />
+联系人:<br />
+{$subscriberDetails}<br />
+<br />
+会员信息 (if provided):<br />
+{$membership}<br />
+<br />
+请使用下面的链接查看和编辑这个订阅：<br />
+<br />
+订阅URL: {$subscriptionUrl}<br />
+";s:36:"emails.subscriptionRenewIndl.subject";s:20:"订阅续订: 个人";s:33:"emails.subscriptionRenewIndl.body";s:364:"《{$contextName}》的一个个人订阅已经被续订了，详细信息如下：<br />
+<br />
+订阅类型:<br />
+{$subscriptionType}<br />
+<br />
+用户:<br />
+{$subscriberDetails}<br />
+<br />
+会员信息 (if provided):<br />
+{$membership}<br />
+<br />
+请使用如下链接查看和编辑这个订阅.<br />
+<br />
+订阅链接URL: {$subscriptionUrl}<br />
+";s:37:"emails.subscriptionRenewInstl.subject";s:20:"订阅续订: 团体";s:34:"emails.subscriptionRenewInstl.body";s:537:"《{$contextName}》的一个团体订阅已经在线续订了，详细信息如下：<br />
+<br />
+订阅类型:<br />
+{$subscriptionType}<br />
+<br />
+团体信息:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+域名 (可选):<br />
+{$domain}<br />
+<br />
+IP范围(可选):<br />
+{$ipRanges}<br />
+<br />
+联系人:<br />
+{$subscriberDetails}<br />
+<br />
+会员信息(可选):<br />
+{$membership}<br />
+<br />
+使用如下链接审查和编辑这个订阅.<br />
+<br />
+订阅URL: {$subscriptionUrl}<br />
+";s:35:"emails.revisedVersionNotify.subject";s:15:"修订版上传";s:32:"emails.revisedVersionNotify.body";s:400:"<p>尊敬的 {$recipientName},</p><p>作者已上传对提交稿件 <b>{$authorsShort} — {$submissionTitle}</b> 的修订。</p> <p>作为指定编辑，我们请求您登录并 <a href="{$submissionUrl}">查看修订内容</a>，并决定是否接受、拒绝或将提交稿件送交进一步审阅。</p><br><br>—<p>这是来自 <a href="{$contextUrl}">{$contextName}</a> 的自动消息。</p>";s:43:"emails.statisticsReportNotification.subject";s:43:"编辑持续达 {$year} 年 {$month} 个月";s:40:"emails.statisticsReportNotification.body";s:576:"
+{$recipientName}, <br />
+<br />
+您的期刊长达 {$month}, {$year} 的运行报告已经生成。当月统计数据如下。<br />
+<ul>
+	<li>本月投稿： {$newSubmissions}</li>
+	<li>本月拒绝稿件： {$declinedSubmissions}</li>
+	<li>本月采纳稿件： {$acceptedSubmissions}</li>
+	<li>系统共接收稿件： {$totalSubmissions}</li>
+</ul>
+登录查看期刊更多信息： <a href="{$editorialStatsLink}">编辑趋势</a> 和 <a href="{$publicationStatsLink}">发表文章统计</a>。本月编辑趋势见附件。<br />
+<br />
+谨启<br />
+{$contextSignature}";s:27:"emails.announcement.subject";s:20:"{$announcementTitle}";s:24:"emails.announcement.body";s:153:"<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+访问我们的网站查看<a href="{$announcementUrl}">公告全文</a>。.";s:41:"emails.paymentRequestNotification.subject";s:18:"付款请求通知";s:38:"emails.paymentRequestNotification.body";s:451:"<p>尊敬的 {$recipientName},</p><p>恭喜您的提交稿件 {$submissionTitle} 被 {$contextName} 接受。现在，您的稿件已被接受，我们希望请求您支付出版费用。</p> <p>该费用涵盖了将您的稿件出版所需的生产成本。请访问 <a href="{$queuedPaymentUrl}">{$queuedPaymentUrl}</a> 完成支付。</p> <p>如果您有任何问题，请参阅我们的 <a href="{$submissionGuidelinesUrl}">提交指南</a>。</p>";s:40:"emails.paymentRequestNotification.footer";s:89:"<br><br>—<br>这是来自 <a href="{$contextUrl}">{$contextName}</a> 的自动消息。";}}}

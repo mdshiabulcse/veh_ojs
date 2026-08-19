@@ -1,0 +1,87 @@
+# ============================================================
+# OJS 3.5 — Root .gitignore
+# ============================================================
+
+# ----------------------------------------------------------
+# Config — contains DB credentials, app key, SMTP password
+# ----------------------------------------------------------
+config.inc.php
+config.inc.php.bak*
+
+# ----------------------------------------------------------
+# Private uploaded files directory (stored outside web root)
+# ----------------------------------------------------------
+# If files_dir is inside the project, ignore it:
+files/
+private/
+
+# ----------------------------------------------------------
+# Cache and compiled files
+# ----------------------------------------------------------
+cache/t_compile/*
+cache/t_cache/*
+cache/fc/*
+cache/_db/*
+!cache/t_compile/.gitkeep
+!cache/t_cache/.gitkeep
+!cache/fc/.gitkeep
+!cache/_db/.gitkeep
+
+# ----------------------------------------------------------
+# Public journal files (uploaded covers, issue images, etc.)
+# ----------------------------------------------------------
+public/journals/
+public/site/
+public/article/
+
+# ----------------------------------------------------------
+# Logs
+# ----------------------------------------------------------
+*.log
+scheduled_tasks/
+
+# ----------------------------------------------------------
+# OS / editor junk
+# ----------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ----------------------------------------------------------
+# PHP environment / deployment tools
+# ----------------------------------------------------------
+.env
+.env.*
+*.bak
+*.orig
+*.tmp
+
+# ----------------------------------------------------------
+# Node / npm (if any frontend build tools added later)
+# ----------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ----------------------------------------------------------
+# Composer local dev overrides (vendor is bundled in release)
+# ----------------------------------------------------------
+composer.local.json
+
+# ----------------------------------------------------------
+# Backup SQL exports
+# ----------------------------------------------------------
+*.sql
+*.sql.gz
+*.dump
+
+# ----------------------------------------------------------
+# Windows-specific
+# ----------------------------------------------------------
+[Dd]esktop.ini
+$RECYCLE.BIN/

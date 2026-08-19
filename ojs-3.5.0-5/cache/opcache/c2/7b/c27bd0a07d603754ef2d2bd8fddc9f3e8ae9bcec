@@ -1,0 +1,1 @@
+1818656035a:3:{s:6:"domain";N;s:12:"plural-forms";s:43:"nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;";s:8:"messages";a:1:{s:0:"";a:2:{s:38:"plugins.generic.usageEvent.displayName";s:36:"Настан за користење";s:38:"plugins.generic.usageEvent.description";s:104:"Создава кука која овозможува настан во дефиниран формат.";}}}

@@ -1,0 +1,1 @@
+1818656037a:3:{s:6:"domain";N;s:12:"plural-forms";s:26:"nplurals=2; plural=n != 1;";s:8:"messages";a:1:{s:0:"";a:2:{s:40:"plugins.generic.jatsTemplate.description";s:117:"Başka bir JATS belgesi olmadığında, aday makalenin üst verilerinden otomatik olarak bir JATS belgesi oluşturun.";s:40:"plugins.generic.jatsTemplate.displayName";s:22:"JATS Şablon Eklentisi";}}}

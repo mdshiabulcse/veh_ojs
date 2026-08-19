@@ -1,0 +1,1 @@
+1818656038a:3:{s:6:"domain";N;s:12:"plural-forms";s:21:"nplurals=1; plural=0;";s:8:"messages";a:1:{s:0:"";a:3:{s:45:"plugins.generic.recommendByAuthor.displayName";s:21:"按作者推荐文章";s:41:"plugins.generic.recommendByAuthor.heading";s:33:"同一作者最受欢迎的文章";s:45:"plugins.generic.recommendByAuthor.description";s:75:"该插件会在文章摘要页面插入同一作者的其他文章列表。";}}}

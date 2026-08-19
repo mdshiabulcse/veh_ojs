@@ -1,0 +1,55 @@
+1818656034a:3:{s:6:"domain";N;s:12:"plural-forms";s:25:"nplurals=2; plural=n > 1;";s:8:"messages";a:1:{s:0:"";a:25:{s:28:"emails.submissionAck.subject";s:43:"सबमिशन स्वीकृति";s:25:"emails.submissionAck.body";s:1063:"{$recipientName}:<br />
+<br />
+पांडुलिपि प्रस्तुत करने के लिए धन्यवाद, &quot;{$submissionTitle}&quot; to {$contextName}. जिस ऑनलाइन जर्नल प्रबंधन प्रणाली का हम उपयोग कर रहे हैं, आप जर्नल साइट पर लॉग इन करके संपादकीय प्रक्रिया के माध्यम से इसकी प्रगति को ट्रैक कर पाएंगे।:<br />
+<br />
+Submission URL: {$submissionUrl}<br />
+Username: {$recipientUsername}<br />
+<br />
+यदि आपके पास किसी तरह का प्रश्न है, तो कृपया मुझ से सम्पर्क करें। अपने काम के लिए इस जर्नल को एक स्थान के रूप में विचार करने के लिए धन्यवाद.<br />
+<br />
+{$contextSignature}";s:24:"emails.reviewAck.subject";s:44:"लेख समीक्षा आभार";s:21:"emails.reviewAck.body";s:443:"{$recipientName}:<br />
+<br />
+सबमिशन की समीक्षा को पूरा करने के लिए धन्यवाद, &quot;{$submissionTitle},&quot; for {$contextName}. हम आपके द्वारा प्रकाशित किए जाने वाले कार्य की गुणवत्ता में आपके योगदान की सराहना करते हैं.";s:43:"emails.editorDecisionSendToExternal.subject";s:44:"संपादक का निर्णय";s:40:"emails.editorDecisionSendToExternal.body";s:287:"{$authors}:<br />
+<br />
+हम आपके सबमिशन के बारे में निर्णय ले चुके हैं to {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Our decision is to: Send to Review<br />
+<br />
+Submission URL: {$submissionUrl}";s:45:"emails.editorDecisionSendToProduction.subject";s:44:"संपादक का निर्णय";s:42:"emails.editorDecisionSendToProduction.body";s:278:"{$authors}:<br />
+<br />
+आपके सबमिशन का संपादन, &quot;{$submissionTitle},&quot; पूरा है। अब हम इसे उत्पादन के लिए भेज रहे हैं.<br />
+<br />
+Submission URL: {$submissionUrl}";s:38:"emails.editorDecisionRevisions.subject";s:44:"संपादक का निर्णय";s:35:"emails.editorDecisionRevisions.body";s:298:"{$authors}:<br />
+<br />
+आपके द्वारा सबमिट किए जाने के संबंध में हम एक निर्णय पर पहुंच गए हैं {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+Our decision is: Revisions Required";s:37:"emails.editorDecisionResubmit.subject";s:44:"संपादक का निर्णय";s:36:"emails.editorDecisionDecline.subject";s:44:"संपादक का निर्णय";s:33:"emails.editorDecisionDecline.body";s:369:"{$authors}:<br />
+<br />
+आपके द्वारा सबमिट किए जाने के संबंध में हम एक निर्णय पर पहुंच गए हैं {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+हमारा निर्णय है: सबमिशन को अस्वीकार करना";s:35:"emails.editorRecommendation.subject";s:47:"संपादक की सिफारिश";s:32:"emails.editorRecommendation.body";s:193:"{$editors}:<br />
+<br />
+को प्रस्तुत करने के संबंध में सिफारिश {$contextName}, &quot;{$submissionTitle}&quot; is: {$recommendation}";s:30:"emails.copyeditRequest.subject";s:46:"प्रतिलिपि अनुरोध";s:27:"emails.copyeditRequest.body";s:1061:"{$recipientName}:<br />
+<br />
+I would ask that you undertake the copyediting of &quot;{$submissionTitle}&quot; for {$contextName} by following these steps.<br />
+1. नीचे दिए गए सबमिशन यूआरएल पर क्लिक करें.<br />
+2. ड्राफ्ट फ़ाइलों के तहत उपलब्ध किसी भी फाइल को खोलें और आवश्यकतानुसार अपनी कॉपी की गई चर्चाओं को जोड़ते हुए, अपनी प्रतिलिपि बनाएँ.<br />
+3. Save copyedited file(s), and upload to Copyedited panel.<br />
+4. संपादक को सूचित करें कि सभी फाइलें तैयार हो गई हैं, और यह कि उत्पादन प्रक्रिया शुरू हो सकती है.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+Submission URL: {$submissionUrl}<br />
+Username: {$recipientUsername}";s:43:"emails.editorDecisionInitialDecline.subject";s:44:"संपादक का निर्णय";s:40:"emails.editorDecisionInitialDecline.body";s:29:"
+			{$authors}:<br />
+<br />
+";s:25:"emails.discussion.subject";s:67:"{$contextName} के बारे में एक संदेश";s:22:"emails.discussion.body";s:61:"कृपया अपना संदेश लिखें.";s:28:"emails.reviewConfirm.subject";s:60:"समीक्षा करने में सक्षम";s:25:"emails.reviewConfirm.body";s:505:"Editors:<br />
+<br />
+मैं सबमिशन की समीक्षा करने में सक्षम और तैयार हूं, &quot;{$submissionTitle},&quot; for {$contextName}. मेरे बारे में सोचने के लिए धन्यवाद, और मेरी योजना इसकी नियत तारीख, {$ reviewDueDate} से पूरी होने की है, अगर पहले नहीं.<br />
+<br />
+{$senderName}";s:37:"emails.submissionAckNotAuthor.subject";s:43:"सबमिशन स्वीकृति";s:34:"emails.submissionAckNotAuthor.body";s:550:"Hello,<br />
+<br />
+{$submitterName} ने पांडुलिपि जमा की है, &quot;{$submissionTitle}&quot; to {$contextName}. <br />
+<br />
+यदि आपके पास किसी तरह का प्रश्न है, तो कृपया मुझ से सम्पर्क करें। अपने काम के लिए इस जर्नल को एक स्थान के रूप में विचार करने के लिए धन्यवाद.<br />
+<br />
+{$contextSignature}";}}}

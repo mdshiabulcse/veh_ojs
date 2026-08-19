@@ -1,0 +1,1 @@
+1818656035a:3:{s:6:"domain";N;s:12:"plural-forms";s:21:"nplurals=1; plural=0;";s:8:"messages";a:1:{s:0:"";a:2:{s:37:"api.submissions.403.cantChangeContext";s:60:"당신은 투고된 학술지를 변경할 수 없습니다.";s:37:"api.submissions.403.unpublishedIssues";s:65:"출판되지 않은 권을 볼 수 있는 권한이 없습니다.";}}}

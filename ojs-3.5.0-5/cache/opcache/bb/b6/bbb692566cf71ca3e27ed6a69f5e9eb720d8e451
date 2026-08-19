@@ -1,0 +1,182 @@
+1818656036a:3:{s:6:"domain";N;s:12:"plural-forms";s:26:"nplurals=2; plural=n != 1;";s:8:"messages";a:1:{s:0:"";a:69:{s:28:"emails.reviewerRegister.body";s:1348:"<p>ګرانه {$recipientName}،</p><p>ستاسو د تخصص په رڼا کې، موږ ستاسو نوم د {$contextName} لپاره د بیاکتونکي ډیټابیس کې ثبت کړی دی. دا ستاسو له خوا د کوم ډول ژمنې معنی نلري، مګر په ساده ډول موږ ته دا توان راکوي چې تاسو سره د احتمالي بیاکتنې لپاره د سپارنې سره اړیکه ونیسو. د بیاکتنې لپاره بلنه ترلاسه کولو سره، تاسو به فرصت ولرئ چې د پوښتنې لاندې مقالې سرلیک او لنډیز وګورئ، او تاسو به تل په دې موقف کې یاست چې بلنه ومنئ یا رد کړئ. تاسو کولی شئ په هر وخت کې د دې بیاکتونکي لیست څخه د خپل نوم لرې کولو غوښتنه هم وکړئ.</p><p>موږ تاسو ته یو کارن نوم او پټنوم چمتو کوو، کوم چې د ژورنال سره د هغې ویب پاڼې له لارې په ټولو تعاملاتو کې کارول کیږي. تاسو ممکن وغواړئ، د مثال په توګه، خپل پروفایل تازه کړئ، پشمول ستاسو د بیاکتنې ګټو.</p><p>کارن نوم: {$recipientUsername}<br />پاسورډ: {$password}</p><p>مننه،</p>{$signature}";s:30:"emails.issuePublishNotify.body";s:613:"<p>ګرانه {recipientName$}،<p></p>موږ خوښ یو چې د {contextName$} د <a href="{$issueUrl}">{$issueIdentification}</a> خپرونه اعلانوو. موږ تاسو ته بلنه درکوو چې دا کار ولولئ او له خپلې علمي ټولنې سره یې شریک کړئ.<p></p>زموږ د لیکوالانو، بیاکتونکو، او مدیرانو څخه د دوی د ارزښتناکو ونډو لپاره، او زموږ د لوستونکو څخه ستاسو د دوامداره لیوالتیا لپاره ډیره مننه.</p><div>{$issueToc}</div><p>مننه،</p>{$signature}";s:25:"emails.reviewRequest.body";s:1360:"<p>ګرانه {$recipientName}،</p><p>زه باور لرم چې تاسو به د {$contextName} ته د سپارلو لپاره د یو غوره بیاکتونکي په توګه خدمت وکړئ. د سپارلو سرلیک او لنډیز لاندې دی، او زه هیله لرم چې تاسو به زموږ لپاره دا مهم کار په پام کې ونیسئ.</p><p>که تاسو د دې سپارلو بیاکتنه کولی شئ، ستاسو بیاکتنه د {$reviewDueDate} پورې ده. تاسو کولی شئ سپارښتنې وګورئ، د بیاکتنې فایلونه اپلوډ کړئ، او خپله بیاکتنه د ژورنال سایټ ته د ننوتلو او لاندې لینک کې د ګامونو تعقیبولو سره وسپارئ.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Abstract</b></p>{$submissionAbstract}<p>مهرباني وکړئ <a href="{$reviewAssignmentUrl}">د <b>{$responseDueDate}</b> لخوا بیاکتنه ومنئ یا رد کړئ</a>.</p><p>تاسو کولی شئ د سپارښتنې یا بیاکتنې پروسې په اړه د هرې پوښتنې لپاره ما سره اړیکه ونیسئ.</p><p>د دې غوښتنې په پام کې نیولو لپاره مننه. ستاسو مرسته ډیره ستاینه کیږي.</p><p>مهرباني وکړئ،</p>{$signature}";s:37:"emails.reviewResponseOverdueAuto.body";s:1602:"<p>ګرانه {$recipientName}،</p><p>دا برېښنالیک د {$contextName} لخوا د "{$submissionTitle}" د سپارښتنې د بیاکتنې لپاره زموږ د غوښتنې په اړه یو اتوماتیک یادونه ده.</p><p>تاسو دا برېښنالیک ترلاسه کوئ ځکه چې موږ لا تر اوسه ستاسو څخه تایید نه دی ترلاسه کړی چې دا په ګوته کوي چې ایا تاسو د دې سپارښتنې بیاکتنه ترسره کولی شئ یا نه.</p><p>مهرباني وکړئ موږ ته خبر راکړئ چې ایا تاسو د دې غوښتنې د منلو یا ردولو لپاره زموږ د سپارښتنې مدیریت سافټویر په کارولو سره دا بیاکتنه ترسره کولی شئ یا نه.</p><p>که تاسو د دې سپارښتنې بیاکتنه کولی شئ، ستاسو بیاکتنه د {$reviewDueDate} پورې ده. تاسو کولی شئ د سپارنې لیدلو، د بیاکتنې فایلونو اپلوډ کولو، او د بیاکتنې نظرونو سپارلو لپاره د بیاکتنې مرحلې تعقیب کړئ.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Abstract</b></p>{$submissionAbstract}<p>مهرباني وکړئ د سپارنې یا د بیاکتنې پروسې په اړه د هرې پوښتنې لپاره له ما سره اړیکه ونیسئ.</p><p>د دې غوښتنې په پام کې نیولو لپاره مننه. ستاسو مرسته ډیره ستاینه کیږي.</p><p>مهرباني،</p>{$contextSignature}";s:32:"emails.passwordResetConfirm.body";s:554:"موږ د {$siteTitle} ویب پاڼې لپاره ستاسو د پټنوم بیا تنظیمولو غوښتنه ترلاسه کړې ده.<br />
+<br />
+که تاسو دا غوښتنه نه وي کړې، مهرباني وکړئ دا بریښنالیک له پامه وغورځوئ او ستاسو پټنوم به بدل نشي. که تاسو غواړئ خپل پټنوم بیا تنظیم کړئ، نو لاندې URL باندې کلیک وکړئ.<br />
+<br />
+زما پټنوم بیا تنظیم کړئ: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}";s:24:"emails.userRegister.body";s:683:"{$recipientName}<br />
+<br />
+تاسو اوس د {$contextName} سره د کارونکي په توګه راجستر شوي یاست. موږ ستاسو کارن نوم او پټنوم پدې بریښنالیک کې شامل کړي دي، کوم چې د دې ژورنال سره د ټولو کارونو لپاره د دې ویب پاڼې له لارې اړین دي. په هر وخت کې، تاسو کولی شئ له ما سره په اړیکه نیولو سره د ژورنال د کاروونکو لیست څخه د لرې کولو غوښتنه وکړئ.<br />
+<br />
+کارن نوم: {$recipientUsername}<br />
+پاسورډ: {$password}<br />
+<br />
+مننه،<br />
+{$signature}";s:31:"emails.userValidateContext.body";s:427:"‎{$recipientName}<br />
+<br />
+تاسو د {$contextName} سره یو حساب جوړ کړی دی، مګر مخکې لدې چې تاسو یې کارول پیل کړئ، تاسو اړتیا لرئ چې خپل د بریښنالیک حساب تایید کړئ. د دې کولو لپاره، په ساده ډول لاندې لینک تعقیب کړئ:<br />
+<br />
+{$activateUrl}<br />
+<br />
+مننه،<br />
+{$contextSignature}";s:28:"emails.userValidateSite.body";s:419:"{$recipientName}<br />
+<br />
+تاسو د {$siteTitle} سره یو حساب جوړ کړی دی، مګر مخکې لدې چې تاسو یې کارول پیل کړئ، تاسو اړتیا لرئ چې خپل د بریښنالیک حساب تایید کړئ. د دې کولو لپاره، په ساده ډول لاندې لینک تعقیب کړئ:<br />
+<br />
+{$activateUrl}<br />
+<br />
+مننه،<br />
+{$siteSignature}";s:24:"emails.editorAssign.body";s:862:"<p>ګرانه {$recipientName}،</p><p>لاندې سپارښتنې تاسو ته سپارل شوې دي ترڅو د اداریې پروسې له لارې وګورئ.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Abstract</b></p>{$submissionAbstract}<p>که تاسو سپارښتنې د {$contextName} لپاره اړونده ومومئ، مهرباني وکړئ سپارښتنې د "بیاکتنې ته لیږل" غوره کولو سره د بیاکتنې مرحلې ته واستوئ او بیا د "بیاکتونکي اضافه کړئ" کلیک کولو سره بیاکتونکي وټاکئ.</p><p>که سپارښتنې د دې ژورنال لپاره مناسبې نه وي، مهرباني وکړئ سپارښتنې رد کړئ.</p><p>مخکې له مخکې مننه.</p><p>مهرباني وکړئ،</p>{$contextSignature}";s:30:"emails.editorAssignReview.body";s:649:"<p>ګرانه {$recipientName}،</p><p>لاندې سپارښتنې تاسو ته سپارل شوې دي ترڅو د ملګرو د بیاکتنې پروسې له لارې وګورئ.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Abstract</b></p>{$submissionAbstract}<p>مهرباني وکړئ <a href="{$submissionUrl}">سپړنه وګورئ</a> ته ننوځئ او وړ بیاکتونکي وټاکئ. تاسو کولی شئ د "بیاکتونکي اضافه کړئ" کلیک کولو سره یو بیاکتونکی وټاکئ.</p><p>مخکې له مخکې مننه.</p><p>مهرباني وکړئ،</p>{$signature}";s:34:"emails.editorAssignProduction.body";s:768:"<p>ګرانه {$recipientName}،</p><p>لاندې سپارنه تاسو ته د تولید مرحلې د لیدلو لپاره سپارل شوې ده.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><b>Abstract</b></p>{$submissionAbstract}<p>مهرباني وکړئ <a href="{$submissionUrl}">سپړنه وګورئ</a> ته ننوتل. کله چې د تولید لپاره چمتو فایلونه شتون ولري، نو د <strong>خپرونې > ګالري</strong> برخې لاندې یې اپلوډ کړئ. بیا د <strong>خپرونې لپاره مهالویش</strong> تڼۍ کلیک کولو سره د خپرونې لپاره کار مهالویش کړئ.</p><p>مخکې له مخکې مننه.</p><p>مهرباني وکړئ،</p>";s:35:"emails.passwordResetConfirm.subject";s:51:"د پاسورډ بیا تنظیم کول تایید";s:27:"emails.userRegister.subject";s:26:"د ژورنال ثبتول";s:34:"emails.userValidateContext.subject";s:33:"خپل حساب تایید کړئ";s:31:"emails.userValidateSite.subject";s:33:"خپل حساب تایید کړئ";s:31:"emails.reviewerRegister.subject";s:78:"د {contextName$} سره د بیاکتونکي په توګه نوم لیکنه";s:33:"emails.issuePublishNotify.subject";s:64:"تازه خپور شو: د {contextName$} {issueIdentification$}";s:27:"emails.editorAssign.subject";s:119:"تاسو ته دته د سپارلو لپاره د مدیر په توګه دنده ورکړل شوې ده{contextName$}";s:28:"emails.reviewRequest.subject";s:37:"د بیاکتنې لپاره بلنه";s:40:"emails.reviewResponseOverdueAuto.subject";s:92:"آیا تاسو به وکولی شئ چې دا زموږ لپاره بیاکتنه وکړئ؟";s:38:"emails.reviewRequestSubsequent.subject";s:68:"د اصلاح شوې سپارښتنې د بیاکتنې غوښتنه";s:28:"emails.reviewRemindAuto.body";s:1051:"<p>ګرانه {recipientName$}:<p></p>دا برېښنالیک د {contextName$} لخوا ستاسو د سپارښتنې د بیاکتنې لپاره زموږ د غوښتنې په اړه یو اتوماتیک یادونه ده، "{submissionTitle$}."<p></p>موږ تمه درلوده چې دا بیاکتنه به د {reviewDueDate$} لخوا وشي او موږ به خوښ شو چې ژر تر ژره یې ترلاسه کړو کله چې تاسو یې چمتو کولی شئ.<p></p>مهرباني وکړئ <a href="{$reviewAssignmentUrl}">ژورنال ته ننوځئ</a> او د سپارښتنې لیدلو لپاره د بیاکتنې مرحلې تعقیب کړئ، د بیاکتنې فایلونه اپلوډ کړئ، او خپلې بیاکتنې تبصرې وسپارئ.</p><p>که تاسو د وروستۍ نیټې غځولو ته اړتیا لرئ، مهرباني وکړئ ما سره اړیکه ونیسئ. زه ستاسو د اوریدلو په تمه یم.</p><p>مخکې له مخکې مننه او په درناوي،</p>{$contextSignature}";s:27:"emails.reviewReinstate.body";s:866:"<p>ګرانه {$recipientName}،</p><p>موږ په دې وروستیو کې ستاسو لپاره د {$contextName} لپاره د سپارښتنې، {$submissionTitle}، د بیاکتنې غوښتنه لغوه کړه. موږ دا پریکړه بیرته واخیسته او موږ هیله لرو چې تاسو لاهم د بیاکتنې ترسره کولو توان لرئ.</p><p>که تاسو د دې سپارښتنې بیاکتنې سره مرسته کولی شئ، تاسو کولی شئ <a href="{$reviewAssignmentUrl}">ژورنال ته ننوتل</a> ترڅو سپارښتنې وګورئ، د بیاکتنې فایلونه اپلوډ کړئ، او خپله د بیاکتنې غوښتنه وسپارئ.</p><p>که تاسو کومه پوښتنه لرئ، مهرباني وکړئ ما سره اړیکه ونیسئ.</p><p>مهرباني وکړئ،</p>{$signature}";s:25:"emails.layoutRequest.body";s:987:"<p>ګرانه {$recipientName}،<p></p>یو نوی سپارښتنه د ترتیب ایډیټ کولو لپاره چمتو ده:</p><p><a href="{$submissionUrl}">{$submissionId} — {$submissionTitle}</a><br />{$contextName}</p><ol><li>پورته د سپارښتنې URL باندې کلیک وکړئ.</li><li>د تولید لپاره چمتو فایلونه ډاونلوډ کړئ او د ژورنال معیارونو سره سم ګالري جوړولو لپاره یې وکاروئ.</li><li>ګالري د سپارښتنې د خپرونې برخې ته اپلوډ کړئ.</li><li>د تولید بحثونو څخه کار واخلئ ترڅو مدیر ته خبر ورکړئ چې ګالري چمتو دي.</li></ol><p>که تاسو پدې وخت کې دا کار نشئ کولی یا کومه پوښتنه لرئ، مهرباني وکړئ ما سره اړیکه ونیسئ. پدې ژورنال کې ستاسو د ونډې لپاره مننه.</p><p>مهرباني وکړئ،</p>{$signature}";s:26:"emails.layoutComplete.body";s:415:"<p>ګرانه {$recipientName}،<p></p>ګیلي اوس د لاندې سپارښتنې لپاره چمتو شوي او د وروستۍ بیاکتنې لپاره چمتو دي.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$contextName}</p><p>که تاسو کومه پوښتنه لرئ، مهرباني وکړئ ما سره اړیکه ونیسئ.</p><p>مهرباني وکړئ،</p><p>{$signature}</p>";s:30:"emails.subscriptionNotify.body";s:1200:"{$recipientName}:<br />
+<br />
+تاسو اوس زموږ د آنلاین ژورنال مدیریت سیسټم کې د {$contextName} لپاره د ګډون کونکي په توګه راجستر شوي یاست، د لاندې ګډون سره:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+هغه مینځپانګې ته د لاسرسي لپاره چې یوازې د ګډون کونکو لپاره شتون لري، په ساده ډول سیسټم ته د خپل کارونکي نوم، "{$recipientUsername}" سره ننوتل.<br />
+<br />
+یوځل چې تاسو سیسټم ته ننوتل، تاسو کولی شئ په هر وخت کې د خپل پروفایل توضیحات او پټنوم بدل کړئ.<br />
+<br />
+مهرباني وکړئ په یاد ولرئ چې که تاسو اداري ګډون لرئ، نو ستاسو په اداره کې کاروونکو ته د ننوتلو اړتیا نشته، ځکه چې د ګډون مینځپانګې غوښتنې به په اتوماتيک ډول د سیسټم لخوا تصدیق شي.<br />
+<br />
+که تاسو کومه پوښتنه لرئ، مهرباني وکړئ له ما سره اړیکه ونیسئ.<br />
+<br />
+{$subscriptionSignature}";s:36:"emails.subscriptionBeforeExpiry.body";s:676:"{$recipientName}:<br />
+<br />
+ستاسو د {$contextName} ګډون پای ته رسیدو ته نږدې دی.<br />
+<br />
+{$subscriptionType}<br />
+د پای نیټه: {$expiryDate}<br />
+<br />
+د دې ژورنال ته ستاسو د لاسرسي دوام ډاډمن کولو لپاره، مهرباني وکړئ د ژورنال ویب پاڼې ته لاړ شئ او خپل ګډون نوي کړئ. تاسو کولی شئ د خپل کارونکي نوم، "{$recipientUsername}" سره سیسټم ته ننوځئ.<br />
+<br />
+که تاسو کومه پوښتنه لرئ، مهرباني وکړئ له ما سره اړیکه ونیسئ.<br />
+<br />
+{$subscriptionSignature}";s:24:"emails.reviewRemind.body";s:990:"<p>ګرانه {$recipientName}،</p><p>یوازې د {$contextName} لپاره د "{$submissionTitle}" د سپارښتنې د بیاکتنې لپاره زموږ د غوښتنې یوه نرمه یادونه. موږ تمه درلوده چې دا بیاکتنه به د {$reviewDueDate} لخوا وشي او موږ به خوښ شو چې ژر تر ژره یې ترلاسه کړو کله چې تاسو یې چمتو کولی شئ.</p><p>تاسو کولی شئ <a href="{$reviewAssignmentUrl}">ژورنال ته ننوځئ</a> او د سپارښتنې لیدلو، د بیاکتنې فایلونو اپلوډ کولو او د بیاکتنې نظرونو سپارلو لپاره د بیاکتنې مرحلې تعقیب کړئ.</p><p>که تاسو د وروستۍ نیټې غځولو ته اړتیا لرئ، مهرباني وکړئ ما سره اړیکه ونیسئ. زه ستاسو د اوریدلو په تمه یم.</p><p>مخکې له مخکې مننه او په درناوي،</p>{$signature}";s:39:"emails.subscriptionAfterExpiryLast.body";s:740:"{$recipientName}:<br />
+<br />
+ستاسو د {$contextName} ګډون پای ته رسیدلی دی.<br />
+مهرباني وکړئ په یاد ولرئ چې دا وروستۍ یادونه ده چې تاسو ته به په بریښنالیک کې واستول شي.<br />
+<br />
+{$subscriptionType}<br />
+د پای نیټه: {$expiryDate}<br />
+<br />
+د خپل ګډون نوي کولو لپاره، مهرباني وکړئ د ژورنال ویب پاڼې ته لاړ شئ. تاسو کولی شئ د خپل کارن نوم، "{$recipientUsername}" سره سیسټم ته ننوځئ.<br />
+<br />
+که تاسو کومه پوښتنه لرئ، مهرباني وکړئ له ما سره اړیکه ونیسئ.<br />
+<br />
+{$subscriptionSignature}";s:37:"emails.subscriptionPurchaseInstl.body";s:951:"د لاندې توضیحاتو سره د {$contextName} لپاره یو اداري ګډون آنلاین اخیستل شوی دی. د دې ګډون د فعالولو لپاره، مهرباني وکړئ د ورکړل شوي ګډون URL څخه کار واخلئ او د ګډون حالت 'فعال' ته وټاکئ.<br />
+<br />
+د ګډون ډول:<br />
+{$subscriptionType}<br />
+<br />
+اداره:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+ډومین (که چمتو شوی وي):<br />
+{$domain}<br />
+<br />
+د IP رینجونه (که چمتو شوی وي):<br />
+{$ipRanges}<br />
+<br />
+د اړیکې کس:<br />
+{$subscriberDetails}<br />
+<br />
+د غړیتوب معلومات (که چمتو شوی وي):<br />
+{$membership}<br />
+<br />
+د دې ګډون لیدلو یا سمولو لپاره، مهرباني وکړئ لاندې URL وکاروئ.<br />
+<br />
+د ګډون URL: {$ګډون یو آر ایل}<br />
+";s:34:"emails.subscriptionRenewInstl.body";s:748:"د {$contextName} لپاره د اداري ګډون آنلاین د لاندې توضیحاتو سره نوي شوی دی.<br />
+<br />
+د ګډون ډول:<br />
+{$subscriptionType}<br />
+<br />
+اداره:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+ډومین (که چمتو شوی وي):<br />
+{$domain}<br />
+<br />
+د IP رینجونه (که چمتو شوی وي):<br />
+{$ipRanges}<br />
+<br />
+د اړیکې کس:<br />
+{$subscriberDetails}<br />
+<br />
+د غړیتوب معلومات (که چمتو شوی وي):<br />
+{$membership}<br />
+<br />
+د دې ګډون لیدلو یا سمولو لپاره، مهرباني وکړئ لاندې URL وکاروئ.<br />
+<br />
+د ګډون URL: {$subscriptionUrl}<br />
+";s:32:"emails.revisedVersionNotify.body";s:588:"<p>ګرانه {$recipientName}،</p><p>لیکوال د سپارنې لپاره بیاکتنې اپلوډ کړې دي، <b>{$authorsShort} — {$submissionTitle}</b>. <p>د یو ټاکل شوي مدیر په توګه، موږ له تاسو څخه غوښتنه کوو چې ننوتل وکړئ او <a href="{$submissionUrl}">بیاکتنې وګورئ</a> او پریکړه وکړئ چې سپارنه ومني، رد کړئ یا د نورو بیاکتنې لپاره واستوئ.</p><br><br>—<br>دا د <a href="{$contextUrl}">{$contextName}</a> څخه یو اتومات پیغام دی.";s:32:"emails.editorDecisionAccept.body";s:1548:"<p>ګرانه {$recipientName}،<p></p>زه خوښ یم چې تاسو ته خبر درکوم چې موږ پریکړه کړې چې ستاسو سپارښتنې پرته له نورو بیاکتنو څخه ومنو. د احتیاطي بیاکتنې وروسته، موږ ستاسو سپارښتنې، {$submissionTitle}، زموږ د تمو سره سم یا له هغې څخه ډیرې وموندلې. موږ لیواله یو چې ستاسو مقاله په {$contextName} کې خپره کړو او موږ ستاسو د کار لپاره د ځای په توګه زموږ ژورنال غوره کولو لپاره مننه کوو.<p></p>ستاسو سپارنه اوس د {$contextName} په راتلونکې ګڼه کې راځي او تاسو ته ښه راغلاست ویل کیږي چې دا ستاسو د خپرونو په لیست کې شامل کړئ. موږ هغه سخت کار پیژنو چې د هرې بریالۍ سپارنې لپاره ځي او موږ غواړو تاسو ته دې مرحلې ته د رسیدو مبارکي درکړو.</p><p>ستاسو سپارنه به اوس د خپرولو لپاره د چمتو کولو لپاره د کاپي ایډیټ کولو او فارمیټ کولو څخه تیریږي.</p><p>تاسو به ډیر ژر نور لارښوونې ترلاسه کړئ.</p><p>که تاسو کومه پوښتنه لرئ، مهرباني وکړئ له خپل <a href="{$authorSubmissionUrl}">د سپارنې ډشبورډ</a> څخه ما سره اړیکه ونیسئ.</p><p>مهرباني وکړئ،</p> {$signature}";s:35:"emails.reviewRequestSubsequent.body";s:1458:"<p>ګرانه {$recipientName}،</p><p>ستاسو د <a href="{$reviewAssignmentUrl}">{$submissionTitle}</a> د بیاکتنې لپاره مننه. لیکوالانو د بیاکتونکو نظرونه په پام کې نیولي او اوس یې د خپل کار اصلاح شوی نسخه سپارلې ده. زه لیکم ترڅو پوښتنه وکړم چې ایا تاسو به د دې سپارنې لپاره د ملګرو بیاکتنې دوهم پړاو ترسره کړئ.</p><p>که تاسو د دې سپارنې بیاکتنې توان لرئ، ستاسو بیاکتنه د {$reviewDueDate} پورې ده. تاسو کولی شئ <a href="{$reviewAssignmentUrl}">د بیاکتنې مرحلې تعقیب کړئ</a> ترڅو د سپارلو، د بیاکتنې فایلونو اپلوډ کولو، او د بیاکتنې نظرونو سپارلو لپاره.<p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Abstract</b></p>{$submissionAbstract}<p>مهرباني وکړئ <a href="{$reviewAssignmentUrl}">د <b>{$responseDueDate}</b> لخوا بیاکتنه ومنئ یا رد کړئ</a>.</p><p>مهرباني وکړئ د سپارلو یا د بیاکتنې پروسې په اړه د هرې پوښتنې لپاره له ما سره اړیکه ونیسئ.</p><p>د دې غوښتنې په پام کې نیولو لپاره مننه. ستاسو مرسته ډیره ستاینه کیږي.</p><p>مهرباني وکړئ،</p>{$signature}";s:38:"emails.paymentRequestNotification.body";s:708:"‮‮<p>ګرانه {$recipientName}،</p><p>ستاسو د سپارښتنې، {$submissionTitle}، د {$contextName} ته د منلو مبارکي. اوس چې ستاسو سپارښتنه منل شوې، موږ غواړو د خپرونې فیس تادیه کړو.</p><p>دا فیس ستاسو د سپارښتنې خپرولو ته د راوړلو د تولید لګښتونه پوښي. د تادیې کولو لپاره، مهرباني وکړئ <a href="{$queuedPaymentUrl}">{$queuedPaymentUrl}</a> ته مراجعه وکړئ.</p><p>که تاسو کومه پوښتنه لرئ، مهرباني وکړئ زموږ <a href="{$submissionGuidelinesUrl}">د سپارښتنې لارښوونې</a></p> وګورئ.‮";s:36:"emails.editorDecisionSkipReview.body";s:1539:"<p>ګرانه {$recipientName}،<p/>
+<p>زه خوښ یم چې تاسو ته خبر درکړم چې موږ پریکړه کړې چې ستاسو سپارښتنې د ملګرو بیاکتنې پرته ومنو. موږ ستاسو سپارښتنې، {$submissionTitle}، زموږ د تمو سره سم وموندله، او موږ د دې ډول کار د ملګرو بیاکتنې ته اړتیا نلرو. موږ لیواله یو چې ستاسو مقاله په {$contextName} کې خپره کړو او موږ ستاسو د کار لپاره زموږ ژورنال د ځای په توګه غوره کولو لپاره مننه کوو.<p/>
+<p>ستاسو سپارښتنې اوس د {$contextName} په راتلونکې ګڼه کې راځي او تاسو ته ښه راغلاست ویل کیږي چې دا ستاسو د خپرونو په لیست کې شامل کړئ. موږ هغه سخت کار پیژنو چې د هرې بریالۍ سپارنې لپاره ځي او موږ غواړو ستاسو د هڅو مبارکي درکړو.<p/>
+<p>ستاسو سپارنه به اوس د کاپي ایډیټ کولو او فارمیټ کولو څخه تیریږي ترڅو دا د خپرولو لپاره چمتو کړي. <p/>
+<p/>تاسو به ډیر ژر نور لارښوونې ترلاسه کړئ.<p>
+<p>که تاسو کومه پوښتنه لرئ، مهرباني وکړئ له خپل <"a href="{$authorSubmissionUrl}>د سپارلو ډشبورډ<a/> څخه ما سره اړیکه ونیسئ.<p/>
+<p>مهرباني وکړئ،<p/>
+<p>{$signature}<p/>
+";s:40:"emails.statisticsReportNotification.body";s:931:"
+{$recipientName}, <br />
+<br />
+ستاسو د ژورنال روغتیا راپور لپاره {$month}, {$year} اوس شتون لري. ستاسو د دې میاشتې مهمې احصایې لاندې دي.<br />
+<ul>
+	<li>پدې میاشت کې نوي سپارښتنې: {$newSubmissions}</li>
+	<li>پدې میاشت کې رد شوي سپارښتنې: {$declinedSubmissions}</li>
+	<li>په دې میاشت کې منل شوي غوښتنلیکونه: {$acceptedSubmissions}</li>
+	<li>په سیسټم کې ټولې سپارښتنې: {$totalSubmissions}</li>
+</ul>
+د نورو جزیاتو لیدلو لپاره ژورنال ته ننوتل <a href="{$editorialStatsLink}">editorial trends</a> and <a href="{$publicationStatsLink}">خپاره شوي مقالې احصایې</a>. د دې میاشتې د اداری رجحاناتو بشپړه کاپي ضمیمه ده.<br />
+<br />
+په خواشینۍ سره,<br />
+{$contextSignature}";s:27:"emails.reviewCancel.subject";s:46:"د بیاکتنې غوښتنه لغوه شوه";s:24:"emails.reviewCancel.body";s:780:"<p>ګرانه {recipientName$}،<p></p>په دې وروستیو کې، موږ له تاسو څخه وغوښتل چې {contextName$} ته یوه سپارښتنه بیاکتنه وکړئ. موږ پریکړه کړې چې ستاسو لپاره د سپارښتنې بیاکتنې غوښتنه لغوه کړو، {$submissionTitle}.<p></p>موږ د دې له امله ستاسو د رامنځته شوې هر ډول تکلیف لپاره بخښنه غواړو او هیله لرو چې موږ به وکولی شو په راتلونکي کې د دې ژورنال د بیاکتنې پروسې سره د مرستې لپاره له تاسو څخه وغواړو.<p></p>که تاسو کومه پوښتنه لرئ، مهرباني وکړئ ما سره اړیکه ونیسئ.‎</p> {signature$}";s:30:"emails.reviewReinstate.subject";s:97:"آیا تاسو اوس هم د {contextName$} لپاره یو څه بیاکتنه کولی شئ؟";s:28:"emails.reviewDecline.subject";s:35:"د بیاکتنې توان نلري";s:27:"emails.reviewRemind.subject";s:90:"یوه یادونه چې مهرباني وکړئ خپله بیاکتنه بشپړه کړئ";s:25:"emails.reviewDecline.body";s:352:"مدیران:<br />
+<br />
+زه ویره لرم چې پدې وخت کې زه نشم کولی د {$contextName} لپاره د سپارښتنې، "{$submissionTitle}" بیاکتنه وکړم. زما په اړه د فکر کولو لپاره مننه، او بل ځل وړیا احساس وکړئ چې ما ته زنګ ووهئ.<br />
+<br />
+{$senderName}";s:31:"emails.reviewRemindAuto.subject";s:90:"یوه یادونه چې مهرباني وکړئ خپله بیاکتنه بشپړه کړئ";s:35:"emails.editorDecisionAccept.subject";s:63:"ستاسو سپارنه ته منل شوې ده. {$contextName}";s:39:"emails.editorDecisionSkipReview.subject";s:76:"ستاسو سپارنه د کاپي کولو لپاره لیږل شوې ده";s:29:"emails.layoutComplete.subject";s:24:"ګالیز بشپړ شو";s:28:"emails.layoutRequest.subject";s:95:"سپارنه {$submissionId} په کې د تولید لپاره چمتو ده.{$contextAcronym}";s:24:"emails.emailLink.subject";s:35:"د احتمالي ګټو مقاله";s:21:"emails.emailLink.body";s:265:"فکر کوم چې تاسو به د "{$submissionTitle}" لیدلو کې لیوالتیا ولرئ چې د {$authors} لخوا لیکل شوی چې په {$volume} ټوک، نه {$number} ({$year}) کې د {$contextName} په "{$submissionUrl}" کې خپور شوی.";s:33:"emails.subscriptionNotify.subject";s:24:"د ګډون خبرتیا";s:31:"emails.openAccessNotify.subject";s:113:"د لوستلو لپاره وړیا: د {$contextName} {$issueIdentification} اوس خلاص لاسرسی لري";s:28:"emails.openAccessNotify.body";s:434:"<p>ګرانه {$recipientName}،</p><p>موږ خوښ یو چې تاسو ته خبر درکړو چې د {$contextName} <a href="{$issueUrl}">{$issueIdentification}</a> اوس د خلاص لاسرسي لاندې شتون لري. د دې ګڼې د لوستلو لپاره نور ګډون ته اړتیا نشته.</p><p>زموږ په کار کې ستاسو د دوامداره لیوالتیا لپاره مننه.</p>{$contextSignature}";s:39:"emails.subscriptionBeforeExpiry.subject";s:50:"د ګډون د پای ته رسیدو خبرتیا";s:38:"emails.subscriptionAfterExpiry.subject";s:20:"ګډون ختم شو";s:35:"emails.subscriptionAfterExpiry.body";s:576:"{$recipientName}:<br />
+<br />
+ستاسو د {$contextName} ګډون پای ته رسیدلی دی.<br />
+<br />
+{$subscriptionType}<br />
+د پای نیټه: {$expiryDate}<br />
+<br />
+د خپل ګډون نوي کولو لپاره، مهرباني وکړئ د ژورنال ویب پاڼې ته لاړ شئ. تاسو کولی شئ د خپل کارن نوم، "{$recipientUsername}" سره سیسټم ته ننوځئ.<br />
+<br />
+که تاسو کومه پوښتنه لرئ، مهرباني وکړئ له ما سره اړیکه ونیسئ.<br />
+<br />
+{$subscriptionSignature}";s:42:"emails.subscriptionAfterExpiryLast.subject";s:73:"د ګډون موده پای ته ورسېده - وروستۍ یادونه";s:39:"emails.subscriptionPurchaseIndl.subject";s:38:"د ګډون پیرود: انفرادي";s:36:"emails.subscriptionPurchaseIndl.body";s:523:"د لاندې توضیحاتو سره د {$contextName} لپاره یو انفرادي ګډون آنلاین اخیستل شوی دی.<br />
+<br />
+د ګډون ډول:<br />
+{$subscriptionType}<br />
+<br />
+کاروونکی:<br />
+{$subscriberDetails}<br />
+<br />
+د غړیتوب معلومات (که چمتو شوي وي):<br />
+{$membership}<br />
+<br />
+د دې ګډون لیدلو یا سمولو لپاره، مهرباني وکړئ لاندې URL وکاروئ.<br />
+<br />
+د ګډون URL: {$subscriptionUrl}<br />
+";s:40:"emails.subscriptionPurchaseInstl.subject";s:34:"د ګډون پیرود: اداري";s:36:"emails.subscriptionRenewIndl.subject";s:41:"د ګډون نوي کول: انفرادي";s:33:"emails.subscriptionRenewIndl.body";s:517:"د {$contextName} لپاره یو انفرادي ګډون د لاندې توضیحاتو سره آنلاین نوي شوی دی.<br />
+<br />
+د ګډون ډول:<br />
+{$subscriptionType}<br />
+<br />
+کاروونکی:<br />
+{$subscriberDetails}<br />
+<br />
+د غړیتوب معلومات (که چمتو شوي وي):<br />
+{$membership}<br />
+<br />
+د دې ګډون لیدلو یا سمولو لپاره، مهرباني وکړئ لاندې URL وکاروئ.<br />
+<br />
+د ګډون URL: {$subscriptionUrl}<br />
+";s:37:"emails.subscriptionRenewInstl.subject";s:37:"د ګډون نوي کول: اداري";s:35:"emails.revisedVersionNotify.subject";s:44:"اصلاح شوې نسخه پورته شوه";s:43:"emails.statisticsReportNotification.subject";s:56:"د {$month}، {$year} لپاره اداری فعالیت";s:27:"emails.announcement.subject";s:20:"{announcementTitle$}";s:24:"emails.announcement.body";s:186:"<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+زموږ ویب پاڼه وګورئ ترڅو <a href="{$announcementUrl}">بشپړ اعلان</a> ولولئ.";s:41:"emails.paymentRequestNotification.subject";s:39:"د تادیې غوښتنې خبرتیا";s:40:"emails.paymentRequestNotification.footer";s:107:"<br><br>—<br>دا د <a href="{$contextUrl}">{$contextName}</a> څخه یو اتومات پیغام دی.";}}}

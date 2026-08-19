@@ -1,0 +1,284 @@
+1818656031a:3:{s:6:"domain";N;s:12:"plural-forms";s:26:"nplurals=2; plural=n != 1;";s:8:"messages";a:1:{s:0:"";a:69:{s:35:"emails.passwordResetConfirm.subject";s:30:"Şifrə dəyişdirmə təsdiqi";s:31:"emails.userValidateContext.body";s:346:"Hörmətli {$recipientName},<br />
+<br />
+{$contextName} adlı jurnalda bir hesab yaratdınız, ancaq Jurnal sistemini istifadə etməyə başlamazdan əvvəl email hesabınızı təsdiqləməniz lazımdır. Bunun üçün aşağıdakı linki izləməyiniz kifayətdir:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Təşəkkürlər,<br />
+{$signature}";s:28:"emails.userValidateSite.body";s:351:"{$recipientName}<br />
+<br />
+{$siteTitle} üçün yeni bir hesab yaratdınız, ancaq bunu istifadə etməyə başlamazdan əvvəl email hesabınızı təsdiqləməyiniz gərəklidir. Email hesabınızı təsdiqləmək üçün aşağıdakı linki izləməyiniz kifayətdir:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Təşəkkürlər,<br />
+{$signature}";s:33:"emails.issuePublishNotify.subject";s:73:"Yeni nömrə yayımlandı: {$contextName} jurnalı {$issueIdentification}";s:27:"emails.editorAssign.subject";s:80:"{$contextName} üçün bir namizəd məqaləyə redaktor olaraq təyin edildiniz";s:28:"emails.reviewRequest.subject";s:19:"Rəyçilik dəvəti";s:40:"emails.reviewResponseOverdueAuto.subject";s:31:"Rəyçilik tələbi xatırlatma";s:28:"emails.layoutRequest.subject";s:80:"{$submissionId} nömrəli məqalə {$contextAcronym} üçün nəşrə hazırdır";s:39:"emails.subscriptionBeforeExpiry.subject";s:42:"Abunəliyin başa çatma xəbərdarlığı";s:38:"emails.subscriptionAfterExpiry.subject";s:27:"Abunəliyiniz başa çatdı";s:36:"emails.subscriptionRenewIndl.subject";s:28:"Abunə yenilənməsi: Fərdi";s:27:"emails.userRegister.subject";s:36:"Jurnal yeni istifadəçi qeydiyyatı";s:34:"emails.userValidateContext.subject";s:27:"Hesabınızı təsdiqləyin";s:31:"emails.userValidateSite.subject";s:27:"Hesabınızı təsdiqləyin";s:31:"emails.reviewerRegister.subject";s:42:"{$contextName} ilə rəyçi kimi qeydiyyat";s:38:"emails.reviewRequestSubsequent.subject";s:78:"Gözdən keçirilmiş/baxılmış bir namizəd məqaləyə rəyçilik dəvəti";s:27:"emails.reviewCancel.subject";s:45:"Dəyərləndirmənin ləğvini tələb edirik";s:30:"emails.reviewReinstate.subject";s:53:"{$contextName} üçün rəyçilik edə bilərsinizmi?";s:28:"emails.reviewDecline.subject";s:24:"Dəyərləndirməyəcəm";s:27:"emails.reviewRemind.subject";s:68:"Xatırlatma: Zəhmət olmasa dəyərləndirmə prosesini tamamlayın";s:31:"emails.reviewRemindAuto.subject";s:75:"Avtomatik xatırlatma: Xahiş olunur dəyərləndirmə prosesini tamamlayı";s:35:"emails.editorDecisionAccept.subject";s:57:"Namizəd məqaləniz {$contextName} üçün qəbul edildi";s:32:"emails.editorDecisionAccept.body";s:249:"Hörmətli {$authors},<br />
+ <br />
+ {$contextName} üçün göndərdiyiniz &quot;{$submissionTitle}&quot; başlıqlı çalışmanızla əlaqəli dəyərləndirmə prosesi bitib və qərar qəbul edilib.<br />
+ <br />
+ Qərarımız: Nəşrə qəbul";s:39:"emails.editorDecisionSkipReview.subject";s:50:"Məqalə kopya redaktə etmə üçün göndərildi";s:29:"emails.layoutComplete.subject";s:23:"Test dizayn tamamlandı";s:24:"emails.emailLink.subject";s:43:"Diqqətinizi çəkə biləcək bir məqalə";s:21:"emails.emailLink.body";s:256:"<br />
+  {$contextName} {$volume}. cild {$number}. Nömrəsində ({$year}) {$authors} tərəfindən yazılan <br />
+  &quot;{$submissionTitle}&quot; başlıqlı bir məqalə yayımlanıb.<br />
+  Bu çalışmanın sizi maraqlandıracağını ümid edirəm.";s:33:"emails.subscriptionNotify.subject";s:27:"Abunəlik məlumatlandırma";s:42:"emails.subscriptionAfterExpiryLast.subject";s:37:"Abunəliyiniz bitdi - son xatırlatma";s:39:"emails.subscriptionPurchaseIndl.subject";s:22:"Abunəlik alma: Fərdi";s:40:"emails.subscriptionPurchaseInstl.subject";s:29:"Abunə alınması: Korporativ";s:37:"emails.subscriptionRenewInstl.subject";s:35:"Abunəlik yenilənməsi: Korporativ";s:35:"emails.revisedVersionNotify.subject";s:33:"Düzəldilmiş versiya yükləndi";s:43:"emails.statisticsReportNotification.subject";s:40:"{$month} {$year} proses əməliyyatları";s:27:"emails.announcement.subject";s:20:"{$announcementTitle}";s:32:"emails.passwordResetConfirm.body";s:411:"{$siteTitle} saytındakı şifrənizi dəyişdirmə tələbinizi qəbul etdik.<br />
+<br />
+Bu tələb sizin məlumatınız xaricində baş verdiysə zəhmət olmasa mesajı diqqətə almayın; əvvəlki şifrənizi istifadə edə bilərsiniz. Əgər şifrənizi dəyişdirmək istəyirsinizsə aşağıdakı linki klikləyin.
+<br />
+Şifrə dəyişdirmək üçün: {$passwordResetUrl}<br />
+<br />
+{$signature}";s:24:"emails.userRegister.body";s:543:"Hörmətli {$recipientName},<br />
+<br />
+{$contextName} adlı jurnala istifadəçi kimi qeydiyyatdan keçdiyiniz üçün təşəkkür edirik. Bu emailə Bu e-postaya, veb saytı vasitəsilə bu jurnalda edilən bütün proseslər üçün lazım olan istifadəçi adınızı və şifrənizi əlavə etdik. Bizimlə əlaqə quraraq Jurnalın istifadəçi siyahısından xaric edilməsini tələb edə bilərsiniz.<br />
+<br />
+İstifadəçi adı: {$recipientUsername}<br />
+Şifrə: {$password}<br />
+<br />
+Təşəkkürlər,<br />
+{$signature}";s:30:"emails.issuePublishNotify.body";s:459:"<p>Hörmətli {$recipientName, </p><p>{$contextName} Jurnalının yeni nömrəsi yayımlandı. Yeni nömrəyə <a href="{$issueUrl}">{$issueIdentification}</a> adresindən çata bilərsiniz.
+Sizi Jurnalımızın mündəricat səhifəsini incələməyə, bəyəndiyiniz məqalələri oxumaya və dəyərli fikirlərinizi bölüşməyə dəvət edirik.</p><p>Jurnalımıza göstərdiyiniz maraqdan dolayı təşəkkür edirik.</p><p>Hörmətlə,</p>{$signature}";s:28:"emails.reviewerRegister.body";s:906:"<p>Hörmətli {$recipientName},</p><p>İxtisasınıza uyğun olaraq, adınızı {$contextName} üçün rəyçi data bazasına qeyd etdik. Bu sizi hər hansı bir iş üçün məcbur etməz; sadəcə dəyərləndirmək üçün sizə bir müraciət göndərməyimizi təmin edər. Dəyərləndirilməsi istənəcək məqalənin başlıq və xülasəsini görmə imkanı tanıyır. Dəvəti qəbul və ya rədd etmək sizin ixtiyarınızdadır. Əlavə olaraq, istədiyiniz zaman adınızın dəyərləndirmə siyahısından çıxarılmasını istəyə bilərsiniz. </p><p>Veb sayt vasitəsilə, Jurnal ilə əlaqəli bütün proseslər üçün istifadə edilən bir istifadəçi adı və şifrə təqdim edirik. Məsələn, bu şifrə ilə maraq sahələrinizi və profilinizi yeniləyə bilərsiniz.</p><p>İstifadəçi adı: {$recipientUsername}<br />Şifrə: {$password}</p><p>Hörmətlə,</p>{$signature}";s:24:"emails.editorAssign.body";s:634:"<p>Hörmətli {$recipientName},</p><p>Aşağıdakı məqalə redaktə prosesini izləməyiniz üçün sizə təyin edilmişdir.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Xülasə</b></p>{$submissionAbstract}<p>Məqalənin {$contextName} ilə əlaqəli olduğunu düşünürsünüzsə, "Rəyçilərə Göndər" seçərək rəyçi dəyərləndirmə mərhələsinə göndərin və sonra "Rəyçi əlavə edin" düyməsini basaraq rəyçiləri təyin edin.</p><p>Ərizə bu jurnal üçün uyğun deyilsə, onu rədd edin.</p><p>İndiden təşəkkür edirik.</p><p>Hörmətlə,</p>{$contextSignature}";s:30:"emails.editorAssignReview.body";s:550:"<p>Hörmətli {$recipientName},</p><p>Aşağıdakı məqalə rəyçi dəyərləndirmə prosesini izləməyiniz üçün sizə təyin edilmişdir.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Xülasə</b></p>{$submissionAbstract}<p>Zəhmət olmasa <a href="{$submissionUrl}">məqaləyi əldə etmek üçün</a> daxil olun və ixtisaslı rəyçiləri təyin edin. "Rəyçi əlavə edin" düyməsini basaraq rəyçi təyin edə bilərsiniz.</p><p>İndiden təşəkkür edirik.</p><p>Hörmətlə,</p>{$contextSignature}";s:24:"emails.reviewCancel.body";s:356:"Hörmətli {$recipientName},<br />
+<br />
+{$contextName} üçün nəşr edilmək üçün göndərilən &quot;{$submissionTitle}&quot; başlıqlı məqalənin dəyərləndirməsini sizdən tələb etmişdik. Ancaq əldə edilən nəticəyə görə dəyərləndirməyə ehtiyac yoxdur. İndiyə qədər sizə verdiyimiz əziyyətə görə təşəkkür edirik";s:27:"emails.reviewReinstate.body";s:365:"Hörmətli {$recipientName},<br />
+<br />
+{$contextName}. üçün göndərilən &quot;{$submissionTitle},&quot başlıqlı namizəd məqaləni dəyərləndirməyiniz üçün xatırlatma etmək istədik. Dəyərləndirmə prosesinə kömək edə biləcəyinizi ümid edirik.<br />
+<br />
+hər hansı bir sualınız olarsa, zəhmət olmasa bizimlə əlaqə saxlayın.";s:25:"emails.reviewDecline.body";s:401:"Hörmətli {$recipientName},<br />
+<br />
+{$contextName} adlı jurnalda yayımlanması üçün dəyərləndirmək üçün göndərilən &quot;{$submissionTitle}&quot; başlıqlı məqaləni hazırda dəyərləndirə bilməyəcəm. Məni diqqətə aldığınız üçün təşəkkür edirəm. Başqa bir çalışmanın dəyərləndirməsinə iştirak etməyə çalışacağam.<br />
+<br />
+{$senderName}";s:26:"emails.layoutComplete.body";s:274:"Hörmətli {$recipientName},<br />
+<br />
+{$contextName} üçün &quot;{$submissionTitle}&quot; başlıqlı çalışmanın test dizgisi gözdən keçirmə/yenidən baxış üçün hazırdır.<br />
+<br />
+Sualınız olarsa mənə yaza bilərsiniz.<br />
+<br />
+{$senderName}";s:31:"emails.openAccessNotify.subject";s:87:"{$contextName} jurnalının {$issueIdentification} nömrəsı açıq girişə açıldı";s:25:"emails.reviewRequest.body";s:1238:"<p>Hörmətli {$recipientName},</p><p>{$contextName} adlı jurnalda bir çalışma, sizin ixtisas sahələrinizlə uyğun gəldiyinə görə bu məqaləni rəyçi olaraq dəyərləndirməyinizi tələb edirik. Məqalənin adı ve xülasəsi aşağıda verilib. Jurnalımız üçün olduqca əhəmiyyətli olan bu rəyçi dəyərləndirməsi tələbimizi qəbul edəcəyinizi ümid edirik.</p><p>Dəyərləndirməni bitirmək üçün son tarix: {$reviewDueDate}. Jurnalımızın internet saytından sözügedən çalışmanın tamamını əldə edə bilər, rəyçi dəyərləndirmə formunu və təkliflərinizi göndərə bilərsiniz.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Xülasə</b></p>{$submissionAbstract}<p>Zəhmət olmasa, <b>{$responseDueDate}</b> tarixinə qədər bu çalışmanın rəyçiliyini <a href="{$reviewAssignmentUrl}">qəbul edib etmədiyinizi</a> bildirmək üçün jurnalımızın internet saytına daxil olun.</p><p>Rəyçilik prosesi haqqında hər hansı bir sualınız olarsa, zəhmət olmasa bizimlə əlaqə saxlayın.</p><p>Tələbimizə müsbət baxdığınız üçün indidən təşəkkür edirik. Yardımınızı çox əhəmiyyətlidir.</p><p>Hörmətlə,</p>{$signature}";s:34:"emails.editorAssignProduction.body";s:639:"<p>Hörmətli {$recipientName},</p><p>Aşağıdakı məqalə çap prosesini izləməyiniz üçün sizə təyin edilmişdir.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Xülasə</b></p>{$submissionAbstract}<p>Zəhmət olmasa <a href="{$submissionUrl}">məqaləyi əldə etmek üçün</a> daxil olun. Çapa hazır fayllar mövcud olduqdan sonra onları <strong>Yayım > Dizgiler</strong>bölməsinə yükləyin. Çalışmayı yayım üçün planlaşdırmak üçün <strong>Nəşr üçün planlaşdırın</strong> düyməsinə basın.</p><p>İndiden təşəkkür edirik.</p><p>Hörmətlə,</p>{$signature}";s:37:"emails.reviewResponseOverdueAuto.body";s:1779:"Hörmətli {$recipientName},<br />
+{$contextName} adlı Jurnal üçün göndərilən &quot;{$submissionTitle}&quot; başlıqlı çalışma, sizin ixtisas sahələnizə uyğun gəldiyinə görə bu məqaləni rəyçi olaraq dəyərləndirmənizi tələb etmişdik. Sözügedən məqalənin rəyçi dəyərləndirməsini edib etməyəcəyinizi {$responseDueDate} tarixinə qədər jurnalımızın internet saytına daxil olaraq bizə bildirməyinizi gözləyirdik. Bu email bildiriş tarixi keçdiyi üçün sizə xatırlatma məqsədilə avtomatik olaraq göndərilmişdir.
+<br />
+Məqalənin xülasəsi aşağıdadır. Jurnalımız üçün olduqca önəmli olan bu rəyçi dəyərləndirməsi tələbimizi qəbul edəcəyinizi ümid edirik.
+<br />
+Zəhmət olmasa, {$responseDueDate} tarixinə qədər bu çalışmanın rəyçiliyini qəbul edib etmədiyinizi bildirmək üçün jurnalımızın internet saytına daxil olun. Jurnalımızın internet saytından sözügendən çalışmanın əsas mətnini əldə edə bilər, rəyçi dəyərləndirmə formunu və təkliflərinizi göndərə bilərsiniz. Jurnal adresi: {$contextUrl} <br />
+<br />
+Dəyərləndirməni bitirmək üçün son tarix: {$reviewDueDate}.<br />
+<br />
+Əgər Jurnalın veb saytına daxil olmaq üçün istifadəçi adı və şifrəniz yoxdursa ya da unutmusunuzsa, şifrənizi yeniləmək üçün bu linki istifadə edə bilərsiniz ( İstifadəçi adınızla birlikdə şifrəniz sizə email olaraq göndəriləcəkdir). {$passwordResetUrl}<br />
+<br />
+Məqalə əldəetmə adresi: {$reviewAssignmentUrl}<br />
+<br />
+Tələbimizə müsbət yanaşdığınız üçün təşəkkür edirik.<br />
+<br />
+{$signature}<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+Xülasə: {$submissionAbstract}";s:35:"emails.reviewRequestSubsequent.body";s:1069:"{$recipientName}:<br />
+<br />
+This regards the manuscript &quot;{$submissionTitle},&quot; which is under consideration by {$contextName}.<br />
+<br />
+Following the review of the previous version of the manuscript, the authors have now submitted a revised version of their paper. We would appreciate it if you could help evaluate it.<br />
+<br />
+Please log into the journal web site by {$responseDueDate} to indicate whether you will undertake the review or not, as well as to access the submission and to record your review and recommendation. The web site is {$contextUrl}<br />
+<br />
+The review itself is due {$reviewDueDate}.<br />
+<br />
+If you do not have your username and password for the journal's web site, you can use this link to reset your password (which will then be emailed to you along with your username). {$passwordLostUrl}<br />
+<br />
+Submission URL: {$reviewAssignmentUrl}<br />
+<br />
+Thank you for considering this request.<br />
+<br />
+{$signature}<br />
+<br />
+<br />
+<br />
+&quot;{$submissionTitle}&quot;<br />
+<br />
+{$submissionAbstract}";s:24:"emails.reviewRemind.body";s:990:"Hörmətli {$recipientName},<br />
+<br />
+{$contextName} adlı jurnalda yayımlanması üçün dəyərləndirilmək üçün göndərilən &quot;{$submissionTitle}&quot; başlıqlı çalışmanın dəyərləndirməsini {$reviewDueDate} tarixindən əvvəl bitirəcəyinizi ümid edirik. İntensiv işləriniz arasında dəyərləndirmə hesabatını tamamlayıb, bizə bir an əvvəl göndərəcəyini ümidi ilə jurnal saytındakı əlaqə məlumatlarını sizə göndərmək istədik.<br />
+<br />
+Əgər jurnalın veb saytına daxil olmaq üçün istifadəçi adı və şifrəniz yoxdursa və unutdunuzsa, şifrənizi yeniləmək üçün bu linki istifadə edə bilərsiniz (İstifadəçi adınızla birlikdə şifrəniz isə email olaraq göndəriləcəkdir). {$passwordResetUrl}<br />
+<br />
+Məqalə əldəetmə adresi: {$reviewAssignmentUrl}<br />
+<br />
+Jurnalın keyfiyyətini artıracaq bu əhəmiyyətli əməkdaşlığı zəhmət olmasa təsdiqləyin. <br />
+<br />
+{$signature}";s:28:"emails.reviewRemindAuto.body";s:1106:"Hörmətli {$recipientName},<br />
+<br />
+{$contextName} adlı jurnalda yayımlanmaq üçün göndərilən &quot;{$submissionTitle}&quot; başlıqlı çalışmanın dəyərləndirməsini {$reviewDueDate} tarixindən əvvəl bitirəcəyinizi ümid edirik. İntensiz işlərinizdən dolayı meydana gələn gecikməyə görə sistemimiz tərəfindən bu mesaj sizə avtomatik olaraq göndərilmişdir. <br />
+<br />
+Dəyərləndirmə hesabatınızı bizə bir an əvvəl göndərəcəyiniz ümidi ilə Jurnalımızın saytındakı əlaqə məlumatlarını sizə göndərmək istədik.<br />
+<br />
+Əgər Jurnalın veb saytına daxil olmaq üçün istifadəçi adı və şifrəniz yoxdursa və ya unutmusunuzsa, şifrənizi yeniləmək üçün bu linki istifadə edə bilərsiniz (İstifadəçi adınızla birlikdə şifrəniz sizə email olaraq göndəriləcək). {$passwordResetUrl}<br />
+<br />
+Məqalə əldəetmə adresi: {$reviewAssignmentUrl}<br />
+<br />
+Jurnalın keyfiyyətini artıracaq bu əhəmiyyətli əməkdaşlığı edə biləcəyini zəhmət olmasa təsdiqləyin.<br />
+<br />
+{$signature}";s:25:"emails.layoutRequest.body";s:461:"{$recipientName}:<br />
+<br />
+{$contextName} üçün &quot;{$submissionTitle}&quot; başlıqlı çalışmanın mizanpajının tamamlanaraq, prova dizginin bizə göndərilməsini xahiş edirik. .<br />
+<br />
+Test dizayn kopya bağlantısı: {$submissionUrl}<br />
+İstifadəçi adı: {$recipientUsername}<br />
+<br />
+İşin həyata keçirilməsi ilə bağlı bir sual/suallarınızı yaza bilərsiniz.<br />
+Əməkdaşlığınız üçün təşəkkür edirik.";s:30:"emails.subscriptionNotify.body";s:841:"{$recipientName}:<br />
+<br />
+İnternet jurnallarımızdan {$contextName} Jurnalı üçün abunəlik qeydiyyatınız edildi. Abunəlik növünüz aşağıdadır:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Sadəcə qeydiyyatlı istifadəçilərə təqdim olunan məzmunu izləmək üçün &quot;{$recipientUsername}&quot; istifadəçi adınız ilə sistemə daxil olun.<br />
+<br />
+Sistemə daxil olduqdan sonra şəxsi məlumatlarınızı və şifrənizi istədiyiniz zaman dəyişdirə bilərsiniz.<br />
+<br />
+Əgər korporativ abunəsinizsə, qurum işçilərinin daxil olmasının lazım olmayacağını, abunələrə açıq məzmun tələblərində sistemin avtomatik olaraq təsdiqləyəcəyini nəzərə alın.<br />
+<br />
+Hər hansı bir sualınız olarsa zəhmət olmasa mənimlə əlaqə saxlayın.<br />
+<br />
+{$signature}";s:28:"emails.openAccessNotify.body";s:351:"Hörmətli oxucu,<br />
+<br />
+{$contextName} aşağıdakı nömrəni açıq girişə açmışdır. Sizi nömrənin mündəricat hissəsini incələməyə və istədiyini Müəllifi oxumaq üçün veb saytımıza dəvət edirik ({$contextUrl}).<br />
+<br />
+Çalışmalarımıza davam edən marağınız üçün təşəkkür edirik,<br />
+{$signature}";s:39:"emails.subscriptionAfterExpiryLast.body";s:495:"{$recipientName}:<br />
+<br />
+{$contextName} Jurnal abunəlik müddətiniz başa çatdı.<br />
+Bu sizə göndərdiyimiz son xatırlatmadır.<br />
+<br />
+{$subscriptionType}<br />
+Bitiş tarixi: {$expiryDate}<br />
+<br />
+Abunəliyinizi yeniləmək üçün Jurnal saytına daxil olun. Sistemə &quot;{$recipientUsername}&quot; olan istifadəçi adınızı istifadə edərək daxil ola bilərsiniz.<br />
+<br />
+Əgər bir probleminiz olarsa, mənə deyə bilərsiniz.<br />
+<br />
+{$signature}";s:41:"emails.paymentRequestNotification.subject";s:29:"Ödəniş tələbi bildirişi";s:36:"emails.subscriptionBeforeExpiry.body";s:476:"{$recipientName}:<br />
+<br />
+{$contextName} Jurnal abunəlik müddətiniz bitir.<br />
+<br />
+{$subscriptionType}<br />
+Bitmə tarixi: {$expiryDate}<br />
+<br />
+Jurnala giriş icazənizin davam etməsi üçün jurnal veb saytına daxil olaraq abunəliyinizi yeniləyin. Jurnala &quot;{$recipientUsername}&quot; olan istifadəçi adınızı istifadə edərək girə bilərsiniz.<br />
+<br />
+Əgər bir probleminiz olarsa, mənə deyə bilərsiniz.<br />
+<br />
+{$signature}";s:35:"emails.subscriptionAfterExpiry.body";s:443:"{$recipientName},<br />
+<br />
+{$contextName} Jurnal abunəlik müddətiniz başa çatdı.<br />
+<br />
+{$subscriptionType}<br />
+Bitiş tarixi: {$expiryDate}<br />
+<br />
+Abunəliyinizi yeniləmək üçün Jurnal saytına daxil olun. Sisteme &quot;{$recipientUsername}&quot; olan istifadəçi adınızı istifadə edərək daxil ola bilərsiniz.<br />
+<br />
+Əgər bir probleminiz olarsa, mənə deyə bilərsiniz. <br />
+<br />
+{$signature}";s:36:"emails.subscriptionPurchaseIndl.body";s:437:"{$contextName} üçün aşağıda detalları qeyd olunan bir abunəlik alındı.<br />
+<br />
+Abunəlik Növü:<br />
+{$subscriptionType}<br />
+<br />
+İstifadəçi məlumatları:<br />
+{$subscriberDetails}<br />
+<br />
+Üzvlük Məlumatları (varsa):<br />
+{$membership}<br />
+<br />
+Bu abunəliyə baxmaq və ya tənzimləmək üçün zəhmət olmasa aşağıdakı URL-ni istifadə edin.<br />
+<br />
+Abunəlik URL: {$subscriptionUrl}
+";s:37:"emails.subscriptionPurchaseInstl.body";s:769:"{$contextName} üçün aşağıdakı detallarda korporativ bir abunəlik alındı. Bu abunəliyi aktivləşdirmək üçün zəhmət olmasa təmin edilən Abunəlik URL-sindən abunəlik vəziyyətini ""Aktiv"" olaraq tənzimləyin.<br />
+<br />
+Abunəlik növü:<br />
+{$subscriptionType}<br />
+<br />
+Qurum:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Sahə adı (varsa):<br />
+{$domain}<br />
+<br />
+IP Aralığı (varsa):<br />
+{$ipRanges}<br />
+<br />
+Əlaqədar şəxs:<br />
+{$subscriberDetails}<br />
+<br />
+Üzvlük Məlumatları (varsa):<br />
+{$membership}<br />
+<br />
+Abunəlik məlumatlarına baxmaq və ya tənzimləmək üçün zəhmət olmasa aşağıdakı URL'yə klikləyin.<br />
+<br />
+Abunəlik URL: {$subscriptionUrl}
+";s:33:"emails.subscriptionRenewIndl.body";s:441:"{$contextName} üçün aşağıdakı detalları qeyd olunan fərdi abunəlik yeniləndi.<br />
+<br />
+Abunəlik növü:<br />
+{$subscriptionType}<br />
+<br />
+Şəxs:<br />
+{$subscriberDetails}<br />
+<br />
+Üzvlük məlumatları (varsa):<br />
+{$membership}<br />
+<br />
+Abunəlik haqqındakı məlumatlara baxmaq və ya tənzimləmək üçün zəhmət olmasa aşağıdakı URL'ni klikləyin.<br />
+<br />
+Abunəlik URL: {$subscriptionUrl}
+";s:34:"emails.subscriptionRenewInstl.body";s:620:"{$contextName} üçün aşağıdakı detalları qeyd olunan korporativ abunəlik yeniləndi.<br />
+<br />
+Abunəlik növü:<br />
+{$subscriptionType}<br />
+<br />
+Qurum:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Sahə adı (varsa):<br />
+{$domain}<br />
+<br />
+IP Aralığı (varsa):<br />
+{$ipRanges}<br />
+<br />
+Əlaqədar şəxs:<br />
+{$subscriberDetails}<br />
+<br />
+Üzvlük məlumatları (varsa):<br />
+{$membership}<br />
+<br />
+Abunəlik haqqında məlumatlara baxmaq və ya tənzimləmək üçün aşağıdakı URL-ni klikləyin.<br />
+<br />
+Abunəlik URL: {$subscriptionUrl}
+";s:32:"emails.revisedVersionNotify.body";s:212:"Hörmətli Redaktorlar,<br />
+<br />
+&quot;{$submissionTitle}&quot'un düzəldilmiş versiyası, Müəllif {$authors} tərəfindən yükləndi<br />
+<br />
+Məqalə URL: {$submissionUrl}<br />
+<br />
+{$signature}";s:40:"emails.statisticsReportNotification.body";s:766:"
+Hörmətli {$name}, <br />
+<br />
+Jurnalımızın {$month} {$year} vəziyyət hesabatı hazırdır. Bu ayın önəmli statistikaları aşağıda verilmişdir. <br />
+<ul>
+ <li>Bu aykı yeni məqalə: {$newSubmissions}</li>
+ <li>Bu ay rədd edilən məqalə: {$declinedSubmissions}</li>
+ <li>Bu ay qəbul edilən məqalə: {$acceptedSubmissions}</li>
+ <li>Sistemdəki ümumi məqalə sayı: {$totalSubmissions}</li>
+</ul>
+Daha ətraflı <a href=""{$editorialStatsLink}"">dövr statistikaları</a> ve <a href=""{$publicationStatsLink}"">yayımlanmış məqalə statistikaları</a>na baxış keçirmək üçün Jurnal sisteminə daxil olun. Bu ayın dövr statistikalarının bütov bir kopyası qoşmada göndərilmişdir.<br />
+<br />
+Hörmətlə,<br />
+{$signature}";s:24:"emails.announcement.body";s:163:"<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Veb saytını ziyarət et ve <a href=""{$announcementUrl}"">bütün elanları </a> oxu";s:40:"emails.paymentRequestNotification.footer";s:94:"<br><br>—<br>Bu <a href="{$contextUrl}">{$contextName} jurnalından avtomatik mesajdır</a>.";s:36:"emails.editorDecisionSkipReview.body";s:1065:"<p>hörmətli {$recipientName},</p>
+<p> müraciətinizi nəzərdən keçirmədən qəbul etmək qərarına gəldiyimizi bildirməkdən məmnunam. {$SubmissionTitle} müraciətinizin gözləntilərimizə uyğun olduğunu gördük və bu tip işlərin ekspert qiymətləndirməsini tələb etmirik. Məqalənizi {$contextName} - də dərc etməkdən məmnunuq və jurnalımızı işiniz üçün yer seçdiyiniz üçün təşəkkür edirik.</p>
+Məqaləniz {$contextName} - in növbəti sayında dərc olunacaq və siz onu nəşrlər siyahısına daxil edə bilərsiniz. Etiraf edirik ki, hər uğurlu müraciət zəhmət tələb edir və səyləriniz münasibətilə Sizi təbrik etmək istəyirik.</p>
+<p> indi tətbiqinizi dərc etməyə hazırlamaq üçün Kopyalama redaktəsi və formatlaşdırma aparılacaqdır. </p>
+tezliklə əlavə təlimatlar alacaqsınız.</p>
+<p>hər hansı bir sualınız varsa, <a href="{$authorSubmissionUrl}">göndərmə idarəetmə paneli</a > vasitəsilə mənə müraciət edin.</p>
+<p>ən xoş arzularla,</p>
+<p>{$signature}</p>
+";s:38:"emails.paymentRequestNotification.body";s:570:"<p>hörmətli {$recipientName},<p><p>müraciətinizin qəbul edilməsi münasibətilə təbrik edirəm, {$submissionTitle}, {$contextName} ünvanına. İndi müraciətiniz qəbul edildikdən sonra nəşr haqqının ödənilməsini tələb etmək istərdik.</p><p> bu ödəniş ərizənizi dərc etmək üçün istehsal xərclərini əhatə edir. Ödəniş etmək üçün ziyarət edin <a href="{$queuedPaymentUrl}">{$queuedPaymentUrl}</a>.</p><<p>hər hansı bir sualınız varsa, bizə müraciət edin <a href="{$submissionGuidelinesUrl}">göndərmə qaydaları</a></p>";}}}

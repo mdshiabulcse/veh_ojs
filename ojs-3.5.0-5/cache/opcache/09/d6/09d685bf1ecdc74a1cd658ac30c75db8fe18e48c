@@ -1,0 +1,111 @@
+1818656034a:3:{s:6:"domain";N;s:12:"plural-forms";s:26:"nplurals=2; plural=n != 1;";s:8:"messages";a:1:{s:0:"";a:32:{s:28:"emails.submissionAck.subject";s:37:"Cikk beküldésének visszaigazolása";s:25:"emails.submissionAck.body";s:651:"Tisztelt {$recipientName}!<br />
+<br />
+Köszönjük, hogy benyújtotta a(z) &quot;{$submissionTitle}&quot; című kéziratot a(z) {$contextName} folyóirathoz. Az általunk használt online folyóiratkezelő rendszerrel, lehetősége lesz végigkövetni a cikk szerkesztési folyamatát, amennyiben bejelentkezik a folyóirat oldalára:<br />
+<br />
+Kézirat URL:  {$submissionUrl}<br />
+Felhasználónév: {$recipientUsername}<br />
+<br />
+Ha bármilyen kérdése merülne fel, kérjük vegye fel a szerkesztőséggel a kapcsolatot. Köszönjük, hogy a munkájának megjelentetéséhez folyóiratunkat választotta.<br />
+<br />
+{$contextSignature}";s:24:"emails.reviewAck.subject";s:32:"Szakmai lektorálás elfogadása";s:21:"emails.reviewAck.body";s:236:"Tisztelt {$recipientName}!<br />
+<br />
+Köszönjük, hogy elkészítette a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle},&quot; című kézirat szakmai bírálatát.<br />
+<br />
+Üdvözlettel,<br />
+{$signature}";s:43:"emails.editorDecisionSendToExternal.subject";s:21:"Szerkesztői döntés";s:40:"emails.editorDecisionSendToExternal.body";s:276:"Tisztelt {$authors}!<br />
+<br />
+Értesítjük, hogy a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle}&quot; című cikkét szakmai lektorálásra elküldtük.<br />
+<br />
+A cikk URL: {$submissionUrl}<br />
+<br />
+Üdvözlettel,<br />
+{$signature}<br />";s:45:"emails.editorDecisionSendToProduction.subject";s:21:"Szerkesztői döntés";s:42:"emails.editorDecisionSendToProduction.body";s:254:"Tisztelt {$authors}!<br />
+<br />
+A(z) &quot;{$submissionTitle},&quot; című kéziratának lektorálása befejeződött, megjelentetésre küldjük.<br />
+<br />
+A kézirat URL címe: {$submissionUrl}<br />
+<br />
+Üdvözlettel,<br />
+{$signature}<br />";s:38:"emails.editorDecisionRevisions.subject";s:21:"Szerkesztői döntés";s:35:"emails.editorDecisionRevisions.body";s:228:"Tisztelt {$authors}!<br />
+<br />
+Értesítjük, hogy a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle}&quot; című cikkének átdolgozása szükséges.<br />
+<br /> 
+Üdvözlettel,<br />
+{$signature}<br />";s:37:"emails.editorDecisionResubmit.subject";s:21:"Szerkesztői döntés";s:34:"emails.editorDecisionResubmit.body";s:266:"Tisztelt {$authors}!<br />
+<br />
+Értesítjük, hogy a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle}&quot; című cikkének új változatát szükséges benyújtani szakmai lektorálásra.<br />
+<br /> 
+Üdvözlettel,<br />
+{$signature}<br />";s:36:"emails.editorDecisionDecline.subject";s:21:"Szerkesztői döntés";s:33:"emails.editorDecisionDecline.body";s:225:"Tisztelt {$authors}!<br />
+<br />
+Értesítjük, hogy a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle}&quot; című kézirata elutasításra került.<br />
+<br /> 
+Üdvözlettel,<br />
+{$signature}<br />";s:35:"emails.editorRecommendation.subject";s:21:"Szerkesztői javaslat";s:32:"emails.editorRecommendation.body";s:226:"Tisztelt {$editors}!<br />
+<br />
+A(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle}&quot; című cikkel kapcsolatban javaslatunk: {$recommendation}<br />   
+<br />
+Üdvözlettel,<br />  
+{$signature}<br />";s:30:"emails.copyeditRequest.subject";s:31:"Technikai szerkesztés kérése";s:27:"emails.copyeditRequest.body";s:829:"Tisztelt {$recipientName}!<br />
+<br />
+Kérjük, hogy végezze el a(z) &quot;{$submissionTitle}&quot; című cikk alábbi lépésekből álló technikai szerkesztési folyamatát a(z) {$contextName} folyóiratnál.<br />
+1. Kattintson a kézirat URL címére alább.<br />
+2. Nyissa meg a fájlt vagy fájlokat a Vázlatok között és végezze el a technikai szerkesztést. Ha szükséges, kezdeményezzen technikai szerkesztői párbeszédet.<br />
+3. Mentse el a szerkesztett fájl(okat), és töltse fel a Szerkesztett részhez.<br />
+4. Értesítse a Szerkesztőt, hogy elkészült minden fájllal és megkezdhető a megjelentetési fázis.<br />
+<br />
+{$contextName} URL: {$contextUrl}<br />
+Kézirat URL címe: {$submissionUrl}<br />
+Felhasználónév: {$recipientUsername}<br />
+<br />
+Üdvözlettel,<br />
+{$signature}";s:43:"emails.editorDecisionInitialDecline.subject";s:21:"Szerkesztői döntés";s:40:"emails.editorDecisionInitialDecline.body";s:229:"
+			Tisztelt {$authors}!<br />
+<br />
+Értesítjük, hogy a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle}&quot; című kézirata elutasításra került.<br />
+<br /> 
+Üdvözlettel,<br />
+{$signature}<br />";s:25:"emails.discussion.subject";s:42:"Üzenet a(z) {$contextName} folyóirattól";s:22:"emails.discussion.body";s:43:"Kérjük, adja meg itt üzenete tartalmát.";s:28:"emails.reviewConfirm.subject";s:30:"Lektori felkérés elfogadása";s:25:"emails.reviewConfirm.body";s:299:"Tisztelt Szerkesztők!<br />
+<br />
+Vállalom a(z) {$contextName} folyóirathoz beküldött &quot;{$submissionTitle},&quot; című kézirat lektorálását. Köszönöm a felkérést, a bírálatot a megadott határidőig ({$reviewDueDate}) elvégzem.<br />
+<br />
+Üdvözlettel,<br />
+{$senderName}";s:37:"emails.submissionAckNotAuthor.subject";s:34:"Értesítés cikk beküldéséről";s:34:"emails.submissionAckNotAuthor.body";s:425:"Tisztelt Szerző!<br />
+<br />
+Ezúton értesítjük, hogy {$submitterName} benyújtotta a(z) {$contextName} folyóirathoz a(z) &quot;{$submissionTitle}&quot; című kéziratot.<br />
+<br />
+Köszönjük, hogy munkájuk publikálásához folyóiratunkat választották.<br />
+<br />
+Ha a szerkesztési munkafolyamat során segítségére lehetünk, kérjük forduljon szerkesztőségünkhöz.<br />
+<br />
+{$contextSignature}";s:50:"emails.orcidRequestAuthorAuthorization.description";s:95:"Ezt az email sablont arra használjuk, hogy Szerzőktől kérjünk ORCID rekord hozzáférést.";s:43:"emails.orcidRequestAuthorAuthorization.body";s:1016:"Tisztelt {$recipientName}!<br>
+<br>
+Önt a(z) {$contextName} folyóirathoz beküldött "{$submissionTitle}" című kézirat szerzőjeként jelölték meg.
+<br>
+<br>
+Kérjük közreműködését, hogy a kézirathoz hozzárendelhessük ORCID azonosítóját, illetve beküldését hozzáadjuk ORCID pofiljának publikációs listájához.<br>
+Ehhez keresse fel a lenti link segítségével az ORCID hivatalos weboldalát, lépjen be és hagyja jóvá a kérést.<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width='16' height='16' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Regisztrálás vagy ORCID iD csatlakoztatása</a><br/>
+<br>
+<br>
+<a href="{$orcidAboutUrl}">További információk az ORCID-ról a(z) {$contextName} folyóiratnál</a><br/>
+<br>
+Ha kérdése merül fel, kérem vegye fel a kapcsolatot szerkesztőségünkkel.<br>
+<br>
+Üdvözlettel,<br>
+{$principalContactSignature}<br>
+";s:46:"emails.orcidRequestAuthorAuthorization.subject";s:38:"Hozzáférési kérés ORCID rekordhoz";s:39:"emails.orcidCollectAuthorId.description";s:76:"Ezzel az email sablonnal az ORCID azonosítókat kérjük be a Szerzőktől.";s:32:"emails.orcidCollectAuthorId.body";s:838:"Tisztelt {$recipientName}!<br/>
+<br/>
+Ön a(z) {$contextName} folyóirathoz beküldött kézirat szerzőjeként lett megjelölve.<br/>
+Kérjük, erősítse meg szerzői státuszát az ORCID azonosítójának hozzárendelésével, melyet a következő címen tehet meg.<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width='16' height='16' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Regisztrálás vagy ORCID iD összekapcsolása</a><br/>
+<br/>
+<br>
+<a href="{$orcidAboutUrl}">További információk az ORCID-ról a(z) {$contextName} folyóiratnál</a><br/>
+<br/>
+Ha kérdése merül fel, kérem vegye fel a kapcsolatot szerkesztőségünkkel.<br/>
+<br/>
+Üdvözlettel,<br/>
+{$principalContactSignature}<br/>
+";s:35:"emails.orcidCollectAuthorId.subject";s:33:"ORCID azonosító hozzárendelés";}}}

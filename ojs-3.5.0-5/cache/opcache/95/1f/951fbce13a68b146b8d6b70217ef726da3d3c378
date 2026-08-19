@@ -1,0 +1,1 @@
+1818656033a:3:{s:6:"domain";N;s:12:"plural-forms";s:26:"nplurals=2; plural=n != 1;";s:8:"messages";a:1:{s:0:"";a:2:{s:40:"plugins.generic.jatsTemplate.description";s:211:"Δημιουργήστε αυτόματα ένα υποτυπώδες έγγραφο JATS από τα μεταδεδομένα της υποβολής όταν δεν υπάρχει άλλο έγγραφο JATS.";s:40:"plugins.generic.jatsTemplate.displayName";s:38:"Πρόσθετο Προτύπου JATS";}}}

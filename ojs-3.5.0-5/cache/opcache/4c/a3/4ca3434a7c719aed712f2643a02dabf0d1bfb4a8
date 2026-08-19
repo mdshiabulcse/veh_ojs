@@ -1,0 +1,182 @@
+1818656031a:3:{s:6:"domain";N;s:12:"plural-forms";s:26:"nplurals=2; plural=n != 1;";s:8:"messages";a:1:{s:0:"";a:69:{s:27:"emails.editorAssign.subject";s:60:"Se le ha asignau como editor/a d'un ninvio pa {$contextName}";s:31:"emails.reviewRemindAuto.subject";s:46:"Recordatorio pa que complete la suya revisión";s:35:"emails.editorDecisionAccept.subject";s:48:"Lo suyo ninvio a {$contextName} ha estau aceptau";s:39:"emails.editorDecisionSkipReview.subject";s:40:"Lo suyo articlo s'ha ninviau ta edición";s:29:"emails.layoutComplete.subject";s:21:"Galeradas completadas";s:31:"emails.openAccessNotify.subject";s:92:"Acceso libre: {$issueIdentification} de {$contextName} agora ye disponible en acceso ubierto";s:36:"emails.subscriptionRenewIndl.subject";s:40:"Renovación de subscripción: Individual";s:35:"emails.revisedVersionNotify.subject";s:25:"Versión revisada cargada";s:40:"emails.reviewResponseOverdueAuto.subject";s:34:"Podrá fer-se cargo d'a revisión?";s:35:"emails.passwordResetConfirm.subject";s:31:"Confirmación de cambio de clau";s:27:"emails.userRegister.subject";s:22:"Rechistro en a revista";s:24:"emails.userRegister.body";s:481:"{$recipientName}<br />
+<br />
+S'ha rechistrau con exito como usuario/a en {$contextName}. En este correu s'incluyen lo suyo nombre d'usuario/a y clau, datos necesarios pa realizar cualsequier fayena relacionada con a revista a traviés d'a pachina web. En cualsequier momento puede solicitar que se le elimine d'a lista de usuarios/as d'a revista contactando-me.<br />
+<br />
+Nombre d'usuario/a: {$recipientUsername}<br />
+Clau: {$password}<br />
+<br />
+Gracias,<br />
+{$signature}";s:34:"emails.userValidateContext.subject";s:21:"Valide la suya cuenta";s:31:"emails.userValidateContext.body";s:292:"Estimau/a {$recipientName}<br />
+<br />
+Ha creau una cuenta d'usuario/a en {$contextName}, pero antes de poder utilizar-la ha de validar lo suyo correu electronico. Pa ixo, simplament faiga clic en o siguient vinclo:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Gracias,<br />
+{$contextSignature}";s:31:"emails.userValidateSite.subject";s:21:"Valide la suya cuenta";s:31:"emails.reviewerRegister.subject";s:40:"Rechistro como Revisor en {$contextName}";s:33:"emails.issuePublishNotify.subject";s:63:"Nuevo numero publicau: {$issueIdentification} en {$contextName}";s:30:"emails.issuePublishNotify.body";s:451:"<p>Estimau/a {$recipientName},</p><p>Nos complace anunciar la publicación de <a href="{$issueUrl}">{$issueIdentification}</a> de {$contextName}. Le convidamos a leyer y compartir este treballo con a suya comunidat academica.</p><p>Damos las gracias a los nuestros autors/as, revisors/as y editors/as per las suyas valurosas contribucions, y a los nuestros lectors/as per lo suyo constant interés.</p><div>{$issueToc}</div><p>Gracias,</p>{$signature}";s:30:"emails.editorAssignReview.body";s:475:"<p>Estimau/a {$recipientName},</p><p>Se le ha asignau lo siguient ninvio pa que lo supervise entre lo proceso de revisión per pars.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Resumen</b></p>{$submissionAbstract}<p>Inicie sesión pa <a href="{$submissionUrl}">veyer lo ninvio</a> y asignar revisors/as cualificaus. Puede asignar un revisor/a fendo clic en "Anyadir revisor/a".</p><p>Gracias per abanzau.</p><p>Atentament,</p>{$signature}";s:28:"emails.reviewRequest.subject";s:21:"Invitación a revisar";s:38:"emails.reviewRequestSubsequent.subject";s:41:"Solicitut pa revisar un ninvio ya revisau";s:27:"emails.reviewCancel.subject";s:30:"Demanda de revisión cancelada";s:30:"emails.reviewReinstate.subject";s:45:"Encara puede fer revisions pa {$contextName}?";s:28:"emails.reviewDecline.subject";s:19:"Refuso la revisión";s:25:"emails.reviewDecline.body";s:244:"Editors/as:<br />
+<br />
+Me temo que en este momento no voi a poder revisar lo ninvio &quot;{$submissionTitle},&quot; pa {$contextName}. Gracias per pensar en yo, aspero que tornen a contar con yo en futuras ocasions.<br />
+<br />
+{$senderName}";s:27:"emails.reviewRemind.subject";s:41:"Recordatorio pa que complete la revisión";s:32:"emails.editorDecisionAccept.body";s:966:"<p>Estimau/a {$recipientName},</p><p>Nos complace informar-le que hemos decidiu d'aceptar lo suyo ninvio sin necesidat de realizar mas revisions. Dimpués d'una minuciosa revisión le confirmamos que lo suyo articlo "{$submissionTitle}" cumple u supera las nuestras expectativas. Nos femos bien contentos de publicar lo suyo treballo en {$contextName} y le agradeixemos que haiga triau la nuestra revista pa ixo.</p><p>Lo suyo ninvio se publicará en un numero futuro de {$contextName}, le convidamos a incluyir-lo en a suya lista de publicacions. Reconoixemos lo gran treballo asociau a la publicación d'un treballo, asinas que queremos felicitar-lo/la.</p><p>Agora lo suyo ninvio será sozmeso a edición y formateyo pa preparar-lo pa la suya publicación.</p><p>Luego recibirá mas instruccions.</p><p>Si tiene bella pregunta, se meta en contacto con nusatros a traviés d'o <a href="{$authorSubmissionUrl}">panel de ninvio</a>.</p><p>Atentament,</p>{$signature}";s:28:"emails.layoutRequest.subject";s:71:"Lo ninvio {$submissionId} ye presto pa producción en {$contextAcronym}";s:25:"emails.layoutRequest.body";s:722:"<p>Estimau/a {$recipientName},</p><p>Un nuevo ninvio ye listo pa la maquetación:</p><p><a href="{$submissionUrl}">{$submissionId} — {$submissionTitle}</a><br />{$contextName}</p><ol><li>Faga clic en a URL anterior.</li><li>Descargue los fichers de producción y los faga servir pa crear las galeradas d'acuerdo con os estándards d'a revista.</li><li>Cargue las galeradas en a sección de publicación d'o ninvio.</li><li>Faga servir las discusions de producción pa notificar a l'editor/la editora que las galeradas son prestas.</li></ol><p>Si no puede fer este treballo agora u tiene garra pregunta, se meta en contacto con nusatros. Gracias per la suya contribución a esta revista.</p><p>Atentament,</p>{$signature}";s:26:"emails.layoutComplete.body";s:337:"<p>Estimau/a {$recipientName},</p><p>Le informamos de que las galeradas d'o siguient ninvio ya han estau amanadas y son prestas pa la suya revisión final.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$contextName}</p><p>Si tiene bella pregunta, se meta en contacto con nusatros.</p><p>Atentament,</p><p>{$signature}</p>";s:33:"emails.subscriptionNotify.subject";s:30:"Notificación de subscripción";s:28:"emails.openAccessNotify.body";s:316:"<p>Estimau/a {$recipientName},</p><p>Nos complaz informar-le de que <a href="{$issueUrl}">{$issueIdentification}</a> de {$contextName} ya ye disponible en acceso ubierto. Per tanto, ya no cal una subscripción pa leyer este numero.</p><p>Gracias per mantener l'interés en lo nuestro treballo.</p>{$contextSignature}";s:39:"emails.subscriptionBeforeExpiry.subject";s:46:"Notificación de vencimiento d'a subscripción";s:36:"emails.subscriptionBeforeExpiry.body";s:524:"{$recipientName}:<br />
+<br />
+	La suya subscripción a {$contextName} ye a pocas de circumducir.<br />
+<br />
+	{$subscriptionType}<br />
+	Fecha de vencimiento: {$expiryDate}<br />
+<br />
+	Para asegurar-se que contina tenendo acceso a la revista, acceda a la pachina web d'a revista y renueve la suya subscripción. Puede iniciar sesión en lo sistema con o suyo nombre d'usuario/a, &quot;{$recipientUsername}&quot;.<br />
+<br />
+	Si tiene cualsequier pregunta no dude en contactar-me.<br />
+<br />
+	{$subscriptionSignature}";s:38:"emails.subscriptionAfterExpiry.subject";s:26:"La subscripción ha venciu";s:35:"emails.subscriptionAfterExpiry.body";s:449:"{$recipientName}:<br />
+<br />
+	La suya subscripción a {$contextName} ha venciu.<br />
+<br />
+	{$subscriptionType}<br />
+	Data de vencimiento: {$expiryDate}<br />
+<br />
+	Pa renovar la suya subscripción acceda a la pachina web d'a revista. Puede iniciar sesión en o sistema con o suyo nombre d'usuario/a, &quot;{$recipientUsername}&quot;.<br />
+<br />
+	Si tiene cualsequier pregunta no dude en contactar-me.<br />
+<br />
+	{$subscriptionSignature}";s:36:"emails.subscriptionPurchaseIndl.body";s:432:"S'ha adquiriu en linia una subscripción individual pa {$contextName} con os detalles siguients:<br />
+<br />
+Tipo de subscripción:<br />
+{$subscriptionType}<br />
+<br />
+Usuario/a:<br />
+{$subscriberDetails}<br />
+<br />
+Información d'afiliación (si se proporciona):<br />
+{$membership}<br />
+<br />
+Pa veyer u editar esta subscripción, faga servir la siguient URL.<br />
+<br />
+URL d'a subscripción: {$subscriptionUrl}<br />
+";s:39:"emails.subscriptionPurchaseIndl.subject";s:35:"Crompa de subscripción: Individual";s:33:"emails.subscriptionRenewIndl.body";s:443:"S'ha renovau en linia una subscripción individual pa {$contextName} con os siguients detalles.<br />
+<br />
+Tipo de subscripción:<br />
+{$subscriptionType}<br />
+<br />
+Usuario/a:<br />
+{$subscriberDetails}<br />
+<br />
+Información d'afiliación (si se proporciona):<br />
+{$membership}<br />
+<br />
+Pa veyer u editar esta subscripción faga servir la siguient URL:<br />
+<br />
+URL pa chestionar la subscripción: {$subscriptionUrl}<br />
+";s:37:"emails.subscriptionRenewInstl.subject";s:43:"Renovación de subscripción: Institucional";s:34:"emails.subscriptionRenewInstl.body";s:664:"S'ha renovau en linia una subscripción institucional pa {$contextName} con os detalles siguients.<br />
+<br />
+Tipo de subscripción:<br />
+{$subscriptionType}<br />
+<br />
+Institución:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Dominio (si se proporciona):<br />
+{$domain}<br />
+<br />
+Rangos IP (si se proporcionan):<br />
+{$ipRanges}<br />
+<br />
+Persona de contacto:<br />
+{$subscriberDetails}<br />
+<br />
+Información d'afiliación(si se proporciona):<br />
+{$membership}<br />
+<br />
+Pa veyer u editar esta subscripción, faga servir la siguient URL:<br />
+<br />
+URL pa chestionar la subscripción: {$subscriptionUrl}<br />
+";s:32:"emails.revisedVersionNotify.body";s:420:"<p>Estimau/a {$recipientName},</p><p>L'autor/a ha cargau revisions d'o ninvio, <b>{$authorsShort} — {$submissionTitle}</b>.</p><p>Como editor/a asignau, le demandamos que inicie sesión, <a href="{$submissionUrl}">se mire las revisions</a> y prenga la decisión d'aceptar, refusar u remitir lo ninvio ta unatra revisión.</p><br><br>—<br>Este ye un mensache automatizau de <a href="{$contextUrl}">{$contextName}</a>.";s:27:"emails.announcement.subject";s:20:"{$announcementTitle}";s:41:"emails.paymentRequestNotification.subject";s:34:"Notificación de solicitut de pago";s:40:"emails.paymentRequestNotification.footer";s:92:"<br><br>—<br>Este ye un mensache automatico de <a href="{$contextUrl}">{$contextName}</a>.";s:24:"emails.announcement.body";s:168:"<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Visite lo nuestro puesto web pa leyer l'anuncio <a href="{$announcementUrl}"> completo</a>.";s:38:"emails.paymentRequestNotification.body";s:487:"<p>Estimau/a {$recipientName},</p><p>Le felicitamos per l'acceptación d'o suyo ninvio, {$submissionTitle}, en {$contextName}. Agora que ha estau acceptau, nos faría goyo de demandar-le lo pago d'a taxa de publicación.</p><p>Esta taxa cubre los costes de producción pa la suya publicación. Pa fer lo pago, visite <a href="{$queuedPaymentUrl}">{$queuedPaymentUrl}</a>.</p><p>Si tiene garra pregunta consulte nuestras <a href="{$submissionGuidelinesUrl}">directrices de ninvio</a>.</p>";s:32:"emails.passwordResetConfirm.body";s:332:"Hemos recibiu una petición pa cambiar la suya clau en {$siteTitle}.<br />
+<br />
+Si no ha feito vusté esta petición ignore este correu-e y la suya clau no cambiará. Si deseya cambiar la suya clau punche en o vinclo que le amostramos contino.<br />
+<br />
+Cambiar la mía clau: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}";s:28:"emails.reviewerRegister.body";s:878:"<p>Estimau/a {$recipientName},</p><p>En vista d'a suya experiencia, hemos rechistrau lo suyo nombre en a base de datos de revisors/as de {$contextName}. Esto no implica garra compromiso per la suya parte, simplament nos permite contactar-le pa una posible revisión d'un treballo. Cuan reciba una invitación pa revisar podrá veyer lo títol y lo resumen de l'articlo en cuestión, y siempre tendrá la posibilidat d'aceptar u refusar la invitación. Tamién puede pedir-nos en cualsequier momento que l'eliminemos d'a lista de revisors/as.</p><p>Le ninviamos lo nombre d'usuario/a y la clau, que le servirán pa realizar cualsequier fayena d'a revista a traviés d'a suya pachina web. Per eixemplo, puede actualizar lo suyo perfil y incluyir los suyos intereses de revisión.</p><p>Nombre d'usuario/a: {$recipientUsername}<br />Clau: {$password}</p><p>Gracias,</p>{$signature}";s:25:"emails.reviewRequest.body";s:956:"<p>Estimau/a {$recipientName},</p><p>Creyemos que sería un excelent revisor/a pa lo ninvio a {$contextName}. Lo títol y lo resumen d'o ninvio se troban contino, aspero que considere asumir esta fayena tan important pa nusatros.</p><p>Si puede revisar este ninvio, habría de tornar-nos la suya revisión antes d'o {$reviewDueDate}. Puede veyer lo ninvio, cargar los fichers de revisión y ninviar-nos la suya revisión iniciando sesión en o puesto web d'a revista y seguindo los pasos d'o siguient vinclo.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Resumen</b></p>{$submissionAbstract}<p>Per favor, <a href="{$reviewAssignmentUrl}">acepte u refuse</a> la revisión antes d'o <b>{$responseDueDate}</b>.</p><p>Puede meter-se en contacto con nusatros si tiene garra pregunta sobre lo ninvio u lo proceso de revisión.</p><p>Gracias per considerar esta solicitut. Apreciamos muito la suya aduya.</p><p>Atentament,</p>{$signature}";s:24:"emails.editorAssign.body";s:553:"<p>Estimau/a {$recipientName},</p><p>Se le ha asignau lo siguient ninvio pa que coordine lo suyo proceso editorial.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Resumen</b></p>{$submissionAbstract}<p>Si le pareixe que lo ninvio ye relevant pa {$contextName}, lo ninvie a la fase de revisión triando "Ninviar ta revisión" y dimpués asigne revisors/as fendo clic en "Anyadir revisor/a".</p><p>Si lo ninvio no ye apropiau pa esta revista, lo refuse.</p><p>Gracias de antemano.</p><p>Atentament,</p>{$contextSignature}";s:37:"emails.reviewResponseOverdueAuto.body";s:1051:"<p>Estimau/a {$recipientName},</p><p>Este correu electronico ye un recordatorio automatico de {$contextName} en relación con a solicitut de revisión d'o ninvio, "{$submissionTitle}."</p><p>Lo motivo d'este mensache ye que encara no hemos recibiu la confirmación de si podrá fer la revisión d'este ninvio.</p><p>Per favor, nos faiga saber la suya decisión per medio de lo nuestro software de chestión de ninvios aceptando u refusando la dita solicitut.</p><p>Si ye disposau a aceptar l'encargo, la suya revisión habría de estar lista lo {$reviewDueDate}. Puede seguir los pasos de revisión pa visualizar lo ninvio, cargar fichers de revisión y ninviar los suyos comentarios.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Resumen</b></p>{$submissionAbstract}<p>No dude en meter-se en contacto con nusatros si tiene cualsequier pregunta sobre lo ninvio u lo proceso de revisión.</p><p>Gracias per prener en consideración esta petición. La suya aduya ye muito preciosa.</p><p>Saludos cordials,</p>{$contextSignature}";s:34:"emails.editorAssignProduction.body";s:603:"<p>Estimau/a {$recipientName},</p><p>Se le ha asignau lo siguient ninvio pa que coordine la suya fase de producción.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Resumen</b></p>{$submissionAbstract}<p>Inicie sesión pa <a href="{$submissionUrl}">veyer lo ninvio</a>. Cuan sían disponibles los fichers de producción los cargue en a sección <strong>Publicación > Galeradas</strong>. Dimpués programe lo treballo pa la suya publicación fendo clic en o botón <strong>Programar pa publicación</strong>.</p><p>Gracias per abanzau.</p><p>Atentament,</p>{$signature}";s:24:"emails.reviewCancel.body";s:430:"<p>Estimau/a {$recipientName},</p><p>Recientment, le hemos demandau que revise una contribución pa {$contextName}. Hemos decidiu cancelar la solicitut pa que revise l'articlo, {$submissionTitle}.</p><p>Lamentamos cualsequier inconvenient que esto pueda causar-le y asperamos poder contar con a suya aduya en o futuro pa lo proceso de revisión d'esta revista.</p><p>Si tiene bella pregunta, per favor me contacte.</p>{$signature}";s:27:"emails.reviewReinstate.body";s:550:"<p>Estimau {$recipientName},</p><p>Recientment hemos cancelau la nuestra solicitut pa que revise una presentación, {$submissionTitle}, pa {$contextName}. Hemos revertiu ixa decisión y asperamos que encara pueda levar a cabo la revisión.</p><p>Si puede aduyar con a revisión d'este articlo, puede <a href="{$reviewAssignmentUrl}">iniciar sesión en a revista</a> pa veyer la presentación, cargar fichers de revisión y ninviar la suya solicitut de revisión.</p><p>Si tiene bella pregunta, per favor me contacte.</p><p>Atentament,</p>{$signature}";s:35:"emails.reviewRequestSubsequent.body";s:1091:"<p>Estimau/a {$recipientName},</p><p>Le agradeixemos la suya revisión de <a href="{$reviewAssignmentUrl}">{$submissionTitle}</a>. Los autors/as han teniu en cuenta los comentarios d'os revisors/as y han ninviau una versión revisada d'o suyo treballo. Le escribo pa preguntar-le si podría realizar una segunda tongada de revisión per pars d'este ninvio.</p><p>Si ye disponible pa revisar este ninvio, habría de tornar-nos la suya revisión antes d'o {$reviewDueDate}. Puede <a href="{$reviewAssignmentUrl}">seguir los pasos de revisión</a> pa veyer lo ninvio, cargar fichers de revisión y ninviar los suyos comentarios de revisión.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Resumen</b></p>{$submissionAbstract}<p>Per favor, <a href="{$reviewAssignmentUrl}">acepte u refuse</a> la revisión antes d'o <b>{$responseDueDate}</b>.</p><p>No dude en meter-se en contacto con nusatros si tiene bella pregunta sobre lo ninvio u lo proceso de revisión.</p><p>Gracias per considerar esta solicitut. Apreciamos muito la suya aduya.</p><p>Atentament,</p>{$signature}";s:28:"emails.userValidateSite.body";s:256:"{$recipientName}<br />
+<br />
+Ha creau una cuenta en {$siteTitle}, pero antes de poder utilizar-la, ha de validar lo suyo correu. Pa fer-lo, simplament faga clic en o siguient vinclo:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Gracias,<br />
+{$siteSignature}";s:24:"emails.reviewRemind.body";s:657:"<p>Estimau/a {$recipientName},</p><p>Esto ye nomás un amable recordatorio de la nuestra solicitut de revisión de l'articlo "{$submissionTitle}" pa {$contextName}. Asperábanos recibir la revisión lo {$reviewDueDate}, per lo cual nos complacería recibir-la tan luego como sía posible.</p><p>Puede <a href="{$reviewAssignmentUrl}">iniciar sesión en a revista</a> y seguir los pasos de revisión pa veyer l'articlo, cargar fichers de revisión y ninviar los suyos comentarios.</p><p>Si le fa falta una prorroga en a data limite, se meta en contacto con nusatros. Aspero tener noticias suyas luego.</p><p>Muitas gracias y cordials saludos,</p>{$signature}";s:28:"emails.reviewRemindAuto.body";s:708:"<p>Estimau/a {$recipientName}:</p><p>Este correu electronico ye un recordatorio automatico de {$contextName} en relación con a nuestra solicitut de revisión d'o ninvio "{$submissionTitle}".</p><p>Asperábanos disposar de esta revisión lo {$reviewDueDate} y nos complacería recibir-la tan luego como sía posible.</p><p>Per favor, <a href="{$reviewAssignmentUrl}">inicie sesión en a revista</a> y siga los pasos de revisión pa veyer l'articlo, cargar fichers de revisión y ninviar los suyos comentarios de revisión.</p><p>Si le fa falta una extensión d'a data limite, se meta en contacto con nusatros. Aspero tener noticias suyas luego.</p><p>Muitas gracias y saludos cordials,</p>{$contextSignature}";s:36:"emails.editorDecisionSkipReview.body";s:1041:"<p>Estimau/a {$recipientName},</p>
+<p>Me complace informar-le que hemos decidiu d'aceptar lo suyo ninvio sin pasar per la fase de revisión per pars. Le confirmamos que lo suyo ninvio "{$submissionTitle}" cumple con as nuestras expectativas, per lo que no nos cal que esta mena de treballo pase per la fase de revisión per pars. Nos femos contentos de publicar lo suyo treballo en {$contextName} y le agradeixemos que haiga triau la nuestra revista pa publicar-lo.</p>
+<p>Lo suyo ninvio se publicará en un numero futuro de {$contextName}, asinas que le convidamos a incluyir-lo en a suya lista de publicacions. Reconoixemos lo duro treballo que implica cada contribución publicada y queremos felicitar-lo/-la per ixo.</p>
+<p>Agora lo suyo ninvio pasará a edición y formateyo pa la suya posterior publicación. </p>
+<p>En breu recibirá mas instruccions.</p>
+<p>Si tiene garrapregunta, se meta en contacto con nusatros a traviés d'o suyo <a href="{$authorSubmissionUrl}">panel de ninvios</a>.</p>
+<p>Atentament,</p>
+<p>{$signature}</p>
+";s:24:"emails.emailLink.subject";s:30:"Articlo que le puede interesar";s:21:"emails.emailLink.body";s:201:"He pensau que le podría interesar veyer l'articlo &quot;{$submissionTitle}&quot; de {$authors}, publicau en o vol. {$volume}, nº {$number} ({$year}) de {$contextName} en &quot;{$submissionUrl}&quot;.";s:42:"emails.subscriptionAfterExpiryLast.subject";s:48:"La subscripción ha venciu - Zaguer recordatorio";s:39:"emails.subscriptionAfterExpiryLast.body";s:537:"{$recipientName}:<br />
+<br />
+	La suya subscripción a {$contextName} ha venciu.<br />
+	Tienga en cuenta que este ye lo zaguer correu que recibirá pa recordar-le-ne.<br />
+<br />
+	{$subscriptionType}<br />
+	Data de vencimiento: {$expiryDate}<br />
+<br />
+	Para renovar la suya subscripción acceda a la pachina web d'a revista. Puede iniciar sesión en o sistema con o suyo nombre d'usuario/a, &quot;{$recipientUsername}&quot;.<br />
+<br />
+	Si tiene cualsequier pregunta no dude en contactar-me.<br />
+<br />
+	{$subscriptionSignature}";s:30:"emails.subscriptionNotify.body";s:902:"{$recipientName}:<br />
+<br />
+Acaba de rechistrar-se como suscriptor/a en o nuestro sistema de chestión de revistas online pa la revista {$contextName}, contino le amostremos los datos d'a suya subscripción:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Pa acceder a lo conteniu exclusivo pa suscriptors/as, simplament ha d'identificar-se con o suyo nombre d'usuaria/o, &quot;{$recipientUsername}&quot;.<br />
+<br />
+Malas que s'haiga identificau en o sistema puede cambiar los detalles d'o suyo perfil y la suya clau en cualsequier momento.<br />
+<br />
+Considere que si ye una subscripción institucional no cal que los/as usuarios/as d'a suya institución s'identifiquen, ya que las peticions de conteniu baixo subscripción serán autentificadas automaticament per lo sistema.<br />
+<br />
+Si tiene cualsequier pregunta no dude en contactar con nusatros/as.<br />
+<br />
+{$subscriptionSignature}";s:40:"emails.subscriptionPurchaseInstl.subject";s:38:"Crompa de subscripción: Institucional";s:43:"emails.statisticsReportNotification.subject";s:40:"Actividat editorial de {$month}, {$year}";s:40:"emails.statisticsReportNotification.body";s:728:"
+{$recipientName}, <br />
+<br />
+L'informe d'estau d'a suya revista de {$month}, {$year} ya ye disponible. Las estatisticas clau d'este mes son las siguients.<br />
+<ul>
+	<li>Nuevos ninvios este mes: {$newSubmissions}</li>
+	<li>Ninvios refusaus este mes: {$declinedSubmissions}</li>
+	<li>Ninvios aceptaus este mes: {$acceptedSubmissions}</li>
+	<li>Ninvios totals en o sistema: {$totalSubmissions}</li>
+</ul>
+Inicie sesión en a revista pa obtener mas detalles sobre las <a href="{$editorialStatsLink}">tendencias editorials</a> y las <a href="{$publicationStatsLink}">estatisticas d'articlos publicaus</a>. S'adchunta una copia completa de l'informe correspondient a este mes .<br />
+<br />
+Exprisions,<br />
+{$contextSignature}";s:37:"emails.subscriptionPurchaseInstl.body";s:771:"S'ha adquiriu en linia una subscripción institucional pa {$contextName} con os siguients detalles. Pa activar la subscripción, use lo vinclo proporcionau y configure lo estau d'a subscripción como 'Activo'.<br />
+<br />
+Tipo de subscripción:<br />
+{$subscriptionType}<br />
+<br />
+Institución:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Dominio (si se proporciona):<br />
+{$domain}<br />
+<br />
+Rangos d'IP (si se proporcionan):<br />
+{$ipRanges}<br />
+<br />
+Persona de contacto:<br />
+{$subscriberDetails}<br />
+<br />
+Información d'afiliación (si se proporciona):<br />
+{$membership}<br />
+<br />
+Pa veyer u editar esta subscripción, faga servir lo siguient vinclo.<br />
+<br />
+Vinclo d'a subscripción: {$subscriptionUrl}<br />
+";}}}

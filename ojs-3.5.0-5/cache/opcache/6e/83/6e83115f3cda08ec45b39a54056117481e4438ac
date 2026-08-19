@@ -1,0 +1,58 @@
+1818656037a:3:{s:6:"domain";N;s:12:"plural-forms";s:21:"nplurals=1; plural=0;";s:8:"messages";a:1:{s:0:"";a:26:{s:28:"emails.submissionAck.subject";s:15:"投稿致谢函";s:25:"emails.submissionAck.body";s:448:"{$recipientName}:<br />
+<br />
+感谢您将稿件 〈{$submissionTitle}〉 投稿至《{$contextName}》。透过我们所使用的期刊管理系统，您将能够登入期刊网站来追踪稿件的编辑进度：<br />
+<br />
+稿件网址：{$submissionUrl}<br />
+用户名称：{$recipientUsername}<br />
+<br />
+如果您有任何问题，请与我们联络。再次感谢您考虑本期刊出版您的作品。<br />
+<br />
+{$contextSignature}";s:24:"emails.reviewAck.subject";s:21:"文章审查感谢函";s:21:"emails.reviewAck.body";s:189:"{$recipientName}:<br />
+<br />
+感谢您为《{$contextName}》完成了稿件〈{$submissionTitle}〉的审查工作。我们非常感激您对我们出版文章之品质的重要贡献。";s:43:"emails.editorDecisionSendToExternal.subject";s:12:"编辑决策";s:40:"emails.editorDecisionSendToExternal.body";s:210:"{$authors}:<br />
+<br />
+我们已经收到您的稿件： {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+我们决定：将您的稿件送去评审<br />
+<br />
+稿件的地址：{$submissionUrl}";s:45:"emails.editorDecisionSendToProduction.subject";s:12:"总编决定";s:42:"emails.editorDecisionSendToProduction.body";s:157:"{$authors}:<br />
+<br />
+您的稿件 &quot;{$submissionTitle}&quot; 修改结束。我们将要安排出版。<br />
+<br />
+稿件地址： {$submissionUrl}";s:38:"emails.editorDecisionRevisions.subject";s:12:"编辑决定";s:35:"emails.editorDecisionRevisions.body";s:152:"{$authors}:<br />
+<br />
+我们对于您在《{$contextName}》提交的〈{$submissionTitle}〉达成一项决定。<br />
+<br />
+我们的决定是：";s:37:"emails.editorDecisionResubmit.subject";s:12:"编辑决定";s:34:"emails.editorDecisionResubmit.body";s:152:"{$authors}:<br />
+<br />
+我们对于您在《{$contextName}》提交的〈{$submissionTitle}〉达成一项决定。<br />
+<br />
+我们的决定是：";s:36:"emails.editorDecisionDecline.subject";s:12:"编辑决定";s:33:"emails.editorDecisionDecline.body";s:152:"{$authors}:<br />
+<br />
+我们对于您在《{$contextName}》提交的〈{$submissionTitle}〉达成一项决定。<br />
+<br />
+我们的决定是：";s:35:"emails.editorRecommendation.subject";s:12:"总编建议";s:32:"emails.editorRecommendation.body";s:118:"{$editors}:<br />
+<br />
+关于稿件 {$contextName}, &quot;{$submissionTitle}&quot; 的建议是： {$recommendation}";s:30:"emails.copyeditRequest.subject";s:12:"编辑要求";s:27:"emails.copyeditRequest.body";s:488:"{$recipientName}您好：<br />
+<br />
+我想请您为《{$contextName}》担任稿件〈{$submissionTitle}〉的校样编辑。您可以在网站上找到这份稿件，以及校样编辑的工作指引。<br />
+<br />
+稿件网址：{$submissionUrl}"<br />
+用户名称：{$recipientUsername}<br />
+<br />
+如果您目前无法进行这份工作，或者对这项工作有任何的疑问，请直接回信与我联络。非常感谢您同意为这份期刊进行这份重要的工作。";s:43:"emails.editorDecisionInitialDecline.subject";s:12:"总编决定";s:40:"emails.editorDecisionInitialDecline.body";s:172:"
+			{$authors}:<br />
+<br />
+我们对于稿件 {$contextName}, &quot;{$submissionTitle}&quot; 形成了一个最终共识。<br />
+<br />
+我们的决定是：拒绝稿件";s:25:"emails.discussion.subject";s:30:"关于{$contextName} 的信息";s:22:"emails.discussion.body";s:24:"请输入您的信息。";s:28:"emails.reviewConfirm.subject";s:24:"可以进行审查工作";s:25:"emails.reviewConfirm.body";s:238:"{$recipientName}:<br />
+<br />
+我可以并且愿意为《{$contextName}》审查稿件〈{$submissionTitle}〉。谢谢您考虑我当审查人，而我计划在审查截止日{$reviewDueDate}前完成审查。<br />
+<br />
+{$senderName}";s:37:"emails.submissionAckNotAuthor.subject";s:15:"投稿致谢函";s:34:"emails.submissionAckNotAuthor.body";s:258:"您好,<br />
+<br />
+{$submitterName} 已将稿件 &quot;{$submissionTitle}&quot; 投稿给 {$contextName}. <br />
+<br />
+如果您有任何问题，请立即与我们联系。 感谢您考虑在本杂志出版您的作品。<br />
+<br />
+{$contextSignature}";}}}

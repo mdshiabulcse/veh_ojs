@@ -1,0 +1,88 @@
+1818656032a:3:{s:6:"domain";N;s:12:"plural-forms";s:26:"nplurals=2; plural=n != 1;";s:8:"messages";a:1:{s:0:"";a:33:{s:28:"emails.submissionAck.subject";s:43:"دانپێدانانی پێشکەشکردن";s:25:"emails.submissionAck.body";s:810:"{$recipientName}:<br />
+<br />
+سوپاس بۆ پێشکەشکردنی ڕەشنوسی توێژینەوەکەت، &quot;{$submissionTitle}&quot; بۆ{$contextName}. بە گوێرەی سیستەمی بەڕێوەبردنی گۆڤار کە ئێمە بەکاری دەهێنین، ئێوە دەتوانن ئاگاداری قۆناغەکانی هەڵسەنگاندنی توێژینەوەکەتان ببن لە پەڕەی سەرەکی گۆڤارەوە: <br />
+<br />
+لینکی پێشکەشکردن: {$submissionUrl}<br />
+ناوی بەکارهێنەر: {$recipientUsername}<br />
+ئەگەر هەر پرسیارێکتان هەبو، تکایە پەیوەندیمان پێوە بکەن. سوپاس بۆ هەڵبژاردنی گۆڤار بۆ بڵاوکردنەوەی کارەکانتان. <br />
+<br />
+{$contextSignature}";s:32:"emails.submissionAck.description";s:436:"کاتێک ئەم ئیمەیڵە کارا کرابێت، بە شێوەیەکی تۆماتیکی دەچێت بۆ توێژەر بۆ ئاگاداربون لە بارودۆخی پێشکەشکردنەکەی. ئەمە زانیاری دەربارەی بارکردنی پێشکەشکردنەکەی و هەنگاوەکانی تێدایە، هەروەها سوپاسی توێژەر دەکات بۆ پێشکەشکردنی توێژینەوەکەی.";s:24:"emails.reviewAck.subject";s:70:"زانیارییەکانی هەڵسەنگاندنی توێژینەوە";s:21:"emails.reviewAck.body";s:306:"{$recipientName}:<br />
+<br />
+سوپاس بۆ تەواوکردنی هەڵسەنگاندنی, &quot;{$submissionTitle},&quot; بۆ {$contextName}. ئێمە سوپاسی ماندوبونی ئێوە دەکەین بۆ پێشخستنی ئەو بابەتانەی کە ئێمە بڵاویان دەکەینەوە.";s:43:"emails.editorDecisionSendToExternal.subject";s:29:"بڕیاری سەرنوسەر";s:40:"emails.editorDecisionSendToExternal.body";s:303:"{$authors}:<br />
+<br />
+ئێمە بڕیارمان دەربارەی توێژینەوەکەتان دا {$contextName}, &quot;{$submissionTitle}&quot;.<br />
+<br />
+بڕیار: ناردنی توێژینەوەکە بۆ هەڵسەنگاندن<br />
+<br />
+لینکی توێژینەوەکە: {$submissionUrl}";s:45:"emails.editorDecisionSendToProduction.subject";s:29:"بڕیاری سەرنوسەر";s:42:"emails.editorDecisionSendToProduction.body";s:238:"{$authors}:<br />
+<br />
+ئێمە لە ئێستادا توێژینەوەی &quot;{$submissionTitle},&quot; دەنێرین بۆ بڵاوکردنەوە.<br />
+<br />
+لینکی پێشکەشکردنی توێژینەوەکە: {$submissionUrl}";s:38:"emails.editorDecisionRevisions.subject";s:29:"بڕیاری سەرنوسەر";s:35:"emails.editorDecisionRevisions.body";s:245:"{$authors}:<br />
+<br />
+ئێمە لەبارەی پێشکەشکردنەکەت {$contextName}, &quot;{$submissionTitle}&quot; بڕیارمان دا.<br />
+<br />
+بڕیار: توێژینەوەکە پێویستی بە پێداچونەوە هەیە";s:37:"emails.editorDecisionResubmit.subject";s:29:"بڕیاری سەرنوسەر";s:34:"emails.editorDecisionResubmit.body";s:262:"{$authors}:<br />
+<br />
+ئێمە لەبارەی پێشکەشکردنەکەت {$contextName}, &quot;{$submissionTitle}&quot; بڕیارمان دا.<br />
+<br />
+بڕیار: دوبارە توێژینەوەکەت پێشکەش بکەوە بۆ هەڵسەنگاندن";s:36:"emails.editorDecisionDecline.subject";s:29:"بڕیاری سەرنوسەر";s:33:"emails.editorDecisionDecline.body";s:217:"{$authors}:<br />
+<br />
+ئێمە لەبارەی پێشکەشکردنەکەت {$contextName}, &quot;{$submissionTitle}&quot; بڕیارمان دا.<br />
+<br />
+بڕیار: توێژینەوەکە ڕەت کرایەوە";s:35:"emails.editorRecommendation.subject";s:41:"پێشنیازەکانی سەرنوسەر";s:32:"emails.editorRecommendation.body";s:145:"{$editors}:<br />
+<br />
+پێشنیازەکان دەربارەی {$contextName}, &quot;{$submissionTitle}&quot; ئەمانەن: {$recommendation}";s:30:"emails.copyeditRequest.subject";s:41:"داواکاریی وردبینیکردن";s:27:"emails.copyeditRequest.body";s:913:"{$recipientName}:<br />
+<br />
+من داوا لە بەڕێزتان دەکەم بە وردبینیکردنی&quot;{$submissionTitle}&quot; بۆ {$contextName} بە گوێرەی ئەم هەنگاوانە.<br />
+١. کلیک لەسەر ئەم توێژینەوە پێشکەشکراوەی خوارەوە بکە.<br />
+٢. هەمو فایلەکانی بکەوە و کاری وردبینییان بۆ بکە، هەر تێبینییەک پێویستە تکایە بینوسە.<br />
+٣. فایلە وردبینکراوەکان خەزن بکە و دوبارە باریان بکەوە.<br />
+٤. سەرنوسەر ئاگادار بکەوە لە تەواوبونی پرۆسەی وردبینی بۆ دەستپێکردنی پرۆسەی بڵاوکردنەوە.<br />
+<br />
+{$contextName} لینک: {$contextUrl}<br />
+لینکی توێژینەوەکە: {$submissionUrl}<br />
+ناوی بەکارهێنەر: {$recipientUsername}";s:43:"emails.editorDecisionInitialDecline.subject";s:29:"بڕیاری سەرنوسەر";s:40:"emails.editorDecisionInitialDecline.body";s:221:"
+			{$authors}:<br />
+<br />
+ئێمە لەبارەی پێشکەشکردنەکەت {$contextName}, &quot;{$submissionTitle}&quot; بڕیارمان دا.<br />
+<br />
+بڕیار: توێژینەوەکە ڕەت کرایەوە";s:25:"emails.discussion.subject";s:54:"نامەی پەیوەندیدار بە  {$contextName}";s:22:"emails.discussion.body";s:37:"تکایە نامەکەت بنوسە.";s:28:"emails.reviewConfirm.subject";s:44:"توانای هەڵسەنگاندن هەیە";s:25:"emails.reviewConfirm.body";s:434:"بەڕێزان، سەرنوسەران:<br />
+<br />
+من لە توانام دایە و حەزدەکەم هەڵسەنگاندن بۆ توێژینەوەی&quot;{$submissionTitle},&quot; بکەم بۆ{$contextName}. سوپاس بۆ بیرکردنەوە لە من و من لە پلانم دایە کە هەڵسەنگاندنەکە هەتا{$reviewDueDate} تەواو بکەم، ئەگەر پێشتر نەبێت.<br />
+<br />
+{$senderName}";s:37:"emails.submissionAckNotAuthor.subject";s:43:"دانپێدانانی پێشکەشکردن";s:34:"emails.submissionAckNotAuthor.body";s:355:"سڵاو،<br />
+<br />
+{$submitterName} ڕەشنوسی توێژینەوەکەی پێشکەش کرد, &quot;{$submissionTitle}&quot; بۆ{$contextName}. <br />
+<br />
+ئەگەر هەر پرسیارێکت هەیە، تکایە پەیوەندیم پێوە بکە. سوپاس بۆ هەڵبژاردنی گۆڤارەکەمان.<br />
+<br />
+{$contextSignature}";s:39:"emails.orcidCollectAuthorId.description";s:109:"تێمپلەیتی ئەم ئیمەیڵە بۆ کۆکردنەوەی ئەژماری ORCIDی توێژەرانە.";s:46:"emails.orcidRequestAuthorAuthorization.subject";s:37:"داواکردنی تۆماری ORCID";s:35:"emails.orcidCollectAuthorId.subject";s:31:"پێشکەشکردن بۆ ORCID";s:50:"emails.orcidRequestAuthorAuthorization.description";s:137:"قاڵبی ئەم ئیمەیڵە بۆ ڕێگەپێدانی گرێدانی ORCID بەکار دێت لە لایەن توێژەرانەوە.";s:43:"emails.orcidRequestAuthorAuthorization.body";s:1003:"بەڕێز {$recipientName},<br>
+<br>
+تۆ وەک نوسەری ئەم توێژینەوەیە دیاری کراویت "{$submissionTitle}" to {$contextName}.
+<br>
+<br>
+تکایە ڕێگەمان پێ بدە بە زیادکردنی هەژماری ORCIDیەکەت. <br>
+سەردانی وێبسایتی فەرمیی ORCID بکە و داخل ببە و ڕێپێدان بە گوێرەی ڕێنماییەکان بدە.<br>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width='16' height='16' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>هەژمارێکی ORCID دروست بکە، یان ئەگەر هەتە هەژمارەکەت بکەوە.</a><br/>
+<br>
+<br>
+<a href="{$orcidAboutUrl}">زانیاریی زیاتر دەربارەی ORCID  لە {$contextName}</a><br/>
+<br>
+بۆ هەر پرسیارێک، تکایە پەیوەندیم پێوە بکە.<br>
+<br>
+{$principalContactSignature}<br>
+";s:32:"emails.orcidCollectAuthorId.body";s:864:"بەڕێز{$recipientName},<br/>
+<br/>
+تۆ وەک نوسەری ئەم توێژینەوەیە دیاری کراویت: {$contextName}.<br/>
+بۆ قبوڵکردنی خاوەندارییەکەتم، تکایە ئەژماری ORCIDیەکەت زیاد بکە. <br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width='16' height='16' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>ئەژمارەک دروست بکە یان داخلی ئەژمارەکەت ببە ئەگەر هەتە  ORCID iD</a><br/>
+<br/>
+<br>
+<a href="{$orcidAboutUrl}">زانیاریی زیاتر دەربارەی ORCID {$contextName}</a><br/>
+<br/>
+بۆ هەر پرسیارێک تکایە پەیوەندیمان پێوە بکە.<br/>
+<br/>
+{$principalContactSignature}<br/>
+";}}}

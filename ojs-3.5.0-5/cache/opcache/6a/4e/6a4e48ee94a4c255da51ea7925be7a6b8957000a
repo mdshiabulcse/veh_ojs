@@ -1,0 +1,1 @@
+1818656035a:3:{s:6:"domain";N;s:12:"plural-forms";s:43:"nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;";s:8:"messages";a:1:{s:0:"";a:2:{s:38:"plugins.generic.lensGalley.description";s:149:"Овој плагин овозможува поддршка за рендерирање на JATS XML отисоци користејќи eLife Lens.";s:38:"plugins.generic.lensGalley.displayName";s:53:"eLife Lens прегледувач на трудови";}}}

@@ -1,0 +1,192 @@
+1818656036a:3:{s:6:"domain";N;s:12:"plural-forms";s:25:"nplurals=2; plural=n > 1;";s:8:"messages";a:1:{s:0:"";a:72:{s:35:"emails.passwordResetConfirm.subject";s:39:"Confirmação de Redefinição de Senha";s:32:"emails.passwordResetConfirm.body";s:335:"Recebemos uma solicitação para redefinir sua senha para o site {$siteTitle}.<br />
+<br />
+Se você não fez essa solicitação, favor ignorar este e-mail e sua senha não será alterada. Se você deseja redefinir sua senha, clique na URL abaixo.<br />
+<br />
+Redefinir minha senha: {$passwordResetUrl}<br />
+<br />
+{$siteContactName}";s:27:"emails.userRegister.subject";s:22:"Cadastro no Periódico";s:24:"emails.userRegister.body";s:463:"Prezado(a) {$recipientName}<br />
+<br />
+Agora você foi cadastrado como um usuário em {$contextName}. Incluímos seu nome de usuário e senha neste e-mail, necessários para todo o trabalho neste periódico por meio de seu site. A qualquer momento, você pode pedir para ser removido da lista de usuários da revista entrando em contato comigo.<br />
+<br />
+Usuário: {$recipientUsername}<br />
+Senha: {$password}<br />
+<br />
+Atenciosamente,<br />
+{$signature}";s:34:"emails.userValidateContext.subject";s:19:"Valide seu Cadastro";s:31:"emails.userValidateContext.body";s:297:"Prezado(a) {$recipientName}<br />
+<br />
+Você criou uma conta no periódico {$contextName}, mas antes de começar a usá-la, você precisa validar sua conta de e-mail. Para fazer isso, basta clicar no link abaixo:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Atenciosamente,<br />
+{$contextSignature}";s:31:"emails.userValidateSite.subject";s:18:"Valide a sua conta";s:28:"emails.userValidateSite.body";s:287:"Prezado(a) {$recipientName} <br />
+<br />
+Você criou uma conta com {$siteTitle}, mas antes de começar a usá-la, é necessário validar sua conta de e-mail. Para fazer isso, basta acessar o link abaixo: <br />
+<br />
+{$activateUrl} <br />
+<br />
+Atenciosamente, <br />
+{$siteSignature}";s:31:"emails.reviewerRegister.subject";s:43:"Cadastrado como Avaliador em {$contextName}";s:28:"emails.reviewerRegister.body";s:878:"<p>Prezado(a),</p><p>Devido à sua experiência, tomamos a liberdade de cadastrar seu nome no banco de dados de avaliadores para {$contextName}. Isso não implica qualquer forma de compromisso de sua parte, mas simplesmente nos permite lhe contatar com uma submissão para uma possível avaliação. Ao ser convidado(a) a avaliar, você terá a oportunidade de ver o título e o resumo do artigo em questão e poderá sempre aceitar ou recusar o convite. Você também pode pedir a qualquer momento para remover seu nome desta lista de avaliadores.</p><p>Estamos fornecendo a você um nome de usuário e senha, que são usados em todas as interações com o periódico por meio de seu site. Você pode, por exemplo, atualizar seu perfil, incluindo seus interesses de avaliação.</p><p>Usuário: {$recipientUsername}<br />Senha: {$password}</p><p>Atenciosamente,</p>{$signature}";s:33:"emails.issuePublishNotify.subject";s:65:"Nova Edição Publicada: {$issueIdentification} de {$contextName}";s:30:"emails.issuePublishNotify.body";s:447:"<p>Prezado(a) {$recipientName},</p><p>Temos o prazer de anunciar a publicação da edição <a href="{$issueUrl}">{$issueIdentification}</a> de {$contextName}.  Convidamos você a ler e compartilhar este trabalho com sua comunidade acadêmica.</p><p>Muito obrigado aos nossos autores, avaliadores e editores por suas valiosas contribuições, e aos nossos leitores por seu interesse contínuo.</p><div>{$issueToc}</div><p>Obrigado,</p>{$signature}";s:27:"emails.editorAssign.subject";s:69:"Você foi designado como editor em uma submissão para {$contextName}";s:24:"emails.editorAssign.body";s:631:"<p>Prezado(a) {$recipientName},</p><p>A seguinte submissão foi designado a você para acompanhar o processo editorial.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$authors}</p><p><b>Resumo</b></p>{$submissionAbstract}<p>Se você achar que a submissão é relevante para o periódico {$contextName}, encaminhe para a etapa de avaliação selecionando "Enviar para Avaliação " e, em seguida, atribua avaliadores clicando em "Adicionar Avaliador".</p><p>Se a submissão não for apropriada para este periódico, recuse a submissão.</p><p>Agradecemos antecipadamente.</p> <p>Atenciosamente,</p>{$contextSignature}";s:30:"emails.editorAssignReview.body";s:506:"<p>Prezado(a) {$recipientName},</p><p>a seguinte submissão foi atribuída a você para que você veja o processo de avaliação por pares.</p><p><a href="{$submissionUrl}"> {$submissionTitle}</a><br />{$authors}</p><p><b>Resumo</b></p>{$submissionAbstract}<p>Faça login em <a href=" {$submissionUrl}">visualize a submissão</a> e atribua avaliadores qualificados. Você pode atribuir um avaliador clicando em "Adicionar Avaliador".</p><p>Agradecemos antecipadamente.</p><p>Atenciosamente,</p>{$signature}";s:34:"emails.editorAssignProduction.body";s:636:"<p>Prezado(a) {$recipientName},</p><p>a submissão a seguir foi atribuída a você para acompanhar a etapa de editoração.</p><p><a href="{$submissionUrl}">{ $submissionTitle}</a><br />{$authors}</p><p><b>Resumo</b></p>{$submissionAbstract}<p>Faça login em <a href="{ $submissionUrl}">visualize a submissão</a>. Assim que os arquivos prontos para editoração estiverem disponíveis, carregue-os na seção <strong>Publicação > Composições</strong>. Em seguida, agende o trabalho para publicação clicando no botão <strong>Agendar Publicação</strong>.</p><p>Agradecemos antecipadamente.</p><p>Atenciosamente,</p>{$signature }";s:28:"emails.reviewRequest.subject";s:55:"A revista {$contextName} solicita avaliação de artigo";s:25:"emails.reviewRequest.body";s:956:"<p>Prezado(a) {$recipientName},</p><p>Acredito que você seria um(a) excelente avaliador(a) para a submissão   a {$contextName}. O título da submissão e o resumo estão abaixo, e espero que você considere realizar esta importante tarefa para nós.</p><p>Se você puder avaliar esta submissão, peço que seja enviada até {$reviewDueDate}. Você pode visualizar a submissão, enviar arquivos de avaliação e enviar sua avaliação fazendo login no site do periódico e seguindo as etapas no link abaixo.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Resumo</b></p>{$submissionAbstract}<p>Por favor, <a href="{$reviewAssignmentUrl}">aceite ou rejeite</a> este convite até <b>{$responseDueDate}</b>.</p><p>Você pode entrar em contato comigo com qualquer dúvida sobre a submissão ou o processo de avaliação.</p><p>Obrigado por considerar esta solicitação. Sua ajuda é muito valiosa!</p><p>Atenciosamente,</p>{$signature}";s:40:"emails.reviewResponseOverdueAuto.subject";s:34:"Você pode revisar isto para nós?";s:37:"emails.reviewResponseOverdueAuto.body";s:1048:"<p>Prezado {$recipientName},</p><p>Esta mensagem é apenas um lembrete automático de {$contextName} sobre a solicitação de revisão da submissão "{$submissionTitle}."</p><p>Você está recebendo esse e-mail porque ainda não recebemos uma confirmação sobre a sua disponibilidade para revisar a submissão.</p><p>Por favor nos avise se você poderá ou não revisar o trabalho utilizando o sistema de gerenciamento de submissões para aceitar ou rejeitar a solicitação.</p><p>Se houver possibilidade de revisão, por favor a conclua antes de {$reviewDueDate}. Você pode prosseguir para as etapas de revisão para visualizar os arquivos, carregar documentos e enviar seus comentários.</p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Resumo</b></p>{$submissionAbstract}<p>Por favor sinta-se à vontade para me contatar sobre questões relativas à submissão ou o processo de revisão.</p><p>Obrigado por considerar essa solicitação. Sua contribuição é de muito valor.</p><p>Atenciosamente,</p>{$contextSignature}";s:38:"emails.reviewRequestSubsequent.subject";s:55:"Solicitação de avaliação de uma submissão revisada";s:35:"emails.reviewRequestSubsequent.body";s:1054:"<p>Prezado(a) {$recipientName},</p><p>Obrigado por revisar o trabalho <a href="{$reviewAssignmentUrl}">{$submissionTitle}</a>. Os autores consideraram o retorno dos pareceristas e submeteram uma versão revisada do trabalho. Entro em contato para verificar se você poderia conduzir uma segunda rodada de avaliação para essa submissão.</p><p>Se houver disponibilidade, esperamos sua revisão até {$reviewDueDate}. Você pode <a href="{$reviewAssignmentUrl}">seguir as etapas de avaliação</a> para verificar o envio, carregar arquivos de revisão e submeter seus comentários.<p><p><a href="{$reviewAssignmentUrl}">{$submissionTitle}</a></p><p><b>Resumo</b></p>{$submissionAbstract}<p>Por favor <a href="{$reviewAssignmentUrl}">aceite ou rejeite</a> a revisão até <b>{$responseDueDate}</b>.</p><p>Por favor, sinta-se à vontade para me contatar sobre quaisquer questões sobre a submissão ou o processo de avaliação.</p><p>Obrigado por considerar essa solicitação. Sua contribuição é muito importante.</p><p>Atenciosamente,</p>{$signature}";s:27:"emails.reviewCancel.subject";s:44:"Cancelamento de solicitação de avaliação";s:24:"emails.reviewCancel.body";s:466:"<p>Prezado(a) {$recipientName},</p><p>Recentemente, solicitamos-lhe avaliar uma submissão à {$contextName}. Decidimos cancelar a solicitação de que você avalie esta submissão, {$submissionTitle}.</p><p>Pedimos desculpas por qualquer inconveniência que isso tenha lhe causado e esperamos poder contar com sua assistência no processo de avaliação desta revista no futuro.</p><p>Se tiver alguma dúvida, por gentileza, entre em contato comigo.</p>{$signature}";s:30:"emails.reviewReinstate.subject";s:50:"Você ainda pode avaliar algo para {$contextName}?";s:27:"emails.reviewReinstate.body";s:591:"<p>Prezado(a) {$recipientName},</p><p>Recentemente cancelamos nossa solicitação para que você avaliasse uma submissão, {$submissionTitle}, para {$contextName}. Revertemos essa decisão e esperamos que você ainda possa conduzir a avaliação.</p><p>Se você puder ajudar com a avaliação desta submissão, você pode efetuar <a href="{$reviewAssignmentUrl}">login no periódico</a> para visualizar a submissão, enviar arquivos de avaliação, e enviar sua solicitação de avaliação.</p><p>Se você tiver alguma dúvida, entre em contato comigo.</p><p>Atenciosamente,</p>{$signature}";s:28:"emails.reviewDecline.subject";s:39:"Indisponível para realizar avaliação";s:25:"emails.reviewDecline.body";s:278:"Prezados editores:<br />
+<br />
+Temo não poder dar um parecer à submissão &quot;{$submissionTitle},&quot; para o periódico {$contextName} no momento. Agradeço por lembrar de mim, e fiquem à vontade para me convidar novamente em um outro momento.<br />
+<br />
+{$senderName}";s:27:"emails.reviewRemind.subject";s:41:"Um lembrete para concluir sua avaliação";s:24:"emails.reviewRemind.body";s:673:"<p>Prezado(a) {$recipientName},</p><p>Este é apenas um lembrete do nosso pedido de avaliação da submissão, "{$submissionTitle}," para {$contextName}. Esperávamos ter recebido sua avaliação até {$reviewDueDate} e teremos o maior prazer em recebê-la assim que você puder finalizá-la.</p><p>Você pode <a href="{$reviewAssignmentUrl}">efetuar login no periódico</a> e seguir as etapas de avaliação para visualizar o envio, fazer o carregamento dos arquivos de avaliação e enviar seus comentários de avaliação.</p><p>Se você precisar de uma extensão do prazo, entre em contato comigo. Espero receber seu retorno.</p><p>Desde já, agradeço,</p>{$signature}";s:31:"emails.reviewRemindAuto.subject";s:41:"Um lembrete para concluir sua avaliação";s:28:"emails.reviewRemindAuto.body";s:615:"<p>Prezado {$recipientName}:</p><p>Esta mensagem é um lembrete automático de {$contextName} sobre a solicitação de sua avaliação na submissão "{$submissionTitle}."</p><p>Esperávamos ter sua contribuição até {$reviewDueDate}. Agradeceremos recebê-la assim que você finalizá-la.</p><p>Por favor <a href="{$reviewAssignmentUrl}">acesse o periódico</a> e siga as etapas de avaliação para a avaliação, carregamento de arquivos e envio dos seus comentários.</p><p>Se precisar de um adiamento no prazo, por favor me contate. No aguardo da sua resposta.</p><p>Desde já agradeço,</p>{$contextSignature}";s:35:"emails.editorDecisionAccept.subject";s:45:"Sua submissão foi aceita para {$contextName}";s:32:"emails.editorDecisionAccept.body";s:1011:"<p>Prezado(a) {$recipientName},</p><p>Temos o prazer de informá-lo(a) que decidimos aceitar a submissão sem avaliação adicional. Após uma análise cuidadosa, concluímos que sua submissão, {$submissionTitle}, atendeu ou superou nossas expectativas. Estamos entusiasmados em publicar seu artigo em {$contextName} e agradecemos por escolher nosso periódico como local para seu trabalho.</p><p>Sua submissão será publicada em uma futura edição de {$contextName} e você será bem-vindo para incluí-la em sua lista de publicações. Reconhecemos o trabalho árduo por trás de cada submissão bem-sucedida e queremos parabenizá-lo(a) por chegar a esse estágio.</p><p>Sua submissão agora passará pela etapa de "Edição de Texto" e "Editoração" para prepará-la para publicação.</p><p >Em breve você receberá mais instruções.</p><p>Se você tiver alguma dúvida, entre em contato conosco em seu <a href="{$authorSubmissionUrl}">painel de submissão</a>.</p><p >Atenciosamente,</p>{$signature}";s:39:"emails.editorDecisionSkipReview.subject";s:49:"Sua submissão foi enviada para edição de texto";s:36:"emails.editorDecisionSkipReview.body";s:989:"<p>Prezado(a) {$recipientName},</p>
+<p>Tenho o prazer de informar que decidimos aceitar sua submissão sem avaliação por pares. Achamos que sua submissão, {$submissionTitle}, atendeu às nossas expectativas e não exigimos que trabalhos desse tipo passem por avaliação por pares. Estamos felizes em publicar seu artigo em {$contextName} e agradecemos por escolher nossa revista como local para seu trabalho.</p>
+Sua submissão está disponível em uma futura edição de {$contextName} e você pode incluí-la em sua lista de publicações. Reconhecemos o trabalho árduo de cada submissão bem-sucedida e queremos parabenizá-lo por seus esforços.</p>
+<p>Sua submissão agora passará por edição texto e formatação para prepará-la para publicação. </p>
+<p>Você receberá mais instruções em breve.</p>
+<p>Se você tiver alguma dúvida, entre em contato comigo em seu <a href="{$authorSubmissionUrl}">painel de submissão</a>.</p>
+<p>Atenciosamente,</p>
+<p>{$signature}</p>
+";s:28:"emails.layoutRequest.subject";s:80:"A submissão {$submissionId} está pronta para Editoração em {$contextAcronym}";s:25:"emails.layoutRequest.body";s:721:"<p>Prezado(a) {$recipientName},</p><p>Uma nova submissão está pronta para editoração:</p><p><a href="{$submissionUrl}">{$submissionId} — {$submissionTitle}</a><br />{$contextName}</p><ol><li>Clique no endereço da submissão.</li><li>Baixe os arquivos prontos para editoração e os utilize para criar provas de acordo com os padrões da revista.</li><li>Carregue as provas para a seção de publicação.</li><li>Utilize a discussão da editoração para notificar o editor que as provas estão prontas.</li></ol><p>Se você não puder realizar este trabalho neste momento ou tiver alguma dúvida, entre em contato comigo. Obrigado por sua contribuição para este periódico.</p><p>Atenciosamente,</p>{$signature}";s:29:"emails.layoutComplete.subject";s:25:"Composições Concluídas";s:26:"emails.layoutComplete.body";s:343:"<p>Prezado(a) {$recipientName},</p><p>As provas topográficas já foram preparadas para a seguinte submissão e já estão prontas para a revisão final.</p><p><a href="{$submissionUrl}">{$submissionTitle}</a><br />{$contextName}</p><p>Se você tiver alguma dúvida, favor entrar em contato comigo.</p><p>Atenciosamente</p><p>{$senderName}</p>";s:24:"emails.emailLink.subject";s:36:"Artigo interessante para sua leitura";s:21:"emails.emailLink.body";s:188:"Acredito ser de seu interesse o artigo "{$submissionTitle}", de {$authors}, publicado na revista {$contextName}, V. {$volume}, N. {$number}, Ano {$year}, disponível em "{$submissionUrl}".";s:28:"emails.emailLink.description";s:343:"Mensagem enviada por um leitor a um colega, sobre um artigo considerado de seu interesse, com link para acesso e informações sobre a revista e a edição onde o documento foi publicado. Ele está disponível por meio das Ferramentas de Leitura e deve ser ativado pelo Gerente da Revista na página Administração nas Ferramentas de Leitura.";s:33:"emails.subscriptionNotify.subject";s:27:"Confirmação de assinatura";s:30:"emails.subscriptionNotify.body";s:805:"{$recipientName}:<br />
+<br />
+Você foi registrado como assinante em nossa {$contextName}, com a seguinte assinatura:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Para acessar o conteúdo disponível apenas para assinantes, basta fazer login no sistema com seu nome de usuário, &quot;{$recipientUsername} &quot;.<br />
+<br />
+Depois de fazer login no sistema, você poderá alterar os detalhes e a senha do seu perfil a qualquer momento.<br />
+<br />
+Observe que se você possui uma assinatura institucional, não é necessário que os usuários da sua instituição efetuem login, pois as solicitações de conteúdo da assinatura serão automaticamente autenticadas pelo sistema.<br />
+<br />
+Se você tiver alguma dúvida, por favor não hesite em contactar-me.<br />
+<br />
+{$subscriptionSignature}";s:31:"emails.openAccessNotify.subject";s:84:"Gratuito para ler: {$issueIdentification} de {$contextName} agora é de acesso livre";s:28:"emails.openAccessNotify.body";s:341:"<p>Prezado(a) {$recipientName},</p><p>Nós estamos felizes em informar que <a href="{$issueUrl}">{$issueIdentification}</a> do periódico {$contextName} está disponível agora em acesso aberto. Não é mais necessário possuir uma assinatura para ler esta edição.</p><p>Agradecemos pelo interesse em nosso trabalho.</p>{$contextSignature}";s:39:"emails.subscriptionBeforeExpiry.subject";s:34:"Aviso de expiração de assinatura";s:36:"emails.subscriptionBeforeExpiry.body";s:486:"{$recipientName}:<br />
+<br />
+Sua assinatura do {$contextName} está prestes a expirar.<br />
+<br />
+{$subscriptionType}<br />
+Data de validade: {$expiryDate}<br />
+<br />
+Para garantir a continuidade do seu acesso a esta revista, acesse o site da revista e renove sua assinatura. Você pode fazer login no sistema com seu nome de usuário, &quot;{$recipientUsername}&quot;.<br />
+<br />
+Se você tiver alguma dúvida, não hesite em contactar-me.<br />
+<br />
+{$subscriptionSignature}";s:38:"emails.subscriptionAfterExpiry.subject";s:25:"Expiração de assinatura";s:35:"emails.subscriptionAfterExpiry.body";s:426:"{$recipientName}:<br />
+<br />
+Sua assinatura do {$contextName} expirou.<br />
+<br />
+{$subscriptionType}<br />
+Data de validade: {$expiryDate}<br />
+<br />
+Para renovar sua assinatura, acesse o site da revista. Você pode fazer login no sistema com seu nome de usuário, &quot;{$recipientUsername}&quot;.<br />
+<br />
+Se você tiver alguma dúvida, por favor não hesite em contactar-me.<br />
+<br />
+{$subscriptionSignature}";s:42:"emails.subscriptionAfterExpiryLast.subject";s:42:"Expiração de assinatura - Lembrete final";s:39:"emails.subscriptionAfterExpiryLast.body";s:493:"{$recipientName}:<br />
+<br />
+Sua assinatura de {$contextName} expirou.<br />
+Observe que este é o lembrete final que lhe será enviado por e-mail.<br />
+<br />
+{$subscriptionType}<br />
+Data de validade: {$expiryDate}<br />
+<br />
+Para renovar sua assinatura, acesse o site da revista. Você pode fazer login no sistema com seu nome de usuário, &quot;{$recipientUsername}&quot;.<br />
+<br />
+Se você tiver alguma dúvida, não hesite em contactar-me.<br />
+<br />
+{$subscriptionSignature}";s:39:"emails.subscriptionPurchaseIndl.subject";s:37:"Aquisição de Assinatura: Individual";s:36:"emails.subscriptionPurchaseIndl.body";s:419:"Uma assinatura individual foi comprada on-line para {$contextName} com os seguintes detalhes. <br />
+<br />
+Tipo de Assinatura: <br />
+{$subscriptionType} <br />
+<br />
+Usuário: <br />
+{$subscriberDetails} <br />
+<br />
+Informações Assinatura (se informado): <br />
+{$membership} <br />
+<br />
+Para visualizar ou editar esta assinatura, use a seguinte URL. <br />
+<br />
+URL da Assinatura: {$subscriptionUrl} <br />
+";s:40:"emails.subscriptionPurchaseInstl.subject";s:40:"Aquisição de Assinatura: Institucional";s:37:"emails.subscriptionPurchaseInstl.body";s:741:"Uma assinatura institucional foi comprada on-line para {$contextName} com os seguintes detalhes. Para ativar esta assinatura, use a URL fornecida e defina o status da assinatura como 'Ativo'. <br />
+<br />
+Tipo de Assinatura: <br />
+{$subscriptionType} <br />
+<br />
+Instituição: <br />
+{$institutionName} <br />
+{$institutionMailingAddress} <br />
+<br />
+Domínio (se fornecido): <br />
+{$domain} <br />
+<br />
+Intervalos de IP (se houver): <br />
+{$ipRanges} <br />
+<br />
+Pessoa de Contato: <br />
+{$subscriberDetails} <br />
+<br />
+Informações sobre a Assinatura (se houver): <br />
+{$membership} <br />
+<br />
+Para visualizar ou editar esta assinatura, use a seguinte URL. <br />
+<br />
+URL da Assinatura: {$subscriptionUrl} <br />
+";s:36:"emails.subscriptionRenewIndl.subject";s:36:"Renovação de Assinatura Individual";s:33:"emails.subscriptionRenewIndl.body";s:424:"Uma assinatura individual foi renovada online para {$contextName} com os seguintes detalhes. <br />
+<br />
+Tipo de Assinatura: <br />
+{$subscriptionType} <br />
+<br />
+Usuário: <br />
+{$subscriberDetails} <br />
+<br />
+Informações sobre a Assinatura (se houver): <br />
+{$membership} <br />
+<br />
+Para visualizar ou editar esta assinatura, use a seguinte URL. <br />
+<br />
+URL de inscrição: {$subscriptionUrl} <br />
+";s:37:"emails.subscriptionRenewInstl.subject";s:39:"Renovação de Assinatura Institucional";s:34:"emails.subscriptionRenewInstl.body";s:640:"Uma assinatura institucional foi renovada online para {$contextName} com os seguintes detalhes. <br />
+<br />
+Tipo de Assinatura: <br />
+{$subscriptionType} <br />
+<br />
+Instituição: <br />
+{$institutionName} <br />
+{$institutionMailingAddress} <br />
+<br />
+Domínio (se fornecido): <br />
+{$domain} <br />
+<br />
+Intervalos de IP (se houver): <br />
+{$ipRanges} <br />
+<br />
+Pessoa de Contato: <br />
+{$subscriberDetails} <br />
+<br />
+Informações sobre membros (se houver): <br />
+{$membership} <br />
+<br />
+Para visualizar ou editar esta assinatura, use a seguinte URL. <br />
+<br />
+URL da Assinatura: {$subscriptionUrl} <br />
+";s:35:"emails.revisedVersionNotify.subject";s:27:"Envio de versão atualizada";s:32:"emails.revisedVersionNotify.body";s:429:"<p>Prezado(a) {$recipientName},</p><p>O autor enviou a revisão da submissão, <b>{$authorsShort} — {$submissionTitle}</b>. <p>Como um dos editores designados, nós pedimos que faça login, <a href="{$submissionUrl}">verifique as revisões</a> e tome a decisão de aceitar, rejeitar ou enviar a submissão para mais avaliações.</p><br><br>—<br>Esta é uma mensagem automática de <a href="{$contextUrl}">{$contextName}</a>.";s:43:"emails.statisticsReportNotification.subject";s:42:"Atividade editorial para {$month}, {$year}";s:40:"emails.statisticsReportNotification.body";s:790:"
+{$recipientName}, <br />
+<br />
+Seu relatório do estado atual do sistema do mês de {$month}, {$year} está disponível. Suas estatísticas-chave deste mês seguem abaixo.<br />
+<ul>
+	<li>Novas submissões este mês: {$newSubmissions}</li>
+	<li>Submissões rejeitadas este mês: {$declinedSubmissions}</li>
+	<li>Submissões aceitas este mês: {$acceptedSubmissions}</li>
+	<li>Total de submissões no sistema {$totalSubmissions}</li>
+</ul>
+Efetue login no site do periódico para obter uma visão mais detalhada das <a href="{$editorialStatsLink}">tendências editoriais</a> e <a href="{$publicationStatsLink}">estatísticas de artigos publicados</a>. Uma cópia completa do relatório de tendencias editoriais deste mês segue anexa.<br />
+<br />
+Atenciosamente,<br />
+{$contextSignature}";s:27:"emails.announcement.subject";s:20:"{$announcementTitle}";s:24:"emails.announcement.body";s:161:"<b>{$announcementTitle}</b><br />
+<br />
+{$announcementSummary}<br />
+<br />
+Visite nosso site para ler o <a href="{$announcementUrl}"> comunicado completo </a>.";s:41:"emails.paymentRequestNotification.subject";s:43:"Notificação de Solicitação de Pagamento";s:38:"emails.paymentRequestNotification.body";s:515:"<p>Caro(a) {$recipientName},</p><p>Parabéns pela aceitação de sua submissão, {$submissionTitle}, para {$contextName}. Agora que sua submissão foi aceita, gostaríamos de solicitar o pagamento da taxa de publicação.</p><p>Esta taxa cobre os custos de produção de trazer sua submissão para publicação. Para efetuar o pagamento, visite <a href="{$queuedPaymentUrl}">{$queuedPaymentUrl}</a>.</p><p>Se tiver alguma dúvida, consulte nosso <a href="{$submissionGuidelinesUrl}">Diretrizes de Submissão</a></p>";s:40:"emails.paymentRequestNotification.footer";s:94:"<br><br>—<br>Esta é uma mensagem automática de <a href="{$contextUrl}">{$contextName}</a>.";s:40:"emails.citationEditorAuthorQuery.subject";s:21:"Edição de citação";s:37:"emails.citationEditorAuthorQuery.body";s:286:"Prezado(a) {$recipientName}, <br />
+<br />
+Você poderia verificar ou fornecer a citação adequada para a seguinte referência do seu artigo, {$submitTitle}: <br />
+<br />
+{$rawCitation} <br />
+<br />
+Obrigado! <br />
+<br />
+{$senderName} <br />
+Editor de Texto, {$contextName} <br />
+";}}}

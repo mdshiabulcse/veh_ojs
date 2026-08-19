@@ -1,0 +1,1 @@
+1818656035a:3:{s:6:"domain";N;s:12:"plural-forms";s:43:"nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;";s:8:"messages";a:1:{s:0:"";a:2:{s:40:"plugins.generic.jatsTemplate.description";s:190:"Автоматски генерирај минимален JATS документ од податоците на поднесокот кога нема достапен JATS документ.";s:40:"plugins.generic.jatsTemplate.displayName";s:35:"Плагин за JATS шаблон";}}}

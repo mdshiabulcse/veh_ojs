@@ -1,0 +1,1 @@
+1818656035a:3:{s:6:"domain";N;s:12:"plural-forms";s:43:"nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;";s:8:"messages";a:1:{s:0:"";a:2:{s:35:"plugins.generic.dublinCoreMeta.name";s:59:"Додаток на Dublin Core за индексирање";s:42:"plugins.generic.dublinCoreMeta.description";s:162:"Овој додаток вметнува Dublin Core метаподатоци заради индексирање во прегледите на статиите.";}}}

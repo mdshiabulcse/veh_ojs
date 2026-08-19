@@ -1,0 +1,1 @@
+1818656038a:3:{s:6:"domain";N;s:12:"plural-forms";s:21:"nplurals=1; plural=0;";s:8:"messages";a:1:{s:0:"";a:4:{s:25:"emails.discussion.subject";s:29:"有關{$contextName}的訊息";s:22:"emails.discussion.body";s:24:"請輸入您的訊息。";s:28:"emails.reviewConfirm.subject";s:12:"能夠評審";s:37:"emails.submissionAckNotAuthor.subject";s:12:"投稿確認";}}}
