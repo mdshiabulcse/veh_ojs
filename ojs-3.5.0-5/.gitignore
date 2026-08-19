@@ -16,16 +16,26 @@ files/
 private/
 
 # ----------------------------------------------------------
-# Cache and compiled files
+# Cache and compiled files — ignore all contents, keep folders
 # ----------------------------------------------------------
 cache/t_compile/*
 cache/t_cache/*
-cache/fc/*
+cache/t_config/*
 cache/_db/*
+cache/HTML/*
+cache/opcache/*
+cache/fc/*
+# Compiled CSS/JS files in cache root
+cache/*.css
+cache/*.js
+cache/*.php
+# Keep the folders themselves (git can't track empty dirs)
 !cache/t_compile/.gitkeep
 !cache/t_cache/.gitkeep
-!cache/fc/.gitkeep
+!cache/t_config/.gitkeep
 !cache/_db/.gitkeep
+!cache/HTML/.gitkeep
+!cache/opcache/.gitkeep
 
 # ----------------------------------------------------------
 # Public journal files (uploaded covers, issue images, etc.)
